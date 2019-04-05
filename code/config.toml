@@ -1,7 +1,7 @@
 baseurl = "https://vuongvtrinh.github.io/"  # End your URL with a `/` trailing slash.
 # baseurl = "/"  # End your URL with a `/` trailing slash.
 title = "Vuong V. Trinh"
-copyright = "No rights reserved"
+copyright = ""
 theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
@@ -27,11 +27,11 @@ defaultContentLanguageInSubdir = false
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "vanvuong.trinh@gmail.com"
-  address = "Grenoble, France"
+  address = ""
   office_hours = ""
-  phone = "+33 (0)6 73 02 34 55"
+  phone = ""
   skype = "vanvuong.trinh"
-  telegram = "kakalotz"
+  telegram = ""
 
   # Enable Keybase in Contact section by entering your keybase.io username.
   keybase = ""
@@ -135,15 +135,24 @@ defaultContentLanguageInSubdir = false
     link = "https://www.linkedin.com/in/trinhvv/"
 
   [[params.social]]
-    icon = "google-scholar"
-    icon_pack = "ai"
-    link = "https://scholar.google.fr/citations?user=U9xo4wsAAAAJ&hl=en"
-
-  [[params.social]]
     icon = "github"
     icon_pack = "fa"
     link = "//github.com/trinhvv"
 
+  [[params.social]]
+    icon = "researchgate"
+    icon_pack = "ai"
+    link = "https://www.researchgate.net/profile/Van_Vuong_Trinh"
+
+  [[params.social]]
+    icon = "google-scholar"
+    icon_pack = "ai"
+    link = "https://scholar.google.fr/citations?user=U9xo4wsAAAAJ&hl=en"
+    
+  [[params.social]]
+    icon = "orcid"
+    icon_pack = "ai"
+    link = "https://orcid.org/0000-0001-9148-7878"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
@@ -155,24 +164,19 @@ defaultContentLanguageInSubdir = false
   url = "#about"
   weight = 1
 
-#[[menu.main]]
-#  name = "Projects"
-#  url = "#projects"
-#  weight = 2
+[[menu.main]]
+  name = "Projects"
+  url = "#projects"
+  weight = 2
 
 [[menu.main]]
   name = "Publications"
   url = "#publications_selected"
-  weight = 2
+  weight = 3
 
 [[menu.main]]
   name = "Blogs"
   url = "#posts"
-  weight = 3
-
-[[menu.main]]
-  name = "Teaching"
-  url = "#teaching"
   weight = 4
 
 [[menu.main]]
