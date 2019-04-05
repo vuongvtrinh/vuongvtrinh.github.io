@@ -31,16 +31,6 @@
   <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
     <meta itemprop="name" content="{{ $.Site.Params.name }}">
   </span>
-  
-  <!--this adds twitter handle to all posts-->
-  <span class="middot-divider"></span>
-  {{ with $.Site.Params.twitter }}  
-  <span class="article-date">
-    <i class="fab fa-twitter"></i>
-    <a href="https://twitter.com/{{ . }}" target="_blank">@{{ . }}</a>&nbsp{{ else }}@{{ . }}
-  </span>
-  {{ end }}
-  <!--end twitter handle code-->
  
   {{ if and (eq $.Type "post") (not (or (eq $.Site.Params.reading_time false) (eq $.Params.reading_time false))) }}
   <span class="middot-divider"></span>
