@@ -59,7 +59,7 @@ enableGitInfo = false
   organizations = [ { name = "Commissariat à l'énergie atomique et aux énergies alternatives", url = "http://www.cea.fr/" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "static/img/portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
   # Details for the Contact Widget
   email = "vanvuong.trinh@gmail.com"

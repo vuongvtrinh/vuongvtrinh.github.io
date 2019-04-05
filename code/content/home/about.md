@@ -10,34 +10,26 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Data Science",
-    "Data Visualization",
-    "Data Analysis/Statistics",
-    "Education & Teaching",
-    "Open Source",
-    "[RLadies](https://rladies.org/)"
+    "Automatic Control",
+    "Industrial Automation",
+    "Applied Optimization",
+    "Machine Learning",
+    "Quantitative Finance"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Developmental Psychology & Quantitative Methods"
-  institution = "Vanderbilt University"
-  year = 2008
-
-[[education.courses]]
-  course = "MSc in Developmental Psychology"
-  institution = "Vanderbilt University"
+  course = "Master's Degree in Automation & Control Engineering"
+  institution = "Université Joseph Fourier & Institut Polytechnique de Grenoble"
   year = 2005
 
 [[education.courses]]
-  course = "BSc in Applied Psychology"
-  institution = "Georgia Institute of Technology"
+  course = "Engineer's Degree in Automation & Control Engineering"
+  institution = "Hanoi University of Science and Technology"
   year = 2002
  
 +++
 
 # Background
 
-I received engineer's degree from Hanoi University of Science and Technology (HUST) in 2012, followed by master's degree from Université Joseph Fourier (UJF) and Institut Polytechnique de Grenoble (Grenoble INP) in 2014, both in automation and control engineering. I carried out process control and optimization research at Grenoble Images Parole Signal Automatique laboratoire (GIPSA-lab) and Commissariat à l'énergie atomique et aux énergies alternatives (CEA) within Service des Basses Températures (INAC-SBT). I developed scientific software at Benjamin Muyl Design S.A. and serve as research scientist at Dong A University Research Institute.
-
-My expertise includes control and automation as well as optimization and machine learning. I am also interested in quantitative, blockchain and cryptoasset analytics.
+I received engineer's degree from [Hanoi University of Science and Technology (HUST)](https://en.hust.edu.vn/) in 2012, followed by master's degree from [Université Joseph Fourier (UJF)](https://www.univ-grenoble-alpes.fr/) and [Institut Polytechnique de Grenoble (Grenoble INP)](http://www.grenoble-inp.fr/) in 2014, both in automation and control engineering. I carried out process control and optimization research at [Grenoble Images Parole Signal Automatique laboratoire (GIPSA-lab)](http://www.gipsa-lab.fr/) and [Commissariat à l'énergie atomique et aux énergies alternatives (CEA)](http://www.cea.fr/) within [Service des Basses Températures](http://inac.cea.fr/sbt/) (INAC-SBT). I developed scientific software at [Benjamin Muyl Design S.A.](https://www.bmuyl.com/) and serve as research scientist at [Dong A University Research Institute](http://donga.edu.vn/).

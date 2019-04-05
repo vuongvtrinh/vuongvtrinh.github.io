@@ -8,6 +8,46 @@
     
     <url>
     
+      <loc>https://vuongvtrinh.github.io/post/2019-03-04-hugo-troubleshooting/</loc>
+      <lastmod>2019-03-04T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/post/2019-02-21-hugo-page-bundles/</loc>
+      <lastmod>2019-02-21T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/post/2019-02-19-hugo-netlify-toml/</loc>
+      <lastmod>2019-02-20T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/post/2019-02-19-hugo-archetypes/</loc>
+      <lastmod>2019-02-19T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/post/read-multiple-header-rows/</loc>
+      <lastmod>2018-07-08T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://vuongvtrinh.github.io/license/</loc>
       <lastmod>2018-06-28T00:00:00+02:00</lastmod>
     </url>
@@ -24,8 +64,40 @@
     
     <url>
     
+      <loc>https://vuongvtrinh.github.io/post/r-ladies-slides/</loc>
+      <lastmod>2017-12-18T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://vuongvtrinh.github.io/publication/2017-blogdown/</loc>
       <lastmod>2017-12-14T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/post/up-and-running-with-blogdown/</loc>
+      <lastmod>2017-06-12T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/project/language-outcomes/</loc>
+      <lastmod>2017-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/project/maps/</loc>
+      <lastmod>2017-04-11T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -58,6 +130,14 @@
     
       <loc>https://vuongvtrinh.github.io/bio/</loc>
       <lastmod>2017-01-01T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/project/sex-diffs-language/</loc>
+      <lastmod>2016-05-11T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -203,8 +283,44 @@
     
     <url>
     
+      <loc>https://vuongvtrinh.github.io/post/</loc>
+      <lastmod>2019-03-04T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/project/</loc>
+      <lastmod>2017-04-11T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://vuongvtrinh.github.io/publication_types/</loc>
       <lastmod>2017-12-20T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/categories/r/</loc>
+      <lastmod>2018-07-08T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/tags/r-ladies/</loc>
+      <lastmod>2017-12-18T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -223,6 +339,87 @@
     
       <loc>https://vuongvtrinh.github.io/</loc>
       <lastmod>2017-10-15T00:00:00+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/tags/autism/</loc>
+      <lastmod>2017-04-11T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/tags/blogdown/</loc>
+      <lastmod>2017-06-12T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/tags/eye-tracking/</loc>
+      <lastmod>2017-04-11T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/tags/natural-language-processing/</loc>
+      <lastmod>2017-04-11T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/tags/outcomes/</loc>
+      <lastmod>2017-04-11T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/categories/presentations/</loc>
+      <lastmod>2017-12-18T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/tags/readr/</loc>
+      <lastmod>2018-07-08T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/tags/tidyverse/</loc>
+      <lastmod>2018-07-08T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/tags/xaringan/</loc>
+      <lastmod>2017-12-18T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
