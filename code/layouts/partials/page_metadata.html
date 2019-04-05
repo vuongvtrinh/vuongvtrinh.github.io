@@ -41,27 +41,6 @@
   </span>
   {{ end }}
   <!--end twitter handle code-->
-  
-  <!--this adds github edit button to all posts-->
-{{ if $.File.Path }}
-
-{{ $Rmd := (print $.File.BaseFileName ".Rmd") }}
-
-{{ if (where (readDir (print "content/" $.File.Dir)) "Name" $Rmd) }}
-  {{ $.Scratch.Set "FilePath" (print $.File.Dir $Rmd) }}
-{{ else }}
-  {{ $.Scratch.Set "FilePath" $.File.Path }}
-{{ end }}
-
-  <span class="middot-divider"></span>
-  {{ with $.Site.Params.GithubSource }}  
-  <span class="article-date">
-    <i class="fab fa-github"></i>
-    <a href="{{ . }}{{ $.Scratch.Get "FilePath" }}" target="_blank">View source</a>&nbsp{{ else }}@{{ . }}
-  </span>
-  {{ end }}
-{{ end }}
-  <!--end github edit code-->
  
   {{ if and (eq $.Type "post") (not (or (eq $.Site.Params.reading_time false) (eq $.Params.reading_time false))) }}
   <span class="middot-divider"></span>
