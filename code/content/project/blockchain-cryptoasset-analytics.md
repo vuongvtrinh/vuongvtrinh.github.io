@@ -9,7 +9,7 @@ title = "Blockchain & Cryptoasset Analytics"
 summary = "This project develops an intelligent data driven application to monitor blockchain projects and to analyze cryptoassets from both utility and speculation perspectives. We target blockchain entrepreneurs, investors and traders all along the life of projects: token generation, listing on secondary market, product delivery, product usage, and token valorization."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = ""
+image_preview = "webapp.jpg"
 
 # Tags: can be used for filtering projects.
 tags = ["blockchain", "cryptoasset", "quantitative-analytics"]
@@ -22,7 +22,7 @@ math = false
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "webapp.jpg"
+image = ""
 caption = ""
 
 +++

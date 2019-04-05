@@ -6,7 +6,7 @@ date = "2017-09-06"
 image_preview = ""
 math = true
 publication_types = ["2"]
-publication = "In *Journal of Process Control*"
+publication = "*Journal of Process Control*, vol. 58, no. Supplement C, pp. 117-130, 2017"
 publication_short = ""
 selected = false
 title = "Fixed-point based hierarchical MPC control design for a cryogenic refrigerator"
@@ -18,7 +18,7 @@ url_slides = ""
 url_video = ""
 
 [[url_custom]]
-name = "View Journal Article"
+name = "DOI"
 url = "https://doi.org/10.1016/j.jprocont.2017.09.006"
 
 # Optional featured image (relative to `static/img/` folder).

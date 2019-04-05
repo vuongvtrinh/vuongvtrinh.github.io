@@ -6,7 +6,7 @@ date = "2016-10-17"
 image_preview = ""
 math = true
 publication_types = ["1"]
-publication = "In *Proceedings of the 10th IFAC Symposium in Nonlinear Control Systems*, Monterey, CA, USA"
+publication = "*Proceedings of the 10th IFAC Symposium in Nonlinear Control Systems*, Monterey, CA, USA, 2016"
 publication_short = ""
 selected = false
 title = "Explicit model predictive control via nonlinear piecewise approximations"
@@ -18,7 +18,7 @@ url_slides = "pub/nolcos2016.pdf"
 url_video = ""
 
 [[url_custom]]
-name = "View Journal Article"
+name = "DOI"
 url = "https://doi.org/10.1016/j.ifacol.2016.10.173"
 
 # Optional featured image (relative to `static/img/` folder).

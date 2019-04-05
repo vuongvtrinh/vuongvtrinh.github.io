@@ -9,7 +9,7 @@ title = "Trading Analysis Chatbot"
 summary = "A Telegram chatbot for data-driven analytics of crypto-market on Binance."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = ""
+image_preview = "chatbot.jpg"
 
 # Tags: can be used for filtering projects.
 tags = ["blockchain", "cryptoasset", "quantitative-analytics"]
@@ -22,7 +22,7 @@ math = false
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "chatbot.jpg"
+image = ""
 caption = ""
 
 +++
