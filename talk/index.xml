@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks on Vuong V. Trinh</title>
+    <link>https://vuongvtrinh.github.io/talk/</link>
+    <description>Recent content in Recent &amp; Upcoming Talks on Vuong V. Trinh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Vuong V. Trinh 2016</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://vuongvtrinh.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Big Magic with R: Creative Learning Beyond Fear</title>
+      <link>https://vuongvtrinh.github.io/talk/cascadia-r-keynote/</link>
+      <pubDate>Sat, 02 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/talk/cascadia-r-keynote/</guid>
+      <description>Inspired by the book “Big Magic: Creative Living Beyond Fear” by Elizabeth Gilbert, Alison will talk about the five essential ingredients needed to creatively learn R and why these elements are also essential for advanced users to take their R skills to the next level. You will hear practical advice for when, where, and how to start a project in R, and how your learning can add value- both to your own knowledge and to contribute to the larger community of R learners.</description>
+    </item>
+    
+    <item>
+      <title>Take a Sad Plot &amp; Make It Better</title>
+      <link>https://vuongvtrinh.github.io/talk/ohsu-biodatavis/</link>
+      <pubDate>Fri, 06 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/talk/ohsu-biodatavis/</guid>
+      <description>Join us on April 6 for a walk-through of how to take a sad plot and make it better by Alison Hill, who co-teaches the CS631 Data Visualization course. Alison will take us through one plot’s life cycle, from a sad Powerpoint slide to an Excel chart and finally to the finished product made with the ggplot2 package in R. We will discuss why each version of the plot fails in different ways, how each iteration improved on the last one, and which data visualization principles are at work in the final plot to communicate a clear scientific story.</description>
+    </item>
+    
+    <item>
+      <title>Labhub Workshop</title>
+      <link>https://vuongvtrinh.github.io/talk/labhub/</link>
+      <pubDate>Fri, 08 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/talk/labhub/</guid>
+      <description>The landscape of scientific communication is changing dramatically. Diverse stakeholders, including major funders and universities are demonstrating a growing interest and investment in open scientific principles and practices. Researchers, students, and the institutions that support them are needing to navigate new expectations, workflows, and policies against a backdrop of relatively unchanged means and measures of scientific success.
+Sound complicated? Join us on December 8th from 3:00 to 4:00 PM for a panel discussion with OHSU leaders and early career researchers on the evolving landscape of scientific communication.</description>
+    </item>
+    
+    <item>
+      <title>Up &amp; Running with blogdown</title>
+      <link>https://vuongvtrinh.github.io/talk/blogdown-meetup/</link>
+      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/talk/blogdown-meetup/</guid>
+      <description>We will cover:
+ The blogdown R package Hugo themes Adding content to personalize your site Posting Don&amp;rsquo;t want to blog? / just want to knit? Customizing themes Troubleshooting common problems Deployment options and recommendations Domain options available through RStudio/rbind  If you are planning on attending this workshop, please click on the HTML link above for how to prepare before the workshop.
+  </description>
+    </item>
+    
+    <item>
+      <title>Code Your Graph Workshop</title>
+      <link>https://vuongvtrinh.github.io/talk/code-your-graph/</link>
+      <pubDate>Fri, 24 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/talk/code-your-graph/</guid>
+      <description>   </description>
+    </item>
+    
+  </channel>
+</rss>
