@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blogdown on Vuong V. Trinh</title>
+    <link>https://vuongvtrinh.github.io/tags/blogdown/</link>
+    <description>Recent content in blogdown on Vuong V. Trinh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Vuong V. Trinh 2016</copyright>
+    <lastBuildDate>Mon, 12 Jun 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://vuongvtrinh.github.io/tags/blogdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Up and running with blogdown</title>
+      <link>https://vuongvtrinh.github.io/post/up-and-running-with-blogdown/</link>
+      <pubDate>Mon, 12 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/post/up-and-running-with-blogdown/</guid>
+      <description>1 Read up on blogdown 2 Caveats, disclaimers, etc. 3 In GitHub 4 In terminal 5 In RStudio 6 Build your site in RStudio 7 Deploy in Netlify 8 Going further   1 Read up on blogdown Before you start, I recommend reading the following:
+ blogdown: Creating Websites with R Markdown by Yihui Xie and Amber Thomas Making a Website Using blogdown, Hugo, and GitHub pages also by Amber Thomas  I also found this comment by Eric Nantz, the creator of the R-Podcast, in the rbind/support issues section on GitHub to be helpful:</description>
+    </item>
+    
+  </channel>
+</rss>

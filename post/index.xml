@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Vuong V. Trinh</title>
+    <link>https://vuongvtrinh.github.io/post/</link>
+    <description>Recent content in Posts on Vuong V. Trinh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Vuong V. Trinh 2016</copyright>
+    <lastBuildDate>Mon, 04 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://vuongvtrinh.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Spoonful of Hugo: Troubleshooting Your Build</title>
+      <link>https://vuongvtrinh.github.io/post/2019-03-04-hugo-troubleshooting/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/post/2019-03-04-hugo-troubleshooting/</guid>
+      <description>#1: Update Hugo #2: Change the baseurl #3: Netlify drag-and-drop #4: Torch public/ #5: Peruse public/ #6: Back to the future    “Just a spoonful of Hugo helps the blog go down.” - me, only somewhat kidding
+ In this series, I’m sharing small spoonfuls of Hugo that I have learned that hopefully can help you get your site UP (and even better- more efficient, more streamlined, more automated).</description>
+    </item>
+    
+    <item>
+      <title>A Spoonful of Hugo: Page Bundles</title>
+      <link>https://vuongvtrinh.github.io/post/2019-02-21-hugo-page-bundles/</link>
+      <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/post/2019-02-21-hugo-page-bundles/</guid>
+      <description>“Just a spoonful of Hugo helps the blog go down.” - me, only somewhat kidding
+ In this series, I’m sharing small spoonfuls of Hugo that I have learned that hopefully can help you get your site UP (and even better- more efficient, more streamlined, more automated). You can read the previous posts about my “Spoonful of Hugo” series about Hugo archetypes and Hugo versions.
+This is my third post in this series and it is breaking news.</description>
+    </item>
+    
+    <item>
+      <title>A Spoonful of Hugo: The netlify.toml File</title>
+      <link>https://vuongvtrinh.github.io/post/2019-02-19-hugo-netlify-toml/</link>
+      <pubDate>Wed, 20 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/post/2019-02-19-hugo-netlify-toml/</guid>
+      <description>“Just a spoonful of Hugo helps the blog go down.” - me, only somewhat kidding
+ You can read the previous post about my “Spoonful of Hugo” series here. In this series, I’m sharing small spoonfuls of Hugo that I have learned that hopefully can help you get your site UP (and even better- more efficient, more streamlined, more automated).
+This is my second post in this series, and it is a relatively quick one.</description>
+    </item>
+    
+    <item>
+      <title>A Spoonful of Hugo: Archetypes</title>
+      <link>https://vuongvtrinh.github.io/post/2019-02-19-hugo-archetypes/</link>
+      <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/post/2019-02-19-hugo-archetypes/</guid>
+      <description>“Just a spoonful of Hugo helps the blog go down.” - me, only somewhat kidding
+ As a happy blogdown user, a common story I hear from other #rstats users is that you try to change one little thing in Hugo, and the whole site breaks. Here be dragons for folks who aren’t web developers.
+I’m here to tell you that there are small spoonfuls of Hugo that can help you get your site UP (and even better- more efficient, more streamlined, more automated), even if you are not in the least bit interested in transitioning into a career in web development 😏.</description>
+    </item>
+    
+    <item>
+      <title>Read data with multiple header rows into R</title>
+      <link>https://vuongvtrinh.github.io/post/read-multiple-header-rows/</link>
+      <pubDate>Sun, 08 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/post/read-multiple-header-rows/</guid>
+      <description>A shorter version of this blog post now appears as an article vignette for the readxl package, thank you to Jenny Bryan for the invitation!
+ A problem I run up against a lot when working with other people’s data is having multiple header rows in the source data file. I like to use readr functions to read in rectangular data like .csv and .tsv files, but if you skip rows at import using the skip argument, you lose the header row as well, which usually has column names.</description>
+    </item>
+    
+    <item>
+      <title>R-Ladies presentation ninja</title>
+      <link>https://vuongvtrinh.github.io/post/r-ladies-slides/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/post/r-ladies-slides/</guid>
+      <description>So, you are doing an R-Ladies presentation…that’s awesome! The short version I made an R-Ladies theme for xaringan slides. My original tweet about it:
+if you want to use @xieyihui&amp;#39;s awesome #xaringan package for #rstats slides but want more #Rladies flavor, there is now a built-in theme for that (with code highlighting)! Thanks to the awesome @RLadiesGlobal starter kit. Update the CSS in your YAML to use 🧙🏽‍♀️🧞‍♀️ pic.twitter.com/YnlGSVAMsl
+&amp;mdash; Alison Hill (@apreshill) November 29, 2017  The way to use the theme is to update the YAML like so:</description>
+    </item>
+    
+    <item>
+      <title>Up and running with blogdown</title>
+      <link>https://vuongvtrinh.github.io/post/up-and-running-with-blogdown/</link>
+      <pubDate>Mon, 12 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/post/up-and-running-with-blogdown/</guid>
+      <description>1 Read up on blogdown 2 Caveats, disclaimers, etc. 3 In GitHub 4 In terminal 5 In RStudio 6 Build your site in RStudio 7 Deploy in Netlify 8 Going further   1 Read up on blogdown Before you start, I recommend reading the following:
+ blogdown: Creating Websites with R Markdown by Yihui Xie and Amber Thomas Making a Website Using blogdown, Hugo, and GitHub pages also by Amber Thomas  I also found this comment by Eric Nantz, the creator of the R-Podcast, in the rbind/support issues section on GitHub to be helpful:</description>
+    </item>
+    
+  </channel>
+</rss>
