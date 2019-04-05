@@ -15,14 +15,14 @@ image_preview = ""
 tags = ["blockchain", "cryptoasset", "quantitative-analytics"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "https://kenhtaichinh.herokuapp.com/"
+external_link = ""
 
 # Does the project detail page use math formatting?
 math = false
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = ""
+image = "webapp.jpg"
 caption = ""
 
 +++

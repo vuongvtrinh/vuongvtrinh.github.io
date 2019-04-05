@@ -35,11 +35,30 @@
     </item>
     
     <item>
+      <title>Trading Analysis Chatbot</title>
+      <link>https://vuongvtrinh.github.io/project/trading-analysis-bot/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/project/trading-analysis-bot/</guid>
+      <description>&lt;p&gt;Blah blah&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Fixed-point based hierarchical MPC control design for a cryogenic refrigerator</title>
       <link>https://vuongvtrinh.github.io/publication/2017-hdmpc-jpc/</link>
       <pubDate>Wed, 06 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/publication/2017-hdmpc-jpc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Explicit model predictive control via nonlinear piecewise approximations</title>
+      <link>https://vuongvtrinh.github.io/publication/2016-enmpc-nolcos/</link>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/publication/2016-enmpc-nolcos/</guid>
       <description></description>
     </item>
     
