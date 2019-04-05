@@ -15,10 +15,10 @@
   
     
   
-  <meta name="description" content="In this paper, a simple, general and scalable hierarchical control framework is proposed and validated through the interconnection of the Joule–Thomson and the Brayton cycle stages of a cryogenic refrigerator. The proposed framework enables to handle the case of destabilizing interconnections through state and/or control signals (which is the case of the cryogenic refrigerator example). Moreover, it offers the possibility to simply change the behavior of the overall system (depending on the context) by only changing the coordinator problem&#39;s parameters without changing the set of local controllers used by subsystems which is a common industrial requirement regarding industrial control architectures. Finally, the proposed scheme enables a smooth operator handover on a specific subsystem and/or actuator.">
+  <meta name="description" content="In the past few years, wireless sensor networks (WSNs) have been increasingly gaining impact in the real world with with various applications such as healthcare, condition monitoring, control networks, etc. Anomaly detection in WSNs is an important aspect of data analysis in order to identify data items which does not conform to an expected pattern or other items in a dataset. This paper describes a anomaly detection method using support vector data description (SVDD) kernelized by Mahalanobis distance with adjusted discriminant threshold. The efficiency of this method is studied over a real data set. Numerical result demonstrates that the proposed approach achieved a high-level of detection accuracy and a low percentage of false alarm rate owing to wise choices of discriminant threshold.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://vuongvtrinh.github.io/publication/2017-hdmpc-jpc/">
+  <link rel="alternate" hreflang="en-us" href="https://vuongvtrinh.github.io/publication/2017-wsn-nics/">
 
   
 
@@ -94,7 +94,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://vuongvtrinh.github.io/publication/2017-hdmpc-jpc/">
+  <link rel="canonical" href="https://vuongvtrinh.github.io/publication/2017-wsn-nics/">
 
   
   
@@ -106,21 +106,21 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Vuong V. Trinh">
-  <meta property="og:url" content="https://vuongvtrinh.github.io/publication/2017-hdmpc-jpc/">
-  <meta property="og:title" content="Fixed-point based hierarchical MPC control design for a cryogenic refrigerator | Vuong V. Trinh">
-  <meta property="og:description" content="In this paper, a simple, general and scalable hierarchical control framework is proposed and validated through the interconnection of the Joule–Thomson and the Brayton cycle stages of a cryogenic refrigerator. The proposed framework enables to handle the case of destabilizing interconnections through state and/or control signals (which is the case of the cryogenic refrigerator example). Moreover, it offers the possibility to simply change the behavior of the overall system (depending on the context) by only changing the coordinator problem&#39;s parameters without changing the set of local controllers used by subsystems which is a common industrial requirement regarding industrial control architectures. Finally, the proposed scheme enables a smooth operator handover on a specific subsystem and/or actuator."><meta property="og:image" content="https://vuongvtrinh.github.io/img/portrait.jpg">
+  <meta property="og:url" content="https://vuongvtrinh.github.io/publication/2017-wsn-nics/">
+  <meta property="og:title" content="Anomaly detection in wireless sensor networks via support vector data description with Mahalanobis kernels and discriminative adjustment | Vuong V. Trinh">
+  <meta property="og:description" content="In the past few years, wireless sensor networks (WSNs) have been increasingly gaining impact in the real world with with various applications such as healthcare, condition monitoring, control networks, etc. Anomaly detection in WSNs is an important aspect of data analysis in order to identify data items which does not conform to an expected pattern or other items in a dataset. This paper describes a anomaly detection method using support vector data description (SVDD) kernelized by Mahalanobis distance with adjusted discriminant threshold. The efficiency of this method is studied over a real data set. Numerical result demonstrates that the proposed approach achieved a high-level of detection accuracy and a low percentage of false alarm rate owing to wise choices of discriminant threshold."><meta property="og:image" content="https://vuongvtrinh.github.io/img/portrait.jpg">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2017-09-06T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2017-08-10T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2017-09-06T00:00:00&#43;00:00">
-  
-
+  <meta property="article:modified_time" content="2017-08-10T00:00:00&#43;00:00">
   
 
   
 
-  <title>Fixed-point based hierarchical MPC control design for a cryogenic refrigerator | Vuong V. Trinh</title>
+  
+
+  <title>Anomaly detection in wireless sensor networks via support vector data description with Mahalanobis kernels and discriminative adjustment | Vuong V. Trinh</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -312,7 +312,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">Fixed-point based hierarchical MPC control design for a cryogenic refrigerator</h1>
+  <h1 itemprop="name">Anomaly detection in wireless sensor networks via support vector data description with Mahalanobis kernels and discriminative adjustment</h1>
 
   
 
@@ -326,16 +326,13 @@
   
   <div>
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">Mazen Alamir</span>
-    </span>, 
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">Patrick Bonnay</span>
-    </span>, 
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">Francois Bonne</span>
-    </span>, 
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
       <span itemprop="name">Vuong V. Trinh</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Kim Phuc Tran</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Anh Tuan Mai</span>
     </span>
     
   </div>
@@ -343,9 +340,9 @@
 
   <span class="article-date">
     
-    <meta content="2017-09-06 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-    <time datetime="2017-09-06 00:00:00 &#43;0000 UTC" itemprop="dateModified">
-      Sep 6, 2017
+    <meta content="2017-08-10 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+    <time datetime="2017-08-10 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+      Aug 10, 2017
     </time>
   </span>
   <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
@@ -365,35 +362,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Fixed-point%20based%20hierarchical%20MPC%20control%20design%20for%20a%20cryogenic%20refrigerator&amp;url=https%3a%2f%2fvuongvtrinh.github.io%2fpublication%2f2017-hdmpc-jpc%2f"
+         href="https://twitter.com/intent/tweet?text=Anomaly%20detection%20in%20wireless%20sensor%20networks%20via%20support%20vector%20data%20description%20with%20Mahalanobis%20kernels%20and%20discriminative%20adjustment&amp;url=https%3a%2f%2fvuongvtrinh.github.io%2fpublication%2f2017-wsn-nics%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fvuongvtrinh.github.io%2fpublication%2f2017-hdmpc-jpc%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fvuongvtrinh.github.io%2fpublication%2f2017-wsn-nics%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-facebook-f"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fvuongvtrinh.github.io%2fpublication%2f2017-hdmpc-jpc%2f&amp;title=Fixed-point%20based%20hierarchical%20MPC%20control%20design%20for%20a%20cryogenic%20refrigerator"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fvuongvtrinh.github.io%2fpublication%2f2017-wsn-nics%2f&amp;title=Anomaly%20detection%20in%20wireless%20sensor%20networks%20via%20support%20vector%20data%20description%20with%20Mahalanobis%20kernels%20and%20discriminative%20adjustment"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fvuongvtrinh.github.io%2fpublication%2f2017-hdmpc-jpc%2f&amp;title=Fixed-point%20based%20hierarchical%20MPC%20control%20design%20for%20a%20cryogenic%20refrigerator"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fvuongvtrinh.github.io%2fpublication%2f2017-wsn-nics%2f&amp;title=Anomaly%20detection%20in%20wireless%20sensor%20networks%20via%20support%20vector%20data%20description%20with%20Mahalanobis%20kernels%20and%20discriminative%20adjustment"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Fixed-point%20based%20hierarchical%20MPC%20control%20design%20for%20a%20cryogenic%20refrigerator&amp;body=https%3a%2f%2fvuongvtrinh.github.io%2fpublication%2f2017-hdmpc-jpc%2f">
+         href="mailto:?subject=Anomaly%20detection%20in%20wireless%20sensor%20networks%20via%20support%20vector%20data%20description%20with%20Mahalanobis%20kernels%20and%20discriminative%20adjustment&amp;body=https%3a%2f%2fvuongvtrinh.github.io%2fpublication%2f2017-wsn-nics%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -435,8 +432,17 @@
   
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="/pub/alamir2017a.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="/pub/trinh2017a.pdf" target="_blank" rel="noopener">
   PDF
+</a>
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/trinhvv/wsn-svdd-mk" target="_blank" rel="noopener">
+  Code
 </a>
 
 
@@ -451,9 +457,6 @@
 
 
 
-
-
-
   
   
   
@@ -465,7 +468,7 @@
   
     
   
-  <a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.1016/j.jprocont.2017.09.006" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.1109/NAFOSTED.2017.8108030" target="_blank" rel="noopener">
     
     DOI
   </a>
@@ -483,7 +486,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">In this paper, a simple, general and scalable hierarchical control framework is proposed and validated through the interconnection of the Joule–Thomson and the Brayton cycle stages of a cryogenic refrigerator. The proposed framework enables to handle the case of destabilizing interconnections through state and/or control signals (which is the case of the cryogenic refrigerator example). Moreover, it offers the possibility to simply change the behavior of the overall system (depending on the context) by only changing the coordinator problem&rsquo;s parameters without changing the set of local controllers used by subsystems which is a common industrial requirement regarding industrial control architectures. Finally, the proposed scheme enables a smooth operator handover on a specific subsystem and/or actuator.</p>
+    <p class="pub-abstract" itemprop="text">In the past few years, wireless sensor networks (WSNs) have been increasingly gaining impact in the real world with with various applications such as healthcare, condition monitoring, control networks, etc. Anomaly detection in WSNs is an important aspect of data analysis in order to identify data items which does not conform to an expected pattern or other items in a dataset. This paper describes a anomaly detection method using support vector data description (SVDD) kernelized by Mahalanobis distance with adjusted discriminant threshold. The efficiency of this method is studied over a real data set. Numerical result demonstrates that the proposed approach achieved a high-level of detection accuracy and a low percentage of false alarm rate owing to wise choices of discriminant threshold.</p>
     
 
     
@@ -494,8 +497,8 @@
           <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
             
-            <a href="/publication/#2">
-              Journal article
+            <a href="/publication/#1">
+              Conference paper
             </a>
             
           </div>
@@ -512,7 +515,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9"><em>Journal of Process Control</em>, vol. 58, no. Supplement C, pp. 117-130</div>
+          <div class="col-12 col-md-9"><em>Proceedings of the 2017 4th NAFOSTED Conference on Information and Computer Science</em>, Hanoi, Vietnam</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -526,7 +529,7 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Date</div>
           <div class="col-12 col-md-9" itemprop="datePublished">
-            September, 2017
+            August, 2017
           </div>
         </div>
       </div>
@@ -548,6 +551,131 @@
 
 
 
+
+<div class="media author-card" itemscope itemtype="http://schema.org/Person">
+  
+  <img class="portrait mr-3" src="/img/portrait.jpg" itemprop="image" alt="Avatar">
+  
+  <div class="media-body">
+    <h5 class="card-title" itemprop="name"><a href="/">Vuong V. Trinh</a></h5>
+    <h6 class="card-subtitle">Research Engineer</h6>
+    
+    <ul class="network-icon" aria-hidden="true">
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      <li>
+        <a itemprop="sameAs" href="mailto:vanvuong.trinh@gmail.com" >
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://github.com/trinhvv" target="_blank" rel="noopener">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://www.researchgate.net/profile/Van_Vuong_Trinh" target="_blank" rel="noopener">
+          <i class="fab fa-researchgate"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://scholar.google.fr/citations?user=U9xo4wsAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+          <i class="ai ai-google-scholar"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://orcid.org/0000-0001-9148-7878" target="_blank" rel="noopener">
+          <i class="ai ai-orcid"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://www.linkedin.com/in/trinhvv/" target="_blank" rel="noopener">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="/cv/resume.pdf" >
+          <i class="ai ai-cv"></i>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</div>
 
 
 
