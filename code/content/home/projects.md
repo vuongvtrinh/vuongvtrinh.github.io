@@ -18,7 +18,7 @@ folder = "project"
 # View.
 # Customize how projects are displayed.
 # Legend: 0 = list, 1 = cards, 2 = showcase.
-view = 1
+view = 2
 
 # Widget layout
 # Legend: 0 = two columns (default), 1 = single column
@@ -41,12 +41,16 @@ filter_default = 0
   tag = "*"
 
 [[filter]]
-  name = "Deep Learning"
-  tag = "Deep Learning"
+  name = "Automatic Control"
+  tag = "automatic-control"
 
 [[filter]]
-  name = "Other"
-  tag = "Demo"
+  name = "Data Science"
+  tag = "data-science"
+  
+[[filter]]
+  name = "Quantitative Analytics"
+  tag = "quantitative-analytics"
 
 +++
 

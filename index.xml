@@ -36,12 +36,11 @@
     
     <item>
       <title>Fixed-point based hierarchical MPC control design for a cryogenic refrigerator</title>
-      <link>https://vuongvtrinh.github.io/publication/2017-jpc/</link>
+      <link>https://vuongvtrinh.github.io/publication/2017-hdmpc-jpc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://vuongvtrinh.github.io/publication/2017-jpc/</guid>
-      <description>&lt;p&gt;In this paper, a simple, general and scalable hierarchical control framework is proposed and validated through the interconnection of the Joule–Thomson and the Brayton cycle stages of a cryogenic refrigerator. The proposed framework enables to handle the case of destabilizing interconnections through state and/or control signals (which is the case of the cryogenic refrigerator example). Moreover, it offers the possibility to simply change the behavior of the overall system (depending on the context) by only changing the coordinator problem&amp;rsquo;s parameters without changing the set of local controllers used by subsystems which is a common industrial requirement regarding industrial control architectures. Finally, the proposed scheme enables a smooth operator handover on a specific subsystem and/or actuator.&lt;/p&gt;
-</description>
+      <guid>https://vuongvtrinh.github.io/publication/2017-hdmpc-jpc/</guid>
+      <description></description>
     </item>
     
   </channel>

@@ -43,7 +43,7 @@
     
     <url>
     
-      <loc>https://vuongvtrinh.github.io/publication/2017-jpc/</loc>
+      <loc>https://vuongvtrinh.github.io/publication/2017-hdmpc-jpc/</loc>
     </url>
     
   
@@ -101,6 +101,14 @@
     <url>
     
       <loc>https://vuongvtrinh.github.io/tags/cryptoasset/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/tags/quantitative-analytics/</loc>
       <priority>0</priority>
     </url>
     
