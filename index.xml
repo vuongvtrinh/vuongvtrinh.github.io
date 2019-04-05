@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chi Zhang on Chi Zhang</title>
+    <link>http://vuongvtrinh.github.io/</link>
+    <description>Recent content in Chi Zhang on Chi Zhang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Chi Zhang</copyright>
+    <lastBuildDate>Wed, 05 Sep 2018 10:40:00 +0000</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Deep Reinforcement Learning for Portfolio Management</title>
+      <link>http://vuongvtrinh.github.io/post/cs599/</link>
+      <pubDate>Wed, 22 Nov 2017 12:26:16 -0800</pubDate>
+      
+      <guid>http://vuongvtrinh.github.io/post/cs599/</guid>
+      <description>
+
+&lt;h2&gt;Table of Contents&lt;/h2&gt;
+&lt;nav id=&#34;TableOfContents&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#problem-formulation&#34;&gt;Problem Formulation&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#key-assumptions-and-goal&#34;&gt;Key Assumptions and Goal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#mdp-formulation&#34;&gt;MDP formulation&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#state-and-action&#34;&gt;State and Action&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#state-transition&#34;&gt;State Transition&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#reward&#34;&gt;Reward&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#datasets&#34;&gt;Datasets&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#methods&#34;&gt;Methods&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#data-preprocessing&#34;&gt;Data Preprocessing&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#numerical-data&#34;&gt;Numerical Data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#news-data&#34;&gt;News Data&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#predictor-network&#34;&gt;Predictor Network&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#policy-network&#34;&gt;Policy Network&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#optimal-action-and-imitation-learning&#34;&gt;Optimal Action and Imitation Learning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#deep-deterministic-policy-gradient-ddpg&#34;&gt;Deep Deterministic Policy Gradient (DDPG)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#results&#34;&gt;Results&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#imitation-learning&#34;&gt;Imitation Learning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#ddpg&#34;&gt;DDPG&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#imitation-learning-vs-ddpg&#34;&gt;Imitation Learning vs DDPG&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#testing-on-unseen-stocks&#34;&gt;Testing on Unseen Stocks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#related-work&#34;&gt;Related Work&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#future-work&#34;&gt;Future Work&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#pretrained-network&#34;&gt;Pretrained Network&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+
+
+&lt;h2 id=&#34;problem-formulation&#34;&gt;Problem Formulation&lt;/h2&gt;
+
+&lt;p&gt;In this project, we would like to manage portfolio by distributing our investment into a number of stocks based on the market. We define our environment similar to this paper &lt;a href=&#34;https://arxiv.org/abs/1706.10059&#34; target=&#34;_blank&#34;&gt;Jiang et al&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Concretely, we define $N$ to be the number of stocks we would like to invest.
+Without losing generality, at initial timestamp, we assume our total investment volume is 1 dollar. We define &lt;code&gt;close/open relative price vector&lt;/code&gt; as:
+$$
+\begin{equation}
+y_t=[1, \frac{v_{1,t, close}}{v_{1,t, open}}, \frac{v_{2,t, close}}{v_{2,t, open}},\cdots,\frac{v_{N,t,close}}{v_{N,t, open}}]
+\end{equation}
+$$
+where $\frac{v_{i, t, close}}{v_{i, t, open}}$ is the &lt;code&gt;relative price&lt;/code&gt; of stock $i$ at timestamp $t$.
+Note $y[0]$ represents the relative price of cash, which is always 1. We define &lt;code&gt;portfolio weight vector&lt;/code&gt; as:
+$$
+\begin{equation}
+w_t=[w_{0,t}, w_{1, t}, \cdots, w_{N, t}]
+\end{equation}
+$$
+where $w_{i,t}$ represents the fraction of investment on stock $i$ at timestamp $t$ and
+$\sum_{i=0}^{N}w_{i, t}=1$. Note that $w_{0,t}$ represents the fraction of cash that we maintain. Then the profit after timestamp $T$ is:
+$$
+\begin{equation}
+\label{profit}
+p_T=\prod_{t=1}^{T}y_t\cdot w_{t-1}
+\end{equation}
+$$
+where $w_0=[1, 0, \cdots, 0]$. If we consider a trading cost factor $\mu$, then the trading cost of each timestamp is:
+$$
+\begin{equation}
+{\mu}_t=\mu\sum{|\frac{y_t \odot w_{t-1}}{y_t \cdot w_{t-1}} - w_{t}|}
+\end{equation}
+$$
+where $\odot$ is element-wise product. Then equation \ref{profit} becomes:
+$$
+\begin{equation}
+\label{profit_mu}
+p_T=\prod_{t=1}^{T}(1-\mu_t) y_t\cdot w_{t-1}
+\end{equation}
+$$&lt;/p&gt;
+
+&lt;h3 id=&#34;key-assumptions-and-goal&#34;&gt;Key Assumptions and Goal&lt;/h3&gt;
+
+&lt;p&gt;To model real world market trades, we make several assumptions to simplify the problems:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We can get any information about the stocks before timestamp $t$ for stock $i$. e.g. The previous stock price, the news and tweets online.&lt;/li&gt;
+&lt;li&gt;Our investment will not change how the market behaves.&lt;/li&gt;
+&lt;li&gt;The way we calculate profit in equation \ref{profit} can be interpreted as: At timestamp $t$, we buy stocks according to the &lt;code&gt;portfolio weight vector&lt;/code&gt; $w_{t-1}$ computed by history data at &lt;strong&gt;open&lt;/strong&gt; price and sell all the stocks at &lt;strong&gt;close&lt;/strong&gt; price. This may not be true in practice because you will not always be able to &lt;strong&gt;buy/sell&lt;/strong&gt; the stock at &lt;strong&gt;open/close&lt;/strong&gt; price.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The &lt;strong&gt;goal&lt;/strong&gt; of portfolio management is to maximum $p_T$ by choosing portfolio weight vector $w$ at each timestamp $t$ based on history stock information.&lt;/p&gt;
+
+&lt;h3 id=&#34;mdp-formulation&#34;&gt;MDP formulation&lt;/h3&gt;
+
+&lt;h4 id=&#34;state-and-action&#34;&gt;State and Action&lt;/h4&gt;
+
+&lt;p&gt;We define state $s_t$ as $o_t$, where $o_t$ is the obseration of timestamp $t$. As the time goes by, the impact of history data decreases. Thus, we only consider the history price and news in a fixed window length $W$. Hence,
+$$ o_t=[\vec{v_{1,t}},\vec{v_{2,t}},\cdots,\vec{v_{N,t}}] $$
+where
+$\vec{v_{i,t}} =\begin{bmatrix}v_{i,t-W} \\ v_{i,t-W+1} \\ \vdots \\ v_{i,t-1}\end{bmatrix}$
+and $N$ is the number of stocks. The action $a_{t}$ is just &lt;code&gt;portfolio weight vector&lt;/code&gt; $w_{t}$.
+Note that this is a continuous state and action space problem.
+We try to directly solve it in continuous space instead of using discretization in previous work &lt;a href=&#34;http://cs229.stanford.edu/proj2009/LvDuZhai.pdf&#34; target=&#34;_blank&#34;&gt;Du et al&lt;/a&gt; and &lt;a href=&#34;http://cs229.stanford.edu/proj2016/report/JinElSaawy-PortfolioManagementusingReinforcementLearning-report.pdf&#34; target=&#34;_blank&#34;&gt;Jin et al&lt;/a&gt;.
+Essentially, we want to train a policy network $\pi_\theta(a_t|o_t)$.&lt;/p&gt;
+
+&lt;h4 id=&#34;state-transition&#34;&gt;State Transition&lt;/h4&gt;
+
+&lt;p&gt;The underlining state evolution is determined by the market, which we don&amp;rsquo;t have any control. What we can get is the observation state, which is the price. Since we will collect history price of various stocks, $o_t$ is given by the dataset instead of $o_{t-1}$.&lt;/p&gt;
+
+&lt;h4 id=&#34;reward&#34;&gt;Reward&lt;/h4&gt;
+
+&lt;p&gt;Instead of having reward 0 at each timestamp and $p_T$ at the end, we take logarithm of equation \ref{profit_mu}:
+$$\log{p_T}=\log{\prod_{t=1}^{T}\mu_t y_t\cdot w_{t-1}}=\sum_{t=1}^{T}\log(\mu_t y_t\cdot w_{t-1})$$
+Thus, we have $\log(\mu_t y_t\cdot w_{t-1})$ reward each timestamp, which avoids the sparsity of reward problem.&lt;/p&gt;
+
+&lt;h3 id=&#34;datasets&#34;&gt;Datasets&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Stocks used:&lt;/strong&gt;
+We choose 16 target stocks from NASDAQ100 that we feel are representative of different sectors in the index fund. They include &amp;ldquo;AAPL&amp;rdquo;, &amp;ldquo;ATVI&amp;rdquo;, &amp;ldquo;CMCSA&amp;rdquo;, &amp;ldquo;COST&amp;rdquo;, &amp;ldquo;CSX&amp;rdquo;, &amp;ldquo;DISH&amp;rdquo;, &amp;ldquo;EA&amp;rdquo;, &amp;ldquo;EBAY&amp;rdquo;, &amp;ldquo;FB&amp;rdquo;, &amp;ldquo;GOOGL&amp;rdquo;, &amp;ldquo;HAS&amp;rdquo;, &amp;ldquo;ILMN&amp;rdquo;, &amp;ldquo;INTC&amp;rdquo;, &amp;ldquo;MAR&amp;rdquo;, &amp;ldquo;REGN&amp;rdquo; and &amp;ldquo;SBUX&amp;rdquo;.&lt;br /&gt;
+&lt;strong&gt;Price Data:&lt;/strong&gt;
+We collected history price of the stocks from 2012-08-13 to 2017-08-11. The price on each day contains open, high, low and close. We use 2012-08-13 to 2015-08-12 as training data and 2015-08-13 to 2017-08-11 as testing data.&lt;br /&gt;
+&lt;strong&gt;News Data:&lt;/strong&gt;
+We gather all tweets referencing the stocks from 2016-03-28 to 2016-06-15.&lt;br /&gt;
+&lt;strong&gt;Additional Testing Data:&lt;/strong&gt;
+As another form of backtesting, we randomly select 16 stocks from NASDAQ100 the network has never seen and test whether the network can generalize well.&lt;/p&gt;
+
+&lt;h2 id=&#34;methods&#34;&gt;Methods&lt;/h2&gt;
+
+&lt;p&gt;We mainly consider model-free approach in our project. First, we train a predictor given a fixed history window length $W$ of price and news.
+With the predicted price, we can train a policy network $\pi_{\theta}(a_t|s_t)$ to maximize our portofolio value at the end of the trading period.
+Note that in practice, they are trained end-to-end instead of separately.&lt;/p&gt;
+
+&lt;h3 id=&#34;data-preprocessing&#34;&gt;Data Preprocessing&lt;/h3&gt;
+
+&lt;h4 id=&#34;numerical-data&#34;&gt;Numerical Data&lt;/h4&gt;
+
+&lt;p&gt;Instead of using the raw open, high, low and close price, we normalize the history price as $(\frac{close}{open} - 1)\times scale$. There are two main advantages:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;The history price are all in the same scale regardless of their actual price.&lt;/li&gt;
+&lt;li&gt;Since the final portfolio is determined by the close/open ratio of each timestamp, it serves as a better feature compared with raw price.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The &lt;code&gt;scale&lt;/code&gt; factor is heuristically set to 100 in our experiments. For missing data, we pad all open, high, low, close as the close price of previous day.&lt;/p&gt;
+
+&lt;h4 id=&#34;news-data&#34;&gt;News Data&lt;/h4&gt;
+
+&lt;p&gt;The steps to proprocess the news data are:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;First, we filter each tweets by the most frequenct 2000 words.&lt;/li&gt;
+&lt;li&gt;We pad each word with end of sentence mark to make them equally long.&lt;/li&gt;
+&lt;li&gt;We use a sequence of end of sentence mark to fill the missing days.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;predictor-network&#34;&gt;Predictor Network&lt;/h3&gt;
+
+&lt;p&gt;
+&lt;figure&gt;
+    
+        &lt;img src=&#34;img/cs599/predictor_cnn.pdf&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;CNN predictor based on numerical history&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+The rationale behind the CNN predictor is adpated from &lt;a href=&#34;https://arxiv.org/abs/1706.10059&#34; target=&#34;_blank&#34;&gt;Jiang et al&lt;/a&gt;. For each timeseries of each stock,
+we use a $1\times3$ kernel to gather information in each window, then combine all the information to produce a single vector for each stock.
+Note that these convolutional windows doesn&amp;rsquo;t cover information across any two stocks.
+
+&lt;figure&gt;
+    
+        &lt;img src=&#34;img/cs599/predictor_lstm.pdf&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;LSTM predictor based on numerical history&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+The LSTM predictor based on numerical history is very straight forward. Note that all the stocks share the same LSTM.
+
+&lt;figure&gt;
+    
+        &lt;img src=&#34;img/cs599/predictor_lstm_news.pdf&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;LSTM predictor based on history of news&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+For news based approach, we try to predict the $\frac{close-open}{open}$ ratio. We use pretrained 50d-GloVe to initialize the embedding layer followed by a LSTM and a fully-connected layer.&lt;/p&gt;
+
+&lt;h3 id=&#34;policy-network&#34;&gt;Policy Network&lt;/h3&gt;
+
+&lt;p&gt;
+&lt;figure&gt;
+    
+        &lt;img src=&#34;img/cs599/actor.pdf&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Policy Network&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+All the policy network follows the same topology with different predictors.&lt;/p&gt;
+
+&lt;h3 id=&#34;optimal-action-and-imitation-learning&#34;&gt;Optimal Action and Imitation Learning&lt;/h3&gt;
+
+&lt;p&gt;Suppose we know the stock price of tomorrow, we greedily choose the stock with the highest close/open ratio (taking into account trading cost of changing stocks),
+buying as much as possible on the open and selling all at the close and it will yield the maximum portfolio value.&lt;/p&gt;
+
+&lt;p&gt;Given this fact, we can collect ground truth labels for each timestamp by choosing the optimal action. (e.g. $[0, 0, 1, \cdots, 0, 0]$,
+the stock with highest close/open to be 1 and all the others to be 0) Then, we can train a policy network by imitating optimal action conditioned on the current observation of history prices $o_t$.&lt;/p&gt;
+
+&lt;h3 id=&#34;deep-deterministic-policy-gradient-ddpg&#34;&gt;Deep Deterministic Policy Gradient (DDPG)&lt;/h3&gt;
+
+&lt;p&gt;
+&lt;figure&gt;
+    
+        &lt;img src=&#34;img/cs599/ddpg.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Deep Deterministic Policy Gradient Algorithm [Lillicrap et al](https://arxiv.org/abs/1509.02971)&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+We try to directly learn a policy network $\pi_{\theta}(a_t|s_t)$ by continuous action space reinforcement learning algorithm &lt;a href=&#34;https://arxiv.org/abs/1509.02971&#34; target=&#34;_blank&#34;&gt;Lillicrap et al&lt;/a&gt;.
+We show the algorithm above. The configurations are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Actor Network: The same as policy network.&lt;/li&gt;
+&lt;li&gt;Critic Network: A linear combination of actor network structure of state (observation) and action.&lt;/li&gt;
+&lt;li&gt;Exploration noise: Ornstein-Uhlenbeck with zero mean, 0.3 sigma and 0.15 theta.&lt;/li&gt;
+&lt;li&gt;For fairness, we train models with different settings in 500 episodes. Some of the models are not fully converged at that time though.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+
+&lt;h3 id=&#34;imitation-learning&#34;&gt;Imitation Learning&lt;/h3&gt;
+
+&lt;p&gt;
+&lt;figure&gt;
+    
+        &lt;img src=&#34;img/cs599/imitation_result.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Results of trading on testing data using policy trained by imitation learning&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+The market value is obtained by equally distributing your investment to all the stocks. It turns out that smaller windows work better.
+Larger window means larger models and it tends to overfit very quickly since the training data is just around 1000.&lt;/p&gt;
+
+&lt;h3 id=&#34;ddpg&#34;&gt;DDPG&lt;/h3&gt;
+
+&lt;p&gt;
+&lt;figure&gt;
+    
+        &lt;img src=&#34;img/cs599/ddpg_result.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Results of trading on testing data using policy trained by DDPG&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+We find that LSTM predictor based models have better performance than the CNN predictor based models.
+It is not surprising that smaller windows perform best because of the temporaral relationship among price in a short window.&lt;/p&gt;
+
+&lt;h3 id=&#34;imitation-learning-vs-ddpg&#34;&gt;Imitation Learning vs DDPG&lt;/h3&gt;
+
+&lt;p&gt;Generally, models trained by DDPG is better than models trained by imitation learning.
+The difficulty of training good policy networks by imitation learning lies in the extreme tendency to overfit while DDPG doesn&amp;rsquo;t suffer from this problem
+because each episode during training is sampled from the whole training period with different starting date and lengths.&lt;/p&gt;
+
+&lt;h3 id=&#34;testing-on-unseen-stocks&#34;&gt;Testing on Unseen Stocks&lt;/h3&gt;
+
+&lt;p&gt;
+&lt;figure&gt;
+    
+        &lt;img src=&#34;img/cs599/unknow_stocks_performance.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Results of trading on 16 unseen stocks using best two policies trained by imitation learning and DDPG&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+To see how the network generalizes, we choose another 16 unseen stocks including
+&amp;lsquo;FOX&amp;rsquo;, &amp;lsquo;FISV&amp;rsquo;, &amp;lsquo;EXPE&amp;rsquo;, &amp;lsquo;FAST&amp;rsquo;, &amp;lsquo;ESRX&amp;rsquo;, &amp;lsquo;DLTR&amp;rsquo;, &amp;lsquo;CTSH&amp;rsquo;, &amp;lsquo;CSCO&amp;rsquo;, &amp;lsquo;QCOM&amp;rsquo;, &amp;lsquo;PCLN&amp;rsquo;, &amp;lsquo;CELG&amp;rsquo;, &amp;lsquo;AMGN&amp;rsquo;, &amp;lsquo;WFM&amp;rsquo;,
+&amp;lsquo;WDC&amp;rsquo;, &amp;lsquo;NVDA&amp;rsquo; and &amp;lsquo;STX&amp;rsquo;. The result shows that these models generalizes pretty well and CNN-based predictor outperforms
+LSTM-based predictor in both cases.&lt;/p&gt;
+
+&lt;h3 id=&#34;related-work&#34;&gt;Related Work&lt;/h3&gt;
+
+&lt;p&gt;In &lt;a href=&#34;http://cs229.stanford.edu/proj2009/LvDuZhai.pdf&#34; target=&#34;_blank&#34;&gt;Du et al&lt;/a&gt; and &lt;a href=&#34;http://cs229.stanford.edu/proj2016/report/JinElSaawy-PortfolioManagementusingReinforcementLearning-report.pdf&#34; target=&#34;_blank&#34;&gt;Jin et al&lt;/a&gt;,
+the author proposes to use DQN to trade in 2 stocks market with discreted state and action space.
+Their settings are far simpler than ours. In &lt;a href=&#34;https://arxiv.org/abs/1706.10059&#34; target=&#34;_blank&#34;&gt;Jiang et al&lt;/a&gt;, the author proposes to use Deterministic Policy Gradient (DPG) to trade in bitcoin market.
+It&amp;rsquo;s very hard to compare with them because of different dataset. But DDPG is strictly better than DPG in terms of performance and convergence time.&lt;/p&gt;
+
+&lt;h3 id=&#34;future-work&#34;&gt;Future Work&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Combine news based predictor with numerical base predictor and train on a larger dataset with finer timestamp end-to-end with policy network.&lt;/li&gt;
+&lt;li&gt;Model ensemble: combine the result of models trained by DDPG and imitation learning.&lt;/li&gt;
+&lt;li&gt;Online learning: automatic scrapper news and data each day, update the network and make the action.&lt;/li&gt;
+&lt;li&gt;Instead of optimizing portfolio value, we consider risk aware portfolio by optimizing the sharpe ratio define as $\frac{\text{Mean}(r_t)}{\text{Variance}(r_t)}$, where $r_t$ is the rate of return in the period.
+It turns out to be a very difficult problem since it is not a standard MDP anymore.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;pretrained-network&#34;&gt;Pretrained Network&lt;/h3&gt;
+
+&lt;p&gt;Our &lt;a href=&#34;https://github.com/vermouth1992/drl-portfolio-management&#34; target=&#34;_blank&#34;&gt;code&lt;/a&gt; containing pretrained network is open source on Github.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Frequency Domain Acceleration of Convolutional Neural Networks on CPU-FPGA Shared Memory System</title>
+      <link>http://vuongvtrinh.github.io/publication/cnn_accelerator/</link>
+      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://vuongvtrinh.github.io/publication/cnn_accelerator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Example Talk</title>
+      <link>http://vuongvtrinh.github.io/talk/example-talk/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://vuongvtrinh.github.io/talk/example-talk/</guid>
+      <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>External Project</title>
+      <link>http://vuongvtrinh.github.io/project/example-external-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://vuongvtrinh.github.io/project/example-external-project/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
