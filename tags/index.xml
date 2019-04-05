@@ -21,50 +21,5 @@
       <description>Here is a list of all the content that has been tagged as academic.</description>
     </item>
     
-    <item>
-      <title>R-Ladies</title>
-      <link>https://vuongvtrinh.github.io/tags/r-ladies/</link>
-      <pubDate>Mon, 18 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://vuongvtrinh.github.io/tags/r-ladies/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>blogdown</title>
-      <link>https://vuongvtrinh.github.io/tags/blogdown/</link>
-      <pubDate>Mon, 12 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://vuongvtrinh.github.io/tags/blogdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>readr</title>
-      <link>https://vuongvtrinh.github.io/tags/readr/</link>
-      <pubDate>Sun, 08 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://vuongvtrinh.github.io/tags/readr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tidyverse</title>
-      <link>https://vuongvtrinh.github.io/tags/tidyverse/</link>
-      <pubDate>Sun, 08 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://vuongvtrinh.github.io/tags/tidyverse/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>xaringan</title>
-      <link>https://vuongvtrinh.github.io/tags/xaringan/</link>
-      <pubDate>Mon, 18 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://vuongvtrinh.github.io/tags/xaringan/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
