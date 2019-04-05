@@ -52,13 +52,13 @@ enableGitInfo = false
   # AUTHOR SETUP
   # Your details.
   name = "Vuong V. Trinh"
-  role = "Automatic control & data science research engineer"
+  role = "Process control & optimization research engineer"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
   organizations = [ { name = "Commissariat à l'énergie atomique et aux énergies alternatives", url = "http://www.cea.fr/" } ]
 
-  gravatar = true  # Get your avatar from Gravatar.com? (true/false)
+  gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
   # Details for the Contact Widget
@@ -289,28 +289,26 @@ enableGitInfo = false
   name = "Bio"
   url = "/bio/"
   weight = 2
+  
+[[menu.main]]
+  name = "Projects"
+  url = "#projects"
+  weight = 3
+  
+[[menu.main]]
+  name = "Publications"
+  url = "#publications"
+  weight = 4
 
 [[menu.main]]
   name = "Blog"
   url = "#posts"
-  weight = 3
-
-[[menu.main]]
-  name = "Teaching"
-  url = "#teaching"
-  weight = 4
+  weight = 5
   
 [[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 5
-
-# Link to a PDF of your resume/CV from the menu.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# [[menu.main]]
-#    name = "CV"
-#    url = "files/cv.pdf"
-#    weight = 7
+  weight = 6
 
 # Search.
 [params.search]
@@ -334,22 +332,6 @@ enableGitInfo = false
   category = "categories"
   publication_type = "publication_types"
 
-# Languages
-#   Create a [languages.X] block for each language you want, where X is the language ID.
-#   Refer to https://sourcethemes.com/academic/docs/language/
-
 # Configure the English version of the website.
 [languages.en]
   languageCode = "en-us"
-
-# Uncomment the lines below to configure your website in a second language.
-#[languages.zh]
-#  languageCode = "zh-Hans"
-#  title = "Chinese website title..."
-#  [languages.zh.params]
-#    name = "Your name in Chinese..."
-#    role = "Your role in Chinese..."
-#  [[languages.zh.menu.main]]
-#    name = "Wo"
-#    url = "#about"
-#    weight = 1
