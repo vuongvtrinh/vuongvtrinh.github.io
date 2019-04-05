@@ -11,10 +11,9 @@ weight = 1
 [interests]
   interests = [
     "Automatic Control",
-    "Industrial Automation",
-    "Applied Optimization",
-    "Machine Learning",
-    "Quantitative Finance"
+    "Data Science",
+    "Quantitative Analytics",
+    "Blockchain"
   ]
 
 # List your qualifications (such as academic degrees).
