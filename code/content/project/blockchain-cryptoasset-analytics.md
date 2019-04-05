@@ -1,6 +1,6 @@
 +++
 # Date this page was created.
-date = ""
+date = "Jan 1, 2018"
 
 # Project title.
 title = "Blockchain & Cryptoasset Analytics"
