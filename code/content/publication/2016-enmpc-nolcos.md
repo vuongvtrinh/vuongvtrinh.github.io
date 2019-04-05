@@ -14,7 +14,7 @@ url_code = "https://github.com/trinhvv/explicit-mpc"
 url_dataset = ""
 url_pdf = "pub/trinh2016a.pdf"
 url_project = ""
-url_slides = "pub/nolcos2016.pdf"
+url_slides = "https://vuongvtrinh.github.io/pub/nolcos2016.pdf"
 url_video = ""
 
 [[url_custom]]
