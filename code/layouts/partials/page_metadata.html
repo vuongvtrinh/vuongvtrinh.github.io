@@ -19,6 +19,15 @@
   </span>
   {{ end }}
 
+  <span class="article-date">
+    {{ if ne $.Params.Lastmod $.Params.Date }}
+        {{ i18n "last_updated" }}
+    {{ end }}
+    <meta content="{{ $.Params.Date }}" itemprop="datePublished">
+    <time datetime="{{ $.Params.LastMod }}" itemprop="dateModified">
+      {{ $.Lastmod.Format $.Site.Params.date_format }}
+    </time>
+  </span>
   <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
     <meta itemprop="name" content="{{ $.Site.Params.name }}">
   </span>

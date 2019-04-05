@@ -19,17 +19,17 @@ weight = 5
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "Master's Degree in Automation & Control Engineering"
-  institution = "Université Joseph Fourier & Institut Polytechnique de Grenoble"
+  course = "M.S. Automation & Control Engineering"
+  institution = "Université Grenoble Alpes"
   year = 2014
 
 [[education.courses]]
-  course = "Engineer's Degree in Automation & Control Engineering"
+  course = "B.S. Automation & Control Engineering"
   institution = "Hanoi University of Science and Technology"
   year = 2012
  
 +++
 
-# Background
+# About
 
 I received engineer's degree from [Hanoi University of Science and Technology (HUST)](https://en.hust.edu.vn/) in 2012, followed by master's degree from [Université Joseph Fourier (UJF)](https://www.univ-grenoble-alpes.fr/) and [Institut Polytechnique de Grenoble (Grenoble INP)](http://www.grenoble-inp.fr/) in 2014, both in automation and control engineering. I carried out process control and optimization research at [Grenoble Images Parole Signal Automatique laboratoire (GIPSA-lab)](http://www.gipsa-lab.fr/) and [Commissariat à l'énergie atomique et aux énergies alternatives (CEA)](http://www.cea.fr/) within [Service des Basses Températures](http://inac.cea.fr/sbt/) (INAC-SBT). I developed scientific software at [Benjamin Muyl Design S.A.](https://www.bmuyl.com/) and serve as research scientist at [Dong A University Research Institute](http://donga.edu.vn/).

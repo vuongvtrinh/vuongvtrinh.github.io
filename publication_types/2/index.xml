@@ -7,6 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Vuong V. Trinh 2016</copyright>
+    <lastBuildDate>Wed, 06 Sep 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vuongvtrinh.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +15,7 @@
     <item>
       <title>Fixed-point based hierarchical MPC control design for a cryogenic refrigerator</title>
       <link>https://vuongvtrinh.github.io/publication/2017-hdmpc-jpc/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 06 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/publication/2017-hdmpc-jpc/</guid>
       <description></description>
