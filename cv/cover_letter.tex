@@ -1,0 +1,200 @@
+\documentclass[a4paper,11pt]{article}
+\RequirePackage[T1]{fontenc}
+
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+
+\usepackage{times}
+\usepackage{calc}
+\usepackage[shortcuts]{extdash}
+
+\usepackage{graphicx} 
+
+\reversemarginpar
+
+\usepackage[paper=letterpaper,
+marginparwidth=1.1in,     % Length of section titles
+marginparsep=.075in,       % Space between titles and text
+margin=0.75in,               % 1 inch margins
+tmargin=0.8in,
+includemp]{geometry}
+
+\setlength{\parindent}{0in}
+
+\usepackage[shortlabels]{enumitem}
+
+\makeatletter
+\newlength{\bibhang}
+\setlength{\bibhang}{0em}
+\newlength{\bibsep}
+{\@listi \global\bibsep\itemsep \global\advance\bibsep by\parsep}
+\newlist{bibsection}{itemize}{3}
+\setlist[bibsection]{label=,leftmargin=\bibhang,%
+	itemindent=-\bibhang,
+	itemsep=\bibsep,parsep=\z@,partopsep=0pt,
+	topsep=0pt}
+\newlist{bibenum}{enumerate}{3}
+\setlist[bibenum]{label=[\arabic*],resume,leftmargin={\bibhang+\widthof{[999]}},%
+	itemindent=-\bibhang,
+	itemsep=0.05in,parsep=\z@,partopsep=0pt,
+	topsep=0pt}
+\let\oldendbibenum\endbibenum
+\def\endbibenum{\oldendbibenum\vspace{-.6\baselineskip}}
+\let\oldendbibsection\endbibsection
+\def\endbibsection{\oldendbibsection\vspace{-.6\baselineskip}}
+\makeatother
+
+\usepackage{fancyhdr,lastpage}
+\pagestyle{fancy}
+\pagestyle{empty}      % Uncomment this to get rid of page numbers
+\fancyhf{}\renewcommand{\headrulewidth}{0pt}
+\fancyfootoffset{\marginparsep+\marginparwidth}
+\newlength{\footpageshift}
+\setlength{\footpageshift}
+{0.5\textwidth+0.5\marginparsep+0.5\marginparwidth-2in}
+\lfoot{\hspace{\footpageshift}%
+	\parbox{4in}{\, \hfill %
+		\arabic{page} of \protect\pageref*{LastPage} % +LP
+		%                    \arabic{page}                               % -LP
+		\hfill \,}}
+
+\usepackage{color,hyperref}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.3}
+\hypersetup{colorlinks,breaklinks,
+	linkcolor=darkblue,urlcolor=darkblue,
+	anchorcolor=darkblue,citecolor=darkblue}
+
+\renewcommand{\section}[1]{\pagebreak[3]%
+	\vspace{1.3\baselineskip}%
+	\phantomsection\addcontentsline{toc}{section}{#1}%
+	\noindent\llap{\scshape\smash{\parbox[t]{\marginparwidth}{\hyphenpenalty=10000\raggedright #1}}}%
+	\vspace{-\baselineskip}\par}
+
+\newcommand*\fixendlist[1]{%
+	\expandafter\let\csname preFixEndListend#1\expandafter\endcsname\csname end#1\endcsname
+	\expandafter\def\csname end#1\endcsname{\csname preFixEndListend#1\endcsname\vspace{-0.6\baselineskip}}}
+
+\let\originalItem\item
+\newcommand*\fixouterlist[1]{%
+	\expandafter\let\csname preFixOuterList#1\expandafter\endcsname\csname #1\endcsname
+	\expandafter\def\csname #1\endcsname{\let\oldItem\item\def\item{\pagebreak[2]\oldItem}\csname preFixOuterList#1\endcsname}
+	\expandafter\let\csname preFixOuterListend#1\expandafter\endcsname\csname end#1\endcsname
+	\expandafter\def\csname end#1\endcsname{\let\item\oldItem\csname preFixOuterListend#1\endcsname}}
+\newcommand*\fixinnerlist[1]{%
+	\expandafter\let\csname preFixInnerList#1\expandafter\endcsname\csname #1\endcsname
+	\expandafter\def\csname #1\endcsname{\let\oldItem\item\let\item\originalItem\csname preFixInnerList#1\endcsname}
+	\expandafter\let\csname preFixInnerListend#1\expandafter\endcsname\csname end#1\endcsname
+	\expandafter\def\csname end#1\endcsname{\csname preFixInnerListend#1\endcsname\let\item\oldItem}}
+
+\newlist{outerlist}{itemize}{3}
+\setlist[outerlist]{label=\enskip\textbullet,leftmargin=*}
+\fixendlist{outerlist}
+\fixouterlist{outerlist}
+
+\newlist{lonelist}{itemize}{3}
+\setlist[lonelist]{label=\enskip\textbullet,leftmargin=*,partopsep=0pt,topsep=0pt}
+\fixendlist{lonelist}
+\fixouterlist{lonelist}
+
+\newlist{innerlist}{itemize}{3}
+\setlist[innerlist]{label=\enskip\textbullet,leftmargin=*,parsep=0pt,itemsep=0pt,topsep=0pt,partopsep=0pt}
+\fixinnerlist{innerlist}
+
+\newlist{loneinnerlist}{itemize}{3}
+\setlist[loneinnerlist]{label=\enskip\textbullet,leftmargin=*,parsep=0pt,itemsep=0pt,topsep=0pt,partopsep=0pt}
+\fixendlist{loneinnerlist}
+\fixinnerlist{loneinnerlist}
+
+\newcommand{\blankline}{\quad\pagebreak[3]}
+\newcommand{\halfblankline}{\quad\vspace{-0.5\baselineskip}\pagebreak[3]}
+
+\usepackage{doi}
+\usepackage{url}
+
+\urlstyle{same}
+\providecommand*\emaillink[1]{\nolinkurl{#1}}
+\providecommand*\email[1]{\href{mailto:#1}{\emaillink{#1}}}
+
+\begin{document}
+
+{\hspace*{-\marginparsep minus \marginparwidth} 
+\begin{minipage}[t]{\textwidth+\marginparwidth+\marginparsep} 
+{\LARGE \bfseries {Vuong V. Trinh}} 
+
+\vspace{0.2cm} 
+\textbf{Phone} \tab[0.75cm] {\color{darkblue} +33673023455} \\
+\textbf{Email} \tab[0.75cm] \href{mailto:vanvuong.trinh@gmail.com}{vanvuong.trinh@gmail.com} \\
+\textbf{Website} \tab[0.435cm]  \href{https://trinhvv.github.io}{http://trinhvv.github.io} \\
+\vspace{-0.6cm}
+
+\rule{\columnwidth}{1pt}
+\end{minipage}}
+
+\vspace{0.5cm}
+
+{\hspace*{-\marginparsep minus \marginparwidth}
+\begin{minipage}[t]{\textwidth+\marginparwidth+\marginparsep}
+	
+26 September 2018 \hfill{Grenoble, France}
+
+%\textbf{BenjaminMuylDesign}
+%\textit{Yokogawa Vietnam Company Ltd.}
+%
+%\vspace{0.3cm}
+%
+%Level 10, Hoa Binh Tower \\
+%106 Hoang Quoc Viet Street \\
+%Cau Giay Dist., Hanoi, Vietnam
+
+\vspace{0.75cm}
+
+Dear Benjamin:
+
+\vspace{0.3cm}
+
+For your questions, I am really impressed and interested in your project. Through the mail and web, I can feel your strong passion on innovative technologies and sailing competitions.
+
+\vspace{0.3cm}
+
+Let me summarize in brief what I understand with few discussions. Currently, there is a tool to optimize steady-state racing yachts design by solving a NLP that maximizes the speed subject to equality constraints on forces and moments given heading and wind speed. Now, developing useful mathematical dynamic models is the next challenge. I have no idea, but I suppose we need to deploy many equations, determine and tune few parameters, then validate the models using real data. 
+
+\vspace{0.3cm}
+
+Building a human-in-the-loop simulator is the next step. During my PhD at CEA and GIPSA-lab, we use Simscape (a drag-and-drop and user-friendly feature within Matlab/Simulink environment) for this purpose, and I think it is quite cool. So, you can consider if you like as this is only my personal suggestion. Moreover, developing a motion platform with virtual reality fascinate me. I have never done anything like those before.
+
+\vspace{0.3cm}
+
+You mentioned about a collocation solver to solve a complete lap of a race course, with energy / power / movement rate / no before/ not after constraints. I suppose this is indeed equivalent to the model predictive control methodology, which is my research field as you probably know. You are absolutely right on choosing CasADi which is the most innovative software for this so far. Future works such as implementation, taking into account human aid or diagnostic maintenance are truly fascinating. A racing boat wins the competitions with state-of-the-art technology is amazing.
+
+\vspace{0.3cm}
+
+I have the skills that you mentioned, including optimisation, optimal control, machine learning and real-time computation. The first three ones are my major expertises. I am also familiar with computing environments, have sufficient knowledge on programming languages (C, Python, SQL, etc.) as well as some hands-on experience with embedded hardware and code generation. 
+
+\vspace{0.3cm}
+
+I like technologies, start-ups, manufacturing and enjoy reading scientific/financial reports. I am also interested seriously in quantitative finance and investment, particularly cryptocurrencies and stocks, but do not worry, I commit to focus on professional works. I frequently go to mountains, sleep in cars or tents while travelling. I started to love sailing.
+
+\vspace{0.3cm}
+
+For some reasons, mainly due to my mistakes, my PhD has been postponed. As you may know, I am currently open to new opportunities. I would really like to involve and participate into your project as I expect we could progress together. We can come up with an agreement after a probationary period or an internship if necessary. Even if I could not work with you, we can think about a collaboration since I have a close friend who is currently ma\^{i}tre de conf\'{e}rences in machine learning in Lille. I would really appreciate if you could consider my expectation.
+
+\vspace{0.3cm}
+
+Sincerely yours,
+
+\vspace{0.3cm}
+
+\textbf{Vuong V. Trinh}
+
+\vspace{0.8cm}
+
+\rule{\columnwidth}{1pt}
+
+\emph{
+Enclosure: one-page r\'esume.
+}
+
+\end{minipage}}
+
+\end{document}
+
+

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vuong V. Trinh on Vuong V. Trinh</title>
-    <link>http://vuongvtrinh.github.io/</link>
+    <link>https://vuongvtrinh.github.io/</link>
     <description>Recent content in Vuong V. Trinh on Vuong V. Trinh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>Deep Reinforcement Learning for Portfolio Management</title>
-      <link>http://vuongvtrinh.github.io/post/cs599/</link>
+      <link>https://vuongvtrinh.github.io/post/cs599/</link>
       <pubDate>Wed, 22 Nov 2017 12:26:16 -0800</pubDate>
       
-      <guid>http://vuongvtrinh.github.io/post/cs599/</guid>
+      <guid>https://vuongvtrinh.github.io/post/cs599/</guid>
       <description>
 
 &lt;h2&gt;Table of Contents&lt;/h2&gt;
@@ -362,29 +362,29 @@ It turns out to be a very difficult problem since it is not a standard MDP anymo
     
     <item>
       <title>Frequency Domain Acceleration of Convolutional Neural Networks on CPU-FPGA Shared Memory System</title>
-      <link>http://vuongvtrinh.github.io/publication/cnn_accelerator/</link>
+      <link>https://vuongvtrinh.github.io/publication/cnn_accelerator/</link>
       <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://vuongvtrinh.github.io/publication/cnn_accelerator/</guid>
+      <guid>https://vuongvtrinh.github.io/publication/cnn_accelerator/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Example Talk</title>
-      <link>http://vuongvtrinh.github.io/talk/example-talk/</link>
+      <link>https://vuongvtrinh.github.io/talk/example-talk/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://vuongvtrinh.github.io/talk/example-talk/</guid>
+      <guid>https://vuongvtrinh.github.io/talk/example-talk/</guid>
       <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>External Project</title>
-      <link>http://vuongvtrinh.github.io/project/example-external-project/</link>
+      <link>https://vuongvtrinh.github.io/project/example-external-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://vuongvtrinh.github.io/project/example-external-project/</guid>
+      <guid>https://vuongvtrinh.github.io/project/example-external-project/</guid>
       <description></description>
     </item>
     
