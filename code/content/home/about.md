@@ -21,12 +21,12 @@ weight = 5
 [[education.courses]]
   course = "Master's Degree in Automation & Control Engineering"
   institution = "Université Joseph Fourier & Institut Polytechnique de Grenoble"
-  year = 2005
+  year = 2014
 
 [[education.courses]]
   course = "Engineer's Degree in Automation & Control Engineering"
   institution = "Hanoi University of Science and Technology"
-  year = 2002
+  year = 2012
  
 +++
 
