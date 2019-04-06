@@ -3,7 +3,7 @@
 date = "2018-01-01"
 
 # Project title.
-title = "Trading Analysis Chatbot"
+title = "A Telegram chatbot for data-driven analytics of crypto-market on Binance"
 
 # Project summary to display on homepage.
 summary = "A Telegram chatbot for data-driven analytics of crypto-market on Binance."
@@ -12,7 +12,7 @@ summary = "A Telegram chatbot for data-driven analytics of crypto-market on Bina
 image_preview = "chatbot.jpg"
 
 # Tags: can be used for filtering projects.
-tags = ["blockchain", "cryptoasset", "quantitative-analytics"]
+tags = ["blockchain-cryptoasset", "quantitative-analytics"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

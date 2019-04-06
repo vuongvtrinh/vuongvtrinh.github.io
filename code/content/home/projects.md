@@ -53,8 +53,8 @@ filter_default = 0
   tag = "quantitative-analytics"
   
 [[filter]]
-  name = "Blockchain"
-  tag = "blockchain"
+  name = "Blockchain & Cryptoasset"
+  tag = "blockchain-cryptoasset"
 
 +++
 

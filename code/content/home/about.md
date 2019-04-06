@@ -13,7 +13,7 @@ weight = 1
     "Optimization & Control",
     "Data Science",
     "Quantitative Analytics",
-    "Blockchain"
+    "Blockchain & Cryptoasset"
   ]
 
 # List your qualifications (such as academic degrees).
