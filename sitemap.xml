@@ -36,7 +36,7 @@
     
     <url>
     
-      <loc>https://vuongvtrinh.github.io/project/trading-analysis-bot/</loc>
+      <loc>https://vuongvtrinh.github.io/post/trading-analysis-bot/</loc>
       <lastmod>2018-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -103,6 +103,15 @@
     <url>
     
       <loc>https://vuongvtrinh.github.io/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/post/</loc>
+      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
