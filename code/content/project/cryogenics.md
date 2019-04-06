@@ -12,7 +12,7 @@ summary = ""
 image_preview = ""
 
 # Tags: can be used for filtering projects.
-tags = ["automatic-control", "model-predictive-control", "cryogenics", "thermodynamics"]
+tags = ["optimization-control", "model-predictive-control", "cryogenics", "thermodynamics"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

@@ -41,8 +41,8 @@ filter_default = 0
   tag = "*"
 
 [[filter]]
-  name = "Automatic Control"
-  tag = "automatic-control"
+  name = "Optimization & Control"
+  tag = "optimization-control"
 
 [[filter]]
   name = "Data Science"
@@ -51,6 +51,10 @@ filter_default = 0
 [[filter]]
   name = "Quantitative Analytics"
   tag = "quantitative-analytics"
+  
+[[filter]]
+  name = "Blockchain"
+  tag = "blockchain"
 
 +++
 
