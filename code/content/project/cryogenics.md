@@ -22,8 +22,8 @@ math = false
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = ""
-caption = ""
+image = "cryogenic-refrigerator/aa-convergence.png"
+caption = "Algorithmic Convergence Analysis"
 
 +++
 
