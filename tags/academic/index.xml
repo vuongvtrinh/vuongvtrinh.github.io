@@ -1,25 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Vuong V. Trinh</title>
-    <link>https://vuongvtrinh.github.io/post/</link>
-    <description>Recent content in Posts on Vuong V. Trinh</description>
+    <title>Academic on Vuong V. Trinh</title>
+    <link>https://vuongvtrinh.github.io/tags/academic/</link>
+    <description>Recent content in Academic on Vuong V. Trinh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Vuong V. Trinh 2016</copyright>
-    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0200</lastBuildDate>
     
-	<atom:link href="https://vuongvtrinh.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vuongvtrinh.github.io/tags/academic/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>A Telegram chatbot for data-driven analytics of crypto-market on Binance</title>
-      <link>https://vuongvtrinh.github.io/post/trading-analysis-bot/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://vuongvtrinh.github.io/post/trading-analysis-bot/</guid>
-      <description>Blah blah</description>
-    </item>
     
     <item>
       <title>Academic: the website designer for Hugo</title>
