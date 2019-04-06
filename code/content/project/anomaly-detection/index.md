@@ -22,8 +22,21 @@ math = false
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "anomaly-detection/ibrl_wsn.png"
-caption = "IBRL Setup"
+image = ""
+caption = ""
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your project's folder. 
+[image]
+  # Caption (optional)
+  caption = ""
+
+  # Focal point (optional)
+  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  focal_point = ""
+
+  # Show image only in page previews?
+  preview_only = true
 
 +++
 
