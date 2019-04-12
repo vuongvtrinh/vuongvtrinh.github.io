@@ -56,19 +56,25 @@
 
 &lt;p&gt;&lt;a href=&#34;banner.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;banner.png&#34; alt=&#34;Screenshot&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;data-driven-analytics&#34;&gt;Data-Driven Analytics&lt;/h1&gt;
+&lt;h2 id=&#34;data-driven-analytics&#34;&gt;Data-Driven Analytics&lt;/h2&gt;
 
-&lt;h2 id=&#34;altcoin-price-versus-supply-analysis&#34;&gt;Altcoin price versus supply analysis&lt;/h2&gt;
+&lt;h3 id=&#34;altcoin-price-versus-supply-analysis&#34;&gt;Altcoin price versus supply analysis&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;signal.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;signal.png&#34; alt=&#34;Price versus supply analysis&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;market-movement-statistics-and-heatmap&#34;&gt;Market movement statistics and heatmap&lt;/h2&gt;
+&lt;h3 id=&#34;market-movement-statistics-and-heatmap&#34;&gt;Market movement statistics and heatmap&lt;/h3&gt;
 
-&lt;h1 id=&#34;advanced-trading-strategies&#34;&gt;Advanced Trading Strategies&lt;/h1&gt;
+&lt;h2 id=&#34;advanced-trading-strategies&#34;&gt;Advanced Trading Strategies&lt;/h2&gt;
 
-&lt;h2 id=&#34;iceberg-orders-and-beyond&#34;&gt;Iceberg orders and beyond&lt;/h2&gt;
+&lt;h3 id=&#34;iceberg-orders-and-beyond&#34;&gt;Iceberg orders and beyond&lt;/h3&gt;
 
-&lt;h1 id=&#34;content-management-system&#34;&gt;Content Management System&lt;/h1&gt;
+&lt;h2 id=&#34;content-management-system&#34;&gt;Content Management System&lt;/h2&gt;
+
+&lt;h2 id=&#34;supports&#34;&gt;Supports&lt;/h2&gt;
+
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;MIT&lt;/p&gt;
 </description>
     </item>
     

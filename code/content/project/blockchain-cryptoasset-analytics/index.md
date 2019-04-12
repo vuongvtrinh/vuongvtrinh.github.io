@@ -44,17 +44,22 @@ This project develops an intelligent data driven application to monitor blockcha
 
 [![Screenshot](banner.png)](banner.png)
 
-# Data-Driven Analytics
+## Data-Driven Analytics
 
-## Altcoin price versus supply analysis
+### Altcoin price versus supply analysis
 
 [![Price versus supply analysis](signal.png)](signal.png)
 
-## Market movement statistics and heatmap
+### Market movement statistics and heatmap
 
-# Advanced Trading Strategies
+## Advanced Trading Strategies
 
-## Iceberg orders and beyond
+### Iceberg orders and beyond
 
-# Content Management System
+## Content Management System
 
+## Supports
+
+## License
+
+MIT
