@@ -40,4 +40,5 @@ caption = ""
 
 +++
 
-Blah blah
+
+{{< gallery >}}

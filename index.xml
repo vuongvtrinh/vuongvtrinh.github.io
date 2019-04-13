@@ -54,7 +54,7 @@
 
 &lt;p&gt;This project develops an intelligent data driven application to monitor blockchain projects and to analyze cryptoassets from both utility and speculation perspectives. We target blockchain entrepreneurs, investors and traders all along the life of projects: token generation, listing on secondary market, product delivery, product usage, and token valorization.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;banner.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;banner.png&#34; alt=&#34;Screenshot&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;banner.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;banner.png&#34; alt=&#34;Banner&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Homepage: &lt;a href=&#34;https://kenhtaichinh.herokuapp.com&#34; target=&#34;_blank&#34;&gt;https://kenhtaichinh.herokuapp.com&lt;/a&gt;&lt;/p&gt;
 
@@ -100,7 +100,73 @@
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/project/cryogenics/</guid>
-      <description>&lt;p&gt;Blah blah&lt;/p&gt;
+      <description>
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+  
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/cryogenics/gallery/400W.png&#34; &gt;
+  &lt;img src=&#34;https://vuongvtrinh.github.io/project/cryogenics/gallery/400W.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/cryogenics/gallery/br-simulator.png&#34; &gt;
+  &lt;img src=&#34;https://vuongvtrinh.github.io/project/cryogenics/gallery/br-simulator.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/cryogenics/gallery/cern_wcs18kw.png&#34; &gt;
+  &lt;img src=&#34;https://vuongvtrinh.github.io/project/cryogenics/gallery/cern_wcs18kw.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/cryogenics/gallery/jt-simulator.png&#34; &gt;
+  &lt;img src=&#34;https://vuongvtrinh.github.io/project/cryogenics/gallery/jt-simulator.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/cryogenics/gallery/nc1.png&#34; &gt;
+  &lt;img src=&#34;https://vuongvtrinh.github.io/project/cryogenics/gallery/nc1.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/cryogenics/gallery/valve_split_range.png&#34; &gt;
+  &lt;img src=&#34;https://vuongvtrinh.github.io/project/cryogenics/gallery/valve_split_range.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/cryogenics/gallery/wcs-simulator.png&#34; &gt;
+  &lt;img src=&#34;https://vuongvtrinh.github.io/project/cryogenics/gallery/wcs-simulator.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+
+  
+&lt;/div&gt;
 </description>
     </item>
     
