@@ -42,8 +42,6 @@ caption = ""
 
 This project develops an intelligent data driven application to monitor blockchain projects and to analyze cryptoassets from both utility and speculation perspectives. We target blockchain entrepreneurs, investors and traders all along the life of projects: token generation, listing on secondary market, product delivery, product usage, and token valorization.
 
-Beside real-time analytics service, few research and analysis will be delivered through blog which serves as our information service.
-
 [![Screenshot](banner.png)](banner.png)
 
 Homepage: [https://kenhtaichinh.herokuapp.com](https://kenhtaichinh.herokuapp.com)
@@ -58,11 +56,25 @@ Homepage: [https://kenhtaichinh.herokuapp.com](https://kenhtaichinh.herokuapp.co
 
 ## Advanced Trading Strategies
 
-### Iceberg orders and beyond
+### Iceberg order and beyond
 
 ## Content Management System
 
+Beside real-time analytics service, few research and analysis will be delivered through blog which serves as our information service.
+
+[![User administration](user.png)](user.png)
+
+[![Blogs](blog.png)](blog.png)
+
 ## Supports
+
+Use the Brave privacy browser to earn BAT token: [https://brave.com/ken335](https://brave.com/ken335)
+
+Publish content via Brave creator program: [https://publishers.basicattentiontoken.org](https://publishers.basicattentiontoken.org/)
+
+BTC tipjar: 1DrEMhMP5rAytKyKXRzc6szTcUX8bZzZgq
+
+ETH tipjar: 0x3915D216f9Fc6ec08f956555e84385513dE5f214
 
 ## License
 
