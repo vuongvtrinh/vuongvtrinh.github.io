@@ -39,5 +39,3 @@ caption = ""
   preview_only = true
 
 +++
-
-Blah blah

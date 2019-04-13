@@ -48,19 +48,31 @@ caption = ""
 
 ## Explicit Constrained Control of Warm Compression Stations
 
+### Process configuration and dynamic simulator
+
 [![Warm compression station configuration](wcs-config.png)](wcs-config.png)
 
 [![Warm compression station](wcs-simulator.png)](wcs-simulator.png)
 
+### Allocation control and validation results
+
+[![Allocation control](wcs-allocation.png)](wcs-allocation.png)
+
 [![Validation result](wcs-valid.png)](wcs-valid.png)
 
 ## Hierarchical Constrained Control of Cryogenic Refrigerators
+
+### Process diagram and dynamic simulator
 
 [![Process diagram](process-diagram.png)](process-diagram.png)
 
 [![Brayton cycle](br-simulator.png)](br-simulator.png)
 
 [![Joule-Thompson cycle](jt-simulator.png)](jt-simulator.png)
+
+### Hierarchical control algorithm and numerical results
+
+[![Hierarchical control algorithm](hdmpc-algo.png)](hdmpc-algo.png)
 
 [![Convergence result](aa-convergence.png)](aa-convergence.png)
 

@@ -20,10 +20,14 @@
       <guid>https://vuongvtrinh.github.io/project/cryogenics/</guid>
       <description>Cryogenic Plants at CEA and CERN 
 
-Explicit Constrained Control of Warm Compression Stations 
+Explicit Constrained Control of Warm Compression Stations Process configuration and dynamic simulator 
+
+Allocation control and validation results 
+
+Hierarchical Constrained Control of Cryogenic Refrigerators Process diagram and dynamic simulator 
 
 
-Hierarchical Constrained Control of Cryogenic Refrigerators</description>
+Hierarchical control algorithm and numerical results</description>
     </item>
     
   </channel>
