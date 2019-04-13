@@ -40,5 +40,27 @@ caption = ""
 
 +++
 
+## Cryogenic Plants at CEA and CERN
 
-{{< gallery >}}
+[![CEA 400W station](400W.png)](400W.png)
+
+[![CERN 18kW station](cern_wcs18kw.png)](cern_wcs18kw.png)
+
+## Explicit Constrained Control of Warm Compression Stations
+
+[![Warm compression station configuration](wcs-config.png)](wcs-config.png)
+
+[![Warm compression station](wcs-simulator.png)](wcs-simulator.png)
+
+[![Validation result](wcs-valid.png)](wcs-valid.png)
+
+## Hierarchical Constrained Control of Cryogenic Refrigerators
+
+[![Process diagram](process-diagram.png)](process-diagram.png)
+
+[![Brayton cycle](br-simulator.png)](br-simulator.png)
+
+[![Joule-Thompson cycle](jt-simulator.png)](jt-simulator.png)
+
+[![Convergence result](aa-convergence.png)](aa-convergence.png)
+
