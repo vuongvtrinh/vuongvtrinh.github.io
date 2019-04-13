@@ -42,9 +42,7 @@ caption = ""
 
 ## Cryogenic Plants at CEA and CERN
 
-[![CEA 400W station](400W.png)](400W.png)
-
-[![CERN 18kW station](cern_wcs18kw.png)](cern_wcs18kw.png)
+{{< gallery >}}
 
 ## Explicit Constrained Control of Warm Compression Stations
 
