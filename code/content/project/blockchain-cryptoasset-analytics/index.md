@@ -44,13 +44,21 @@ This project develops an intelligent data driven application to monitor blockcha
 
 [![Banner](banner.png)](banner.png)
 
-Homepage: [https://kenhtaichinh.herokuapp.com](https://kenhtaichinh.herokuapp.com)
+Homepage:
+
+- English: [https://kenhtaichinh.herokuapp.com](https://kenhtaichinh.herokuapp.com)
+
+- Vietnamese: [https://tapchitienmahoa.github.io](https://tapchitienmahoa.github.io)
 
 ## Data-Driven Analytics
 
 ### Altcoin price versus supply analysis
 
-[![Price versus supply analysis](signal.png)](signal.png)
+![t.png](t.png)
+
+![x1.png](x1.png)
+
+![x2.png](x2.png)
 
 ### Market movement statistics and heatmap
 

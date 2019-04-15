@@ -55,13 +55,23 @@
 
 &lt;p&gt;&lt;a href=&#34;banner.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;banner.png&#34; alt=&#34;Banner&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Homepage: &lt;a href=&#34;https://kenhtaichinh.herokuapp.com&#34; target=&#34;_blank&#34;&gt;https://kenhtaichinh.herokuapp.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Homepage:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;English: &lt;a href=&#34;https://kenhtaichinh.herokuapp.com&#34; target=&#34;_blank&#34;&gt;https://kenhtaichinh.herokuapp.com&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Vietnamese: &lt;a href=&#34;https://tapchitienmahoa.github.io&#34; target=&#34;_blank&#34;&gt;https://tapchitienmahoa.github.io&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&#34;data-driven-analytics&#34;&gt;Data-Driven Analytics&lt;/h2&gt;
 
 &lt;h3 id=&#34;altcoin-price-versus-supply-analysis&#34;&gt;Altcoin price versus supply analysis&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#34;signal.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;signal.png&#34; alt=&#34;Price versus supply analysis&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;t.png&#34; alt=&#34;t.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;x1.png&#34; alt=&#34;x1.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;x2.png&#34; alt=&#34;x2.png&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;market-movement-statistics-and-heatmap&#34;&gt;Market movement statistics and heatmap&lt;/h3&gt;
 
