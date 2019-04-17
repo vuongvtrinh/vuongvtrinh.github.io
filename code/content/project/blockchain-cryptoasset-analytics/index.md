@@ -62,6 +62,14 @@ Homepage:
 
 ### Market movement statistics and heatmap
 
+### Bitcoin aggregated statistics
+
+![btc.png](btc.png)
+
+### Newsflow sentiment analysis
+
+![n.png](n.png)
+
 ## Advanced Trading Strategies
 
 ### Iceberg order and beyond
