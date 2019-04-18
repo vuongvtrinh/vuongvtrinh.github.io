@@ -53,15 +53,9 @@
 
 &lt;p&gt;This project develops an intelligent data driven application to monitor blockchain projects and to analyze cryptoassets from both utility and speculation perspectives. We target blockchain entrepreneurs, investors and traders all along the life of projects: token generation, listing on secondary market, product delivery, product usage, and token valorization.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;banner.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;banner.png&#34; alt=&#34;Banner&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Homepage:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;English: &lt;a href=&#34;https://kenhtaichinh.herokuapp.com&#34; target=&#34;_blank&#34;&gt;https://kenhtaichinh.herokuapp.com&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Vietnamese: &lt;a href=&#34;https://tapchitienmahoa.github.io&#34; target=&#34;_blank&#34;&gt;https://tapchitienmahoa.github.io&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Homepage:
+- English: &lt;a href=&#34;https://kenhtaichinh.herokuapp.com&#34; target=&#34;_blank&#34;&gt;https://kenhtaichinh.herokuapp.com&lt;/a&gt;
+- Vietnamese: &lt;a href=&#34;https://tapchitienmahoa.github.io&#34; target=&#34;_blank&#34;&gt;https://tapchitienmahoa.github.io&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;data-driven-analytics&#34;&gt;Data-Driven Analytics&lt;/h2&gt;
 
@@ -85,29 +79,9 @@
 
 &lt;h2 id=&#34;advanced-trading-strategies&#34;&gt;Advanced Trading Strategies&lt;/h2&gt;
 
+&lt;h3 id=&#34;portfolio-management-and-optimization&#34;&gt;Portfolio management and optimization&lt;/h3&gt;
+
 &lt;h3 id=&#34;iceberg-order-and-beyond&#34;&gt;Iceberg order and beyond&lt;/h3&gt;
-
-&lt;h2 id=&#34;content-management-system&#34;&gt;Content Management System&lt;/h2&gt;
-
-&lt;p&gt;Beside real-time analytics service, few research and analysis will be delivered through blog which serves as our information service.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;user.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;user.png&#34; alt=&#34;User administration&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;blog.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;blog.png&#34; alt=&#34;Blogs&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;supports&#34;&gt;Supports&lt;/h2&gt;
-
-&lt;p&gt;Use the Brave privacy browser to earn BAT token: &lt;a href=&#34;https://brave.com/ken335&#34; target=&#34;_blank&#34;&gt;https://brave.com/ken335&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Publish content via Brave creator program: &lt;a href=&#34;https://publishers.basicattentiontoken.org/&#34; target=&#34;_blank&#34;&gt;https://publishers.basicattentiontoken.org&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;BTC tipjar: 1DrEMhMP5rAytKyKXRzc6szTcUX8bZzZgq&lt;/p&gt;
-
-&lt;p&gt;ETH tipjar: 0x3915D216f9Fc6ec08f956555e84385513dE5f214&lt;/p&gt;
-
-&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
-
-&lt;p&gt;MIT&lt;/p&gt;
 </description>
     </item>
     
