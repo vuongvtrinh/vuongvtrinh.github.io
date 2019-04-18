@@ -53,9 +53,13 @@
 
 &lt;p&gt;This project develops an intelligent data driven application to monitor blockchain projects and to analyze cryptoassets from both utility and speculation perspectives. We target blockchain entrepreneurs, investors and traders all along the life of projects: token generation, listing on secondary market, product delivery, product usage, and token valorization.&lt;/p&gt;
 
-&lt;p&gt;Homepage:
-- English: &lt;a href=&#34;https://kenhtaichinh.herokuapp.com&#34; target=&#34;_blank&#34;&gt;https://kenhtaichinh.herokuapp.com&lt;/a&gt;
-- Vietnamese: &lt;a href=&#34;https://tapchitienmahoa.github.io&#34; target=&#34;_blank&#34;&gt;https://tapchitienmahoa.github.io&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Homepage:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;English: &lt;a href=&#34;https://kenhtaichinh.herokuapp.com&#34; target=&#34;_blank&#34;&gt;https://kenhtaichinh.herokuapp.com&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Vietnamese: &lt;a href=&#34;https://tapchitienmahoa.github.io&#34; target=&#34;_blank&#34;&gt;https://tapchitienmahoa.github.io&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&#34;data-driven-analytics&#34;&gt;Data-Driven Analytics&lt;/h2&gt;
 
