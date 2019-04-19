@@ -58,7 +58,9 @@ Homepage:
 
 ![x2.png](x2.png)
 
-### Market movement statistics and heatmap
+### Market movement statistics
+
+![volume.png](volume.png)
 
 ### Bitcoin aggregated statistics
 
