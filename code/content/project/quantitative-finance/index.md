@@ -3,13 +3,13 @@
 date = "2018-01-01"
 
 # Project title.
-title = "Blockchain & Cryptoasset Analytics"
+title = "Quantitative Analytics and Trading Strategies of Cryptoassets"
 
 # Project summary to display on homepage.
 summary = "This project develops an intelligent data driven application to monitor blockchain projects and to analyze cryptoassets from both utility and speculation perspectives. We target blockchain entrepreneurs, investors and traders all along the life of projects: token generation, listing on secondary market, product delivery, product usage, and token valorization."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "webapp.jpg"
+image_preview = ""
 
 # Tags: can be used for filtering projects.
 tags = ["blockchain-cryptoasset", "quantitative-analytics"]
@@ -42,12 +42,6 @@ caption = ""
 
 This project develops an intelligent data driven application to monitor blockchain projects and to analyze cryptoassets from both utility and speculation perspectives. We target blockchain entrepreneurs, investors and traders all along the life of projects: token generation, listing on secondary market, product delivery, product usage, and token valorization.
 
-Homepage:
-
-- English: [https://kenhtaichinh.herokuapp.com](https://kenhtaichinh.herokuapp.com)
-
-- Vietnamese: [https://tapchitienmahoa.github.io](https://tapchitienmahoa.github.io)
-
 ## Data-Driven Analytics
 
 ### Altcoin price versus supply analysis
@@ -60,9 +54,9 @@ Homepage:
 
 ### Market movement statistics
 
-![volume.png](volume.png)
+![market.png](market.png)
 
-### Bitcoin aggregated statistics
+### Bitcoin aggregated statistics: traded exchanges vs. network transactions
 
 ![btc.png](btc.png)
 
@@ -75,3 +69,7 @@ Homepage:
 ### Portfolio management and optimization
 
 ### Iceberg order and beyond
+
+## Web Application Screenshots
+
+{{< gallery >}}

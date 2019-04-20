@@ -44,54 +44,6 @@
     </item>
     
     <item>
-      <title>Blockchain &amp; Cryptoasset Analytics</title>
-      <link>https://vuongvtrinh.github.io/project/blockchain-cryptoasset-analytics/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://vuongvtrinh.github.io/project/blockchain-cryptoasset-analytics/</guid>
-      <description>
-
-&lt;p&gt;This project develops an intelligent data driven application to monitor blockchain projects and to analyze cryptoassets from both utility and speculation perspectives. We target blockchain entrepreneurs, investors and traders all along the life of projects: token generation, listing on secondary market, product delivery, product usage, and token valorization.&lt;/p&gt;
-
-&lt;p&gt;Homepage:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;English: &lt;a href=&#34;https://kenhtaichinh.herokuapp.com&#34; target=&#34;_blank&#34;&gt;https://kenhtaichinh.herokuapp.com&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Vietnamese: &lt;a href=&#34;https://tapchitienmahoa.github.io&#34; target=&#34;_blank&#34;&gt;https://tapchitienmahoa.github.io&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;data-driven-analytics&#34;&gt;Data-Driven Analytics&lt;/h2&gt;
-
-&lt;h3 id=&#34;altcoin-price-versus-supply-analysis&#34;&gt;Altcoin price versus supply analysis&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;t.png&#34; alt=&#34;t.png&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;x1.png&#34; alt=&#34;x1.png&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;x2.png&#34; alt=&#34;x2.png&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;market-movement-statistics&#34;&gt;Market movement statistics&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;volume.png&#34; alt=&#34;volume.png&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;bitcoin-aggregated-statistics&#34;&gt;Bitcoin aggregated statistics&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;btc.png&#34; alt=&#34;btc.png&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;newsflow-sentiment-analysis&#34;&gt;Newsflow sentiment analysis&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;n.png&#34; alt=&#34;n.png&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;advanced-trading-strategies&#34;&gt;Advanced Trading Strategies&lt;/h2&gt;
-
-&lt;h3 id=&#34;portfolio-management-and-optimization&#34;&gt;Portfolio management and optimization&lt;/h3&gt;
-
-&lt;h3 id=&#34;iceberg-order-and-beyond&#34;&gt;Iceberg order and beyond&lt;/h3&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Innovative Advanced Control of Large Cryogenic Systems</title>
       <link>https://vuongvtrinh.github.io/project/cryogenics/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
@@ -174,6 +126,76 @@
 &lt;p&gt;&lt;a href=&#34;hdmpc-algo.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;hdmpc-algo.png&#34; alt=&#34;Hierarchical control algorithm&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;aa-convergence.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;aa-convergence.png&#34; alt=&#34;Convergence result&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Quantitative Analytics and Trading Strategies of Cryptoassets</title>
+      <link>https://vuongvtrinh.github.io/project/quantitative-finance/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/project/quantitative-finance/</guid>
+      <description>
+
+&lt;p&gt;This project develops an intelligent data driven application to monitor blockchain projects and to analyze cryptoassets from both utility and speculation perspectives. We target blockchain entrepreneurs, investors and traders all along the life of projects: token generation, listing on secondary market, product delivery, product usage, and token valorization.&lt;/p&gt;
+
+&lt;h2 id=&#34;data-driven-analytics&#34;&gt;Data-Driven Analytics&lt;/h2&gt;
+
+&lt;h3 id=&#34;altcoin-price-versus-supply-analysis&#34;&gt;Altcoin price versus supply analysis&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;t.png&#34; alt=&#34;t.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;x1.png&#34; alt=&#34;x1.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;x2.png&#34; alt=&#34;x2.png&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;market-movement-statistics&#34;&gt;Market movement statistics&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;market.png&#34; alt=&#34;market.png&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;bitcoin-aggregated-statistics-traded-exchanges-vs-network-transactions&#34;&gt;Bitcoin aggregated statistics: traded exchanges vs. network transactions&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;btc.png&#34; alt=&#34;btc.png&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;newsflow-sentiment-analysis&#34;&gt;Newsflow sentiment analysis&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;n.png&#34; alt=&#34;n.png&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;advanced-trading-strategies&#34;&gt;Advanced Trading Strategies&lt;/h2&gt;
+
+&lt;h3 id=&#34;portfolio-management-and-optimization&#34;&gt;Portfolio management and optimization&lt;/h3&gt;
+
+&lt;h3 id=&#34;iceberg-order-and-beyond&#34;&gt;Iceberg order and beyond&lt;/h3&gt;
+
+&lt;h2 id=&#34;web-application-screenshots&#34;&gt;Web Application Screenshots&lt;/h2&gt;
+
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+  
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/quantitative-finance/gallery/blog.png&#34; &gt;
+  &lt;img src=&#34;https://vuongvtrinh.github.io/project/quantitative-finance/gallery/blog.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/quantitative-finance/gallery/user.png&#34; &gt;
+  &lt;img src=&#34;https://vuongvtrinh.github.io/project/quantitative-finance/gallery/user.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+
+  
+&lt;/div&gt;
 </description>
     </item>
     
