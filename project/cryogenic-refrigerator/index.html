@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 3.2.0">
+  <meta name="generator" content="Hugo 0.54.0" />
+  <meta name="author" content="Vuong V. Trinh">
+
+  
+  
+  
+  
+    
+  
+  <meta name="description" content="The ANR CRYOGREEN project gathers collaborative academic and industrial partners, including GIPSA-lab, CEA and CERN. We target to advanced control of large cryogenic systems via explicit nonlinear and hierarchical distributed model predictive control frameworks.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://vuongvtrinh.github.io/project/cryogenic-refrigerator/">
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#ee5863">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Cabin:400,500|Roboto+Mono|Cabin+Condensed:600">
+  
+
+  <link rel="stylesheet" href="/styles.css">
+  
+  <link rel="stylesheet" href="/css/custom-css.css">
+  
+
+  
+  
+  
+
+  
+  <link rel="alternate" href="https://vuongvtrinh.github.io/index.xml" type="application/rss+xml" title="Vuong V. Trinh">
+  <link rel="feed" href="https://vuongvtrinh.github.io/index.xml" type="application/rss+xml" title="Vuong V. Trinh">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://vuongvtrinh.github.io/project/cryogenic-refrigerator/">
+
+  
+  
+  
+  
+    
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Vuong V. Trinh">
+  <meta property="og:url" content="https://vuongvtrinh.github.io/project/cryogenic-refrigerator/">
+  <meta property="og:title" content="Innovative Advanced Control of Large Cryogenic Systems | Vuong V. Trinh">
+  <meta property="og:description" content="The ANR CRYOGREEN project gathers collaborative academic and industrial partners, including GIPSA-lab, CEA and CERN. We target to advanced control of large cryogenic systems via explicit nonlinear and hierarchical distributed model predictive control frameworks."><meta property="og:image" content="https://vuongvtrinh.github.io/project/cryogenic-refrigerator/featured.png">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2018-01-01T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2018-01-01T00:00:00&#43;00:00">
+  
+
+  
+
+  
+
+  <title>Innovative Advanced Control of Large Cryogenic Systems | Vuong V. Trinh</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Vuong V. Trinh</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#projects">
+            
+            <span>Projects</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#publications">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#posts">
+            
+            <span>Blogs</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article article-project" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Innovative Advanced Control of Large Cryogenic Systems</h1>
+
+  
+
+  
+    
+
+<div class="article-metadata">
+
+  
+  
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Vuong V. Trinh">
+  </span>
+  
+
+  <span class="article-date">
+    
+    <meta content="2018-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+    <time datetime="2018-01-01 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+      Jan 1, 2018
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Vuong V. Trinh">
+  </span>
+ 
+  
+
+  
+  
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Innovative%20Advanced%20Control%20of%20Large%20Cryogenic%20Systems&amp;url=https%3a%2f%2fvuongvtrinh.github.io%2fproject%2fcryogenic-refrigerator%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fvuongvtrinh.github.io%2fproject%2fcryogenic-refrigerator%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fvuongvtrinh.github.io%2fproject%2fcryogenic-refrigerator%2f&amp;title=Innovative%20Advanced%20Control%20of%20Large%20Cryogenic%20Systems"
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fvuongvtrinh.github.io%2fproject%2fcryogenic-refrigerator%2f&amp;title=Innovative%20Advanced%20Control%20of%20Large%20Cryogenic%20Systems"
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Innovative%20Advanced%20Control%20of%20Large%20Cryogenic%20Systems&amp;body=https%3a%2f%2fvuongvtrinh.github.io%2fproject%2fcryogenic-refrigerator%2f">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<p>Large cryogenic systems (e.g. cryoplant of the Large Hadron Collider), extract large heat loads at low temperature. This process requires much power at room temperature and cryogenic users and manufacturers have been for a long time aware of the importance of the energy efficiency of these devices. Indeed, these large cryoplants are optimized for a certain design point, and it has been possible in the past years to reach an efficiency of 20% of the Carnot efficiency in the LHC cryoplant. However, such large cryoplants are tricky to control, and subjected to some instabilities as soon as the heat loads change significantly above a certain time scale. Moreover, when heat loads change, the optimum efficiency, reached at the design point, is no longer guaranteed, as the optimum efficiency is the result of a complex compromise between the operations of different components. It would be of major interest for cryogenic users to have at their disposal a tool ensuring that the electrical consumption of the cryoplant will always be minimum. This is the objective of this project. In this project, we propose to develop a totally new control system for large refrigerators, which amazingly still use so far very simple PIDs, in spite of their complexity. Such a control system could also be used in any complex cryogenic system, where heat loads are not constant in time. Our approach is the following: first we will base our control system on a dynamic modeling of a large cryoplant. In the recent years, steady improvements were made in the dynamic modeling of such complex devices, and we will build upon recent results obtained at CERN and at CEA Grenoble. Based on such modeling, we will divide the refrigerator into different subsystems. Then the description of these subsystems will be based on “control oriented” simplified models, which will still describe accurately the subsystems, but will require much less memory and calculation than the general physics driven model of the refrigerator. This will enable an easier implementation of these simplified models in a PLC. Each subsystem will be controlled by its local controller, with various interactions with its neighbors. In this project, we plan to use a “Parametrized Distributed in Time Model Predictive Control” scheme, which seems the most promising local multivariable controller, and the most suited to our constrained environment. This new approach is a generalization of the MPC scheme, which is likely to enable an optimized control within a real time system such as a cryogenic refrigerator. The different subsystems will need to exchange information between each other, and some decisions will be needed, in order to solve possible conflicts. This is a typical case, where a cooperative control architecture would bring a major improvement. In this domain, GIPSA-lab has a prominent experience, and will therefore bring its skill in the definition of such an innovative architecture. Within this project, we therefore plan to develop a totally innovative control scheme of a cryogenic refrigerator. All the different steps will need to be carefully experimentally validated, and this will be done in the medium-sized cryogenic refrigerator available at CEA-SBT. This refrigerator is totally dedicated to R&amp;D, and will be made available for verifying the models, testing local controllers, and evaluating the benefits brought by the innovative architecture developed within this project. A medium sized company will be in charge of the software translation to PLC, enabling an efficient and rapid development of the controller. Final tests, either on a simulator of a CERN refrigerator, or, if it is available, on a large cryogenic refrigerator itself based at CERN, will be performed to finally validate the whole development. This project needs an exceptional variety of prominent expertise(cryogenics,thermodynamic cycles, control systems and PLCs), which are gathered in the CRYOGREEN project submitted here.</p>
+
+<h2 id="cryogenic-plants-at-cea-and-cern">Cryogenic Plants at CEA and CERN</h2>
+
+
+
+<div class="gallery">
+
+  
+  
+  
+  
+    
+    
+    
+    
+  <a data-fancybox="gallery-gallery" href="/project/cryogenic-refrigerator/gallery/400W.png" >
+  <img src="/project/cryogenic-refrigerator/gallery/400W.png" alt="">
+  </a>
+  
+    
+    
+    
+    
+  <a data-fancybox="gallery-gallery" href="/project/cryogenic-refrigerator/gallery/cern_wcs18kw.png" >
+  <img src="/project/cryogenic-refrigerator/gallery/cern_wcs18kw.png" alt="">
+  </a>
+  
+
+  
+</div>
+
+<h2 id="explicit-constrained-control-of-warm-compression-stations">Explicit Constrained Control of Warm Compression Stations</h2>
+
+<h3 id="process-configuration-and-dynamic-simulator">Process configuration and dynamic simulator</h3>
+
+<p><a href="wcs-config.png" target="_blank"><img src="wcs-config.png" alt="Warm compression station configuration" /></a></p>
+
+<p><a href="wcs-simulator.png" target="_blank"><img src="wcs-simulator.png" alt="Warm compression station" /></a></p>
+
+<h3 id="allocation-control-and-validation-results">Allocation control and validation results</h3>
+
+<p><a href="wcs-allocation.png" target="_blank"><img src="wcs-allocation.png" alt="Allocation control" /></a></p>
+
+<p><a href="wcs-valid.png" target="_blank"><img src="wcs-valid.png" alt="Validation result" /></a></p>
+
+<h2 id="hierarchical-constrained-control-of-cryogenic-refrigerators">Hierarchical Constrained Control of Cryogenic Refrigerators</h2>
+
+<h3 id="process-diagram-and-dynamic-simulator">Process diagram and dynamic simulator</h3>
+
+<p><a href="process-diagram.png" target="_blank"><img src="process-diagram.png" alt="Process diagram" /></a></p>
+
+<p><a href="br-simulator.png" target="_blank"><img src="br-simulator.png" alt="Brayton cycle" /></a></p>
+
+<p><a href="jt-simulator.png" target="_blank"><img src="jt-simulator.png" alt="Joule-Thompson cycle" /></a></p>
+
+<h3 id="hierarchical-control-algorithm-and-numerical-results">Hierarchical control algorithm and numerical results</h3>
+
+<p><a href="hdmpc-algo.png" target="_blank"><img src="hdmpc-algo.png" alt="Hierarchical control algorithm" /></a></p>
+
+<p><a href="aa-convergence.png" target="_blank"><img src="aa-convergence.png" alt="Convergence result" /></a></p>
+
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/optimization-control/">optimization-control</a>
+  
+  <a class="badge badge-light" href="/tags/model-predictive-control/">model-predictive-control</a>
+  
+  <a class="badge badge-light" href="/tags/cryogenics/">cryogenics</a>
+  
+  <a class="badge badge-light" href="/tags/thermodynamics/">thermodynamics</a>
+  
+</div>
+
+
+
+    
+
+
+
+
+
+
+<div class="media author-card" itemscope itemtype="http://schema.org/Person">
+  
+  <img class="portrait mr-3" src="/img/portrait.jpg" itemprop="image" alt="Avatar">
+  
+  <div class="media-body">
+    <h5 class="card-title" itemprop="name"><a href="/">Vuong V. Trinh</a></h5>
+    <h6 class="card-subtitle">Research Engineer</h6>
+    
+    <ul class="network-icon" aria-hidden="true">
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      <li>
+        <a itemprop="sameAs" href="mailto:vanvuong.trinh@gmail.com" >
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://github.com/trinhvv" target="_blank" rel="noopener">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://www.researchgate.net/profile/Van_Vuong_Trinh" target="_blank" rel="noopener">
+          <i class="fab fa-researchgate"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://scholar.google.fr/citations?user=U9xo4wsAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+          <i class="ai ai-google-scholar"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://orcid.org/0000-0001-9148-7878" target="_blank" rel="noopener">
+          <i class="ai ai-orcid"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://www.linkedin.com/in/trinhvv/" target="_blank" rel="noopener">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="/cv/resume.pdf" >
+          <i class="ai ai-cv"></i>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+
+
+
+    
+    
+
+    
+
+      
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+    
+
+  </div>
+</article>
+
+
+
+<div class="container">
+  <footer class="site-footer">
+  
+  <p class="powered-by">
+    <a href="/license/"><i class="fab fa-creative-commons fa-2x"></i><i class="fab fa-creative-commons-by fa-2x"></i><i class="fab fa-creative-commons-sa fa-2x"></i> <br> CC BY SA </a><br>
+  </p>
+  
+
+  <p class="powered-by">
+    &copy; Vuong V. Trinh 2016 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+</div>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academic.min.d037ee5294b166a79dec317c58aea9cc.js"></script>
+
+    
+
+  </body>
+</html>
+
