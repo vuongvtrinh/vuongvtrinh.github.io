@@ -223,11 +223,6 @@ enableGitInfo = false
   name = "Blogs"
   url = "#posts"
   weight = 4
-  
-[[menu.main]]
-  name = "Contact"
-  url = "#contact"
-  weight = 5
 
 # Search.
 [params.search]
