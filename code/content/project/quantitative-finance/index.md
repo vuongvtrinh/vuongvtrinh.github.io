@@ -58,7 +58,9 @@ This project develops an intelligent data driven application to monitor blockcha
 
 ### Bitcoin aggregated statistics: traded exchanges vs. network transactions
 
-![btc.png](btc.png)
+![blockchain.png](blockchain.png)
+
+![bidasksum.png](bidasksum.png)
 
 ### Newsflow sentiment analysis
 
