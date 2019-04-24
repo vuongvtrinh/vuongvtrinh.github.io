@@ -18,7 +18,14 @@
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/project/cryogenic-refrigerator/</guid>
-      <description>Large cryogenic systems (e.g. cryoplant of the Large Hadron Collider), extract large heat loads at low temperature. This process requires much power at room temperature and cryogenic users and manufacturers have been for a long time aware of the importance of the energy efficiency of these devices. Indeed, these large cryoplants are optimized for a certain design point, and it has been possible in the past years to reach an efficiency of 20% of the Carnot efficiency in the LHC cryoplant.</description>
+      <description>Cryogenic Plants at CEA and CERN    Explicit Constrained Control of Warm Compression Stations Process configuration and dynamic simulator 
+
+Allocation control and validation results 
+
+Hierarchical Constrained Control of Cryogenic Refrigerators Process diagram and dynamic simulator 
+
+
+Hierarchical control algorithm and numerical results</description>
     </item>
     
   </channel>
