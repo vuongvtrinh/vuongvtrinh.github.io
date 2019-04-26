@@ -18,7 +18,7 @@
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/post/trading-analysis-bot/</guid>
-      <description>Blah blah</description>
+      <description>import os import telegram from telegram import ParseMode from telegram.ext import Updater, CommandHandler from binance.client import Client from binance_trading_bot import analysis, monitor, news, bitcoin, supply, volume from sqlalchemy import create_engine from pandas.io import sql MANUAL_TEXT = &amp;quot;&amp;quot;&amp;quot;Data-driven analytics of crypto-market on Binance. *Features* - Altcoin supply analysis - Exchange movement statistics - Bitcoin aggregated charts - Newsflow *Commands* - /x &amp;lt;coin&amp;gt; Usage: /x fet knc. - /t &amp;lt;market&amp;gt; Usage: /t qtumusdt or /t btt xlmusdt bttbnb.</description>
     </item>
     
   </channel>

@@ -30,7 +30,172 @@
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/post/trading-analysis-bot/</guid>
-      <description>&lt;p&gt;Blah blah&lt;/p&gt;
+      <description>&lt;pre&gt;&lt;code&gt;import os
+import telegram
+from telegram import ParseMode
+from telegram.ext import Updater, CommandHandler
+from binance.client import Client
+from binance_trading_bot import analysis, monitor, news, bitcoin, supply, volume
+from sqlalchemy import create_engine
+from pandas.io import sql
+
+MANUAL_TEXT = &amp;quot;&amp;quot;&amp;quot;Data-driven analytics of crypto-market on Binance.
+*Features*
+- Altcoin supply analysis
+- Exchange movement statistics
+- Bitcoin aggregated charts
+- Newsflow
+*Commands*
+- /x &amp;lt;coin&amp;gt;
+Usage: /x fet knc. 
+- /t &amp;lt;market&amp;gt;
+Usage: /t qtumusdt or /t btt xlmusdt bttbnb.
+- /s &amp;lt;asset&amp;gt;
+Usage: /s qtum or /s btt fet.
+- /m
+Usage: /m.
+- /b &amp;lt;n-day&amp;gt;
+Usage: /b or /b 90.
+- /e &amp;lt;n-day&amp;gt;
+Usage: /e or /e 90.
+- /n
+Usage: /n.
+*Supports*
+Start trading on [Binance](https://www.binance.com/?ref=13339920), [Huobi](https://www.huobi.br.com/en-us/topic/invited/?invite_code=x93k3) or [Coinbase](https://www.coinbase.com/join/581a706d01bc8b00dd1d1737).
+Use the [Brave](https://brave.com/ken335) privacy browser to earn BAT token.
+BTC tipjar: [1DrEMhMP5rAytKyKXRzc6szTcUX8bZzZgq](1DrEMhMP5rAytKyKXRzc6szTcUX8bZzZgq).
+*Contact*
+@kakalotz
+_Disclammer: only accessible for registered users._
+ &amp;quot;&amp;quot;&amp;quot;
+
+TELEGRAM_TOKEN = os.environ[&#39;TELEGRAM_TOKEN&#39;]
+BINANCE_SECRET_KEY = os.environ[&#39;BINANCE_SECRET_KEY&#39;]
+BINANCE_API_KEY = os.environ[&#39;BINANCE_API_KEY&#39;]
+SQLALCHEMY_DATABASE_URI = os.environ[&#39;SQLALCHEMY_DATABASE_URI&#39;]
+
+engine = create_engine(SQLALCHEMY_DATABASE_URI)
+conn = engine.raw_connection()
+userList = sql.read_sql(&#39;SELECT * FROM &amp;quot;userList&amp;quot;&#39;, conn)[&#39;USERNAME&#39;].tolist()
+conn.close() 
+
+client = Client(BINANCE_API_KEY, BINANCE_SECRET_KEY)
+
+def x(bot, update, args):
+    bot.send_chat_action(chat_id=update.message.chat_id, 
+                         action=telegram.ChatAction.TYPING)
+    if str(update.message.from_user.username) in userList:
+        TIME_FRAME_STEP = &#39;4h&#39;
+        TIME_FRAME_LIST = [&#39;4h&#39;, &#39;1d&#39;]
+        TIME_FRAME_DURATION_LIST = [&#39;45 days ago UTC&#39;, &#39;90 days ago UTC&#39;]
+        for coin in args:
+            market = coin.upper()+&#39;BTC&#39;
+            for i in range(len(TIME_FRAME_LIST)):
+                TIME_FRAME = TIME_FRAME_LIST[i]
+                TIME_FRAME_DURATION = TIME_FRAME_DURATION_LIST[i]
+                try:
+                    supply.supply_analysis(client, market, TIME_FRAME_STEP, TIME_FRAME, TIME_FRAME_DURATION)
+                    bot.send_photo(chat_id=update.message.chat_id, 
+                               photo=open(&#39;img/&#39;+market+&#39;_&#39;+TIME_FRAME.upper()+&#39;.png&#39;, &#39;rb&#39;))
+                except Exception:
+                    pass
+
+def t(bot, update, args):
+    bot.send_chat_action(chat_id=update.message.chat_id, 
+                         action=telegram.ChatAction.TYPING)
+    if str(update.message.from_user.username) in userList:
+        for market in args:
+            market = market.upper()
+            TIME_FRAME_STEP = [&#39;1d&#39;, &#39;1d&#39;, &#39;4h&#39;]
+            TIME_FRAME = [&#39;1w&#39;, &#39;1d&#39;, &#39;4h&#39;]
+            TIME_FRAME_DURATION = [&#39;365 days ago UTC&#39;, &#39;90 days ago UTC&#39;, &#39;14 days ago UTC&#39;]
+            try:
+                volume.analysis_visual(client, market, TIME_FRAME_STEP, TIME_FRAME, TIME_FRAME_DURATION)
+            except Exception:
+                market = market+&#39;BTC&#39;
+                volume.analysis_visual(client, market, TIME_FRAME_STEP, TIME_FRAME, TIME_FRAME_DURATION)
+            bot.send_photo(chat_id=update.message.chat_id, 
+                       photo=open(&#39;img/&#39;+market+&#39;.png&#39;, &#39;rb&#39;))
+
+def s(bot, update, args):
+    bot.send_chat_action(chat_id=update.message.chat_id, 
+                         action=telegram.ChatAction.TYPING)
+    if str(update.message.from_user.username) in userList:
+        for asset in args:
+            asset = asset.upper()
+            msg = analysis.asset_analysis(client, asset)
+            update.message.reply_text(msg, parse_mode=ParseMode.MARKDOWN)
+
+def m(bot, update):
+    bot.send_chat_action(chat_id=update.message.chat_id, 
+                         action=telegram.ChatAction.TYPING)
+    if str(update.message.from_user.username) in userList:
+        msg = monitor.market_change(client)
+        update.message.reply_text(msg, parse_mode=ParseMode.MARKDOWN)
+        
+def b(bot, update, args):
+    bot.send_chat_action(chat_id=update.message.chat_id, 
+                         action=telegram.ChatAction.TYPING)
+    if str(update.message.from_user.username) in userList:
+        try:
+            timeInterval = int(args[0])
+        except Exception:
+            timeInterval = 120
+        bitcoin.blockchain(timeInterval)
+        bot.send_photo(chat_id=update.message.chat_id, 
+                   photo=open(&#39;img/blockchain.png&#39;, &#39;rb&#39;))
+        bitcoin.bid_ask_sum()
+        bot.send_photo(chat_id=update.message.chat_id, 
+                   photo=open(&#39;img/bidasksum.png&#39;, &#39;rb&#39;))
+        monitor.market_movement(client, timeInterval)
+        bot.send_photo(chat_id=update.message.chat_id, 
+                   photo=open(&#39;img/market.png&#39;, &#39;rb&#39;))
+                   
+def e(bot, update, args):
+    bot.send_chat_action(chat_id=update.message.chat_id, 
+                         action=telegram.ChatAction.TYPING)
+    if str(update.message.from_user.username) in userList:
+        try:
+            timeInterval = int(args[0])
+        except Exception:
+            timeInterval = 120
+        monitor.market_movement(client, timeInterval)
+        bot.send_photo(chat_id=update.message.chat_id, 
+                   photo=open(&#39;img/market.png&#39;, &#39;rb&#39;))
+        
+def n(bot, update):
+    bot.send_chat_action(chat_id=update.message.chat_id, 
+                         action=telegram.ChatAction.TYPING)
+    if str(update.message.from_user.username) in userList:
+        msg = news.newsflow()
+        update.message.reply_text(msg, 
+                                  parse_mode=ParseMode.MARKDOWN,
+                                  disable_web_page_preview=True)
+
+def manual(bot,update):
+    bot.send_message(chat_id=update.message.chat_id, 
+                     text=MANUAL_TEXT, 
+                     parse_mode=ParseMode.MARKDOWN, 
+                     disable_web_page_preview=True)
+
+def main():
+    updater=Updater(TELEGRAM_TOKEN)
+    dp=updater.dispatcher
+    dp.add_handler(CommandHandler(&amp;quot;start&amp;quot;, manual))
+    dp.add_handler(CommandHandler(&amp;quot;help&amp;quot;, manual))
+    dp.add_handler(CommandHandler(&amp;quot;m&amp;quot;, m))
+    dp.add_handler(CommandHandler(&amp;quot;n&amp;quot;, n))
+    dp.add_handler(CommandHandler(&amp;quot;b&amp;quot;, b, pass_args=True))
+    dp.add_handler(CommandHandler(&amp;quot;e&amp;quot;, e, pass_args=True))
+    dp.add_handler(CommandHandler(&amp;quot;x&amp;quot;, x, pass_args=True))
+    dp.add_handler(CommandHandler(&amp;quot;t&amp;quot;, t, pass_args=True))
+    dp.add_handler(CommandHandler(&amp;quot;s&amp;quot;, s, pass_args=True))
+    updater.start_polling()
+    updater.idle()
+
+if __name__ == &#39;__main__&#39;:
+    main()
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
