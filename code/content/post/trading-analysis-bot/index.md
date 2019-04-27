@@ -231,6 +231,9 @@ git push heroku master
 heroku ps:scale bot=1 
 ```
 
+## Snapshots
+
+{{< gallery >}}
 
 
 

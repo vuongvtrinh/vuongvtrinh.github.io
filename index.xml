@@ -220,6 +220,60 @@ heroku config:set SQLALCHEMY_DATABASE_URI=XXXXXXXXXXXXXXXXXXXXXXXXX
 git push heroku master
 heroku ps:scale bot=1 
 &lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;snapshots&#34;&gt;Snapshots&lt;/h2&gt;
+
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+  
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/post/trading-analysis-bot/gallery/IMG_0285.PNG&#34; &gt;
+  &lt;img src=&#34;https://vuongvtrinh.github.io/post/trading-analysis-bot/gallery/IMG_0285.PNG&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/post/trading-analysis-bot/gallery/IMG_0286.PNG&#34; &gt;
+  &lt;img src=&#34;https://vuongvtrinh.github.io/post/trading-analysis-bot/gallery/IMG_0286.PNG&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/post/trading-analysis-bot/gallery/IMG_0287.PNG&#34; &gt;
+  &lt;img src=&#34;https://vuongvtrinh.github.io/post/trading-analysis-bot/gallery/IMG_0287.PNG&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/post/trading-analysis-bot/gallery/IMG_0288.PNG&#34; &gt;
+  &lt;img src=&#34;https://vuongvtrinh.github.io/post/trading-analysis-bot/gallery/IMG_0288.PNG&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/post/trading-analysis-bot/gallery/IMG_0289.PNG&#34; &gt;
+  &lt;img src=&#34;https://vuongvtrinh.github.io/post/trading-analysis-bot/gallery/IMG_0289.PNG&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+
+  
+&lt;/div&gt;
 </description>
     </item>
     
