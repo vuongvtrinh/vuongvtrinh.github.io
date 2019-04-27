@@ -471,6 +471,66 @@ heroku ps:scale bot=1
     </item>
     
     <item>
+      <title>Control of a Stirling Engine</title>
+      <link>https://vuongvtrinh.github.io/project/stirling-engine/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/project/stirling-engine/</guid>
+      <description>
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+  
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/stirling-engine/gallery/empc_complex.png&#34; &gt;
+  &lt;img src=&#34;https://vuongvtrinh.github.io/project/stirling-engine/gallery/empc_complex.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/stirling-engine/gallery/empc_nonlin.png&#34; &gt;
+  &lt;img src=&#34;https://vuongvtrinh.github.io/project/stirling-engine/gallery/empc_nonlin.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/stirling-engine/gallery/empc_train.png&#34; &gt;
+  &lt;img src=&#34;https://vuongvtrinh.github.io/project/stirling-engine/gallery/empc_train.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/stirling-engine/gallery/empc_valid.png&#34; &gt;
+  &lt;img src=&#34;https://vuongvtrinh.github.io/project/stirling-engine/gallery/empc_valid.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/stirling-engine/gallery/stirling_diagram.png&#34; &gt;
+  &lt;img src=&#34;https://vuongvtrinh.github.io/project/stirling-engine/gallery/stirling_diagram.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+
+  
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Explicit model predictive control via nonlinear piecewise approximations</title>
       <link>https://vuongvtrinh.github.io/publication/2016-enmpc-nolcos/</link>
       <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
