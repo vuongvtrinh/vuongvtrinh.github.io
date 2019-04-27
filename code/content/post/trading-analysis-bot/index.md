@@ -235,5 +235,9 @@ heroku ps:scale bot=1
 
 {{< gallery >}}
 
+## License
+
+MIT
+
 
 

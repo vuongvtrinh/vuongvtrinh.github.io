@@ -274,6 +274,10 @@ heroku ps:scale bot=1
 
   
 &lt;/div&gt;
+
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;MIT&lt;/p&gt;
 </description>
     </item>
     
