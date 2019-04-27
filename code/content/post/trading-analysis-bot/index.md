@@ -3,10 +3,10 @@
 date = "2018-01-01"
 
 # Project title.
-title = "A Telegram chatbot for data-driven analytics of crypto-market on Binance"
+title = "A Telegram chatbot for data-driven analytics of crypto-market on Binance: on-chain vs. off-chain transactions"
 
 # Project summary to display on homepage.
-summary = ""
+summary = "How to invent a Telegram chatbot for data-driven analytics of crypto-assets from both utility and speculation perspectives."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "chatbot.jpg"
@@ -212,6 +212,15 @@ if __name__ == '__main__':
 
 ## Deployment on Heroku platform
 
+### Initialize
+
+```
+heroku create trading-analysis-bot --buildpack heroku/python
+```
+### Setup Postgres database for user management
+
+### Deploy to the cloud
+
 ```
 heroku create trading-analysis-bot --buildpack heroku/python
 heroku config:set TELEGRAM_TOKEN=XXXXXXXXXXXXXXXXXXXXXXXXX
@@ -221,5 +230,7 @@ heroku config:set SQLALCHEMY_DATABASE_URI=XXXXXXXXXXXXXXXXXXXXXXXXX
 git push heroku master
 heroku ps:scale bot=1 
 ```
-## PostgreSQL database setup
+
+
+
 

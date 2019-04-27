@@ -15,7 +15,7 @@
   
     
   
-  <meta name="description" content="Source code import os import telegram from telegram import ParseMode from telegram.ext import Updater, CommandHandler from binance.client import Client from binance_trading_bot import analysis, monitor, news, bitcoin, supply, volume from sqlalchemy import create_engine from pandas.io import sql MANUAL_TEXT = &quot;&quot;&quot;Data-driven analytics of crypto-market on Binance. *Features* - Altcoin supply analysis - Exchange movement statistics - Bitcoin aggregated charts - Newsflow *Commands* - /x &lt;coin&gt; Usage: /x fet knc. - /t &lt;market&gt; Usage: /t qtumusdt or /t btt xlmusdt bttbnb.">
+  <meta name="description" content="How to invent a Telegram chatbot for data-driven analytics of crypto-assets from both utility and speculation perspectives.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://vuongvtrinh.github.io/post/trading-analysis-bot/">
@@ -106,8 +106,8 @@
   
   <meta property="og:site_name" content="Vuong V. Trinh">
   <meta property="og:url" content="https://vuongvtrinh.github.io/post/trading-analysis-bot/">
-  <meta property="og:title" content="A Telegram chatbot for data-driven analytics of crypto-market on Binance | Vuong V. Trinh">
-  <meta property="og:description" content="Source code import os import telegram from telegram import ParseMode from telegram.ext import Updater, CommandHandler from binance.client import Client from binance_trading_bot import analysis, monitor, news, bitcoin, supply, volume from sqlalchemy import create_engine from pandas.io import sql MANUAL_TEXT = &quot;&quot;&quot;Data-driven analytics of crypto-market on Binance. *Features* - Altcoin supply analysis - Exchange movement statistics - Bitcoin aggregated charts - Newsflow *Commands* - /x &lt;coin&gt; Usage: /x fet knc. - /t &lt;market&gt; Usage: /t qtumusdt or /t btt xlmusdt bttbnb."><meta property="og:image" content="https://vuongvtrinh.github.io/post/trading-analysis-bot/featured.png">
+  <meta property="og:title" content="A Telegram chatbot for data-driven analytics of crypto-market on Binance: on-chain vs. off-chain transactions | Vuong V. Trinh">
+  <meta property="og:description" content="How to invent a Telegram chatbot for data-driven analytics of crypto-assets from both utility and speculation perspectives."><meta property="og:image" content="https://vuongvtrinh.github.io/post/trading-analysis-bot/featured.png">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2018-01-01T00:00:00&#43;00:00">
@@ -119,7 +119,7 @@
 
   
 
-  <title>A Telegram chatbot for data-driven analytics of crypto-market on Binance | Vuong V. Trinh</title>
+  <title>A Telegram chatbot for data-driven analytics of crypto-market on Binance: on-chain vs. off-chain transactions | Vuong V. Trinh</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -293,7 +293,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">A Telegram chatbot for data-driven analytics of crypto-market on Binance</h1>
+  <h1 itemprop="name">A Telegram chatbot for data-driven analytics of crypto-market on Binance: on-chain vs. off-chain transactions</h1>
 
   
 
@@ -338,7 +338,7 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=A%20Telegram%20chatbot%20for%20data-driven%20analytics%20of%20crypto-market%20on%20Binance&amp;url=https%3a%2f%2fvuongvtrinh.github.io%2fpost%2ftrading-analysis-bot%2f"
+         href="https://twitter.com/intent/tweet?text=A%20Telegram%20chatbot%20for%20data-driven%20analytics%20of%20crypto-market%20on%20Binance%3a%20on-chain%20vs.%20off-chain%20transactions&amp;url=https%3a%2f%2fvuongvtrinh.github.io%2fpost%2ftrading-analysis-bot%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
@@ -352,21 +352,21 @@
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fvuongvtrinh.github.io%2fpost%2ftrading-analysis-bot%2f&amp;title=A%20Telegram%20chatbot%20for%20data-driven%20analytics%20of%20crypto-market%20on%20Binance"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fvuongvtrinh.github.io%2fpost%2ftrading-analysis-bot%2f&amp;title=A%20Telegram%20chatbot%20for%20data-driven%20analytics%20of%20crypto-market%20on%20Binance%3a%20on-chain%20vs.%20off-chain%20transactions"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fvuongvtrinh.github.io%2fpost%2ftrading-analysis-bot%2f&amp;title=A%20Telegram%20chatbot%20for%20data-driven%20analytics%20of%20crypto-market%20on%20Binance"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fvuongvtrinh.github.io%2fpost%2ftrading-analysis-bot%2f&amp;title=A%20Telegram%20chatbot%20for%20data-driven%20analytics%20of%20crypto-market%20on%20Binance%3a%20on-chain%20vs.%20off-chain%20transactions"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=A%20Telegram%20chatbot%20for%20data-driven%20analytics%20of%20crypto-market%20on%20Binance&amp;body=https%3a%2f%2fvuongvtrinh.github.io%2fpost%2ftrading-analysis-bot%2f">
+         href="mailto:?subject=A%20Telegram%20chatbot%20for%20data-driven%20analytics%20of%20crypto-market%20on%20Binance%3a%20on-chain%20vs.%20off-chain%20transactions&amp;body=https%3a%2f%2fvuongvtrinh.github.io%2fpost%2ftrading-analysis-bot%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -576,6 +576,15 @@ if __name__ == '__main__':
 
 <h2 id="deployment-on-heroku-platform">Deployment on Heroku platform</h2>
 
+<h3 id="initialize">Initialize</h3>
+
+<pre><code>heroku create trading-analysis-bot --buildpack heroku/python
+</code></pre>
+
+<h3 id="setup-postgres-database-for-user-management">Setup Postgres database for user management</h3>
+
+<h3 id="deploy-to-the-cloud">Deploy to the cloud</h3>
+
 <pre><code>heroku create trading-analysis-bot --buildpack heroku/python
 heroku config:set TELEGRAM_TOKEN=XXXXXXXXXXXXXXXXXXXXXXXXX
 heroku config:set BINANCE_SECRET_KEY=XXXXXXXXXXXXXXXXXXXXXXXXX
@@ -584,8 +593,6 @@ heroku config:set SQLALCHEMY_DATABASE_URI=XXXXXXXXXXXXXXXXXXXXXXXXX
 git push heroku master
 heroku ps:scale bot=1 
 </code></pre>
-
-<h2 id="postgresql-database-setup">PostgreSQL database setup</h2>
 
     </div>
 

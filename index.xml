@@ -25,7 +25,7 @@
     </item>
     
     <item>
-      <title>A Telegram chatbot for data-driven analytics of crypto-market on Binance</title>
+      <title>A Telegram chatbot for data-driven analytics of crypto-market on Binance: on-chain vs. off-chain transactions</title>
       <link>https://vuongvtrinh.github.io/post/trading-analysis-bot/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
@@ -203,6 +203,15 @@ if __name__ == &#39;__main__&#39;:
 
 &lt;h2 id=&#34;deployment-on-heroku-platform&#34;&gt;Deployment on Heroku platform&lt;/h2&gt;
 
+&lt;h3 id=&#34;initialize&#34;&gt;Initialize&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;heroku create trading-analysis-bot --buildpack heroku/python
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;setup-postgres-database-for-user-management&#34;&gt;Setup Postgres database for user management&lt;/h3&gt;
+
+&lt;h3 id=&#34;deploy-to-the-cloud&#34;&gt;Deploy to the cloud&lt;/h3&gt;
+
 &lt;pre&gt;&lt;code&gt;heroku create trading-analysis-bot --buildpack heroku/python
 heroku config:set TELEGRAM_TOKEN=XXXXXXXXXXXXXXXXXXXXXXXXX
 heroku config:set BINANCE_SECRET_KEY=XXXXXXXXXXXXXXXXXXXXXXXXX
@@ -211,8 +220,6 @@ heroku config:set SQLALCHEMY_DATABASE_URI=XXXXXXXXXXXXXXXXXXXXXXXXX
 git push heroku master
 heroku ps:scale bot=1 
 &lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;postgresql-database-setup&#34;&gt;PostgreSQL database setup&lt;/h2&gt;
 </description>
     </item>
     
