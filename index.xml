@@ -30,7 +30,11 @@
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/post/trading-analysis-bot/</guid>
-      <description>&lt;pre&gt;&lt;code&gt;import os
+      <description>
+
+&lt;h2 id=&#34;source-code&#34;&gt;Source code&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;import os
 import telegram
 from telegram import ParseMode
 from telegram.ext import Updater, CommandHandler
@@ -196,6 +200,19 @@ def main():
 if __name__ == &#39;__main__&#39;:
     main()
 &lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;deployment-on-heroku-platform&#34;&gt;Deployment on Heroku platform&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;heroku create trading-analysis-bot --buildpack heroku/python
+heroku config:set TELEGRAM_TOKEN=XXXXXXXXXXXXXXXXXXXXXXXXX
+heroku config:set BINANCE_SECRET_KEY=XXXXXXXXXXXXXXXXXXXXXXXXX
+heroku config:set BINANCE_API_KEY=XXXXXXXXXXXXXXXXXXXXXXXXX
+heroku config:set SQLALCHEMY_DATABASE_URI=XXXXXXXXXXXXXXXXXXXXXXXXX
+git push heroku master
+heroku ps:scale bot=1 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;postgresql-database-setup&#34;&gt;PostgreSQL database setup&lt;/h2&gt;
 </description>
     </item>
     

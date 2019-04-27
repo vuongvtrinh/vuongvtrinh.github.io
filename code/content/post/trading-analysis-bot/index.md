@@ -40,6 +40,8 @@ caption = ""
 
 +++
 
+## Source code
+
 ```
 import os
 import telegram
@@ -207,3 +209,17 @@ def main():
 if __name__ == '__main__':
     main()
 ```
+
+## Deployment on Heroku platform
+
+```
+heroku create trading-analysis-bot --buildpack heroku/python
+heroku config:set TELEGRAM_TOKEN=XXXXXXXXXXXXXXXXXXXXXXXXX
+heroku config:set BINANCE_SECRET_KEY=XXXXXXXXXXXXXXXXXXXXXXXXX
+heroku config:set BINANCE_API_KEY=XXXXXXXXXXXXXXXXXXXXXXXXX
+heroku config:set SQLALCHEMY_DATABASE_URI=XXXXXXXXXXXXXXXXXXXXXXXXX
+git push heroku master
+heroku ps:scale bot=1 
+```
+## PostgreSQL database setup
+

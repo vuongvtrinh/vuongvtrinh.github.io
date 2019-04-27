@@ -15,7 +15,7 @@
   
     
   
-  <meta name="description" content="import os import telegram from telegram import ParseMode from telegram.ext import Updater, CommandHandler from binance.client import Client from binance_trading_bot import analysis, monitor, news, bitcoin, supply, volume from sqlalchemy import create_engine from pandas.io import sql MANUAL_TEXT = &quot;&quot;&quot;Data-driven analytics of crypto-market on Binance. *Features* - Altcoin supply analysis - Exchange movement statistics - Bitcoin aggregated charts - Newsflow *Commands* - /x &lt;coin&gt; Usage: /x fet knc. - /t &lt;market&gt; Usage: /t qtumusdt or /t btt xlmusdt bttbnb.">
+  <meta name="description" content="Source code import os import telegram from telegram import ParseMode from telegram.ext import Updater, CommandHandler from binance.client import Client from binance_trading_bot import analysis, monitor, news, bitcoin, supply, volume from sqlalchemy import create_engine from pandas.io import sql MANUAL_TEXT = &quot;&quot;&quot;Data-driven analytics of crypto-market on Binance. *Features* - Altcoin supply analysis - Exchange movement statistics - Bitcoin aggregated charts - Newsflow *Commands* - /x &lt;coin&gt; Usage: /x fet knc. - /t &lt;market&gt; Usage: /t qtumusdt or /t btt xlmusdt bttbnb.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://vuongvtrinh.github.io/post/trading-analysis-bot/">
@@ -107,7 +107,7 @@
   <meta property="og:site_name" content="Vuong V. Trinh">
   <meta property="og:url" content="https://vuongvtrinh.github.io/post/trading-analysis-bot/">
   <meta property="og:title" content="A Telegram chatbot for data-driven analytics of crypto-market on Binance | Vuong V. Trinh">
-  <meta property="og:description" content="import os import telegram from telegram import ParseMode from telegram.ext import Updater, CommandHandler from binance.client import Client from binance_trading_bot import analysis, monitor, news, bitcoin, supply, volume from sqlalchemy import create_engine from pandas.io import sql MANUAL_TEXT = &quot;&quot;&quot;Data-driven analytics of crypto-market on Binance. *Features* - Altcoin supply analysis - Exchange movement statistics - Bitcoin aggregated charts - Newsflow *Commands* - /x &lt;coin&gt; Usage: /x fet knc. - /t &lt;market&gt; Usage: /t qtumusdt or /t btt xlmusdt bttbnb."><meta property="og:image" content="https://vuongvtrinh.github.io/post/trading-analysis-bot/featured.png">
+  <meta property="og:description" content="Source code import os import telegram from telegram import ParseMode from telegram.ext import Updater, CommandHandler from binance.client import Client from binance_trading_bot import analysis, monitor, news, bitcoin, supply, volume from sqlalchemy import create_engine from pandas.io import sql MANUAL_TEXT = &quot;&quot;&quot;Data-driven analytics of crypto-market on Binance. *Features* - Altcoin supply analysis - Exchange movement statistics - Bitcoin aggregated charts - Newsflow *Commands* - /x &lt;coin&gt; Usage: /x fet knc. - /t &lt;market&gt; Usage: /t qtumusdt or /t btt xlmusdt bttbnb."><meta property="og:image" content="https://vuongvtrinh.github.io/post/trading-analysis-bot/featured.png">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2018-01-01T00:00:00&#43;00:00">
@@ -403,7 +403,11 @@
   <div class="article-container">
 
     <div class="article-style" itemprop="articleBody">
-      <pre><code>import os
+      
+
+<h2 id="source-code">Source code</h2>
+
+<pre><code>import os
 import telegram
 from telegram import ParseMode
 from telegram.ext import Updater, CommandHandler
@@ -569,6 +573,19 @@ def main():
 if __name__ == '__main__':
     main()
 </code></pre>
+
+<h2 id="deployment-on-heroku-platform">Deployment on Heroku platform</h2>
+
+<pre><code>heroku create trading-analysis-bot --buildpack heroku/python
+heroku config:set TELEGRAM_TOKEN=XXXXXXXXXXXXXXXXXXXXXXXXX
+heroku config:set BINANCE_SECRET_KEY=XXXXXXXXXXXXXXXXXXXXXXXXX
+heroku config:set BINANCE_API_KEY=XXXXXXXXXXXXXXXXXXXXXXXXX
+heroku config:set SQLALCHEMY_DATABASE_URI=XXXXXXXXXXXXXXXXXXXXXXXXX
+git push heroku master
+heroku ps:scale bot=1 
+</code></pre>
+
+<h2 id="postgresql-database-setup">PostgreSQL database setup</h2>
 
     </div>
 
