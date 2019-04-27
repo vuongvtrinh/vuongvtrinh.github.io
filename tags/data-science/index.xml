@@ -13,12 +13,12 @@
     
     
     <item>
-      <title>Anomaly Detection of Time Series Data</title>
+      <title>Real-time Anomaly Detection for Industrial Big Data</title>
       <link>https://vuongvtrinh.github.io/project/anomaly-detection/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/project/anomaly-detection/</guid>
-      <description></description>
+      <description>As the Industrial Internet of Things (IIoT) grows, systems are increasingly being monitored by arrays of sensors returning time-series data at ever-increasing &amp;lsquo;volume, velocity and variety&amp;rsquo; (i.e. Industrial Big Data). Time Series is defined as a set of observations taken at a particular period of time. Time Series is also known as the stochastic process as it represents the vector of stochastic variables observed at regular interval of time. It appears naturally in many application areas such as economics, science, environment, medicine, etc.</description>
     </item>
     
   </channel>

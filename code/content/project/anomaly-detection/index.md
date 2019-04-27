@@ -3,7 +3,7 @@
 date = "2018-01-01"
 
 # Project title.
-title = "Anomaly Detection of Time Series Data"
+title = "Real-time Anomaly Detection for Industrial Big Data"
 
 # Project summary to display on homepage.
 summary = ""
@@ -39,3 +39,7 @@ caption = ""
   preview_only = true
 
 +++
+
+As the Industrial Internet of Things (IIoT) grows, systems are increasingly being monitored by arrays of sensors returning time-series data at ever-increasing 'volume, velocity and variety' (i.e. Industrial Big Data). Time Series is defined as a set of observations taken at a particular period of time. Time Series is also known as the stochastic process as it represents the vector of stochastic variables observed at regular interval of time. It appears naturally in many application areas such as economics, science, environment, medicine, etc. Anomaly detection problem for time series is usually formulated as finding outlier data points relative to some standard or usual signal. We are working on developing some advanced approaches using Machine Learning, Deep Learning and Data Mining for anomaly detection of time series in many application areas. Finally, the proposed approaches are validated on a set of real data in industry.
+
+{{< gallery >}}
