@@ -40,5 +40,10 @@ caption = ""
 
 +++
 
-{{< gallery >}}
+[![Process diagram](stirling_diagram.png)](stirling_diagram.png)
+
+[![Nonlinear analysis](empc_nonlin.png)](empc_nonlin.png)
+
+[![Validation and real-time analysis](empc_valid.png)](empc_valid.png)
+
 

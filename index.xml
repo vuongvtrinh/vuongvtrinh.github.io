@@ -476,57 +476,11 @@ heroku ps:scale bot=1
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/project/stirling-engine/</guid>
-      <description>
+      <description>&lt;p&gt;&lt;a href=&#34;stirling_diagram.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;stirling_diagram.png&#34; alt=&#34;Process diagram&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;div class=&#34;gallery&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;empc_nonlin.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;empc_nonlin.png&#34; alt=&#34;Nonlinear analysis&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-  
-  
-  
-  
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/stirling-engine/gallery/empc_complex.png&#34; &gt;
-  &lt;img src=&#34;https://vuongvtrinh.github.io/project/stirling-engine/gallery/empc_complex.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/stirling-engine/gallery/empc_nonlin.png&#34; &gt;
-  &lt;img src=&#34;https://vuongvtrinh.github.io/project/stirling-engine/gallery/empc_nonlin.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/stirling-engine/gallery/empc_train.png&#34; &gt;
-  &lt;img src=&#34;https://vuongvtrinh.github.io/project/stirling-engine/gallery/empc_train.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/stirling-engine/gallery/empc_valid.png&#34; &gt;
-  &lt;img src=&#34;https://vuongvtrinh.github.io/project/stirling-engine/gallery/empc_valid.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/stirling-engine/gallery/stirling_diagram.png&#34; &gt;
-  &lt;img src=&#34;https://vuongvtrinh.github.io/project/stirling-engine/gallery/stirling_diagram.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-
-  
-&lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;empc_valid.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;empc_valid.png&#34; alt=&#34;Validation and real-time analysis&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
