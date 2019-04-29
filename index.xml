@@ -32,23 +32,11 @@
       <guid>https://vuongvtrinh.github.io/post/trading-analysis-bot/</guid>
       <description>
 
-&lt;p&gt;Link: &lt;a href=&#34;https://t.me/trading_analysis_bot&#34; target=&#34;_blank&#34;&gt;https://t.me/trading_analysis_bot&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A tutorial to develop a Telegram chatbot for data-driven analytics of cryptoassets from both utility and speculation perspectives.&lt;/p&gt;
+
+&lt;p&gt;Chatbot: &lt;a href=&#34;https://t.me/trading_analysis_bot&#34; target=&#34;_blank&#34;&gt;https://t.me/trading_analysis_bot&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Telegram chatbot library: python-telegram-bot&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Binance exchange library: python-binance&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Visualization library: matplotlib, seaborn&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Data manipulation libraries: pandas, numpy&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Database libraries: sqlalchemy, psycopg2&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Miscellaneous: six, datetime&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
 
 &lt;pre&gt;&lt;code&gt;python-telegram-bot
 python-binance

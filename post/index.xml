@@ -18,14 +18,9 @@
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/post/trading-analysis-bot/</guid>
-      <description>Link: https://t.me/trading_analysis_bot
-Requirements  Telegram chatbot library: python-telegram-bot
- Binance exchange library: python-binance
- Visualization library: matplotlib, seaborn
- Data manipulation libraries: pandas, numpy
- Database libraries: sqlalchemy, psycopg2
- Miscellaneous: six, datetime
-  python-telegram-bot python-binance numpy datetime matplotlib seaborn six pandas sqlalchemy psycopg2  Source code import os import telegram from telegram import ParseMode from telegram.ext import Updater, CommandHandler from binance.client import Client from binance_trading_bot import analysis, monitor, news, bitcoin, supply from sqlalchemy import create_engine from pandas.</description>
+      <description>A tutorial to develop a Telegram chatbot for data-driven analytics of cryptoassets from both utility and speculation perspectives.
+Chatbot: https://t.me/trading_analysis_bot
+Requirements python-telegram-bot python-binance numpy datetime matplotlib seaborn six pandas sqlalchemy psycopg2  Source code import os import telegram from telegram import ParseMode from telegram.ext import Updater, CommandHandler from binance.client import Client from binance_trading_bot import analysis, monitor, news, bitcoin, supply from sqlalchemy import create_engine from pandas.io import sql MANUAL_TEXT = &amp;quot;&amp;quot;&amp;quot;Data-driven analytics of crypto-market on Binance.</description>
     </item>
     
   </channel>

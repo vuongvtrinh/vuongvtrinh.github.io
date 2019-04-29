@@ -40,21 +40,11 @@ caption = ""
 
 +++
 
-Link: [https://t.me/trading_analysis_bot](https://t.me/trading_analysis_bot)
+A tutorial to develop a Telegram chatbot for data-driven analytics of cryptoassets from both utility and speculation perspectives.
+
+Chatbot: [https://t.me/trading_analysis_bot](https://t.me/trading_analysis_bot)
 
 ## Requirements
-
-- Telegram chatbot library: python-telegram-bot
-
-- Binance exchange library: python-binance
-
-- Visualization library: matplotlib, seaborn
-
-- Data manipulation libraries: pandas, numpy
-
-- Database libraries: sqlalchemy, psycopg2
-
-- Miscellaneous: six, datetime
 
 ```
 python-telegram-bot
