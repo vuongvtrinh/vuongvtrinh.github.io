@@ -46,11 +46,11 @@ This project develops an intelligent data driven application to monitor blockcha
 
 ### Altcoin price versus supply analysis
 
-![t.png](t.png)
-
 ![x1.png](x1.png)
 
 ![x2.png](x2.png)
+
+![o.png](o.png)
 
 ### Market movement statistics
 
