@@ -25,12 +25,42 @@
     </item>
     
     <item>
-      <title>A Telegram chatbot for data-driven analytics of crypto-market on Binance: on-chain vs. off-chain transactions</title>
+      <title>A Telegram chatbot for data-driven analytics of crypto-market: on-chain versus off-chain transactions</title>
       <link>https://vuongvtrinh.github.io/post/trading-analysis-bot/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/post/trading-analysis-bot/</guid>
       <description>
+
+&lt;p&gt;Link: &lt;a href=&#34;https://t.me/trading_analysis_bot&#34; target=&#34;_blank&#34;&gt;https://t.me/trading_analysis_bot&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Telegram chatbot library: python-telegram-bot&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Binance exchange library: python-binance&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Visualization library: matplotlib, seaborn&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Data manipulation libraries: pandas, numpy&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Database libraries: sqlalchemy, psycopg2&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Miscellaneous: six, datetime&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;python-telegram-bot
+python-binance
+numpy
+datetime
+matplotlib
+seaborn
+six
+pandas
+sqlalchemy
+psycopg2
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2 id=&#34;source-code&#34;&gt;Source code&lt;/h2&gt;
 
@@ -39,21 +69,20 @@ import telegram
 from telegram import ParseMode
 from telegram.ext import Updater, CommandHandler
 from binance.client import Client
-from binance_trading_bot import analysis, monitor, news, bitcoin, supply, volume
+from binance_trading_bot import analysis, monitor, news, bitcoin, supply
 from sqlalchemy import create_engine
 from pandas.io import sql
 
 MANUAL_TEXT = &amp;quot;&amp;quot;&amp;quot;Data-driven analytics of crypto-market on Binance.
+Homepage: [https://tapchitienmahoa.github.io/](https://tapchitienmahoa.github.io).
 *Features*
 - Altcoin supply analysis
-- Exchange movement statistics
+- Market movement statistics
 - Bitcoin aggregated charts
 - Newsflow
 *Commands*
 - /x &amp;lt;coin&amp;gt;
 Usage: /x fet knc. 
-- /t &amp;lt;market&amp;gt;
-Usage: /t qtumusdt or /t btt xlmusdt bttbnb.
 - /s &amp;lt;asset&amp;gt;
 Usage: /s qtum or /s btt fet.
 - /m
@@ -89,12 +118,13 @@ def x(bot, update, args):
     bot.send_chat_action(chat_id=update.message.chat_id, 
                          action=telegram.ChatAction.TYPING)
     if str(update.message.from_user.username) in userList:
-        TIME_FRAME_STEP = &#39;4h&#39;
-        TIME_FRAME_LIST = [&#39;4h&#39;, &#39;1d&#39;]
-        TIME_FRAME_DURATION_LIST = [&#39;45 days ago UTC&#39;, &#39;90 days ago UTC&#39;]
+        TIME_FRAME_STEP_LIST = [&#39;4h&#39;, &#39;12h&#39;, &#39;1d&#39;]
+        TIME_FRAME_LIST = [&#39;4h&#39;, &#39;1d&#39;, &#39;1w&#39;]
+        TIME_FRAME_DURATION_LIST = [&#39;45 days ago UTC&#39;, &#39;90 days ago UTC&#39;, &#39;360 days ago UTC&#39;]
         for coin in args:
             market = coin.upper()+&#39;BTC&#39;
             for i in range(len(TIME_FRAME_LIST)):
+                TIME_FRAME_STEP = TIME_FRAME_STEP_LIST[i]
                 TIME_FRAME = TIME_FRAME_LIST[i]
                 TIME_FRAME_DURATION = TIME_FRAME_DURATION_LIST[i]
                 try:
@@ -103,23 +133,6 @@ def x(bot, update, args):
                                photo=open(&#39;img/&#39;+market+&#39;_&#39;+TIME_FRAME.upper()+&#39;.png&#39;, &#39;rb&#39;))
                 except Exception:
                     pass
-
-def t(bot, update, args):
-    bot.send_chat_action(chat_id=update.message.chat_id, 
-                         action=telegram.ChatAction.TYPING)
-    if str(update.message.from_user.username) in userList:
-        for market in args:
-            market = market.upper()
-            TIME_FRAME_STEP = [&#39;1d&#39;, &#39;1d&#39;, &#39;4h&#39;]
-            TIME_FRAME = [&#39;1w&#39;, &#39;1d&#39;, &#39;4h&#39;]
-            TIME_FRAME_DURATION = [&#39;365 days ago UTC&#39;, &#39;90 days ago UTC&#39;, &#39;14 days ago UTC&#39;]
-            try:
-                volume.analysis_visual(client, market, TIME_FRAME_STEP, TIME_FRAME, TIME_FRAME_DURATION)
-            except Exception:
-                market = market+&#39;BTC&#39;
-                volume.analysis_visual(client, market, TIME_FRAME_STEP, TIME_FRAME, TIME_FRAME_DURATION)
-            bot.send_photo(chat_id=update.message.chat_id, 
-                       photo=open(&#39;img/&#39;+market+&#39;.png&#39;, &#39;rb&#39;))
 
 def s(bot, update, args):
     bot.send_chat_action(chat_id=update.message.chat_id, 
@@ -151,9 +164,6 @@ def b(bot, update, args):
         bitcoin.bid_ask_sum()
         bot.send_photo(chat_id=update.message.chat_id, 
                    photo=open(&#39;img/bidasksum.png&#39;, &#39;rb&#39;))
-        monitor.market_movement(client, timeInterval)
-        bot.send_photo(chat_id=update.message.chat_id, 
-                   photo=open(&#39;img/market.png&#39;, &#39;rb&#39;))
                    
 def e(bot, update, args):
     bot.send_chat_action(chat_id=update.message.chat_id, 
@@ -192,7 +202,6 @@ def main():
     dp.add_handler(CommandHandler(&amp;quot;b&amp;quot;, b, pass_args=True))
     dp.add_handler(CommandHandler(&amp;quot;e&amp;quot;, e, pass_args=True))
     dp.add_handler(CommandHandler(&amp;quot;x&amp;quot;, x, pass_args=True))
-    dp.add_handler(CommandHandler(&amp;quot;t&amp;quot;, t, pass_args=True))
     dp.add_handler(CommandHandler(&amp;quot;s&amp;quot;, s, pass_args=True))
     updater.start_polling()
     updater.idle()
@@ -212,8 +221,7 @@ if __name__ == &#39;__main__&#39;:
 
 &lt;h3 id=&#34;deploy-to-the-cloud&#34;&gt;Deploy to the cloud&lt;/h3&gt;
 
-&lt;pre&gt;&lt;code&gt;heroku create trading-analysis-bot --buildpack heroku/python
-heroku config:set TELEGRAM_TOKEN=XXXXXXXXXXXXXXXXXXXXXXXXX
+&lt;pre&gt;&lt;code&gt;heroku config:set TELEGRAM_TOKEN=XXXXXXXXXXXXXXXXXXXXXXXXX
 heroku config:set BINANCE_SECRET_KEY=XXXXXXXXXXXXXXXXXXXXXXXXX
 heroku config:set BINANCE_API_KEY=XXXXXXXXXXXXXXXXXXXXXXXXX
 heroku config:set SQLALCHEMY_DATABASE_URI=XXXXXXXXXXXXXXXXXXXXXXXXX

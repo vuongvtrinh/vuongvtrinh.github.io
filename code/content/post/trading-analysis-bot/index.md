@@ -3,10 +3,10 @@
 date = "2018-01-01"
 
 # Project title.
-title = "A Telegram chatbot for data-driven analytics of crypto-market on Binance: on-chain vs. off-chain transactions"
+title = "A Telegram chatbot for data-driven analytics of crypto-market: on-chain versus off-chain transactions"
 
 # Project summary to display on homepage.
-summary = "How to invent a Telegram chatbot for data-driven analytics of crypto-assets from both utility and speculation perspectives."
+summary = "A tutorial to develop a Telegram chatbot for data-driven analytics of cryptoassets from both utility and speculation perspectives."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "chatbot.jpg"
@@ -40,6 +40,35 @@ caption = ""
 
 +++
 
+Link: [https://t.me/trading_analysis_bot](https://t.me/trading_analysis_bot)
+
+## Requirements
+
+- Telegram chatbot library: python-telegram-bot
+
+- Binance exchange library: python-binance
+
+- Visualization library: matplotlib, seaborn
+
+- Data manipulation libraries: pandas, numpy
+
+- Database libraries: sqlalchemy, psycopg2
+
+- Miscellaneous: six, datetime
+
+```
+python-telegram-bot
+python-binance
+numpy
+datetime
+matplotlib
+seaborn
+six
+pandas
+sqlalchemy
+psycopg2
+```
+
 ## Source code
 
 ```
@@ -48,21 +77,20 @@ import telegram
 from telegram import ParseMode
 from telegram.ext import Updater, CommandHandler
 from binance.client import Client
-from binance_trading_bot import analysis, monitor, news, bitcoin, supply, volume
+from binance_trading_bot import analysis, monitor, news, bitcoin, supply
 from sqlalchemy import create_engine
 from pandas.io import sql
 
 MANUAL_TEXT = """Data-driven analytics of crypto-market on Binance.
+Homepage: [https://tapchitienmahoa.github.io/](https://tapchitienmahoa.github.io).
 *Features*
 - Altcoin supply analysis
-- Exchange movement statistics
+- Market movement statistics
 - Bitcoin aggregated charts
 - Newsflow
 *Commands*
 - /x <coin>
 Usage: /x fet knc. 
-- /t <market>
-Usage: /t qtumusdt or /t btt xlmusdt bttbnb.
 - /s <asset>
 Usage: /s qtum or /s btt fet.
 - /m
@@ -98,12 +126,13 @@ def x(bot, update, args):
     bot.send_chat_action(chat_id=update.message.chat_id, 
                          action=telegram.ChatAction.TYPING)
     if str(update.message.from_user.username) in userList:
-        TIME_FRAME_STEP = '4h'
-        TIME_FRAME_LIST = ['4h', '1d']
-        TIME_FRAME_DURATION_LIST = ['45 days ago UTC', '90 days ago UTC']
+        TIME_FRAME_STEP_LIST = ['4h', '12h', '1d']
+        TIME_FRAME_LIST = ['4h', '1d', '1w']
+        TIME_FRAME_DURATION_LIST = ['45 days ago UTC', '90 days ago UTC', '360 days ago UTC']
         for coin in args:
             market = coin.upper()+'BTC'
             for i in range(len(TIME_FRAME_LIST)):
+                TIME_FRAME_STEP = TIME_FRAME_STEP_LIST[i]
                 TIME_FRAME = TIME_FRAME_LIST[i]
                 TIME_FRAME_DURATION = TIME_FRAME_DURATION_LIST[i]
                 try:
@@ -112,23 +141,6 @@ def x(bot, update, args):
                                photo=open('img/'+market+'_'+TIME_FRAME.upper()+'.png', 'rb'))
                 except Exception:
                     pass
-
-def t(bot, update, args):
-    bot.send_chat_action(chat_id=update.message.chat_id, 
-                         action=telegram.ChatAction.TYPING)
-    if str(update.message.from_user.username) in userList:
-        for market in args:
-            market = market.upper()
-            TIME_FRAME_STEP = ['1d', '1d', '4h']
-            TIME_FRAME = ['1w', '1d', '4h']
-            TIME_FRAME_DURATION = ['365 days ago UTC', '90 days ago UTC', '14 days ago UTC']
-            try:
-                volume.analysis_visual(client, market, TIME_FRAME_STEP, TIME_FRAME, TIME_FRAME_DURATION)
-            except Exception:
-                market = market+'BTC'
-                volume.analysis_visual(client, market, TIME_FRAME_STEP, TIME_FRAME, TIME_FRAME_DURATION)
-            bot.send_photo(chat_id=update.message.chat_id, 
-                       photo=open('img/'+market+'.png', 'rb'))
 
 def s(bot, update, args):
     bot.send_chat_action(chat_id=update.message.chat_id, 
@@ -160,9 +172,6 @@ def b(bot, update, args):
         bitcoin.bid_ask_sum()
         bot.send_photo(chat_id=update.message.chat_id, 
                    photo=open('img/bidasksum.png', 'rb'))
-        monitor.market_movement(client, timeInterval)
-        bot.send_photo(chat_id=update.message.chat_id, 
-                   photo=open('img/market.png', 'rb'))
                    
 def e(bot, update, args):
     bot.send_chat_action(chat_id=update.message.chat_id, 
@@ -201,7 +210,6 @@ def main():
     dp.add_handler(CommandHandler("b", b, pass_args=True))
     dp.add_handler(CommandHandler("e", e, pass_args=True))
     dp.add_handler(CommandHandler("x", x, pass_args=True))
-    dp.add_handler(CommandHandler("t", t, pass_args=True))
     dp.add_handler(CommandHandler("s", s, pass_args=True))
     updater.start_polling()
     updater.idle()
@@ -222,7 +230,6 @@ heroku create trading-analysis-bot --buildpack heroku/python
 ### Deploy to the cloud
 
 ```
-heroku create trading-analysis-bot --buildpack heroku/python
 heroku config:set TELEGRAM_TOKEN=XXXXXXXXXXXXXXXXXXXXXXXXX
 heroku config:set BINANCE_SECRET_KEY=XXXXXXXXXXXXXXXXXXXXXXXXX
 heroku config:set BINANCE_API_KEY=XXXXXXXXXXXXXXXXXXXXXXXXX
