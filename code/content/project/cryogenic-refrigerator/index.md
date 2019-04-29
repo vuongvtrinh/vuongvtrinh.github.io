@@ -74,3 +74,15 @@ caption = ""
 
 [![Convergence result](aa-convergence.png)](aa-convergence.png)
 
+## Other works
+
+### Fast nonlinear constrained control of a Stirling engine
+
+[![Miscrosol](microsol.png)](microsol.png)
+
+[![Process diagram](stirling_diagram.png)](stirling_diagram.png)
+
+[![Nonlinear analysis](empc_nonlin.png)](empc_nonlin.png)
+
+[![Validation and real-time analysis](empc_valid.png)](empc_valid.png)
+

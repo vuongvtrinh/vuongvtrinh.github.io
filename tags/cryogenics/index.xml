@@ -18,14 +18,16 @@
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/project/cryogenic-refrigerator/</guid>
-      <description>Cryogenic Plants at CEA and CERN    Explicit Constrained Control of Warm Compression Stations Process configuration and dynamic simulator 
+      <description>Cryogenic Plants at CEA and CERN      Explicit Constrained Control of Warm Compression Stations Process configuration and dynamic simulator 
 
 Allocation control and validation results 
 
 Hierarchical Constrained Control of Cryogenic Refrigerators Process diagram and dynamic simulator 
 
 
-Hierarchical control algorithm and numerical results</description>
+Hierarchical control algorithm and numerical results 
+
+Other works Fast nonlinear constrained control of a Stirling engine</description>
     </item>
     
   </channel>

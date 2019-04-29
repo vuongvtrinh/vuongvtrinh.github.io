@@ -307,6 +307,22 @@ heroku ps:scale bot=1
     
     
     
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/cryogenic-refrigerator/gallery/cea.png&#34; &gt;
+  &lt;img src=&#34;https://vuongvtrinh.github.io/project/cryogenic-refrigerator/gallery/cea.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/cryogenic-refrigerator/gallery/cern.png&#34; &gt;
+  &lt;img src=&#34;https://vuongvtrinh.github.io/project/cryogenic-refrigerator/gallery/cern.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
   &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/cryogenic-refrigerator/gallery/cern_wcs18kw.png&#34; &gt;
   &lt;img src=&#34;https://vuongvtrinh.github.io/project/cryogenic-refrigerator/gallery/cern_wcs18kw.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
@@ -344,6 +360,18 @@ heroku ps:scale bot=1
 &lt;p&gt;&lt;a href=&#34;hdmpc-algo.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;hdmpc-algo.png&#34; alt=&#34;Hierarchical control algorithm&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;aa-convergence.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;aa-convergence.png&#34; alt=&#34;Convergence result&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;other-works&#34;&gt;Other works&lt;/h2&gt;
+
+&lt;h3 id=&#34;fast-nonlinear-constrained-control-of-a-stirling-engine&#34;&gt;Fast nonlinear constrained control of a Stirling engine&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;microsol.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;microsol.png&#34; alt=&#34;Miscrosol&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;stirling_diagram.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;stirling_diagram.png&#34; alt=&#34;Process diagram&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;empc_nonlin.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;empc_nonlin.png&#34; alt=&#34;Nonlinear analysis&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;empc_valid.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;empc_valid.png&#34; alt=&#34;Validation and real-time analysis&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -425,76 +453,7 @@ heroku ps:scale bot=1
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/project/anomaly-detection/</guid>
-      <description>&lt;p&gt;As the Industrial Internet of Things (IIoT) grows, systems are increasingly being monitored by arrays of sensors returning time-series data at ever-increasing &amp;lsquo;volume, velocity and variety&amp;rsquo; (i.e. Industrial Big Data). Time Series is defined as a set of observations taken at a particular period of time. Time Series is also known as the stochastic process as it represents the vector of stochastic variables observed at regular interval of time. It appears naturally in many application areas such as economics, science, environment, medicine, etc. Anomaly detection problem for time series is usually formulated as finding outlier data points relative to some standard or usual signal. We are working on developing some advanced approaches using Machine Learning, Deep Learning and Data Mining for anomaly detection of time series in many application areas. Finally, the proposed approaches are validated on a set of real data in industry.&lt;/p&gt;
-
-
-
-&lt;div class=&#34;gallery&#34;&gt;
-
-  
-  
-  
-  
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/anomaly-detection/gallery/anomaly-detection.png&#34; &gt;
-  &lt;img src=&#34;https://vuongvtrinh.github.io/project/anomaly-detection/gallery/anomaly-detection.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/anomaly-detection/gallery/dfn-obj.png&#34; &gt;
-  &lt;img src=&#34;https://vuongvtrinh.github.io/project/anomaly-detection/gallery/dfn-obj.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/anomaly-detection/gallery/ibrl_wsn.png&#34; &gt;
-  &lt;img src=&#34;https://vuongvtrinh.github.io/project/anomaly-detection/gallery/ibrl_wsn.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/anomaly-detection/gallery/ocsvm-train.png&#34; &gt;
-  &lt;img src=&#34;https://vuongvtrinh.github.io/project/anomaly-detection/gallery/ocsvm-train.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/anomaly-detection/gallery/ocsvm.png&#34; &gt;
-  &lt;img src=&#34;https://vuongvtrinh.github.io/project/anomaly-detection/gallery/ocsvm.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/anomaly-detection/gallery/svdd.png&#34; &gt;
-  &lt;img src=&#34;https://vuongvtrinh.github.io/project/anomaly-detection/gallery/svdd.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/anomaly-detection/gallery/svm.png&#34; &gt;
-  &lt;img src=&#34;https://vuongvtrinh.github.io/project/anomaly-detection/gallery/svm.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-
-  
-&lt;/div&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -522,20 +481,6 @@ heroku ps:scale bot=1
       
       <guid>https://vuongvtrinh.github.io/publication/2017-wsn-nics/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Control of a Stirling Engine</title>
-      <link>https://vuongvtrinh.github.io/project/stirling-engine/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://vuongvtrinh.github.io/project/stirling-engine/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;stirling_diagram.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;stirling_diagram.png&#34; alt=&#34;Process diagram&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;empc_nonlin.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;empc_nonlin.png&#34; alt=&#34;Nonlinear analysis&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;empc_valid.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;empc_valid.png&#34; alt=&#34;Validation and real-time analysis&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
     </item>
     
     <item>
