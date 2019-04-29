@@ -72,6 +72,6 @@ This project develops an intelligent data driven application to monitor blockcha
 
 ### Iceberg order and beyond
 
-## Web Application Screenshots
+## Application Screenshots
 
 {{< gallery >}}
