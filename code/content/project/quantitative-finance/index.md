@@ -74,7 +74,15 @@ This work was carried out while I served as community quantitative analyst at [h
 
 ### Portfolio management and optimization
 
-### Iceberg order and beyond
+### Optimal order execution
+
+Ping/Pong
+
+Iceberg
+
+TWAP
+
+Accumulate/Distribute
 
 ## Application Screenshots
 
