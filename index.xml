@@ -376,6 +376,15 @@ heroku ps:scale bot=1
     </item>
     
     <item>
+      <title>Optimal order execution algorithms: Ping/Pong, Iceberg, TWAP, and Accumulate/Distribute</title>
+      <link>https://vuongvtrinh.github.io/post/algorithmic-order/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/post/algorithmic-order/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Quantitative Analytics and Trading Strategies of Cryptoassets</title>
       <link>https://vuongvtrinh.github.io/project/quantitative-finance/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>

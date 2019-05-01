@@ -23,5 +23,14 @@ Chatbot: https://t.me/trading_analysis_bot
 Requirements python-telegram-bot python-binance numpy datetime matplotlib seaborn six pandas sqlalchemy psycopg2  Source code import os import telegram from telegram import ParseMode from telegram.ext import Updater, CommandHandler from binance.client import Client from binance_trading_bot import analysis, monitor, news, bitcoin, supply from sqlalchemy import create_engine from pandas.io import sql MANUAL_TEXT = &amp;quot;&amp;quot;&amp;quot;Data-driven analytics of crypto-market on Binance.</description>
     </item>
     
+    <item>
+      <title>Optimal order execution algorithms: Ping/Pong, Iceberg, TWAP, and Accumulate/Distribute</title>
+      <link>https://vuongvtrinh.github.io/post/algorithmic-order/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/post/algorithmic-order/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
