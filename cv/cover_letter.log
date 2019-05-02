@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.12.1)  1 MAY 2019 21:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.12.1)  2 MAY 2019 23:32
 entering extended mode
 **./cover_letter.tex
 (cover_letter.tex
@@ -324,14 +324,14 @@ G,.JBIG2,.JB2,.eps]
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includemp 
 * h-part:(L,W,R)=(54.2025pt, 505.89pt, 54.2025pt)
-* v-part:(T,H,B)=(57.81621pt, 682.95128pt, 54.2025pt)
+* v-part:(T,H,B)=(68.65627pt, 672.11122pt, 54.2025pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=420.97253pt
-* \textheight=682.95128pt
+* \textheight=672.11122pt
 * \oddsidemargin=66.84998pt
 * \evensidemargin=66.84998pt
-* \topmargin=-51.45378pt
+* \topmargin=-40.61372pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
@@ -379,6 +379,13 @@ Overfull \hbox (2.0805pt too wide) in paragraph at lines 119--131
 []|  [] 
  []
 
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 185.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/it' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 185.
 
 Overfull \hbox (2.0805pt too wide) in paragraph at lines 134--188
 []|  [] 
@@ -400,20 +407,21 @@ Package rerunfilecheck Info: File `cover_letter.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 189.
  ) 
 Here is how much of TeX's memory you used:
- 6391 strings out of 493335
- 94303 string characters out of 3139236
- 186629 words of memory out of 10000000
- 9858 multiletter control sequences out of 15000+200000
- 17529 words of font info for 25 fonts, out of 3000000 for 9000
+ 6415 strings out of 493335
+ 94693 string characters out of 3139236
+ 190630 words of memory out of 10000000
+ 9879 multiletter control sequences out of 15000+200000
+ 17786 words of font info for 26 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,5n,43p,226b,316s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,5n,43p,1347b,316s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
-s/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times
-/utmri8a.pfb>
-Output written on cover_letter.pdf (1 page, 36901 bytes).
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a
+.pfb>
+Output written on cover_letter.pdf (1 page, 55301 bytes).
 PDF statistics:
- 26 PDF objects out of 1000 (max. 8388607)
+ 30 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
