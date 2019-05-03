@@ -376,7 +376,7 @@ heroku ps:scale bot=1
     </item>
     
     <item>
-      <title>Quantitative Analytics and Trading Strategies of Cryptoassets</title>
+      <title>Quantitative Analytics and Trading Strategies</title>
       <link>https://vuongvtrinh.github.io/project/quantitative-finance/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
@@ -416,6 +416,8 @@ heroku ps:scale bot=1
 &lt;h2 id=&#34;advanced-trading-strategies&#34;&gt;Advanced Trading Strategies&lt;/h2&gt;
 
 &lt;h3 id=&#34;portfolio-management-and-optimization&#34;&gt;Portfolio management and optimization&lt;/h3&gt;
+
+&lt;p&gt;Reinforcement learning&lt;/p&gt;
 
 &lt;h3 id=&#34;optimal-order-execution&#34;&gt;Optimal order execution&lt;/h3&gt;
 
