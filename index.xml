@@ -25,6 +25,16 @@
     </item>
     
     <item>
+      <title>Approximating a class of Wiener models</title>
+      <link>https://vuongvtrinh.github.io/post/robust-nonlinear-regression/</link>
+      <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/post/robust-nonlinear-regression/</guid>
+      <description>&lt;p&gt;Updating.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>A Telegram chatbot for data-driven analytics of crypto-market: on-chain versus off-chain transactions</title>
       <link>https://vuongvtrinh.github.io/post/trading-analysis-bot/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
@@ -385,7 +395,7 @@ heroku ps:scale bot=1
 
 &lt;p&gt;This project develops an intelligent data driven application to monitor blockchain projects and to analyze cryptoassets from both utility and speculation perspectives. We target blockchain entrepreneurs, investors and traders all along the life of projects: token generation, listing on secondary market, product delivery, product usage, and token valorization.&lt;/p&gt;
 
-&lt;p&gt;This work was carried out while I served as community quantitative analyst at &lt;a href=&#34;Messari&#34; target=&#34;_blank&#34;&gt;https://messari.io/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This work was carried out while I served as community quantitative analyst at &lt;a href=&#34;https://messari.io&#34; target=&#34;_blank&#34;&gt;https://messari.io&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;messari.png&#34; alt=&#34;messari.png&#34; /&gt;&lt;/p&gt;
 
