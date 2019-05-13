@@ -118,6 +118,13 @@
     
     <url>
     
+      <loc>https://vuongvtrinh.github.io/bitcoin/</loc>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://vuongvtrinh.github.io/categories/</loc>
       <priority>0</priority>
     </url>
@@ -244,6 +251,14 @@
     
       <loc>https://vuongvtrinh.github.io/tags/quantitative-analytics/</loc>
       <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/categories/quantitative-analytics/</loc>
       <priority>0</priority>
     </url>
     
