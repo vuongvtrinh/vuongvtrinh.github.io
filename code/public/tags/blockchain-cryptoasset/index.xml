@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blockchain-cryptoasset on Vuong V. Trinh</title>
+    <link>https://vuongvtrinh.github.io/tags/blockchain-cryptoasset/</link>
+    <description>Recent content in blockchain-cryptoasset on Vuong V. Trinh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Vuong V. Trinh 2016</copyright>
+    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://vuongvtrinh.github.io/tags/blockchain-cryptoasset/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Telegram chatbot for data-driven analytics of crypto-market: on-chain versus off-chain transactions</title>
+      <link>https://vuongvtrinh.github.io/post/trading-analysis-bot/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/post/trading-analysis-bot/</guid>
+      <description>A tutorial to develop a Telegram chatbot for data-driven analytics of cryptoassets from both utility and speculation perspectives.
+Chatbot: https://t.me/trading_analysis_bot
+Requirements python-telegram-bot python-binance numpy datetime matplotlib seaborn six pandas sqlalchemy psycopg2  Source code import os import telegram from telegram import ParseMode from telegram.ext import Updater, CommandHandler from binance.client import Client from binance_trading_bot import analysis, monitor, news, bitcoin, supply from sqlalchemy import create_engine from pandas.io import sql MANUAL_TEXT = &amp;quot;&amp;quot;&amp;quot;Data-driven analytics of crypto-market on Binance.</description>
+    </item>
+    
+    <item>
+      <title>Quantitative Analytics and Trading Strategies</title>
+      <link>https://vuongvtrinh.github.io/project/quantitative-finance/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/project/quantitative-finance/</guid>
+      <description>This project develops an intelligent data driven application to monitor blockchain projects and to analyze cryptoassets from both utility and speculation perspectives. We target blockchain entrepreneurs, investors and traders all along the life of projects: token generation, listing on secondary market, product delivery, product usage, and token valorization.
+This work was carried out while I served as community quantitative analyst at https://messari.io.
+Data-Driven Analytics Altcoin price versus supply analysis Market movement statistics Bitcoin aggregated statistics: traded exchanges vs.</description>
+    </item>
+    
+  </channel>
+</rss>
