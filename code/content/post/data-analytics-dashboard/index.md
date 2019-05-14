@@ -3,7 +3,7 @@
 date = "2018-05-14"
 
 # Project title.
-title = "Data Analytics Dashboard using Django and Highcharts"
+title = "Data analytics dashboard using Django and Highcharts"
 
 # Project summary to display on homepage.
 summary = "A step-by-steptutorial to develop a web dashboard for data analytics using Python Django and JavaScript Highcharts."
