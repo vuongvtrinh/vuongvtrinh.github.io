@@ -3,7 +3,7 @@
 date = "2018-05-20"
 
 # Project title.
-title = "OpenAI Gym from environment development to agent training"
+title = "OpenAI Gym: from environment development to agent training"
 
 # Project summary to display on homepage.
 summary = "A toolkit for developing and comparing reinforcement learning algorithms."
