@@ -12,7 +12,7 @@ summary = "A toolkit for developing and comparing reinforcement learning algorit
 image_preview = ""
 
 # Tags: can be used for filtering projects.
-tags = ["data-science", "django", "highcharts"]
+tags = ["data-science", "reinforcement-learning", "open-ai", "gym"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

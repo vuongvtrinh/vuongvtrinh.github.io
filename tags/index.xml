@@ -50,7 +50,7 @@
     <item>
       <title>django</title>
       <link>https://vuongvtrinh.github.io/tags/django/</link>
-      <pubDate>Sun, 20 May 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/tags/django/</guid>
       <description></description>
@@ -66,9 +66,18 @@
     </item>
     
     <item>
+      <title>gym</title>
+      <link>https://vuongvtrinh.github.io/tags/gym/</link>
+      <pubDate>Sun, 20 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/tags/gym/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>highcharts</title>
       <link>https://vuongvtrinh.github.io/tags/highcharts/</link>
-      <pubDate>Sun, 20 May 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/tags/highcharts/</guid>
       <description></description>
@@ -80,6 +89,15 @@
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/tags/model-predictive-control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>open-ai</title>
+      <link>https://vuongvtrinh.github.io/tags/open-ai/</link>
+      <pubDate>Sun, 20 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/tags/open-ai/</guid>
       <description></description>
     </item>
     
@@ -98,6 +116,15 @@
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/tags/quantitative-analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reinforcement-learning</title>
+      <link>https://vuongvtrinh.github.io/tags/reinforcement-learning/</link>
+      <pubDate>Sun, 20 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/tags/reinforcement-learning/</guid>
       <description></description>
     </item>
     
