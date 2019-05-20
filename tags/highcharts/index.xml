@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Vuong V. Trinh 2016</copyright>
-    <lastBuildDate>Mon, 14 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vuongvtrinh.github.io/tags/highcharts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>OpenAI Gym from environment development to agent training</title>
+      <link>https://vuongvtrinh.github.io/post/openai-gym-dev/</link>
+      <pubDate>Sun, 20 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/post/openai-gym-dev/</guid>
+      <description>Updating.</description>
+    </item>
     
     <item>
       <title>Data analytics dashboard using Django and Highcharts</title>

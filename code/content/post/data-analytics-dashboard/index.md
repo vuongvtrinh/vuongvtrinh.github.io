@@ -6,7 +6,7 @@ date = "2018-05-14"
 title = "Data analytics dashboard using Django and Highcharts"
 
 # Project summary to display on homepage.
-summary = "A step-by-steptutorial to develop a web dashboard for data analytics using Python Django and JavaScript Highcharts."
+summary = "A tutorial to develop a web dashboard for data analytics using Python Django and JavaScript Highcharts."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = ""

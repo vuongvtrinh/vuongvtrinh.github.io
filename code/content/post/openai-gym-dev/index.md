@@ -1,18 +1,18 @@
 +++
 # Date this page was created.
-date = "2018-01-02"
+date = "2018-05-20"
 
 # Project title.
-title = "Approximating a class of Wiener models"
+title = "OpenAI Gym from environment development to agent training"
 
 # Project summary to display on homepage.
-summary = "An algorithm for multivariate robust nonlinear regression leverages Wiener structure and sparse minimization."
+summary = "A toolkit for developing and comparing reinforcement learning algorithms."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = ""
 
 # Tags: can be used for filtering projects.
-tags = ["data-science"]
+tags = ["data-science", "django", "highcharts"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
