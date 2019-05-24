@@ -12,8 +12,7 @@ weight = 1
   interests = [
     "Optimization & Control",
     "Data Science",
-    "Quantitative Analytics",
-    "Supply Chain Management"
+    "Quantitative Analytics"
   ]
 
 # List your qualifications (such as academic degrees).
