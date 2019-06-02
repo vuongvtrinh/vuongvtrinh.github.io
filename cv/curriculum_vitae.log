@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.12.1)  31 MAY 2019 22:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.12.1)  2 JUN 2019 15:16
 entering extended mode
 **./curriculum_vitae.tex
 (curriculum_vitae.tex
@@ -387,20 +387,26 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 137.
- [1
+
+Overfull \hbox (2.09682pt too wide) in paragraph at lines 159--160
+[]\T1/ptm/m/n/10.95 Familiar with Mat-lab (\T1/ptm/m/it/10.95 CPLEX, NLopt, ACA
+DO\T1/ptm/m/n/10.95 ), C/C++, PLC, SCADA and Mod-bus, TeX and Inkscape. 
+ []
+
+[1
 
 {D:/Users/trinhvv-admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 
 AED: lastpage setting LastPage
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 257.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 257.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 256.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 256.
  (curriculum_vitae.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 257.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 257.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 256.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 256.
 Package rerunfilecheck Info: File `curriculum_vitae.out' has not changed.
 (rerunfilecheck)             Checksum: 5F69B03BB18476D20F717B84A9412222;325.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 257.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 256.
  ) 
 Here is how much of TeX's memory you used:
  6465 strings out of 493335
@@ -415,9 +421,9 @@ s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8
 a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on curriculum_vitae.pdf (2 pages, 88222 bytes).
+Output written on curriculum_vitae.pdf (2 pages, 86902 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
+ 109 PDF objects out of 1000 (max. 8388607)
  10 named destinations out of 1000 (max. 500000)
  57 words of extra memory for PDF output out of 10000 (max. 10000000)
 
