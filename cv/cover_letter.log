@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.12.1)  1 JUN 2019 01:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.12.1)  4 JUN 2019 11:20
 entering extended mode
 **./cover_letter.tex
 (cover_letter.tex
@@ -379,15 +379,15 @@ Overfull \hbox (2.0805pt too wide) in paragraph at lines 119--131
 []|  [] 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 185.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 181.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/it' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 185.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 181.
 
-Overfull \hbox (2.0805pt too wide) in paragraph at lines 134--188
+Overfull \hbox (2.0805pt too wide) in paragraph at lines 134--184
 []|  [] 
  []
 
@@ -396,20 +396,20 @@ AED: lastpage setting LastPage
 [1
 
 {D:/Users/trinhvv-admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 189.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 189.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 185.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 185.
 
 (cover_letter.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 189.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 189.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 185.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 185.
 Package rerunfilecheck Info: File `cover_letter.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 189.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 185.
  ) 
 Here is how much of TeX's memory you used:
  6415 strings out of 493335
  94693 string characters out of 3139236
- 190630 words of memory out of 10000000
+ 189630 words of memory out of 10000000
  9879 multiletter control sequences out of 15000+200000
  17786 words of font info for 26 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -419,7 +419,7 @@ s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on cover_letter.pdf (1 page, 55264 bytes).
+Output written on cover_letter.pdf (1 page, 55219 bytes).
 PDF statistics:
  30 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
