@@ -72,14 +72,15 @@ from sqlalchemy import create_engine
 from pandas.io import sql
 
 MANUAL_TEXT = """Data-driven analytics of crypto-market on Binance.
-Homepage: [https://tapchitienmahoa.github.io/](https://tapchitienmahoa.github.io).
+Homepage: [https://tapchitienmahoa.github.io/project/trading-analysis-bot](https://tapchitienmahoa.github.io/project/trading-analysis-bot) 
 *Features*
 - Altcoin supply analysis
-- Market movement statistics
 - Bitcoin aggregated charts
+- Market movement statistics
 - Newsflow
+- Trading sessions
 *Commands*
-- /x <coin>
+- /x <asset>
 Usage: /x fet knc. 
 - /s <asset>
 Usage: /s qtum or /s btt fet.
@@ -87,15 +88,13 @@ Usage: /s qtum or /s btt fet.
 Usage: /m.
 - /b <n-day>
 Usage: /b or /b 90.
+- /z <n-day>
+Usage: /z or /z 90.
 - /e <n-day>
 Usage: /e or /e 90.
 - /n
 Usage: /n.
-*Supports*
-Start trading on [Binance](https://www.binance.com/?ref=13339920), [Huobi](https://www.huobi.br.com/en-us/topic/invited/?invite_code=x93k3) or [Coinbase](https://www.coinbase.com/join/581a706d01bc8b00dd1d1737).
-Use the [Brave](https://brave.com/ken335) privacy browser to earn BAT token.
-BTC tipjar: [1DrEMhMP5rAytKyKXRzc6szTcUX8bZzZgq](1DrEMhMP5rAytKyKXRzc6szTcUX8bZzZgq).
-*Contact*
+*Copyright*
 @kakalotz
 _Disclammer: only accessible for registered users._
  """
@@ -109,6 +108,7 @@ engine = create_engine(SQLALCHEMY_DATABASE_URI)
 conn = engine.raw_connection()
 userList = sql.read_sql('SELECT * FROM "userList"', conn)['USERNAME'].tolist()
 conn.close() 
+userList = userList[userList['TRADING_ANALYSIS_BOT']==1]
 
 client = Client(BINANCE_API_KEY, BINANCE_SECRET_KEY)
 
@@ -116,16 +116,23 @@ def x(bot, update, args):
     bot.send_chat_action(chat_id=update.message.chat_id, 
                          action=telegram.ChatAction.TYPING)
     if str(update.message.from_user.username) in userList:
-        TIME_FRAME_STEP_LIST = ['4h', '12h', '1d']
+        TIME_FRAME_STEP_LIST = ['1h', '4h', '12h']
         TIME_FRAME_LIST = ['4h', '1d', '1w']
-        TIME_FRAME_DURATION_LIST = ['45 days ago UTC', '90 days ago UTC', '360 days ago UTC']
+        TIME_FRAME_DURATION_LIST = ['20 days ago UTC', '90 days ago UTC', '360 days ago UTC']
         for coin in args:
-            market = coin.upper()+'BTC'
             for i in range(len(TIME_FRAME_LIST)):
                 TIME_FRAME_STEP = TIME_FRAME_STEP_LIST[i]
                 TIME_FRAME = TIME_FRAME_LIST[i]
                 TIME_FRAME_DURATION = TIME_FRAME_DURATION_LIST[i]
                 try:
+                    market = coin.upper()+'BTC'
+                    supply.supply_analysis(client, market, TIME_FRAME_STEP, TIME_FRAME, TIME_FRAME_DURATION)
+                    bot.send_photo(chat_id=update.message.chat_id, 
+                               photo=open('img/'+market+'_'+TIME_FRAME.upper()+'.png', 'rb'))
+                except Exception:
+                    pass
+                try:
+                    market = coin.upper()+'USDT'
                     supply.supply_analysis(client, market, TIME_FRAME_STEP, TIME_FRAME, TIME_FRAME_DURATION)
                     bot.send_photo(chat_id=update.message.chat_id, 
                                photo=open('img/'+market+'_'+TIME_FRAME.upper()+'.png', 'rb'))
@@ -159,9 +166,17 @@ def b(bot, update, args):
         bitcoin.blockchain(timeInterval)
         bot.send_photo(chat_id=update.message.chat_id, 
                    photo=open('img/blockchain.png', 'rb'))
-        bitcoin.bid_ask_sum()
+                   
+def z(bot, update):
+    bot.send_chat_action(chat_id=update.message.chat_id, 
+                         action=telegram.ChatAction.TYPING)
+    if str(update.message.from_user.username) in userList:
+        bitcoin.coinbase()
         bot.send_photo(chat_id=update.message.chat_id, 
-                   photo=open('img/bidasksum.png', 'rb'))
+                   photo=open('img/coinbase.png', 'rb'))
+        bitcoin.bitstamp()
+        bot.send_photo(chat_id=update.message.chat_id, 
+                   photo=open('img/bitstamp.png', 'rb'))
                    
 def e(bot, update, args):
     bot.send_chat_action(chat_id=update.message.chat_id, 
@@ -197,6 +212,7 @@ def main():
     dp.add_handler(CommandHandler("help", manual))
     dp.add_handler(CommandHandler("m", m))
     dp.add_handler(CommandHandler("n", n))
+    dp.add_handler(CommandHandler("z", z))
     dp.add_handler(CommandHandler("b", b, pass_args=True))
     dp.add_handler(CommandHandler("e", e, pass_args=True))
     dp.add_handler(CommandHandler("x", x, pass_args=True))
@@ -217,13 +233,28 @@ heroku create trading-analysis-bot --buildpack heroku/python
 ```
 ### Setup Postgres database for user management
 
+```
+import pandas as pd
+from sqlalchemy import create_engine
+import json
+
+with open('setting.txt') as json_file:  
+    setting = json.load(json_file)
+
+engine = create_engine(setting['SQLALCHEMY_DATABASE_URI'])
+conn = engine.raw_connection()
+customer = pd.read_csv("customer.csv")
+customer.to_sql(name='userList', con=engine, if_exists='replace')
+conn.close() 
+```
+
 ### Deploy to the cloud
 
 ```
-heroku config:set TELEGRAM_TOKEN=XXXXXXXXXXXXXXXXXXXXXXXXX
-heroku config:set BINANCE_SECRET_KEY=XXXXXXXXXXXXXXXXXXXXXXXXX
-heroku config:set BINANCE_API_KEY=XXXXXXXXXXXXXXXXXXXXXXXXX
-heroku config:set SQLALCHEMY_DATABASE_URI=XXXXXXXXXXXXXXXXXXXXXXXXX
+heroku config:set TELEGRAM_TOKEN=XXXXXXXXXXXXXXXXXXXXXXXXXX
+heroku config:set BINANCE_SECRET_KEY=XXXXXXXXXXXXXXXXXXXXXXXXXX
+heroku config:set BINANCE_API_KEY=XXXXXXXXXXXXXXXXXXXXXXXXXX
+heroku config:set SQLALCHEMY_DATABASE_URI=XXXXXXXXXXXXXXXXXXXXXXXXXX
 git push heroku master
 heroku ps:scale bot=1 
 ```

@@ -82,14 +82,15 @@ from sqlalchemy import create_engine
 from pandas.io import sql
 
 MANUAL_TEXT = &amp;quot;&amp;quot;&amp;quot;Data-driven analytics of crypto-market on Binance.
-Homepage: [https://tapchitienmahoa.github.io/](https://tapchitienmahoa.github.io).
+Homepage: [https://tapchitienmahoa.github.io/project/trading-analysis-bot](https://tapchitienmahoa.github.io/project/trading-analysis-bot) 
 *Features*
 - Altcoin supply analysis
-- Market movement statistics
 - Bitcoin aggregated charts
+- Market movement statistics
 - Newsflow
+- Trading sessions
 *Commands*
-- /x &amp;lt;coin&amp;gt;
+- /x &amp;lt;asset&amp;gt;
 Usage: /x fet knc. 
 - /s &amp;lt;asset&amp;gt;
 Usage: /s qtum or /s btt fet.
@@ -97,15 +98,13 @@ Usage: /s qtum or /s btt fet.
 Usage: /m.
 - /b &amp;lt;n-day&amp;gt;
 Usage: /b or /b 90.
+- /z &amp;lt;n-day&amp;gt;
+Usage: /z or /z 90.
 - /e &amp;lt;n-day&amp;gt;
 Usage: /e or /e 90.
 - /n
 Usage: /n.
-*Supports*
-Start trading on [Binance](https://www.binance.com/?ref=13339920), [Huobi](https://www.huobi.br.com/en-us/topic/invited/?invite_code=x93k3) or [Coinbase](https://www.coinbase.com/join/581a706d01bc8b00dd1d1737).
-Use the [Brave](https://brave.com/ken335) privacy browser to earn BAT token.
-BTC tipjar: [1DrEMhMP5rAytKyKXRzc6szTcUX8bZzZgq](1DrEMhMP5rAytKyKXRzc6szTcUX8bZzZgq).
-*Contact*
+*Copyright*
 @kakalotz
 _Disclammer: only accessible for registered users._
  &amp;quot;&amp;quot;&amp;quot;
@@ -119,6 +118,7 @@ engine = create_engine(SQLALCHEMY_DATABASE_URI)
 conn = engine.raw_connection()
 userList = sql.read_sql(&#39;SELECT * FROM &amp;quot;userList&amp;quot;&#39;, conn)[&#39;USERNAME&#39;].tolist()
 conn.close() 
+userList = userList[userList[&#39;TRADING_ANALYSIS_BOT&#39;]==1]
 
 client = Client(BINANCE_API_KEY, BINANCE_SECRET_KEY)
 
@@ -126,16 +126,23 @@ def x(bot, update, args):
     bot.send_chat_action(chat_id=update.message.chat_id, 
                          action=telegram.ChatAction.TYPING)
     if str(update.message.from_user.username) in userList:
-        TIME_FRAME_STEP_LIST = [&#39;4h&#39;, &#39;12h&#39;, &#39;1d&#39;]
+        TIME_FRAME_STEP_LIST = [&#39;1h&#39;, &#39;4h&#39;, &#39;12h&#39;]
         TIME_FRAME_LIST = [&#39;4h&#39;, &#39;1d&#39;, &#39;1w&#39;]
-        TIME_FRAME_DURATION_LIST = [&#39;45 days ago UTC&#39;, &#39;90 days ago UTC&#39;, &#39;360 days ago UTC&#39;]
+        TIME_FRAME_DURATION_LIST = [&#39;20 days ago UTC&#39;, &#39;90 days ago UTC&#39;, &#39;360 days ago UTC&#39;]
         for coin in args:
-            market = coin.upper()+&#39;BTC&#39;
             for i in range(len(TIME_FRAME_LIST)):
                 TIME_FRAME_STEP = TIME_FRAME_STEP_LIST[i]
                 TIME_FRAME = TIME_FRAME_LIST[i]
                 TIME_FRAME_DURATION = TIME_FRAME_DURATION_LIST[i]
                 try:
+                    market = coin.upper()+&#39;BTC&#39;
+                    supply.supply_analysis(client, market, TIME_FRAME_STEP, TIME_FRAME, TIME_FRAME_DURATION)
+                    bot.send_photo(chat_id=update.message.chat_id, 
+                               photo=open(&#39;img/&#39;+market+&#39;_&#39;+TIME_FRAME.upper()+&#39;.png&#39;, &#39;rb&#39;))
+                except Exception:
+                    pass
+                try:
+                    market = coin.upper()+&#39;USDT&#39;
                     supply.supply_analysis(client, market, TIME_FRAME_STEP, TIME_FRAME, TIME_FRAME_DURATION)
                     bot.send_photo(chat_id=update.message.chat_id, 
                                photo=open(&#39;img/&#39;+market+&#39;_&#39;+TIME_FRAME.upper()+&#39;.png&#39;, &#39;rb&#39;))
@@ -169,9 +176,17 @@ def b(bot, update, args):
         bitcoin.blockchain(timeInterval)
         bot.send_photo(chat_id=update.message.chat_id, 
                    photo=open(&#39;img/blockchain.png&#39;, &#39;rb&#39;))
-        bitcoin.bid_ask_sum()
+                   
+def z(bot, update):
+    bot.send_chat_action(chat_id=update.message.chat_id, 
+                         action=telegram.ChatAction.TYPING)
+    if str(update.message.from_user.username) in userList:
+        bitcoin.coinbase()
         bot.send_photo(chat_id=update.message.chat_id, 
-                   photo=open(&#39;img/bidasksum.png&#39;, &#39;rb&#39;))
+                   photo=open(&#39;img/coinbase.png&#39;, &#39;rb&#39;))
+        bitcoin.bitstamp()
+        bot.send_photo(chat_id=update.message.chat_id, 
+                   photo=open(&#39;img/bitstamp.png&#39;, &#39;rb&#39;))
                    
 def e(bot, update, args):
     bot.send_chat_action(chat_id=update.message.chat_id, 
@@ -207,6 +222,7 @@ def main():
     dp.add_handler(CommandHandler(&amp;quot;help&amp;quot;, manual))
     dp.add_handler(CommandHandler(&amp;quot;m&amp;quot;, m))
     dp.add_handler(CommandHandler(&amp;quot;n&amp;quot;, n))
+    dp.add_handler(CommandHandler(&amp;quot;z&amp;quot;, z))
     dp.add_handler(CommandHandler(&amp;quot;b&amp;quot;, b, pass_args=True))
     dp.add_handler(CommandHandler(&amp;quot;e&amp;quot;, e, pass_args=True))
     dp.add_handler(CommandHandler(&amp;quot;x&amp;quot;, x, pass_args=True))
@@ -227,12 +243,26 @@ if __name__ == &#39;__main__&#39;:
 
 &lt;h3 id=&#34;setup-postgres-database-for-user-management&#34;&gt;Setup Postgres database for user management&lt;/h3&gt;
 
+&lt;pre&gt;&lt;code&gt;import pandas as pd
+from sqlalchemy import create_engine
+import json
+
+with open(&#39;setting.txt&#39;) as json_file:  
+    setting = json.load(json_file)
+
+engine = create_engine(setting[&#39;SQLALCHEMY_DATABASE_URI&#39;])
+conn = engine.raw_connection()
+customer = pd.read_csv(&amp;quot;customer.csv&amp;quot;)
+customer.to_sql(name=&#39;userList&#39;, con=engine, if_exists=&#39;replace&#39;)
+conn.close() 
+&lt;/code&gt;&lt;/pre&gt;
+
 &lt;h3 id=&#34;deploy-to-the-cloud&#34;&gt;Deploy to the cloud&lt;/h3&gt;
 
-&lt;pre&gt;&lt;code&gt;heroku config:set TELEGRAM_TOKEN=XXXXXXXXXXXXXXXXXXXXXXXXX
-heroku config:set BINANCE_SECRET_KEY=XXXXXXXXXXXXXXXXXXXXXXXXX
-heroku config:set BINANCE_API_KEY=XXXXXXXXXXXXXXXXXXXXXXXXX
-heroku config:set SQLALCHEMY_DATABASE_URI=XXXXXXXXXXXXXXXXXXXXXXXXX
+&lt;pre&gt;&lt;code&gt;heroku config:set TELEGRAM_TOKEN=XXXXXXXXXXXXXXXXXXXXXXXXXX
+heroku config:set BINANCE_SECRET_KEY=XXXXXXXXXXXXXXXXXXXXXXXXXX
+heroku config:set BINANCE_API_KEY=XXXXXXXXXXXXXXXXXXXXXXXXXX
+heroku config:set SQLALCHEMY_DATABASE_URI=XXXXXXXXXXXXXXXXXXXXXXXXXX
 git push heroku master
 heroku ps:scale bot=1 
 &lt;/code&gt;&lt;/pre&gt;
