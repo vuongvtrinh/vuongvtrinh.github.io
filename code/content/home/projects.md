@@ -51,10 +51,6 @@ filter_default = 0
 [[filter]]
   name = "Quantitative Analytics"
   tag = "quantitative-analytics"
-  
-[[filter]]
-  name = "Supply Chain"
-  tag = "supply-chain"
 
 +++
 
