@@ -3,10 +3,10 @@
 date = "2016-06-01"
 
 # Project title.
-title = "Trading Analysis Bot"
+title = "Cryptoasset Magazine"
 
 # Project summary to display on homepage.
-summary = "Telegram chatbot for data-driven analytics of crypto-market: demand supply imbalances, bitcoin aggregated charts, market movement statistics and newsflow."
+summary = ""
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = ""
@@ -15,7 +15,7 @@ image_preview = ""
 tags = ["quantitative-analytics"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "https://t.me/trading_analysis_bot"
+external_link = "https://tapchitienmahoa.github.io/"
 
 # Does the project detail page use math formatting?
 math = false
