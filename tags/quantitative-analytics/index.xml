@@ -33,5 +33,14 @@ Requirements python-telegram-bot python-binance numpy datetime matplotlib seabor
 Data-Driven Analytics Altcoin price versus supply analysis Market movement statistics Bitcoin aggregated statistics: traded exchanges vs. network transactions Newsflow sentiment analysis Advanced Trading Strategies Portfolio management and optimization Reinforcement learning</description>
     </item>
     
+    <item>
+      <title>Telegram Trading Analysis Bot</title>
+      <link>https://vuongvtrinh.github.io/project/trading-analysis-bot/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/project/trading-analysis-bot/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
