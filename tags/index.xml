@@ -48,20 +48,20 @@
     </item>
     
     <item>
-      <title>django</title>
-      <link>https://vuongvtrinh.github.io/tags/django/</link>
-      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://vuongvtrinh.github.io/tags/django/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>electro-mechanics</title>
       <link>https://vuongvtrinh.github.io/tags/electro-mechanics/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/tags/electro-mechanics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>flask</title>
+      <link>https://vuongvtrinh.github.io/tags/flask/</link>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/tags/flask/</guid>
       <description></description>
     </item>
     
