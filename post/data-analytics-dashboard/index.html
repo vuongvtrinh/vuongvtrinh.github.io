@@ -430,7 +430,6 @@ templates/
 <h3 id="app-py">app.py</h3>
 
 <pre><code>from flask import Flask, render_template, jsonify
-
 import pandas as pd
 from six.moves import urllib
 import json
@@ -454,7 +453,6 @@ def data():
 def graph():
     return render_template('graph.html')
  
- 
 if __name__ == '__main__':
     app.run(debug=True, threaded=True, host='0.0.0.0')
 </code></pre>
@@ -470,18 +468,13 @@ if __name__ == '__main__':
 		&lt;script type=&quot;text/javascript&quot;&gt;
 		$(function () {
             $.getJSON('http://localhost:5000/data.json', function (data) {
-                // Create the chart
                 Highcharts.stockChart('container', {
-            
-            
                     rangeSelector: {
                         selected: 1
                     },
-            
                     title: {
                         text: 'AAPL Stock Price'
                     },
-            
                     series: [{
                         name: 'AAPL',
                         data: data,
@@ -499,7 +492,6 @@ if __name__ == '__main__':
         &lt;script src=&quot;https://code.highcharts.com/stock/highstock.js&quot;&gt;&lt;/script&gt;
         &lt;script src=&quot;https://code.highcharts.com/stock/modules/exporting.js&quot;&gt;&lt;/script&gt;
         &lt;script src=&quot;https://code.highcharts.com/stock/modules/export-data.js&quot;&gt;&lt;/script&gt;
-
         &lt;div id=&quot;container&quot; style=&quot;height: 400px; min-width: 310px&quot;&gt;&lt;/div&gt;
 	&lt;/body&gt;
 &lt;/html&gt;

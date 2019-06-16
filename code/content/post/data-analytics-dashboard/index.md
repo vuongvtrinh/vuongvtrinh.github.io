@@ -53,7 +53,6 @@ templates/
 
 ```
 from flask import Flask, render_template, jsonify
-
 import pandas as pd
 from six.moves import urllib
 import json
@@ -77,7 +76,6 @@ def data():
 def graph():
     return render_template('graph.html')
  
- 
 if __name__ == '__main__':
     app.run(debug=True, threaded=True, host='0.0.0.0')
 ```
@@ -94,18 +92,13 @@ if __name__ == '__main__':
 		<script type="text/javascript">
 		$(function () {
             $.getJSON('http://localhost:5000/data.json', function (data) {
-                // Create the chart
                 Highcharts.stockChart('container', {
-            
-            
                     rangeSelector: {
                         selected: 1
                     },
-            
                     title: {
                         text: 'AAPL Stock Price'
                     },
-            
                     series: [{
                         name: 'AAPL',
                         data: data,
@@ -123,7 +116,6 @@ if __name__ == '__main__':
         <script src="https://code.highcharts.com/stock/highstock.js"></script>
         <script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
         <script src="https://code.highcharts.com/stock/modules/export-data.js"></script>
-
         <div id="container" style="height: 400px; min-width: 310px"></div>
 	</body>
 </html>
