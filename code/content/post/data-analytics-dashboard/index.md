@@ -40,4 +40,91 @@ caption = ""
 
 +++
 
-Updating.
+### Organization pattern
+
+```
+app.py
+static/
+templates/
+    graph.html
+```
+
+### app.py
+
+```
+from flask import Flask, render_template, jsonify
+
+import pandas as pd
+from six.moves import urllib
+import json
+ 
+app = Flask(__name__)
+ 
+@app.route("/data.json")
+def data():
+    timeInterval = 120
+    data = pd.DataFrame()
+    featureList = ['market-price', 
+                   'trade-volume']
+    for feature in featureList:
+        url = "https://api.blockchain.info/charts/"+feature+"?timespan="+str(timeInterval)+"days&format=json"
+        data[feature] = pd.DataFrame(json.loads(urllib.request.urlopen(url).read().decode('utf-8'))['values'])['y']
+    result = data.to_dict(orient='records')
+    seq = [[item['market-price'], item['trade-volume']] for item in result]
+    return jsonify(seq)
+ 
+@app.route("/graph")
+def graph():
+    return render_template('graph.html')
+ 
+ 
+if __name__ == '__main__':
+    app.run(debug=True, threaded=True, host='0.0.0.0')
+```
+
+### templates/graph.html
+
+```
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Highstock Example</title>
+        <script src="{{ url_for('static', filename='jquery-1.8.3.min.js') }}"></script>
+		<script type="text/javascript">
+		$(function () {
+            $.getJSON('http://localhost:5000/data.json', function (data) {
+                // Create the chart
+                Highcharts.stockChart('container', {
+            
+            
+                    rangeSelector: {
+                        selected: 1
+                    },
+            
+                    title: {
+                        text: 'AAPL Stock Price'
+                    },
+            
+                    series: [{
+                        name: 'AAPL',
+                        data: data,
+                        tooltip: {
+                            valueDecimals:10
+                        }
+                    }]
+                });
+            });
+        });
+		</script>
+	</head>
+	<body>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="https://code.highcharts.com/stock/highstock.js"></script>
+        <script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
+        <script src="https://code.highcharts.com/stock/modules/export-data.js"></script>
+
+        <div id="container" style="height: 400px; min-width: 310px"></div>
+	</body>
+</html>
+```

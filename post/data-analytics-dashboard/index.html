@@ -417,7 +417,93 @@
   <div class="article-container">
 
     <div class="article-style" itemprop="articleBody">
-      <p>Updating.</p>
+      
+
+<h3 id="organization-pattern">Organization pattern</h3>
+
+<pre><code>app.py
+static/
+templates/
+    graph.html
+</code></pre>
+
+<h3 id="app-py">app.py</h3>
+
+<pre><code>from flask import Flask, render_template, jsonify
+
+import pandas as pd
+from six.moves import urllib
+import json
+ 
+app = Flask(__name__)
+ 
+@app.route(&quot;/data.json&quot;)
+def data():
+    timeInterval = 120
+    data = pd.DataFrame()
+    featureList = ['market-price', 
+                   'trade-volume']
+    for feature in featureList:
+        url = &quot;https://api.blockchain.info/charts/&quot;+feature+&quot;?timespan=&quot;+str(timeInterval)+&quot;days&amp;format=json&quot;
+        data[feature] = pd.DataFrame(json.loads(urllib.request.urlopen(url).read().decode('utf-8'))['values'])['y']
+    result = data.to_dict(orient='records')
+    seq = [[item['market-price'], item['trade-volume']] for item in result]
+    return jsonify(seq)
+ 
+@app.route(&quot;/graph&quot;)
+def graph():
+    return render_template('graph.html')
+ 
+ 
+if __name__ == '__main__':
+    app.run(debug=True, threaded=True, host='0.0.0.0')
+</code></pre>
+
+<h3 id="templates-graph-html">templates/graph.html</h3>
+
+<pre><code>&lt;!DOCTYPE HTML&gt;
+&lt;html&gt;
+	&lt;head&gt;
+		&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;
+		&lt;title&gt;Highstock Example&lt;/title&gt;
+        &lt;script src=&quot;{{ url_for('static', filename='jquery-1.8.3.min.js') }}&quot;&gt;&lt;/script&gt;
+		&lt;script type=&quot;text/javascript&quot;&gt;
+		$(function () {
+            $.getJSON('http://localhost:5000/data.json', function (data) {
+                // Create the chart
+                Highcharts.stockChart('container', {
+            
+            
+                    rangeSelector: {
+                        selected: 1
+                    },
+            
+                    title: {
+                        text: 'AAPL Stock Price'
+                    },
+            
+                    series: [{
+                        name: 'AAPL',
+                        data: data,
+                        tooltip: {
+                            valueDecimals:10
+                        }
+                    }]
+                });
+            });
+        });
+		&lt;/script&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+        &lt;script src=&quot;https://code.jquery.com/jquery-3.1.1.min.js&quot;&gt;&lt;/script&gt;
+        &lt;script src=&quot;https://code.highcharts.com/stock/highstock.js&quot;&gt;&lt;/script&gt;
+        &lt;script src=&quot;https://code.highcharts.com/stock/modules/exporting.js&quot;&gt;&lt;/script&gt;
+        &lt;script src=&quot;https://code.highcharts.com/stock/modules/export-data.js&quot;&gt;&lt;/script&gt;
+
+        &lt;div id=&quot;container&quot; style=&quot;height: 400px; min-width: 310px&quot;&gt;&lt;/div&gt;
+	&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
 
     </div>
 

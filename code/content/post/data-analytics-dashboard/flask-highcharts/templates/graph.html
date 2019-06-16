@@ -6,38 +6,37 @@
         <script src="{{ url_for('static', filename='jquery-1.8.3.min.js') }}"></script>
 		<script type="text/javascript">
 		$(function () {
-        $.getJSON('http://localhost:5000/data.json', function (data) {
-            // Create the chart
-            Highcharts.stockChart('container', {
-        
-        
-                rangeSelector: {
-                    selected: 1
-                },
-        
-                title: {
-                    text: 'AAPL Stock Price'
-                },
-        
-                series: [{
-                    name: 'AAPL',
-                    data: data,
-                    tooltip: {
-                        valueDecimals:10
-                    }
-                }]
+            $.getJSON('http://localhost:5000/data.json', function (data) {
+                // Create the chart
+                Highcharts.stockChart('container', {
+            
+            
+                    rangeSelector: {
+                        selected: 1
+                    },
+            
+                    title: {
+                        text: 'AAPL Stock Price'
+                    },
+            
+                    series: [{
+                        name: 'AAPL',
+                        data: data,
+                        tooltip: {
+                            valueDecimals:10
+                        }
+                    }]
+                });
             });
-        });
         });
 		</script>
 	</head>
 	<body>
-<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-<script src="https://code.highcharts.com/stock/highstock.js"></script>
-<script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
-<script src="https://code.highcharts.com/stock/modules/export-data.js"></script>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="https://code.highcharts.com/stock/highstock.js"></script>
+        <script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
+        <script src="https://code.highcharts.com/stock/modules/export-data.js"></script>
 
-<div id="container" style="height: 400px; min-width: 310px"></div>
- 
+        <div id="container" style="height: 400px; min-width: 310px"></div>
 	</body>
 </html>

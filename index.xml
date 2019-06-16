@@ -40,7 +40,93 @@
       <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/post/data-analytics-dashboard/</guid>
-      <description>&lt;p&gt;Updating.&lt;/p&gt;
+      <description>
+
+&lt;h3 id=&#34;organization-pattern&#34;&gt;Organization pattern&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;app.py
+static/
+templates/
+    graph.html
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;app-py&#34;&gt;app.py&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;from flask import Flask, render_template, jsonify
+
+import pandas as pd
+from six.moves import urllib
+import json
+ 
+app = Flask(__name__)
+ 
+@app.route(&amp;quot;/data.json&amp;quot;)
+def data():
+    timeInterval = 120
+    data = pd.DataFrame()
+    featureList = [&#39;market-price&#39;, 
+                   &#39;trade-volume&#39;]
+    for feature in featureList:
+        url = &amp;quot;https://api.blockchain.info/charts/&amp;quot;+feature+&amp;quot;?timespan=&amp;quot;+str(timeInterval)+&amp;quot;days&amp;amp;format=json&amp;quot;
+        data[feature] = pd.DataFrame(json.loads(urllib.request.urlopen(url).read().decode(&#39;utf-8&#39;))[&#39;values&#39;])[&#39;y&#39;]
+    result = data.to_dict(orient=&#39;records&#39;)
+    seq = [[item[&#39;market-price&#39;], item[&#39;trade-volume&#39;]] for item in result]
+    return jsonify(seq)
+ 
+@app.route(&amp;quot;/graph&amp;quot;)
+def graph():
+    return render_template(&#39;graph.html&#39;)
+ 
+ 
+if __name__ == &#39;__main__&#39;:
+    app.run(debug=True, threaded=True, host=&#39;0.0.0.0&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;templates-graph-html&#34;&gt;templates/graph.html&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE HTML&amp;gt;
+&amp;lt;html&amp;gt;
+	&amp;lt;head&amp;gt;
+		&amp;lt;meta http-equiv=&amp;quot;Content-Type&amp;quot; content=&amp;quot;text/html; charset=utf-8&amp;quot;&amp;gt;
+		&amp;lt;title&amp;gt;Highstock Example&amp;lt;/title&amp;gt;
+        &amp;lt;script src=&amp;quot;{{ url_for(&#39;static&#39;, filename=&#39;jquery-1.8.3.min.js&#39;) }}&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+		&amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+		$(function () {
+            $.getJSON(&#39;http://localhost:5000/data.json&#39;, function (data) {
+                // Create the chart
+                Highcharts.stockChart(&#39;container&#39;, {
+            
+            
+                    rangeSelector: {
+                        selected: 1
+                    },
+            
+                    title: {
+                        text: &#39;AAPL Stock Price&#39;
+                    },
+            
+                    series: [{
+                        name: &#39;AAPL&#39;,
+                        data: data,
+                        tooltip: {
+                            valueDecimals:10
+                        }
+                    }]
+                });
+            });
+        });
+		&amp;lt;/script&amp;gt;
+	&amp;lt;/head&amp;gt;
+	&amp;lt;body&amp;gt;
+        &amp;lt;script src=&amp;quot;https://code.jquery.com/jquery-3.1.1.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+        &amp;lt;script src=&amp;quot;https://code.highcharts.com/stock/highstock.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+        &amp;lt;script src=&amp;quot;https://code.highcharts.com/stock/modules/exporting.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+        &amp;lt;script src=&amp;quot;https://code.highcharts.com/stock/modules/export-data.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+
+        &amp;lt;div id=&amp;quot;container&amp;quot; style=&amp;quot;height: 400px; min-width: 310px&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
