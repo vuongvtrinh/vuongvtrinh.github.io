@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.12.1)  20 JUN 2019 14:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.12.1)  21 JUN 2019 02:34
 entering extended mode
 **./reference_letter.tex
 (reference_letter.tex
@@ -427,13 +427,13 @@ LaTeX Info: Redefining \nameref on input line 118.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 122.
 
-<ensait.jpg, id=6, 114.4275pt x 66.84975pt>
+<ensait.jpg, id=5, 114.4275pt x 66.84975pt>
 File: ensait.jpg Graphic file (type jpg)
  <use ensait.jpg>
 Package pdftex.def Info: ensait.jpg used on input line 134.
 (pdftex.def)             Requested size: 76.09929pt x 44.45961pt.
 
-<gemtex.jpg, id=7, 442.65375pt x 206.27063pt>
+<gemtex.jpg, id=6, 442.65375pt x 206.27063pt>
 File: gemtex.jpg Graphic file (type jpg)
  <use gemtex.jpg>
 Package pdftex.def Info: gemtex.jpg used on input line 135.
@@ -482,9 +482,9 @@ Here is how much of TeX's memory you used:
 s/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times
 /utmri8a.pfb>
-Output written on reference_letter.pdf (1 page, 85944 bytes).
+Output written on reference_letter.pdf (1 page, 85756 bytes).
 PDF statistics:
- 29 PDF objects out of 1000 (max. 8388607)
+ 28 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
