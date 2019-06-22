@@ -25,6 +25,15 @@
     </item>
     
     <item>
+      <title>Marpit: Markdown slide deck framework</title>
+      <link>https://vuongvtrinh.github.io/post/marpit/</link>
+      <pubDate>Sun, 17 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/post/marpit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Flask-Base: A simple Flask boilerplate app with SQLAlchemy, Redis, User Authentication, and more</title>
       <link>https://vuongvtrinh.github.io/post/flask-base/</link>
       <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>

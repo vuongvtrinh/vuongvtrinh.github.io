@@ -12,6 +12,14 @@
     
     <url>
     
+      <loc>https://vuongvtrinh.github.io/post/marpit/</loc>
+      <lastmod>2018-06-17T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://vuongvtrinh.github.io/post/flask-base/</loc>
       <lastmod>2018-05-17T00:00:00+00:00</lastmod>
     </url>
@@ -143,7 +151,7 @@
     <url>
     
       <loc>https://vuongvtrinh.github.io/post/</loc>
-      <lastmod>2018-05-17T00:00:00+00:00</lastmod>
+      <lastmod>2018-06-17T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -258,6 +266,15 @@
     
     <url>
     
+      <loc>https://vuongvtrinh.github.io/tags/markdown/</loc>
+      <lastmod>2018-06-17T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://vuongvtrinh.github.io/tags/model-predictive-control/</loc>
       <lastmod>2018-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -269,6 +286,15 @@
     
       <loc>https://vuongvtrinh.github.io/tags/optimization-control/</loc>
       <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/tags/presentation/</loc>
+      <lastmod>2018-06-17T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
