@@ -25,6 +25,15 @@
     </item>
     
     <item>
+      <title>Flask-Base: A simple Flask boilerplate app with SQLAlchemy, Redis, User Authentication, and more</title>
+      <link>https://vuongvtrinh.github.io/post/flask-base/</link>
+      <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/post/flask-base/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Data analytics dashboard using Python Flask and JavaScript Highcharts</title>
       <link>https://vuongvtrinh.github.io/post/data-analytics-dashboard/</link>
       <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
