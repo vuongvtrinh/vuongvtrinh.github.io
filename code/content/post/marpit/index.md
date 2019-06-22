@@ -6,7 +6,7 @@ date = "2018-06-17"
 title = "Marpit: Markdown slide deck framework"
 
 # Project summary to display on homepage.
-summary = "Marpit is the skinny framework for creating slide deck from Markdown. It can transform Markdown and CSS theme(s) to slide deck composed of static HTML and CSS and create a web page convertible into slide PDF by printing."
+summary = "Marpit can transform Markdown and CSS theme(s) to slide deck composed of static HTML and CSS and create a web page convertible into slide PDF by printing."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = ""
