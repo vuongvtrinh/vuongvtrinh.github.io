@@ -58,29 +58,13 @@ This project develops an intelligent data driven application to monitor blockcha
 
 ![blockchain.png](blockchain.png)
 
-![coinbase.png](coinbase.png)
-
-![bitstamp.png](bitstamp.png)
-
 ### Newsflow sentiment analysis
 
 ![n.png](n.png)
 
 ## Advanced Trading Strategies
 
-### Portfolio management and optimization
-
-Reinforcement learning
-
-### Optimal order execution
-
-Ping/Pong
-
-Iceberg
-
-TWAP
-
-Accumulate/Distribute
+Updating.
 
 ## Application Screenshots
 
