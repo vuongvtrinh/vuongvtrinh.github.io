@@ -42,9 +42,9 @@ caption = ""
 
 This project develops an intelligent data driven application to monitor blockchain projects and to analyze cryptoassets from both utility and speculation perspectives. We target blockchain entrepreneurs, investors and traders all along the life of projects: token generation, listing on secondary market, product delivery, product usage, and token valorization.
 
-## Data-Driven Analytics
+## Data-Driven Financial Analytics
 
-### Altcoin price versus supply analysis
+### Supply analysis
 
 ![x.png](x.png)
 
@@ -54,7 +54,7 @@ This project develops an intelligent data driven application to monitor blockcha
 
 ![binance.png](binance.png)
 
-### Bitcoin aggregated statistics: traded exchanges vs. network transactions
+### Bitcoin aggregated charts: traded exchanges vs. network transactions
 
 ![blockchain.png](blockchain.png)
 
