@@ -45,7 +45,7 @@ caption = ""
 A tutorial to develop a Telegram chatbot for data-driven analytics of cryptoassets from both utility and speculation perspectives.
 
 - Telegram chatbot: [https://t.me/trading_analysis_bot](https://t.me/trading_analysis_bot)
-- Github repository: [https://github.com/trinhvv/trading-analysis-bot](https://github.com/trinhvv/trading-analysis-bot)
+- GitHub repository: [https://github.com/trinhvv/trading-analysis-bot](https://github.com/trinhvv/trading-analysis-bot)
 
 ## Technology
 

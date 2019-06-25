@@ -419,17 +419,22 @@
     <div class="article-style" itemprop="articleBody">
       
 
-<p>GitHub repository: <a href="https://github.com/trinhvv/flask-highcharts" target="_blank">https://github.com/trinhvv/flask-highcharts</a></p>
+<h2 id="introduction">Introduction</h2>
 
-<h3 id="tutorial">Tutorial</h3>
+<p>A tutorial to develop a web dashboard for data analytics using Python Flask and JavaScript Highcharts.</p>
+
+<ul>
+<li>GitHub repository: <a href="https://github.com/trinhvv/flask-highcharts" target="_blank">https://github.com/trinhvv/flask-highcharts</a></li>
+</ul>
+
+<h2 id="tutorial">Tutorial</h2>
 
 <ul>
 <li>Fetch data from <a href="https://www.blockchain.com/" target="_blank">https://www.blockchain.com/</a></li>
-<li>Data preprocessing in Flask</li>
-<li>Parse to Highcharts</li>
+<li>Data preprocessing in Flask then parse to Highcharts</li>
 </ul>
 
-<h3 id="organization">Organization</h3>
+<h2 id="organization">Organization</h2>
 
 <pre><code>app.py
 static/
@@ -437,7 +442,7 @@ templates/
     index.html
 </code></pre>
 
-<h3 id="app-py">app.py</h3>
+<h2 id="app-py">app.py</h2>
 
 <pre><code>from flask import Flask, render_template, jsonify
 import pandas as pd
@@ -468,7 +473,7 @@ if __name__ == '__main__':
     app.run(debug=True, threaded=True, host='0.0.0.0')
 </code></pre>
 
-<h3 id="templates-index-html">templates/index.html</h3>
+<h2 id="templates-index-html">templates/index.html</h2>
 
 <pre><code>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot; &quot;http://www.w3.org/TR/html4/strict.dtd&quot;&gt;
 &lt;html&gt;
@@ -508,7 +513,7 @@ if __name__ == '__main__':
 &lt;/html&gt;
 </code></pre>
 
-<h3 id="screenshot">Screenshot</h3>
+<h2 id="screenshot">Screenshot</h2>
 
 <p><img src="screenshot.png" alt="screenshot.png" /></p>
 

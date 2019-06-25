@@ -27,8 +27,8 @@
       <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/post/data-analytics-dashboard/</guid>
-      <description>GitHub repository: https://github.com/trinhvv/flask-highcharts
-Tutorial  Fetch data from https://www.blockchain.com/ Data preprocessing in Flask Parse to Highcharts  Organization app.py static/ templates/ index.html  app.py from flask import Flask, render_template, jsonify import pandas as pd from six.moves import urllib import json app = Flask(__name__) @app.route(&amp;quot;/data.json&amp;quot;) def data(): timeInterval = 1000 data = pd.DataFrame() featureList = [&#39;market-price&#39;, &#39;trade-volume&#39;] for feature in featureList: url = &amp;quot;https://api.blockchain.info/charts/&amp;quot;+feature+&amp;quot;?timespan=&amp;quot;+str(timeInterval)+&amp;quot;days&amp;amp;format=json&amp;quot; data[&#39;time&#39;] = pd.DataFrame(json.loads(urllib.request.urlopen(url).read().decode(&#39;utf-8&#39;))[&#39;values&#39;])[&#39;x&#39;]*1000 data[feature] = pd.DataFrame(json.loads(urllib.request.urlopen(url).read().decode(&#39;utf-8&#39;))[&#39;values&#39;])[&#39;y&#39;] result = data.</description>
+      <description>Introduction A tutorial to develop a web dashboard for data analytics using Python Flask and JavaScript Highcharts.
+ GitHub repository: https://github.com/trinhvv/flask-highcharts  Tutorial  Fetch data from https://www.blockchain.com/ Data preprocessing in Flask then parse to Highcharts  Organization app.py static/ templates/ index.html  app.py from flask import Flask, render_template, jsonify import pandas as pd from six.moves import urllib import json app = Flask(__name__) @app.route(&amp;quot;/data.json&amp;quot;) def data(): timeInterval = 1000 data = pd.</description>
     </item>
     
     <item>
@@ -38,7 +38,7 @@ Tutorial  Fetch data from https://www.blockchain.com/ Data preprocessing in Flas
       
       <guid>https://vuongvtrinh.github.io/post/trading-analysis-bot/</guid>
       <description>Introduction A tutorial to develop a Telegram chatbot for data-driven analytics of cryptoassets from both utility and speculation perspectives.
- Telegram chatbot: https://t.me/trading_analysis_bot Github repository: https://github.com/trinhvv/trading-analysis-bot  Technology  Chatbot Financial time series data visualization and analysis Databases and access management Web scraping  Requirements python-telegram-bot python-binance numpy datetime matplotlib seaborn six pandas sqlalchemy psycopg2 beautifulsoup4 requests  Source code import os import telegram from telegram import ParseMode from telegram.</description>
+ Telegram chatbot: https://t.me/trading_analysis_bot GitHub repository: https://github.com/trinhvv/trading-analysis-bot  Technology  Chatbot Financial time series data visualization and analysis Databases and access management Web scraping  Requirements python-telegram-bot python-binance numpy datetime matplotlib seaborn six pandas sqlalchemy psycopg2 beautifulsoup4 requests  Source code import os import telegram from telegram import ParseMode from telegram.</description>
     </item>
     
   </channel>

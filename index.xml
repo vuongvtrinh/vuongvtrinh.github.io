@@ -41,17 +41,22 @@
       <guid>https://vuongvtrinh.github.io/post/data-analytics-dashboard/</guid>
       <description>
 
-&lt;p&gt;GitHub repository: &lt;a href=&#34;https://github.com/trinhvv/flask-highcharts&#34; target=&#34;_blank&#34;&gt;https://github.com/trinhvv/flask-highcharts&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 
-&lt;h3 id=&#34;tutorial&#34;&gt;Tutorial&lt;/h3&gt;
+&lt;p&gt;A tutorial to develop a web dashboard for data analytics using Python Flask and JavaScript Highcharts.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;GitHub repository: &lt;a href=&#34;https://github.com/trinhvv/flask-highcharts&#34; target=&#34;_blank&#34;&gt;https://github.com/trinhvv/flask-highcharts&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;tutorial&#34;&gt;Tutorial&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Fetch data from &lt;a href=&#34;https://www.blockchain.com/&#34; target=&#34;_blank&#34;&gt;https://www.blockchain.com/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Data preprocessing in Flask&lt;/li&gt;
-&lt;li&gt;Parse to Highcharts&lt;/li&gt;
+&lt;li&gt;Data preprocessing in Flask then parse to Highcharts&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;organization&#34;&gt;Organization&lt;/h3&gt;
+&lt;h2 id=&#34;organization&#34;&gt;Organization&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code&gt;app.py
 static/
@@ -59,7 +64,7 @@ templates/
     index.html
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;app-py&#34;&gt;app.py&lt;/h3&gt;
+&lt;h2 id=&#34;app-py&#34;&gt;app.py&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code&gt;from flask import Flask, render_template, jsonify
 import pandas as pd
@@ -90,7 +95,7 @@ if __name__ == &#39;__main__&#39;:
     app.run(debug=True, threaded=True, host=&#39;0.0.0.0&#39;)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;templates-index-html&#34;&gt;templates/index.html&lt;/h3&gt;
+&lt;h2 id=&#34;templates-index-html&#34;&gt;templates/index.html&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE html PUBLIC &amp;quot;-//W3C//DTD HTML 4.01//EN&amp;quot; &amp;quot;http://www.w3.org/TR/html4/strict.dtd&amp;quot;&amp;gt;
 &amp;lt;html&amp;gt;
@@ -130,7 +135,7 @@ if __name__ == &#39;__main__&#39;:
 &amp;lt;/html&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;screenshot&#34;&gt;Screenshot&lt;/h3&gt;
+&lt;h2 id=&#34;screenshot&#34;&gt;Screenshot&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;screenshot.png&#34; alt=&#34;screenshot.png&#34; /&gt;&lt;/p&gt;
 </description>
@@ -150,7 +155,7 @@ if __name__ == &#39;__main__&#39;:
 
 &lt;ul&gt;
 &lt;li&gt;Telegram chatbot: &lt;a href=&#34;https://t.me/trading_analysis_bot&#34; target=&#34;_blank&#34;&gt;https://t.me/trading_analysis_bot&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Github repository: &lt;a href=&#34;https://github.com/trinhvv/trading-analysis-bot&#34; target=&#34;_blank&#34;&gt;https://github.com/trinhvv/trading-analysis-bot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GitHub repository: &lt;a href=&#34;https://github.com/trinhvv/trading-analysis-bot&#34; target=&#34;_blank&#34;&gt;https://github.com/trinhvv/trading-analysis-bot&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;technology&#34;&gt;Technology&lt;/h2&gt;

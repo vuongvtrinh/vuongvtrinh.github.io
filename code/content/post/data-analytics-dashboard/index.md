@@ -40,15 +40,18 @@ caption = ""
 
 +++
 
-GitHub repository: [https://github.com/trinhvv/flask-highcharts](https://github.com/trinhvv/flask-highcharts)
+## Introduction
 
-### Tutorial
+A tutorial to develop a web dashboard for data analytics using Python Flask and JavaScript Highcharts.
+
+- GitHub repository: [https://github.com/trinhvv/flask-highcharts](https://github.com/trinhvv/flask-highcharts)
+
+## Tutorial
 
 - Fetch data from [https://www.blockchain.com/](https://www.blockchain.com/)
-- Data preprocessing in Flask
-- Parse to Highcharts
+- Data preprocessing in Flask then parse to Highcharts
 
-### Organization
+## Organization
 
 ```
 app.py
@@ -57,7 +60,7 @@ templates/
     index.html
 ```
 
-### app.py
+## app.py
 
 ```
 from flask import Flask, render_template, jsonify
@@ -89,7 +92,7 @@ if __name__ == '__main__':
     app.run(debug=True, threaded=True, host='0.0.0.0')
 ```
 
-### templates/index.html
+## templates/index.html
 
 ```
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
@@ -130,7 +133,7 @@ if __name__ == '__main__':
 </html>
 ```
 
-### Screenshot
+## Screenshot
 
 ![screenshot.png](screenshot.png)
 
