@@ -6,7 +6,7 @@ date = "2018-01-01"
 title = "Real-time Anomaly Detection for Industrial Big Data"
 
 # Project summary to display on homepage.
-summary = "We are working on developing some advanced approaches using Machine Learning, Deep Learning and Data Mining for anomaly detection of time series in many application areas. The proposed approaches are validated on a set of real data in industry."
+summary = "We are working on developing some advanced approaches using Machine Learning, Deep Learning and Data Mining for anomaly detection of time series in many application areas."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = ""
