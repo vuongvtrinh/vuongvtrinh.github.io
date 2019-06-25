@@ -45,7 +45,7 @@ caption = ""
 A tutorial to develop a web dashboard for data analytics using Python Flask and JavaScript Highcharts.
 
 - GitHub repository: [https://github.com/trinhvv/flask-highcharts](https://github.com/trinhvv/flask-highcharts)
-- Live dynamic website: [https://flask-highcharts.herokuapp.com](https://flask-highcharts.herokuapp.com)
+- Live demo: [https://flask-highcharts.herokuapp.com](https://flask-highcharts.herokuapp.com)
 
 ## Tutorial
 
