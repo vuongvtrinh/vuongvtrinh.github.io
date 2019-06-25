@@ -448,6 +448,8 @@ heroku ps:scale bot=1
       <guid>https://vuongvtrinh.github.io/project/cryogenic-refrigerator/</guid>
       <description>
 
+&lt;p&gt;The ANR CRYOGREEN project gathers collaborative academic and industrial partners, including GIPSA-lab, CEA and CERN. We target to advanced control of large cryogenic systems via explicit nonlinear and hierarchical distributed model predictive control frameworks.&lt;/p&gt;
+
 &lt;h2 id=&#34;cryogenic-plants-at-cea-and-cern&#34;&gt;Cryogenic Plants at CEA and CERN&lt;/h2&gt;
 
 
@@ -462,8 +464,8 @@ heroku ps:scale bot=1
     
     
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/cryogenic-refrigerator/gallery/400W.png&#34; &gt;
-  &lt;img src=&#34;https://vuongvtrinh.github.io/project/cryogenic-refrigerator/gallery/400W.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/cryogenic-refrigerator/gallery/anr.png&#34; &gt;
+  &lt;img src=&#34;https://vuongvtrinh.github.io/project/cryogenic-refrigerator/gallery/anr.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -486,8 +488,8 @@ heroku ps:scale bot=1
     
     
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/cryogenic-refrigerator/gallery/cern_wcs18kw.png&#34; &gt;
-  &lt;img src=&#34;https://vuongvtrinh.github.io/project/cryogenic-refrigerator/gallery/cern_wcs18kw.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/cryogenic-refrigerator/gallery/gipsa.gif&#34; &gt;
+  &lt;img src=&#34;https://vuongvtrinh.github.io/project/cryogenic-refrigerator/gallery/gipsa.gif&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
 
@@ -495,6 +497,8 @@ heroku ps:scale bot=1
 &lt;/div&gt;
 
 &lt;h2 id=&#34;explicit-constrained-control-of-warm-compression-stations&#34;&gt;Explicit Constrained Control of Warm Compression Stations&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;cern_wcs18kw.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;cern_wcs18kw.png&#34; alt=&#34;Warm compression station at CERN&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;process-configuration-and-dynamic-simulator&#34;&gt;Process configuration and dynamic simulator&lt;/h3&gt;
 
@@ -509,6 +513,8 @@ heroku ps:scale bot=1
 &lt;p&gt;&lt;a href=&#34;wcs-valid.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;wcs-valid.png&#34; alt=&#34;Validation result&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;hierarchical-constrained-control-of-cryogenic-refrigerators&#34;&gt;Hierarchical Constrained Control of Cryogenic Refrigerators&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;400W.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;400W.png&#34; alt=&#34;Cryogenic refrigerator at CEA&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;process-diagram-and-dynamic-simulator&#34;&gt;Process diagram and dynamic simulator&lt;/h3&gt;
 
@@ -528,9 +534,15 @@ heroku ps:scale bot=1
 
 &lt;p&gt;&lt;a href=&#34;microsol.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;microsol.png&#34; alt=&#34;Miscrosol&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
+&lt;h3 id=&#34;process-diagram&#34;&gt;Process diagram&lt;/h3&gt;
+
 &lt;p&gt;&lt;a href=&#34;stirling_diagram.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;stirling_diagram.png&#34; alt=&#34;Process diagram&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
+&lt;h3 id=&#34;fast-explicit-constrained-control-synthesis&#34;&gt;Fast explicit constrained control synthesis&lt;/h3&gt;
+
 &lt;p&gt;&lt;a href=&#34;empc_nonlin.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;empc_nonlin.png&#34; alt=&#34;Nonlinear analysis&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;real-time-validation&#34;&gt;Real-time validation&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;empc_valid.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;empc_valid.png&#34; alt=&#34;Validation and real-time analysis&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>

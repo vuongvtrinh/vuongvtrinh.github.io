@@ -40,11 +40,15 @@ caption = ""
 
 +++
 
+The ANR CRYOGREEN project gathers collaborative academic and industrial partners, including GIPSA-lab, CEA and CERN. We target to advanced control of large cryogenic systems via explicit nonlinear and hierarchical distributed model predictive control frameworks.
+
 ## Cryogenic Plants at CEA and CERN
 
 {{< gallery >}}
 
 ## Explicit Constrained Control of Warm Compression Stations
+
+[![Warm compression station at CERN](cern_wcs18kw.png)](cern_wcs18kw.png)
 
 ### Process configuration and dynamic simulator
 
@@ -59,6 +63,8 @@ caption = ""
 [![Validation result](wcs-valid.png)](wcs-valid.png)
 
 ## Hierarchical Constrained Control of Cryogenic Refrigerators
+
+[![Cryogenic refrigerator at CEA](400W.png)](400W.png)
 
 ### Process diagram and dynamic simulator
 
@@ -78,9 +84,15 @@ caption = ""
 
 [![Miscrosol](microsol.png)](microsol.png)
 
+### Process diagram
+
 [![Process diagram](stirling_diagram.png)](stirling_diagram.png)
 
+### Fast explicit constrained control synthesis
+
 [![Nonlinear analysis](empc_nonlin.png)](empc_nonlin.png)
+
+### Real-time validation
 
 [![Validation and real-time analysis](empc_valid.png)](empc_valid.png)
 
