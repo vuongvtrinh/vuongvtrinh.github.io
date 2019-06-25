@@ -41,12 +41,22 @@
       <guid>https://vuongvtrinh.github.io/post/data-analytics-dashboard/</guid>
       <description>
 
-&lt;h3 id=&#34;organization-pattern&#34;&gt;Organization pattern&lt;/h3&gt;
+&lt;p&gt;GitHub repository: &lt;a href=&#34;https://github.com/trinhvv/flask-highcharts&#34; target=&#34;_blank&#34;&gt;https://github.com/trinhvv/flask-highcharts&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;tutorial&#34;&gt;Tutorial&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fetch data from &lt;a href=&#34;https://www.blockchain.com/&#34; target=&#34;_blank&#34;&gt;https://www.blockchain.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Data preprocessing in Flask&lt;/li&gt;
+&lt;li&gt;Parse to Highcharts&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;organization&#34;&gt;Organization&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;app.py
 static/
 templates/
-    graph.html
+    index.html
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;h3 id=&#34;app-py&#34;&gt;app.py&lt;/h3&gt;
@@ -60,64 +70,69 @@ app = Flask(__name__)
  
 @app.route(&amp;quot;/data.json&amp;quot;)
 def data():
-    timeInterval = 120
+    timeInterval = 1000
     data = pd.DataFrame()
     featureList = [&#39;market-price&#39;, 
                    &#39;trade-volume&#39;]
     for feature in featureList:
         url = &amp;quot;https://api.blockchain.info/charts/&amp;quot;+feature+&amp;quot;?timespan=&amp;quot;+str(timeInterval)+&amp;quot;days&amp;amp;format=json&amp;quot;
+        data[&#39;time&#39;] = pd.DataFrame(json.loads(urllib.request.urlopen(url).read().decode(&#39;utf-8&#39;))[&#39;values&#39;])[&#39;x&#39;]*1000
         data[feature] = pd.DataFrame(json.loads(urllib.request.urlopen(url).read().decode(&#39;utf-8&#39;))[&#39;values&#39;])[&#39;y&#39;]
     result = data.to_dict(orient=&#39;records&#39;)
-    seq = [[item[&#39;market-price&#39;], item[&#39;trade-volume&#39;]] for item in result]
+    seq = [[item[&#39;time&#39;], item[&#39;market-price&#39;], item[&#39;trade-volume&#39;]] for item in result]
     return jsonify(seq)
  
-@app.route(&amp;quot;/graph&amp;quot;)
-def graph():
-    return render_template(&#39;graph.html&#39;)
+@app.route(&amp;quot;/&amp;quot;)
+def index():
+    return render_template(&#39;index.html&#39;)
  
 if __name__ == &#39;__main__&#39;:
     app.run(debug=True, threaded=True, host=&#39;0.0.0.0&#39;)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;templates-graph-html&#34;&gt;templates/graph.html&lt;/h3&gt;
+&lt;h3 id=&#34;templates-index-html&#34;&gt;templates/index.html&lt;/h3&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE HTML&amp;gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE html PUBLIC &amp;quot;-//W3C//DTD HTML 4.01//EN&amp;quot; &amp;quot;http://www.w3.org/TR/html4/strict.dtd&amp;quot;&amp;gt;
 &amp;lt;html&amp;gt;
-	&amp;lt;head&amp;gt;
-		&amp;lt;meta http-equiv=&amp;quot;Content-Type&amp;quot; content=&amp;quot;text/html; charset=utf-8&amp;quot;&amp;gt;
-		&amp;lt;title&amp;gt;Highstock Example&amp;lt;/title&amp;gt;
-        &amp;lt;script src=&amp;quot;{{ url_for(&#39;static&#39;, filename=&#39;jquery-1.8.3.min.js&#39;) }}&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
-		&amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
-		$(function () {
-            $.getJSON(&#39;http://localhost:5000/data.json&#39;, function (data) {
-                Highcharts.stockChart(&#39;container&#39;, {
-                    rangeSelector: {
-                        selected: 1
-                    },
-                    title: {
-                        text: &#39;AAPL Stock Price&#39;
-                    },
-                    series: [{
-                        name: &#39;AAPL&#39;,
-                        data: data,
-                        tooltip: {
-                            valueDecimals:10
-                        }
-                    }]
-                });
+  &amp;lt;head&amp;gt;
+    &amp;lt;title&amp;gt;
+      Chart
+    &amp;lt;/title&amp;gt;
+    &amp;lt;meta http-equiv=&amp;quot;Content-Type&amp;quot; content=&amp;quot;text/html; charset=utf-8&amp;quot;&amp;gt;
+    &amp;lt;script src=&amp;quot;https://code.jquery.com/jquery-3.1.1.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;script src=&amp;quot;https://code.highcharts.com/stock/highstock.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;script src=&amp;quot;https://code.highcharts.com/stock/modules/exporting.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+        $.getJSON(&#39;/data.json&#39;, function (data) {
+            // create the chart
+            Highcharts.stockChart(&#39;container&#39;, {
+                title: {
+                    text: &#39;Bitcoin&#39;
+                },
+                rangeSelector: {
+                    selected: 1,
+                    inputEnabled: false
+                },
+                series: [{
+                    name: &#39;AAPL&#39;,
+                    data: data,
+                    tooltip: {
+                        valueDecimals: 2
+                    }
+                }]
             });
         });
-		&amp;lt;/script&amp;gt;
-	&amp;lt;/head&amp;gt;
-	&amp;lt;body&amp;gt;
-        &amp;lt;script src=&amp;quot;https://code.jquery.com/jquery-3.1.1.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
-        &amp;lt;script src=&amp;quot;https://code.highcharts.com/stock/highstock.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
-        &amp;lt;script src=&amp;quot;https://code.highcharts.com/stock/modules/exporting.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
-        &amp;lt;script src=&amp;quot;https://code.highcharts.com/stock/modules/export-data.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
-        &amp;lt;div id=&amp;quot;container&amp;quot; style=&amp;quot;height: 400px; min-width: 310px&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
-	&amp;lt;/body&amp;gt;
+    &amp;lt;/script&amp;gt;
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;div id=&amp;quot;container&amp;quot; style=&amp;quot;height: 400px; min-width: 310px; max-width: 1000px&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;/body&amp;gt;
 &amp;lt;/html&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;screenshot&#34;&gt;Screenshot&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;screenshot.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;screenshot.png&#34; alt=&#34;Screenshot&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

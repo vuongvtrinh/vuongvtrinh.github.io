@@ -40,13 +40,21 @@ caption = ""
 
 +++
 
-### Organization pattern
+GitHub repository: [https://github.com/trinhvv/flask-highcharts](https://github.com/trinhvv/flask-highcharts)
+
+### Tutorial
+
+- Fetch data from [https://www.blockchain.com/](https://www.blockchain.com/)
+- Data preprocessing in Flask
+- Parse to Highcharts
+
+### Organization
 
 ```
 app.py
 static/
 templates/
-    graph.html
+    index.html
 ```
 
 ### app.py
@@ -61,62 +69,67 @@ app = Flask(__name__)
  
 @app.route("/data.json")
 def data():
-    timeInterval = 120
+    timeInterval = 1000
     data = pd.DataFrame()
     featureList = ['market-price', 
                    'trade-volume']
     for feature in featureList:
         url = "https://api.blockchain.info/charts/"+feature+"?timespan="+str(timeInterval)+"days&format=json"
+        data['time'] = pd.DataFrame(json.loads(urllib.request.urlopen(url).read().decode('utf-8'))['values'])['x']*1000
         data[feature] = pd.DataFrame(json.loads(urllib.request.urlopen(url).read().decode('utf-8'))['values'])['y']
     result = data.to_dict(orient='records')
-    seq = [[item['market-price'], item['trade-volume']] for item in result]
+    seq = [[item['time'], item['market-price'], item['trade-volume']] for item in result]
     return jsonify(seq)
  
-@app.route("/graph")
-def graph():
-    return render_template('graph.html')
+@app.route("/")
+def index():
+    return render_template('index.html')
  
 if __name__ == '__main__':
     app.run(debug=True, threaded=True, host='0.0.0.0')
 ```
 
-### templates/graph.html
+### templates/index.html
 
 ```
-<!DOCTYPE HTML>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<title>Highstock Example</title>
-        <script src="{{ url_for('static', filename='jquery-1.8.3.min.js') }}"></script>
-		<script type="text/javascript">
-		$(function () {
-            $.getJSON('http://localhost:5000/data.json', function (data) {
-                Highcharts.stockChart('container', {
-                    rangeSelector: {
-                        selected: 1
-                    },
-                    title: {
-                        text: 'AAPL Stock Price'
-                    },
-                    series: [{
-                        name: 'AAPL',
-                        data: data,
-                        tooltip: {
-                            valueDecimals:10
-                        }
-                    }]
-                });
+  <head>
+    <title>
+      Chart
+    </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://code.highcharts.com/stock/highstock.js"></script>
+    <script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
+    <script type="text/javascript">
+        $.getJSON('/data.json', function (data) {
+            // create the chart
+            Highcharts.stockChart('container', {
+                title: {
+                    text: 'Bitcoin'
+                },
+                rangeSelector: {
+                    selected: 1,
+                    inputEnabled: false
+                },
+                series: [{
+                    name: 'AAPL',
+                    data: data,
+                    tooltip: {
+                        valueDecimals: 2
+                    }
+                }]
             });
         });
-		</script>
-	</head>
-	<body>
-        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-        <script src="https://code.highcharts.com/stock/highstock.js"></script>
-        <script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
-        <script src="https://code.highcharts.com/stock/modules/export-data.js"></script>
-        <div id="container" style="height: 400px; min-width: 310px"></div>
-	</body>
+    </script>
+  </head>
+  <body>
+    <div id="container" style="height: 400px; min-width: 310px; max-width: 1000px"></div>
+  </body>
 </html>
 ```
+
+### Screenshot
+
+[![Screenshot](screenshot.png)](screenshot.png)
