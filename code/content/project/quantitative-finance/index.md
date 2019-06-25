@@ -44,17 +44,28 @@ This project develops an intelligent data driven application to monitor blockcha
 
 ## Data-Driven Financial Analytics
 
-### Supply analysis
+### Asset info
+
+```
+#EVX
+Market Cap: $18,108,409
+Current Price: $0.801257
+Issue Price: $0.880000
+Issue Date: 2017-10-11
+Max Supply: -
+Total Supply: 25,000,000
+Circulating Supply: 22,600,000
+```
+
+### Asset supply analysis
 
 ![x.png](x.png)
-
-![o.png](o.png)
 
 ### Market movement statistics
 
 ![binance.png](binance.png)
 
-### Bitcoin aggregated charts: traded exchanges vs. network transactions
+### Bitcoin aggregated charts
 
 ![blockchain.png](blockchain.png)
 
@@ -64,9 +75,15 @@ This project develops an intelligent data driven application to monitor blockcha
 
 ## Advanced Trading Strategies
 
-Updating.
+### Statistical arbitrage via pairs trading
 
-## Application Screenshots
+### Optimal order execution
+
+#### Iceberge order
+
+### Portfolio management and optimization
+
+## Screenshots
 
 {{< gallery >}}
 

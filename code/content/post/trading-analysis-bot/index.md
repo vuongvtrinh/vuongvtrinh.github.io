@@ -72,30 +72,29 @@ from sqlalchemy import create_engine
 from pandas.io import sql
 
 MANUAL_TEXT = """Data-driven analytics of crypto-market on Binance.
-Homepage: [https://tapchitienmahoa.github.io/project/trading-analysis-bot](https://tapchitienmahoa.github.io/project/trading-analysis-bot) 
-*Features*
-- Altcoin supply analysis
-- Bitcoin aggregated charts
-- Market movement statistics
-- Newsflow
-- Trading sessions
-*Commands*
-- /x <asset>
-Usage: /x fet knc. 
-- /s <asset>
+
+*Asset info*
+Syntax: /i <asset>
+Usage: /i oax or /i algo bnb.
+*Transaction analysis*
+Syntax: /s <asset>
 Usage: /s qtum or /s btt fet.
-- /m
-Usage: /m.
-- /b <n-day>
+*Supply analysis*
+Syntax: /x <asset> <time-frame> <n-day>
+Usage: /x fet knc or /x dlt 4h 30. 
+*Bitcoin aggregated charts*
+Syntax: /b <n-day>
 Usage: /b or /b 90.
-- /z <n-day>
-Usage: /z or /z 90.
-- /e <n-day>
+*Market movement statistics*
+Syntax: /m
+Usage: /m.
+Syntax: /e <n-day>
 Usage: /e or /e 90.
-- /n
+*Newsflow*
+Syntax: /n
 Usage: /n.
-*Copyright*
-@kakalotz
+
+Contact: @kakalotz
 _Disclammer: only accessible for registered users._
  """
 
@@ -106,9 +105,9 @@ SQLALCHEMY_DATABASE_URI = os.environ['SQLALCHEMY_DATABASE_URI']
 
 engine = create_engine(SQLALCHEMY_DATABASE_URI)
 conn = engine.raw_connection()
-userList = sql.read_sql('SELECT * FROM "userList"', conn)['USERNAME'].tolist()
+userList = sql.read_sql('SELECT * FROM "userList"', conn)
 conn.close() 
-userList = userList[userList['TRADING_ANALYSIS_BOT']==1]
+userList = userList[userList['TRADING_ANALYSIS_BOT']==1]['USERNAME'].tolist()
 
 client = Client(BINANCE_API_KEY, BINANCE_SECRET_KEY)
 
@@ -116,10 +115,17 @@ def x(bot, update, args):
     bot.send_chat_action(chat_id=update.message.chat_id, 
                          action=telegram.ChatAction.TYPING)
     if str(update.message.from_user.username) in userList:
-        TIME_FRAME_STEP_LIST = ['1h', '4h', '12h']
-        TIME_FRAME_LIST = ['4h', '1d', '1w']
-        TIME_FRAME_DURATION_LIST = ['20 days ago UTC', '90 days ago UTC', '360 days ago UTC']
-        for coin in args:
+        if args[-1].isdigit():
+            TIME_FRAME_STEP_LIST = ['1h', '1h']
+            TIME_FRAME_LIST = [args[-2]]
+            TIME_FRAME_DURATION_LIST = [str(args[-1])+' days ago UTC']
+            coinList = args[:-2]
+        else:
+            TIME_FRAME_STEP_LIST = ['1h', '1h']
+            TIME_FRAME_LIST = ['4h', '1d']
+            TIME_FRAME_DURATION_LIST = ['20 days ago UTC', '90 days ago UTC']
+            coinList = args
+        for coin in coinList:
             for i in range(len(TIME_FRAME_LIST)):
                 TIME_FRAME_STEP = TIME_FRAME_STEP_LIST[i]
                 TIME_FRAME = TIME_FRAME_LIST[i]
@@ -138,6 +144,15 @@ def x(bot, update, args):
                                photo=open('img/'+market+'_'+TIME_FRAME.upper()+'.png', 'rb'))
                 except Exception:
                     pass
+                    
+def i(bot, update, args):
+    bot.send_chat_action(chat_id=update.message.chat_id, 
+                         action=telegram.ChatAction.TYPING)
+    if str(update.message.from_user.username) in userList:
+        for asset in args:
+            asset = asset.upper()
+            msg = analysis.asset_info(client, asset)
+            update.message.reply_text(msg, parse_mode=ParseMode.MARKDOWN)
 
 def s(bot, update, args):
     bot.send_chat_action(chat_id=update.message.chat_id, 
@@ -166,17 +181,6 @@ def b(bot, update, args):
         bitcoin.blockchain(timeInterval)
         bot.send_photo(chat_id=update.message.chat_id, 
                    photo=open('img/blockchain.png', 'rb'))
-                   
-def z(bot, update):
-    bot.send_chat_action(chat_id=update.message.chat_id, 
-                         action=telegram.ChatAction.TYPING)
-    if str(update.message.from_user.username) in userList:
-        bitcoin.coinbase()
-        bot.send_photo(chat_id=update.message.chat_id, 
-                   photo=open('img/coinbase.png', 'rb'))
-        bitcoin.bitstamp()
-        bot.send_photo(chat_id=update.message.chat_id, 
-                   photo=open('img/bitstamp.png', 'rb'))
                    
 def e(bot, update, args):
     bot.send_chat_action(chat_id=update.message.chat_id, 
@@ -212,7 +216,7 @@ def main():
     dp.add_handler(CommandHandler("help", manual))
     dp.add_handler(CommandHandler("m", m))
     dp.add_handler(CommandHandler("n", n))
-    dp.add_handler(CommandHandler("z", z))
+    dp.add_handler(CommandHandler("i", i, pass_args=True))
     dp.add_handler(CommandHandler("b", b, pass_args=True))
     dp.add_handler(CommandHandler("e", e, pass_args=True))
     dp.add_handler(CommandHandler("x", x, pass_args=True))
