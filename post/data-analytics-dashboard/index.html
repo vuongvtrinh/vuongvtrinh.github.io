@@ -425,6 +425,7 @@
 
 <ul>
 <li>GitHub repository: <a href="https://github.com/trinhvv/flask-highcharts" target="_blank">https://github.com/trinhvv/flask-highcharts</a></li>
+<li>Live dynamic website: <a href="https://flask-highcharts.herokuapp.com" target="_blank">https://flask-highcharts.herokuapp.com</a></li>
 </ul>
 
 <h2 id="tutorial">Tutorial</h2>
@@ -432,17 +433,29 @@
 <ul>
 <li>Fetch data from <a href="https://www.blockchain.com/" target="_blank">https://www.blockchain.com/</a></li>
 <li>Data preprocessing in Flask then parse to Highcharts</li>
+<li>Deploy to Heroku</li>
 </ul>
 
 <h2 id="organization">Organization</h2>
 
 <pre><code>app.py
+Procfile
+requirements.txt
+runtime.txt
 static/
 templates/
     index.html
 </code></pre>
 
-<h2 id="app-py">app.py</h2>
+<h3 id="requirements-txt">requirements.txt</h3>
+
+<pre><code>Flask
+gunicorn
+pandas
+six
+</code></pre>
+
+<h3 id="app-py">app.py</h3>
 
 <pre><code>from flask import Flask, render_template, jsonify
 import pandas as pd
@@ -473,7 +486,7 @@ if __name__ == '__main__':
     app.run(debug=True, threaded=True, host='0.0.0.0')
 </code></pre>
 
-<h2 id="templates-index-html">templates/index.html</h2>
+<h3 id="templates-index-html">templates/index.html</h3>
 
 <pre><code>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot; &quot;http://www.w3.org/TR/html4/strict.dtd&quot;&gt;
 &lt;html&gt;
@@ -511,6 +524,28 @@ if __name__ == '__main__':
     &lt;div id=&quot;container&quot; style=&quot;height: 400px; min-width: 310px; max-width: 1000px&quot;&gt;&lt;/div&gt;
   &lt;/body&gt;
 &lt;/html&gt;
+</code></pre>
+
+<h3 id="procfile">Procfile</h3>
+
+<pre><code>web: gunicorn app:app --log-file=-
+</code></pre>
+
+<h3 id="runtime-txt">runtime.txt</h3>
+
+<pre><code>python-3.6.5
+</code></pre>
+
+<h2 id="deploy-to-heroku">Deploy to Heroku</h2>
+
+<pre><code>heroku create flask-highcharts --buildpack heroku/python
+heroku login
+git init
+heroku git:remote -a flask-highcharts
+git add .
+git commit -am &quot;make it better&quot;
+git push heroku master
+heroku ps:scale bot=1 
 </code></pre>
 
 <h2 id="screenshot">Screenshot</h2>
