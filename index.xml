@@ -58,7 +58,7 @@
 &lt;li&gt;Deploy to Heroku&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;organization&#34;&gt;Organization&lt;/h2&gt;
+&lt;h3 id=&#34;structure&#34;&gt;Structure&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;app.py
 Procfile

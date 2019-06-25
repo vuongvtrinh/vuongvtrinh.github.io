@@ -53,7 +53,7 @@ A tutorial to develop a web dashboard for data analytics using Python Flask and 
 - Data preprocessing in Flask then parse to Highcharts
 - Deploy to Heroku
 
-## Organization
+### Structure
 
 ```
 app.py

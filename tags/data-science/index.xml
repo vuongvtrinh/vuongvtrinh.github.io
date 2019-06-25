@@ -19,7 +19,7 @@
       
       <guid>https://vuongvtrinh.github.io/post/data-analytics-dashboard/</guid>
       <description>Introduction A tutorial to develop a web dashboard for data analytics using Python Flask and JavaScript Highcharts.
- GitHub repository: https://github.com/trinhvv/flask-highcharts Live demo: https://flask-highcharts.herokuapp.com  Tutorial  Fetch data from https://www.blockchain.com/ Data preprocessing in Flask then parse to Highcharts Deploy to Heroku  Organization app.py Procfile requirements.txt runtime.txt static/ templates/ index.html  requirements.txt Flask gunicorn pandas six  app.py from flask import Flask, render_template, jsonify import pandas as pd from six.</description>
+ GitHub repository: https://github.com/trinhvv/flask-highcharts Live demo: https://flask-highcharts.herokuapp.com  Tutorial  Fetch data from https://www.blockchain.com/ Data preprocessing in Flask then parse to Highcharts Deploy to Heroku  Structure app.py Procfile requirements.txt runtime.txt static/ templates/ index.html  requirements.txt Flask gunicorn pandas six  app.py from flask import Flask, render_template, jsonify import pandas as pd from six.</description>
     </item>
     
     <item>
