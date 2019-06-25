@@ -132,4 +132,5 @@ if __name__ == '__main__':
 
 ### Screenshot
 
-[![Screenshot](screenshot.png)](screenshot.png)
+![screenshot.png](screenshot.png)
+

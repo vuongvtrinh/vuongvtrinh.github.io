@@ -132,7 +132,7 @@ if __name__ == &#39;__main__&#39;:
 
 &lt;h3 id=&#34;screenshot&#34;&gt;Screenshot&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#34;screenshot.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;screenshot.png&#34; alt=&#34;Screenshot&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;screenshot.png&#34; alt=&#34;screenshot.png&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
