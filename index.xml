@@ -450,8 +450,6 @@ heroku ps:scale bot=1
 
 &lt;p&gt;The ANR CRYOGREEN project gathers collaborative academic and industrial partners, including GIPSA-lab, CEA and CERN. We target to advanced control of large cryogenic systems via explicit nonlinear and hierarchical distributed model predictive control frameworks.&lt;/p&gt;
 
-&lt;h2 id=&#34;cryogenic-plants-at-cea-and-cern&#34;&gt;Cryogenic Plants at CEA and CERN&lt;/h2&gt;
-
 
 
 &lt;div class=&#34;gallery&#34;&gt;
@@ -459,14 +457,6 @@ heroku ps:scale bot=1
   
   
   
-  
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/cryogenic-refrigerator/gallery/anr.png&#34; &gt;
-  &lt;img src=&#34;https://vuongvtrinh.github.io/project/cryogenic-refrigerator/gallery/anr.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
   
     
     
@@ -482,14 +472,6 @@ heroku ps:scale bot=1
     
   &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/cryogenic-refrigerator/gallery/cern.png&#34; &gt;
   &lt;img src=&#34;https://vuongvtrinh.github.io/project/cryogenic-refrigerator/gallery/cern.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/cryogenic-refrigerator/gallery/gipsa.gif&#34; &gt;
-  &lt;img src=&#34;https://vuongvtrinh.github.io/project/cryogenic-refrigerator/gallery/gipsa.gif&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
 
