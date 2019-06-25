@@ -131,7 +131,7 @@ if __name__ == '__main__':
                     inputEnabled: false
                 },
                 series: [{
-                    name: 'AAPL',
+                    name: 'Bitcoin',
                     data: data,
                     tooltip: {
                         valueDecimals: 2
