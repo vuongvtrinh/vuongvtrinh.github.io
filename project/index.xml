@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Vuong V. Trinh</title>
+    <link>https://vuongvtrinh.github.io/project/</link>
+    <description>Recent content in Projects on Vuong V. Trinh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Vuong V. Trinh 2016</copyright>
+    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://vuongvtrinh.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Innovative Advanced Control of Large Cryogenic Systems</title>
+      <link>https://vuongvtrinh.github.io/project/cryogenic-refrigerator/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/project/cryogenic-refrigerator/</guid>
+      <description>The ANR CRYOGREEN project gathers collaborative academic and industrial partners, including GIPSA-lab, CEA and CERN. We target to advanced control of large cryogenic systems via explicit nonlinear and hierarchical distributed model predictive control frameworks.
+   Explicit Constrained Control of Warm Compression Stations 
+Process configuration and dynamic simulator 
+
+Allocation control and validation results 
+
+Hierarchical Constrained Control of Cryogenic Refrigerators 
+Process diagram and dynamic simulator</description>
+    </item>
+    
+    <item>
+      <title>Quantitative Analytics and Trading Strategies</title>
+      <link>https://vuongvtrinh.github.io/project/quantitative-finance/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/project/quantitative-finance/</guid>
+      <description> This project develops an intelligent data driven application to monitor blockchain projects and to analyze cryptoassets from both utility and speculation perspectives. We target blockchain entrepreneurs, investors and traders all along the life of projects: token generation, listing on secondary market, product delivery, product usage, and token valorization.
+Data-Driven Financial Analytics Asset info #EVX Market Cap: $18,108,409 Current Price: $0.801257 Issue Price: $0.880000 Issue Date: 2017-10-11 Max Supply: - Total Supply: 25,000,000 Circulating Supply: 22,600,000  Asset supply analysis Market movement statistics Bitcoin aggregated charts Newsflow sentiment analysis Advanced Trading Strategies Statistical arbitrage via pairs trading Optimal order execution Iceberge order Portfolio management and optimization Screenshots     </description>
+    </item>
+    
+    <item>
+      <title>Real-time Anomaly Detection for Industrial Big Data</title>
+      <link>https://vuongvtrinh.github.io/project/anomaly-detection/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/project/anomaly-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trading Analysis Bot</title>
+      <link>https://vuongvtrinh.github.io/project/trading-analysis-bot/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/project/trading-analysis-bot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust Active Vibration Control</title>
+      <link>https://vuongvtrinh.github.io/project/active-vibration-control/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/project/active-vibration-control/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

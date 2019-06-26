@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>data-science on Vuong V. Trinh</title>
+    <link>https://vuongvtrinh.github.io/tags/data-science/</link>
+    <description>Recent content in data-science on Vuong V. Trinh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Vuong V. Trinh 2016</copyright>
+    <lastBuildDate>Mon, 14 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://vuongvtrinh.github.io/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Data analytics dashboard using Python Flask and JavaScript Highcharts</title>
+      <link>https://vuongvtrinh.github.io/post/data-analytics-dashboard/</link>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/post/data-analytics-dashboard/</guid>
+      <description>Introduction A tutorial to develop a web dashboard for data analytics using Python Flask and JavaScript Highcharts.
+ GitHub repository: https://github.com/trinhvv/flask-highcharts Live demo: https://flask-highcharts.herokuapp.com  Tutorial  Fetch data from https://www.blockchain.com/ Data preprocessing in Flask then parse to Highcharts Deploy to Heroku  Structure app.py Procfile requirements.txt runtime.txt static/ templates/ index.html  requirements.txt Flask gunicorn pandas six  app.py from flask import Flask, render_template, jsonify import pandas as pd from six.</description>
+    </item>
+    
+    <item>
+      <title>Real-time Anomaly Detection for Industrial Big Data</title>
+      <link>https://vuongvtrinh.github.io/project/anomaly-detection/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/project/anomaly-detection/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
