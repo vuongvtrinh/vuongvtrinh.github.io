@@ -9,4 +9,4 @@ def copytree(src, dst, symlinks=False, ignore=None):
         else:
             shutil.copy2(s, d)
 
-copytree('code/public', os.getcwd())
+copytree('/code/public', os.getcwd())
