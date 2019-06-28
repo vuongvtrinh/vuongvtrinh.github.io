@@ -181,7 +181,7 @@ heroku ps:scale bot=1
 
 &lt;ul&gt;
 &lt;li&gt;Telegram chatbot: &lt;a href=&#34;https://t.me/trading_analysis_bot&#34; target=&#34;_blank&#34;&gt;https://t.me/trading_analysis_bot&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;GitHub repository: &lt;a href=&#34;https://github.com/trinhvv/trading-analysis-bot&#34; target=&#34;_blank&#34;&gt;https://github.com/trinhvv/trading-analysis-bot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GitHub repository: &lt;a href=&#34;https://github.com/trinhvv/trading-analysis-bot&#34; target=&#34;_blank&#34;&gt;https://github.com/trinhvv/trading-analysis-bot&lt;/a&gt; (&amp;gt;100 star)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;technology&#34;&gt;Technology&lt;/h2&gt;
@@ -190,7 +190,7 @@ heroku ps:scale bot=1
 &lt;li&gt;Chatbot&lt;/li&gt;
 &lt;li&gt;Financial time series data visualization and analysis&lt;/li&gt;
 &lt;li&gt;Databases and access management&lt;/li&gt;
-&lt;li&gt;Web scraping&lt;/li&gt;
+&lt;li&gt;Data wrangling&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;
@@ -216,7 +216,7 @@ import telegram
 from telegram import ParseMode
 from telegram.ext import Updater, CommandHandler
 from binance.client import Client
-from binance_trading_bot import analysis, monitor, news, bitcoin, supply
+from binance_trading_bot import analysis, monitor, news, supply
 from sqlalchemy import create_engine
 from pandas.io import sql
 
@@ -252,6 +252,8 @@ BINANCE_SECRET_KEY = os.environ[&#39;BINANCE_SECRET_KEY&#39;]
 BINANCE_API_KEY = os.environ[&#39;BINANCE_API_KEY&#39;]
 SQLALCHEMY_DATABASE_URI = os.environ[&#39;SQLALCHEMY_DATABASE_URI&#39;]
 
+TELEGRAM_ADMIN_USERNAME = os.environ[&#39;TELEGRAM_ADMIN_USERNAME&#39;]
+
 engine = create_engine(SQLALCHEMY_DATABASE_URI)
 conn = engine.raw_connection()
 userList = sql.read_sql(&#39;SELECT * FROM &amp;quot;userList&amp;quot;&#39;, conn)
@@ -260,12 +262,33 @@ userList = userList[userList[&#39;TRADING_ANALYSIS_BOT&#39;]==1][&#39;USERNAME&#
 
 client = Client(BINANCE_API_KEY, BINANCE_SECRET_KEY)
 
+# Asset info
+def i(bot, update, args):
+    bot.send_chat_action(chat_id=update.message.chat_id, 
+                         action=telegram.ChatAction.TYPING)
+    if str(update.message.from_user.username) in userList:
+        for asset in args:
+            asset = asset.upper()
+            msg = analysis.asset_info(client, asset)
+            update.message.reply_text(msg, parse_mode=ParseMode.MARKDOWN)
+
+# Asset transaction statistics
+def s(bot, update, args):
+    bot.send_chat_action(chat_id=update.message.chat_id, 
+                         action=telegram.ChatAction.TYPING)
+    if str(update.message.from_user.username) in userList:
+        for asset in args:
+            asset = asset.upper()
+            msg = analysis.asset_analysis(client, asset)
+            update.message.reply_text(msg, parse_mode=ParseMode.MARKDOWN)
+
+# Asset supply analysis
 def x(bot, update, args):
     bot.send_chat_action(chat_id=update.message.chat_id, 
                          action=telegram.ChatAction.TYPING)
     if str(update.message.from_user.username) in userList:
         if args[-1].isdigit():
-            TIME_FRAME_STEP_LIST = [&#39;1h&#39;, &#39;1h&#39;]
+            TIME_FRAME_STEP_LIST = [&#39;1h&#39;]
             TIME_FRAME_LIST = [args[-2]]
             TIME_FRAME_DURATION_LIST = [str(args[-1])+&#39; days ago UTC&#39;]
             coinList = args[:-2]
@@ -280,45 +303,21 @@ def x(bot, update, args):
                 TIME_FRAME = TIME_FRAME_LIST[i]
                 TIME_FRAME_DURATION = TIME_FRAME_DURATION_LIST[i]
                 try:
-                    market = coin.upper()+&#39;BTC&#39;
+                    market = coin.upper()
                     supply.supply_analysis(client, market, TIME_FRAME_STEP, TIME_FRAME, TIME_FRAME_DURATION)
                     bot.send_photo(chat_id=update.message.chat_id, 
                                photo=open(&#39;img/&#39;+market+&#39;_&#39;+TIME_FRAME.upper()+&#39;.png&#39;, &#39;rb&#39;))
                 except Exception:
                     pass
                 try:
-                    market = coin.upper()+&#39;USDT&#39;
+                    market = coin.upper()+&#39;BTC&#39;
                     supply.supply_analysis(client, market, TIME_FRAME_STEP, TIME_FRAME, TIME_FRAME_DURATION)
                     bot.send_photo(chat_id=update.message.chat_id, 
                                photo=open(&#39;img/&#39;+market+&#39;_&#39;+TIME_FRAME.upper()+&#39;.png&#39;, &#39;rb&#39;))
                 except Exception:
                     pass
-                    
-def i(bot, update, args):
-    bot.send_chat_action(chat_id=update.message.chat_id, 
-                         action=telegram.ChatAction.TYPING)
-    if str(update.message.from_user.username) in userList:
-        for asset in args:
-            asset = asset.upper()
-            msg = analysis.asset_info(client, asset)
-            update.message.reply_text(msg, parse_mode=ParseMode.MARKDOWN)
 
-def s(bot, update, args):
-    bot.send_chat_action(chat_id=update.message.chat_id, 
-                         action=telegram.ChatAction.TYPING)
-    if str(update.message.from_user.username) in userList:
-        for asset in args:
-            asset = asset.upper()
-            msg = analysis.asset_analysis(client, asset)
-            update.message.reply_text(msg, parse_mode=ParseMode.MARKDOWN)
-
-def m(bot, update):
-    bot.send_chat_action(chat_id=update.message.chat_id, 
-                         action=telegram.ChatAction.TYPING)
-    if str(update.message.from_user.username) in userList:
-        msg = monitor.market_change(client)
-        update.message.reply_text(msg, parse_mode=ParseMode.MARKDOWN)
-        
+# Bitcoin aggregated charts
 def b(bot, update, args):
     bot.send_chat_action(chat_id=update.message.chat_id, 
                          action=telegram.ChatAction.TYPING)
@@ -327,14 +326,23 @@ def b(bot, update, args):
             timeInterval = int(args[0])
         except Exception:
             timeInterval = 120
-        bitcoin.blockchain(timeInterval)
+        monitor.blockchain(timeInterval)
         bot.send_photo(chat_id=update.message.chat_id, 
                    photo=open(&#39;img/blockchain.png&#39;, &#39;rb&#39;))
-                   
-def e(bot, update, args):
+
+# Market change
+def m(bot, update):
     bot.send_chat_action(chat_id=update.message.chat_id, 
                          action=telegram.ChatAction.TYPING)
     if str(update.message.from_user.username) in userList:
+        msg = monitor.market_change(client)
+        update.message.reply_text(msg, parse_mode=ParseMode.MARKDOWN)
+
+# Market movement statistics
+def e(bot, update, args):
+    bot.send_chat_action(chat_id=update.message.chat_id, 
+                         action=telegram.ChatAction.TYPING)
+    if str(update.message.from_user.username) == TELEGRAM_ADMIN_USERNAME:
         try:
             timeInterval = int(args[0])
         except Exception:
@@ -342,15 +350,15 @@ def e(bot, update, args):
         monitor.market_movement(client, timeInterval)
         bot.send_photo(chat_id=update.message.chat_id, 
                    photo=open(&#39;img/market.png&#39;, &#39;rb&#39;))
-        
+
+# Newsflow
 def n(bot, update):
     bot.send_chat_action(chat_id=update.message.chat_id, 
                          action=telegram.ChatAction.TYPING)
-    if str(update.message.from_user.username) in userList:
-        msg = news.newsflow()
-        update.message.reply_text(msg, 
-                                  parse_mode=ParseMode.MARKDOWN,
-                                  disable_web_page_preview=True)
+    msg = news.newsflow()
+    update.message.reply_text(msg, 
+                              parse_mode=ParseMode.MARKDOWN,
+                              disable_web_page_preview=True)
 
 def manual(bot,update):
     bot.send_message(chat_id=update.message.chat_id, 
