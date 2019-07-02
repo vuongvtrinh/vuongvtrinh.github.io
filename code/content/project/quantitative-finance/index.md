@@ -78,6 +78,17 @@ P: 0.00026182 V: 1,194.92 VWAP: 0.00023616
 
 ### Market movement statistics
 
+```
+#MARKET
+USDⓈ: 20 (+) 113 (-)
+ALTS: 43 (+) 89 (-)
+BNB: 63 (+) 30 (-)
+BTC: 120 (+) 31 (-)
+Tue Jul  2 13:48:21 2019
+```
+
+### Market moneyflow analysis
+
 ![binance.png](binance.png)
 
 ### Bitcoin aggregated charts

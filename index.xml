@@ -628,6 +628,16 @@ P: 0.00026182 V: 1,194.92 VWAP: 0.00023616
 
 &lt;h3 id=&#34;market-movement-statistics&#34;&gt;Market movement statistics&lt;/h3&gt;
 
+&lt;pre&gt;&lt;code&gt;#MARKET
+USDⓈ: 20 (+) 113 (-)
+ALTS: 43 (+) 89 (-)
+BNB: 63 (+) 30 (-)
+BTC: 120 (+) 31 (-)
+Tue Jul  2 13:48:21 2019
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;market-moneyflow-analysis&#34;&gt;Market moneyflow analysis&lt;/h3&gt;
+
 &lt;p&gt;&lt;img src=&#34;binance.png&#34; alt=&#34;binance.png&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;bitcoin-aggregated-charts&#34;&gt;Bitcoin aggregated charts&lt;/h3&gt;
