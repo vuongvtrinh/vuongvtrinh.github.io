@@ -12,13 +12,14 @@ weight = 1
   interests = [
     "Optimization & Control",
     "Automation & Manufacturing",
-    "Data Science"
+    "Data Science & Analytics",
+    "Blockchain & Cryptoassets"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
   course = "M.S. Automation & Control Engineering"
-  institution = "Université Joseph Fourier de Grenoble"
+  institution = "Université Joseph Fourier & Grenoble INP"
   year = 2014
 
 [[education.courses]]
