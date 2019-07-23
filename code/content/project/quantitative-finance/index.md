@@ -97,7 +97,7 @@ Tue Jul  2 13:48:21 2019
 
 ### Bitcoin supply and demand analysis
 
-![BTCUSDT_1H.png](BTCUSDT_1H.png)
+![bitcoin.png](bitcoin.png)
 
 ### Newsflow sentiment analysis
 
