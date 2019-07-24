@@ -596,7 +596,7 @@ heroku ps:scale bot=1
 
 &lt;h2 id=&#34;data-driven-financial-analytics&#34;&gt;Data-Driven Financial Analytics&lt;/h2&gt;
 
-&lt;h3 id=&#34;asset-info&#34;&gt;Asset info&lt;/h3&gt;
+&lt;h3 id=&#34;fundamental-information&#34;&gt;Fundamental information&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;#EVX
 Market Cap: $18,108,409
@@ -608,7 +608,7 @@ Total Supply: 25,000,000
 Circulating Supply: 22,600,000
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;asset-transaction-analysis&#34;&gt;Asset transaction analysis&lt;/h3&gt;
+&lt;h3 id=&#34;transaction-analysis&#34;&gt;Transaction analysis&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;#TNTBTC 92,966,054.00 (94.84%)
 P: 0.00000730 V: 608.23 VWAP: 0.00000654
@@ -622,7 +622,7 @@ P: 0.00026182 V: 1,194.92 VWAP: 0.00023616
 5 mins: Buy 1.76 Sell 1.99
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;asset-supply-analysis&#34;&gt;Asset supply analysis&lt;/h3&gt;
+&lt;h3 id=&#34;supply-and-demand-analysis&#34;&gt;Supply and demand analysis&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;x.png&#34; alt=&#34;x.png&#34; /&gt;&lt;/p&gt;
 
@@ -643,10 +643,6 @@ Tue Jul  2 13:48:21 2019
 &lt;h3 id=&#34;bitcoin-aggregated-charts&#34;&gt;Bitcoin aggregated charts&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;blockchain.png&#34; alt=&#34;blockchain.png&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;bitcoin-supply-and-demand-analysis&#34;&gt;Bitcoin supply and demand analysis&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;bitcoin.png&#34; alt=&#34;bitcoin.png&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;newsflow-sentiment-analysis&#34;&gt;Newsflow sentiment analysis&lt;/h3&gt;
 

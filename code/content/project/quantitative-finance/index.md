@@ -44,7 +44,7 @@ This project develops an intelligent data driven application to monitor blockcha
 
 ## Data-Driven Financial Analytics
 
-### Asset info
+### Fundamental information
 
 ```
 #EVX
@@ -57,7 +57,7 @@ Total Supply: 25,000,000
 Circulating Supply: 22,600,000
 ```
 
-### Asset transaction analysis
+### Transaction analysis
 
 ```
 #TNTBTC 92,966,054.00 (94.84%)
@@ -72,7 +72,7 @@ P: 0.00026182 V: 1,194.92 VWAP: 0.00023616
 5 mins: Buy 1.76 Sell 1.99
 ```
 
-### Asset supply analysis
+### Supply and demand analysis
 
 ![x.png](x.png)
 
@@ -94,10 +94,6 @@ Tue Jul  2 13:48:21 2019
 ### Bitcoin aggregated charts
 
 ![blockchain.png](blockchain.png)
-
-### Bitcoin supply and demand analysis
-
-![bitcoin.png](bitcoin.png)
 
 ### Newsflow sentiment analysis
 
