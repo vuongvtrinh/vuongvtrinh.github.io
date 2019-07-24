@@ -157,7 +157,7 @@ def x(bot, update, args):
         if args[-1].isdigit():
             TIME_FRAME_STEP = '1h'
             TIME_FRAME = args[-2]
-            TIME_FRAME_DURATION_LIST = str(args[-1])+' days ago UTC'
+            TIME_FRAME_DURATION = str(args[-1])+' days ago UTC'
             coinList = args[:-2]
         else:
             TIME_FRAME_STEP = '1h'
