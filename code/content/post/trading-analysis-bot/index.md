@@ -83,31 +83,35 @@ from binance_trading_bot import analysis, monitor, news, supply
 from sqlalchemy import create_engine
 from pandas.io import sql
 
-MANUAL_TEXT = """Data-driven analytics of crypto-market on Binance.
+MANUAL_TEXT = """Data-driven analytics of crypto-market on Binance exchange.
 
-*Asset info*
+*Asset information*
 Syntax: /i <asset>
 Usage: /i oax or /i algo bnb.
-*Transaction analysis*
+*Asset transaction analysis*
 Syntax: /s <asset>
 Usage: /s qtum or /s btt fet.
-*Supply analysis*
+*Asset supply and demand analysis*
 Syntax: /x <asset> <time-frame> <n-day>
-Usage: /x fet knc or /x dlt 4h 30. 
+Usage: /x fet celrusdt or /x dlt 4h 30. 
 *Bitcoin aggregated charts*
 Syntax: /b <n-day>
 Usage: /b or /b 90.
 *Market movement statistics*
 Syntax: /m
 Usage: /m.
+*Market moneyflow analysis*
 Syntax: /e <n-day>
 Usage: /e or /e 90.
 *Newsflow*
 Syntax: /n
 Usage: /n.
 
-Contact: @kakalotz
+Contact: @kakalotz 
+Website: [https://tapchitienmahoa.netlify.com](https://tapchitienmahoa.netlify.com)
+
 _Disclammer: only accessible for registered users._
+_Life-time subscription: 0.05BTC._
  """
 
 TELEGRAM_TOKEN = os.environ['TELEGRAM_TOKEN']
@@ -151,34 +155,30 @@ def x(bot, update, args):
                          action=telegram.ChatAction.TYPING)
     if str(update.message.from_user.username) in userList:
         if args[-1].isdigit():
-            TIME_FRAME_STEP_LIST = ['1h']
-            TIME_FRAME_LIST = [args[-2]]
-            TIME_FRAME_DURATION_LIST = [str(args[-1])+' days ago UTC']
+            TIME_FRAME_STEP = '1h'
+            TIME_FRAME = args[-2]
+            TIME_FRAME_DURATION_LIST = str(args[-1])+' days ago UTC'
             coinList = args[:-2]
         else:
-            TIME_FRAME_STEP_LIST = ['1h', '1h']
-            TIME_FRAME_LIST = ['4h', '1d']
-            TIME_FRAME_DURATION_LIST = ['20 days ago UTC', '90 days ago UTC']
+            TIME_FRAME_STEP = '1h'
+            TIME_FRAME = '1d'
+            TIME_FRAME_DURATION = '45 days ago UTC'
             coinList = args
         for coin in coinList:
-            for i in range(len(TIME_FRAME_LIST)):
-                TIME_FRAME_STEP = TIME_FRAME_STEP_LIST[i]
-                TIME_FRAME = TIME_FRAME_LIST[i]
-                TIME_FRAME_DURATION = TIME_FRAME_DURATION_LIST[i]
-                try:
-                    market = coin.upper()
-                    supply.supply_analysis(client, market, TIME_FRAME_STEP, TIME_FRAME, TIME_FRAME_DURATION)
-                    bot.send_photo(chat_id=update.message.chat_id, 
-                               photo=open('img/'+market+'_'+TIME_FRAME.upper()+'.png', 'rb'))
-                except Exception:
-                    pass
-                try:
-                    market = coin.upper()+'BTC'
-                    supply.supply_analysis(client, market, TIME_FRAME_STEP, TIME_FRAME, TIME_FRAME_DURATION)
-                    bot.send_photo(chat_id=update.message.chat_id, 
-                               photo=open('img/'+market+'_'+TIME_FRAME.upper()+'.png', 'rb'))
-                except Exception:
-                    pass
+            try:
+                market = coin.upper()
+                supply.supply_analysis(client, market, TIME_FRAME_STEP, TIME_FRAME, TIME_FRAME_DURATION)
+                bot.send_photo(chat_id=update.message.chat_id, 
+                           photo=open('img/'+market+'_'+TIME_FRAME.upper()+'.png', 'rb'))
+            except Exception:
+                pass
+            try:
+                market = coin.upper()+'BTC'
+                supply.supply_analysis(client, market, TIME_FRAME_STEP, TIME_FRAME, TIME_FRAME_DURATION)
+                bot.send_photo(chat_id=update.message.chat_id, 
+                           photo=open('img/'+market+'_'+TIME_FRAME.upper()+'.png', 'rb'))
+            except Exception:
+                pass
 
 # Bitcoin aggregated charts
 def b(bot, update, args):
