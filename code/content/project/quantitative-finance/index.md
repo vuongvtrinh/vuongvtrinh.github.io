@@ -103,9 +103,9 @@ Tue Jul  2 13:48:21 2019
 
 ### Statistical arbitrage via pairs trading
 
-### Optimal order execution
+### Trailing stop and short sell via iceberge order
 
-#### Iceberge order
+### Pure market maker
 
 ### Portfolio management and optimization
 
