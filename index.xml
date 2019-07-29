@@ -648,6 +648,45 @@ Tue Jul  2 13:48:21 2019
 
 &lt;p&gt;&lt;img src=&#34;n.png&#34; alt=&#34;n.png&#34; /&gt;&lt;/p&gt;
 
+&lt;h2 id=&#34;basic-trading-strategies&#34;&gt;Basic Trading Strategies&lt;/h2&gt;
+
+&lt;h3 id=&#34;ping-pong-order&#34;&gt;Ping/Pong Order&lt;/h3&gt;
+
+&lt;p&gt;Ping/pong submits multiple &amp;lsquo;ping&amp;rsquo; orders; once a ping order fills, an associated &amp;lsquo;pong&amp;rsquo; order is submitted.&lt;/p&gt;
+
+&lt;p&gt;Multiple ping/pong pairs can be created by specifying an order count greater than 1, a suitable min/max ping price, and a pong distance. Multiple ping orders will be created between the specified min/max prices, with the associated pongs offset by the pong distance from the ping price.&lt;/p&gt;
+
+&lt;h3 id=&#34;iceberg-order&#34;&gt;Iceberg Order&lt;/h3&gt;
+
+&lt;p&gt;Iceberg allows you to place a large order on the market while ensuring only a small part of it is ever filled at once. By enabling the &amp;lsquo;Excess As Hidden&amp;rsquo; option, it is possible to offer up the remainder as a hidden order, allowing for minimal market disruption when executing large trades.&lt;/p&gt;
+
+&lt;h3 id=&#34;twap-order&#34;&gt;TWAP Order&lt;/h3&gt;
+
+&lt;p&gt;TWAP spreads an order out through time in order to fill at the time-weighted average price, calculated between the time the order is submitted to the final atomic order close.&lt;/p&gt;
+
+&lt;p&gt;The price can be specified as a fixed external target, such as the top bid/ask or last trade price, or as an explicit target which must be matched against the top bid/ask/last trade/etc.&lt;/p&gt;
+
+&lt;p&gt;Available price targets/explicit target conditions:
+* OB side price (top bid/ask)
+* OB mid price
+* Last trade price&lt;/p&gt;
+
+&lt;h3 id=&#34;accumulate-distribute-order&#34;&gt;Accumulate/Distribute Order&lt;/h3&gt;
+
+&lt;p&gt;Accumulate/Distribute allows you to break up a large order into smaller randomized chunks, submitted at regular or irregular intervals to minimise detection by other players in the market.&lt;/p&gt;
+
+&lt;p&gt;By enabling the &amp;lsquo;Await Fill&amp;rsquo; option, the algorithm will ensure each component fills before submitting subsequent orders. Enabling the &amp;lsquo;Catch Up&amp;rsquo; flag will cause the algorithm to ignore the slice interval for the next order if previous orders have taken longer than expected to fill, thereby ensuring the time-to-fill for the entire order is not adversely affected.&lt;/p&gt;
+
+&lt;p&gt;The price must be manually specified as &lt;code&gt;limitPrice&lt;/code&gt; for &lt;code&gt;LIMIT&lt;/code&gt; order types, or as a combination of a price offset &amp;amp; cap for &lt;code&gt;RELATIVE&lt;/code&gt; order types. &lt;code&gt;MARKET&lt;/code&gt; A/D orders execute using &lt;code&gt;MARKET&lt;/code&gt; atomic orders, and offer no price control.&lt;/p&gt;
+
+&lt;p&gt;For &lt;code&gt;RELATIVE&lt;/code&gt; A/D orders, the price offset &amp;amp; cap can both be set to one of the following:
+* Top ask
+* Top bid
+* Orderbook mid price
+* Last trade price
+* Moving Average (configurable period, time frame, candle price)
+* Exponential Moving Average (configurable period, time frame, candle price)&lt;/p&gt;
+
 &lt;h2 id=&#34;advanced-trading-strategies&#34;&gt;Advanced Trading Strategies&lt;/h2&gt;
 
 &lt;h3 id=&#34;statistical-arbitrage-via-pairs-trading&#34;&gt;Statistical arbitrage via pairs trading&lt;/h3&gt;
