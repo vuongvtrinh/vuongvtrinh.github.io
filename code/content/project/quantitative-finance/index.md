@@ -51,12 +51,11 @@ This project develops an intelligent data driven application to monitor blockcha
 Type: TOKEN
 Website: https://www.everex.io/
 Social Media: 
-- https://t.me/everexio
-- https://www.facebook.com/everex.io
-- https://twitter.com/everexio
+https://t.me/everexio
+https://www.facebook.com/everex.io
+https://twitter.com/everexio
 Explorers: 
-- https://etherscan.io/token/0xf3db5fa2c66b7af3eb0c0b782510816cbe4813b8
-Source Code: https://github.com/EverexIO/Et
+https://etherscan.io/token/0xf3db5fa2c66b7af3eb0c0b782510816cbe4813b8
 Market Cap: $12,407,222
 Current Price: $0.548992
 Issue Price: $0.880000
