@@ -48,8 +48,17 @@ This project develops an intelligent data driven application to monitor blockcha
 
 ```
 #EVX
-Market Cap: $18,108,409
-Current Price: $0.801257
+Type: TOKEN
+Website: https://www.everex.io/
+Social Media: 
+- https://t.me/everexio
+- https://www.facebook.com/everex.io
+- https://twitter.com/everexio
+Explorers: 
+- https://etherscan.io/token/0xf3db5fa2c66b7af3eb0c0b782510816cbe4813b8
+Source Code: https://github.com/EverexIO/Et
+Market Cap: $12,407,222
+Current Price: $0.548992
 Issue Price: $0.880000
 Issue Date: 2017-10-11
 Max Supply: -
