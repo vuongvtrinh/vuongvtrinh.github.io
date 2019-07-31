@@ -4,6 +4,14 @@
     
     <url>
     
+      <loc>https://vuongvtrinh.github.io/post/market-maker/</loc>
+      <lastmod>2019-07-31T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://vuongvtrinh.github.io/license/</loc>
       <lastmod>2018-06-28T00:00:00+02:00</lastmod>
     </url>
@@ -143,7 +151,7 @@
     <url>
     
       <loc>https://vuongvtrinh.github.io/post/</loc>
-      <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+      <lastmod>2019-07-31T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -205,7 +213,7 @@
     <url>
     
       <loc>https://vuongvtrinh.github.io/tags/blockchain-cryptoasset/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+      <lastmod>2019-07-31T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -277,7 +285,7 @@
     <url>
     
       <loc>https://vuongvtrinh.github.io/tags/quantitative-analytics/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+      <lastmod>2019-07-31T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -296,6 +304,15 @@
     
       <loc>https://vuongvtrinh.github.io/tags/thermodynamics/</loc>
       <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/tags/trading-algorithm/</loc>
+      <lastmod>2019-07-31T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
