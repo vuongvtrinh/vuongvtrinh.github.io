@@ -82,7 +82,7 @@ P: 0.00026182 V: 1,194.92 VWAP: 0.00023616
 5 mins: Buy 1.76 Sell 1.99
 ```
 
-### Supply and demand analysis
+### Volume spread analysis
 
 ![x.png](x.png)
 
