@@ -470,23 +470,11 @@ Tue Jul  2 13:48:21 2019
 
 <h3 id="ping-pong-order">Ping/Pong Order</h3>
 
-<p>Ping/pong submits multiple &lsquo;ping&rsquo; orders; once a ping order fills, an associated &lsquo;pong&rsquo; order is submitted.</p>
-
-<p>Multiple ping/pong pairs can be created by specifying an order count greater than 1, a suitable min/max ping price, and a pong distance. Multiple ping orders will be created between the specified min/max prices, with the associated pongs offset by the pong distance from the ping price.</p>
-
 <h3 id="iceberg-order">Iceberg Order</h3>
-
-<p>Iceberg allows you to place a large order on the market while ensuring only a small part of it is ever filled at once.</p>
 
 <h3 id="twap-order">TWAP Order</h3>
 
-<p>TWAP spreads an order out through time in order to fill at the time-weighted average price, calculated between the time the order is submitted to the final atomic order close.</p>
-
-<p>The price can be specified as a fixed external target, such as the top bid/ask or last trade price, or as an explicit target which must be matched against the top bid/ask/last trade/etc.</p>
-
 <h3 id="accumulate-distribute-order">Accumulate/Distribute Order</h3>
-
-<p>Accumulate/Distribute allows you to break up a large order into smaller randomized chunks, submitted at regular or irregular intervals to minimise detection by other players in the market.</p>
 
 <h2 id="advanced-trading-strategies">Advanced Trading Strategies</h2>
 
@@ -494,7 +482,7 @@ Tue Jul  2 13:48:21 2019
 
 <h3 id="trailing-stop-and-short-sell-via-iceberge-order">Trailing stop and short sell via iceberge order</h3>
 
-<h3 id="pure-market-maker">Pure market maker</h3>
+<h3 id="pure-market-maker-integrating-time-based-stop-loss">Pure market maker integrating time-based stop-loss</h3>
 
 <h3 id="portfolio-management-and-optimization">Portfolio management and optimization</h3>
 

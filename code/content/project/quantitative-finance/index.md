@@ -113,22 +113,11 @@ Tue Jul  2 13:48:21 2019
 
 ### Ping/Pong Order
 
-Ping/pong submits multiple 'ping' orders; once a ping order fills, an associated 'pong' order is submitted.
-
-Multiple ping/pong pairs can be created by specifying an order count greater than 1, a suitable min/max ping price, and a pong distance. Multiple ping orders will be created between the specified min/max prices, with the associated pongs offset by the pong distance from the ping price.
-
 ### Iceberg Order
-Iceberg allows you to place a large order on the market while ensuring only a small part of it is ever filled at once. 
 
 ### TWAP Order
 
-TWAP spreads an order out through time in order to fill at the time-weighted average price, calculated between the time the order is submitted to the final atomic order close.
-
-The price can be specified as a fixed external target, such as the top bid/ask or last trade price, or as an explicit target which must be matched against the top bid/ask/last trade/etc.
-
 ### Accumulate/Distribute Order
-
-Accumulate/Distribute allows you to break up a large order into smaller randomized chunks, submitted at regular or irregular intervals to minimise detection by other players in the market.
 
 ## Advanced Trading Strategies
 
@@ -136,7 +125,7 @@ Accumulate/Distribute allows you to break up a large order into smaller randomiz
 
 ### Trailing stop and short sell via iceberge order
 
-### Pure market maker
+### Pure market maker integrating time-based stop-loss
 
 ### Portfolio management and optimization
 
