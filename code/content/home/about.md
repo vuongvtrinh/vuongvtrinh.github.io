@@ -12,8 +12,7 @@ weight = 1
   interests = [
     "Optimization & Control",
     "Automation & Manufacturing",
-    "Data Science & Analytics",
-    "Blockchain & Cryptoassets"
+    "Data Analytics"
   ]
 
 # List your qualifications (such as academic degrees).
