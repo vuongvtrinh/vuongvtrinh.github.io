@@ -3,7 +3,7 @@
 date = "2018-01-01"
 
 # Project title.
-title = "A Telegram chatbot for data-driven analytics of crypto-market: on-chain versus off-chain transactions"
+title = "A Telegram chatbot for data-driven analytics of crypto-market"
 
 # Project summary to display on homepage.
 summary = "A tutorial to develop a Telegram chatbot for data-driven analytics of cryptoassets from both utility and speculation perspectives."
