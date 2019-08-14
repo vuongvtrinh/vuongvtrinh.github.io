@@ -45,7 +45,6 @@ This project develops an intelligent data driven application to monitor blockcha
 GitHub repositories: 
 
 - https://github.com/trinhvv/trading-analysis-bot
-
 - https://github.com/trinhvv/quant-trading-bot
 
 ## Data-Driven Financial Analytics
@@ -115,15 +114,19 @@ Tue Jul  2 13:48:21 2019
 
 ![n.png](n.png)
 
-## Trading Strategies
+## Basic Trading Strategies
+
+### Iceberge order
+
+### Volatility stop
+
+### Pure market maker
+
+## Advanced Trading Strategies
+
+### Turtle strategy with position sizing
 
 ### Statistical arbitrage via pairs trading
-
-### Taking profit with iceberge order
-
-### Volatility based trailing stop
-
-### Pure market maker with time-based stop-loss
 
 ### Portfolio management and optimization
 

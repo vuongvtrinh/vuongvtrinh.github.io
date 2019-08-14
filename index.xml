@@ -373,9 +373,8 @@ heroku ps:scale bot=1
 &lt;p&gt;GitHub repositories:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/trinhvv/trading-analysis-bot&#34; target=&#34;_blank&#34;&gt;https://github.com/trinhvv/trading-analysis-bot&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/trinhvv/quant-trading-bot&#34; target=&#34;_blank&#34;&gt;https://github.com/trinhvv/quant-trading-bot&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/trinhvv/trading-analysis-bot&#34; target=&#34;_blank&#34;&gt;https://github.com/trinhvv/trading-analysis-bot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/trinhvv/quant-trading-bot&#34; target=&#34;_blank&#34;&gt;https://github.com/trinhvv/quant-trading-bot&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;data-driven-financial-analytics&#34;&gt;Data-Driven Financial Analytics&lt;/h2&gt;
@@ -442,15 +441,19 @@ Tue Jul  2 13:48:21 2019
 
 &lt;p&gt;&lt;img src=&#34;n.png&#34; alt=&#34;n.png&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;trading-strategies&#34;&gt;Trading Strategies&lt;/h2&gt;
+&lt;h2 id=&#34;basic-trading-strategies&#34;&gt;Basic Trading Strategies&lt;/h2&gt;
+
+&lt;h3 id=&#34;iceberge-order&#34;&gt;Iceberge order&lt;/h3&gt;
+
+&lt;h3 id=&#34;volatility-stop&#34;&gt;Volatility stop&lt;/h3&gt;
+
+&lt;h3 id=&#34;pure-market-maker&#34;&gt;Pure market maker&lt;/h3&gt;
+
+&lt;h2 id=&#34;advanced-trading-strategies&#34;&gt;Advanced Trading Strategies&lt;/h2&gt;
+
+&lt;h3 id=&#34;turtle-strategy-with-position-sizing&#34;&gt;Turtle strategy with position sizing&lt;/h3&gt;
 
 &lt;h3 id=&#34;statistical-arbitrage-via-pairs-trading&#34;&gt;Statistical arbitrage via pairs trading&lt;/h3&gt;
-
-&lt;h3 id=&#34;taking-profit-with-iceberge-order&#34;&gt;Taking profit with iceberge order&lt;/h3&gt;
-
-&lt;h3 id=&#34;volatility-based-trailing-stop&#34;&gt;Volatility based trailing stop&lt;/h3&gt;
-
-&lt;h3 id=&#34;pure-market-maker-with-time-based-stop-loss&#34;&gt;Pure market maker with time-based stop-loss&lt;/h3&gt;
 
 &lt;h3 id=&#34;portfolio-management-and-optimization&#34;&gt;Portfolio management and optimization&lt;/h3&gt;
 
