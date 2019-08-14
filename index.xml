@@ -434,23 +434,15 @@ Tue Jul  2 13:48:21 2019
 
 &lt;p&gt;&lt;img src=&#34;n.png&#34; alt=&#34;n.png&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;basic-trading-strategies&#34;&gt;Basic Trading Strategies&lt;/h2&gt;
-
-&lt;h3 id=&#34;ping-pong-order&#34;&gt;Ping/Pong Order&lt;/h3&gt;
-
-&lt;h3 id=&#34;iceberg-order&#34;&gt;Iceberg Order&lt;/h3&gt;
-
-&lt;h3 id=&#34;twap-order&#34;&gt;TWAP Order&lt;/h3&gt;
-
-&lt;h3 id=&#34;accumulate-distribute-order&#34;&gt;Accumulate/Distribute Order&lt;/h3&gt;
-
-&lt;h2 id=&#34;advanced-trading-strategies&#34;&gt;Advanced Trading Strategies&lt;/h2&gt;
+&lt;h2 id=&#34;trading-strategies&#34;&gt;Trading Strategies&lt;/h2&gt;
 
 &lt;h3 id=&#34;statistical-arbitrage-via-pairs-trading&#34;&gt;Statistical arbitrage via pairs trading&lt;/h3&gt;
 
-&lt;h3 id=&#34;trailing-stop-and-short-sell-via-iceberge-order&#34;&gt;Trailing stop and short sell via iceberge order&lt;/h3&gt;
+&lt;h3 id=&#34;taking-profit-with-iceberge-order&#34;&gt;Taking profit with iceberge order&lt;/h3&gt;
 
-&lt;h3 id=&#34;pure-market-maker-integrating-time-based-stop-loss&#34;&gt;Pure market maker integrating time-based stop-loss&lt;/h3&gt;
+&lt;h3 id=&#34;volatility-based-trailing-stop&#34;&gt;Volatility based trailing stop&lt;/h3&gt;
+
+&lt;h3 id=&#34;pure-market-maker-with-time-based-stop-loss&#34;&gt;Pure market maker with time-based stop-loss&lt;/h3&gt;
 
 &lt;h3 id=&#34;portfolio-management-and-optimization&#34;&gt;Portfolio management and optimization&lt;/h3&gt;
 

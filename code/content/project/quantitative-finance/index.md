@@ -109,23 +109,15 @@ Tue Jul  2 13:48:21 2019
 
 ![n.png](n.png)
 
-## Basic Trading Strategies
-
-### Ping/Pong Order
-
-### Iceberg Order
-
-### TWAP Order
-
-### Accumulate/Distribute Order
-
-## Advanced Trading Strategies
+## Trading Strategies
 
 ### Statistical arbitrage via pairs trading
 
-### Trailing stop and short sell via iceberge order
+### Taking profit with iceberge order
 
-### Pure market maker integrating time-based stop-loss
+### Volatility based trailing stop
+
+### Pure market maker with time-based stop-loss
 
 ### Portfolio management and optimization
 
