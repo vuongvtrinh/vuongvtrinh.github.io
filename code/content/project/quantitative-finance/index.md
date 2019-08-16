@@ -124,11 +124,11 @@ Tue Jul  2 13:48:21 2019
 
 ## Advanced Trading Strategies
 
-### Turtle strategy with position sizing
+### Position sizing
 
 ### Statistical arbitrage via pairs trading
 
-### Portfolio management and optimization
+### Portfolio allocation and optimization
 
 ## Screenshots
 
