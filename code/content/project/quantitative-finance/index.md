@@ -124,13 +124,15 @@ Tue Jul  2 13:48:21 2019
 
 ## Advanced Trading Strategies
 
-### Position sizing
+### Volatility based position sizing
 
 ### Statistical arbitrage via pairs trading
 
 ### Portfolio allocation and optimization
 
-## Screenshots
+## Misc
 
-{{< gallery >}}
+![user.png](user.png)
+
+![blog.png](blog.png)
 
