@@ -48,6 +48,10 @@ The ANR CRYOGREEN project gathers collaborative academic and industrial partners
 
 [![Warm compression station at CERN](cern_wcs18kw.png)](cern_wcs18kw.png)
 
+[![Nitrogen compressor at CEA](nc1.png)](nc1.png)
+
+[![Valves with split range configuration at CEA](valve_split_range.png)](valve_split_range.png)
+
 ### Process configuration and dynamic simulator
 
 [![Warm compression station configuration](wcs-config.png)](wcs-config.png)
