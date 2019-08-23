@@ -91,6 +91,8 @@ P: 0.00026182 V: 1,194.92 VWAP: 0.00023616
 
 ![x.png](x.png)
 
+### Auction market theory
+
 ### Market movement statistics
 
 ```
