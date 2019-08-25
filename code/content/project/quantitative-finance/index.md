@@ -112,6 +112,8 @@ Tue Jul  2 13:48:21 2019
 
 ![blockchain.png](blockchain.png)
 
+![bidask_sum.png](bidask_sum.png)
+
 ### Newsflow sentiment analysis
 
 ![n.png](n.png)
