@@ -110,6 +110,16 @@ Tue Jul  2 13:48:21 2019
 
 ### Bitcoin aggregated charts
 
+```
+24H BTC exchange on-chain flows:
+#binance: $83M in | $69M out
+#bitmex: $37M in | $10M out
+#bitfinex: $8M in | $56M out
+#bitstamp: $65M in | $34M out
+#bittrex: $2M in | $3M out
+#poloniex: $1M in | $4M out
+```
+
 ![blockchain.png](blockchain.png)
 
 ![bidask_sum.png](bidask_sum.png)
