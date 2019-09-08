@@ -111,7 +111,7 @@ Tue Jul  2 13:48:21 2019
 ### Bitcoin aggregated charts
 
 ```
-*Daily BTC exchange on-chain flows*
+Daily BTC exchange flows
 #Binance: $35M in | $56M out
 #Bitmex: $8M in | $9M out
 #Bitfinex: $3M in | $3M out
@@ -119,11 +119,16 @@ Tue Jul  2 13:48:21 2019
 #Bittrex: $2M in | $2M out
 #Poloniex: $2M in | $1M out
 
-*Weekly BTC exchange on-chain flows*
+Weekly BTC exchange flows
 Inflow: $816.5M (+41.5% from last week)
 Outflow: $759.6M (-9.9% from last week)
 Net flow: $56.8M
 #BTC price: $10566.69 (+10.4% from last week)
+
+Weekly Stablecoin exchange flows
+Inflow: $469.4M (+26.4% from last week)
+Outflow: $573.2M (+41.0% from last week)
+Net flow: -$103.8M
 ```
 
 ![blockchain.png](blockchain.png)
