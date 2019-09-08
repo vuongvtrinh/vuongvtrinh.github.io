@@ -441,13 +441,19 @@ Tue Jul  2 13:48:21 2019
 
 &lt;h3 id=&#34;bitcoin-aggregated-charts&#34;&gt;Bitcoin aggregated charts&lt;/h3&gt;
 
-&lt;pre&gt;&lt;code&gt;Bitcoin exchange on-chain flows (24h)
-#Binance: $83m in | $69m out
-#Bitmex: $37m in | $10m out
-#Bitfinex: $8m in | $56m out
-#Bitstamp: $65m in | $34m out
-#Bittrex: $2m in | $3m out
-#Poloniex: $1m in | $4m out
+&lt;pre&gt;&lt;code&gt;*Daily BTC exchange on-chain flows*
+#Binance: $35M in | $56M out
+#Bitmex: $8M in | $9M out
+#Bitfinex: $3M in | $3M out
+#Bitstamp: $12M in | $4M out
+#Bittrex: $2M in | $2M out
+#Poloniex: $2M in | $1M out
+
+*Weekly BTC exchange on-chain flows*
+Inflow: $816.5M (+41.5% from last week)
+Outflow: $759.6M (-9.9% from last week)
+Net flow: $56.8M
+#BTC price: $10566.69 (+10.4% from last week)
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;img src=&#34;blockchain.png&#34; alt=&#34;blockchain.png&#34; /&gt;&lt;/p&gt;
