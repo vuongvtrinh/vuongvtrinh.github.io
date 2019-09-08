@@ -106,7 +106,7 @@ Tue Jul  2 13:48:21 2019
 
 ### Market moneyflow analysis
 
-![binance.png](binance.png)
+![market.png](market.png)
 
 ### Bitcoin aggregated charts
 
