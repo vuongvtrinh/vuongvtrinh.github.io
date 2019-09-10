@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/kakalotz
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://vuongvtrinh.github.io
+  * I am kakalotz (https://keybase.io/kakalotz) on keybase.
+  * I have a public key ASBLHN5BTqo03iBS28eMTr_rEMhDgM2A3lcHpVHSKpw5VQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120c8c5234a7c959ebd48c7113779127a277fb464fee287e15434b0b1a17d355ef90a",
+      "host": "keybase.io",
+      "kid": "01204b1cde414eaa34de2052dbc78c4ebfeb10c84380cd80de5707a551d22a9c39550a",
+      "uid": "b9688cf782d811601070334e20a5bd19",
+      "username": "kakalotz"
+    },
+    "merkle_root": {
+      "ctime": 1568111310,
+      "hash": "d705032f26f029b0edcc3798f55e2ac6b2a7a1f4d39ac5462bac9d4069ed7af8d036153e1e9fbb57da8eb8175583f351b2cfaed8cbb22d6406ef9ce58d777edb",
+      "hash_meta": "2308a8f37dbb380ba844985c87de835721c81aeb53868acb39bd6d3f736941c7",
+      "seqno": 6374596
+    },
+    "service": {
+      "entropy": "K5eKz1Km4F6C82q6Tlh0zIas",
+      "hostname": "vuongvtrinh.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.4.1"
+  },
+  "ctime": 1568111331,
+  "expire_in": 504576000,
+  "prev": "f2a1e3575a45c4eb7c831bf882fd3bd96817324265e65d9c22e93f1dd54d785d",
+  "seqno": 14,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgSxzeQU6qNN4gUtvHjE6/6xDIQ4DNgN5XB6VR0iqcOVUKp3BheWxvYWTESpcCDsQg8qHjV1pFxOt8gxv4gv072WgXMkJl5l2cIuk/HdVNeF3EIJmhMnEQhbNtVhJTi1DWmo1Rt+EY0XLo8C+Fj4g5Dz7EAgHCo3NpZ8RAsIpmO7XQV/g+LMUBcagBnCkEFxM0gDAOnWznHTtfISwKklpiyaxX43pTXtnrV90Up+WG9mBnq4++oOXbIrZzB6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIDyv4dfqzezpNVha3MNtGZ42FNcHGRO+c9I+BI9n9yDVo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kakalotz
+
+==================================================================
