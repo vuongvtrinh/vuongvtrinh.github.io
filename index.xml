@@ -405,7 +405,7 @@ Total Supply: 25,000,000
 Circulating Supply: 22,600,000
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;transaction-analysis&#34;&gt;Transaction analysis&lt;/h3&gt;
+&lt;h3 id=&#34;short-term-transactions&#34;&gt;Short-term transactions&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;#TNTBTC 92,966,054.00 (94.84%)
 P: 0.00000730 V: 608.23 VWAP: 0.00000654
@@ -419,11 +419,9 @@ P: 0.00026182 V: 1,194.92 VWAP: 0.00023616
 5 mins: Buy 1.76 Sell 1.99
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;volume-spread-analysis&#34;&gt;Volume spread analysis&lt;/h3&gt;
+&lt;h3 id=&#34;technical-analysis&#34;&gt;Technical analysis&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;x.png&#34; alt=&#34;x.png&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;auction-market-theory&#34;&gt;Auction market theory&lt;/h3&gt;
 
 &lt;h3 id=&#34;market-movement-statistics&#34;&gt;Market movement statistics&lt;/h3&gt;
 
@@ -435,13 +433,13 @@ BTC: 120 (+) 31 (-)
 Tue Jul  2 13:48:21 2019
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;market-moneyflow-analysis&#34;&gt;Market moneyflow analysis&lt;/h3&gt;
+&lt;h3 id=&#34;altcoin-market-money-flows&#34;&gt;Altcoin market money flows&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;market.png&#34; alt=&#34;market.png&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;bitcoin-aggregated-charts&#34;&gt;Bitcoin aggregated charts&lt;/h3&gt;
+&lt;h3 id=&#34;exchange-on-chain-flows&#34;&gt;Exchange on-chain flows&lt;/h3&gt;
 
-&lt;pre&gt;&lt;code&gt;Daily BTC exchange flows
+&lt;pre&gt;&lt;code&gt;*Daily BTC exchange flows*
 #Binance: $35M in | $56M out
 #Bitmex: $8M in | $9M out
 #Bitfinex: $3M in | $3M out
@@ -449,21 +447,17 @@ Tue Jul  2 13:48:21 2019
 #Bittrex: $2M in | $2M out
 #Poloniex: $2M in | $1M out
 
-Weekly BTC exchange flows
+*Weekly BTC exchange flows*
 Inflow: $816.5M (+41.5% from last week)
 Outflow: $759.6M (-9.9% from last week)
 Net flow: $56.8M
 #BTC price: $10566.69 (+10.4% from last week)
 
-Weekly Stablecoin exchange flows
+*Weekly Stablecoin exchange flows*
 Inflow: $469.4M (+26.4% from last week)
 Outflow: $573.2M (+41.0% from last week)
 Net flow: -$103.8M
 &lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src=&#34;blockchain.png&#34; alt=&#34;blockchain.png&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;bidask_sum.png&#34; alt=&#34;bidask_sum.png&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;newsflow-sentiment-analysis&#34;&gt;Newsflow sentiment analysis&lt;/h3&gt;
 

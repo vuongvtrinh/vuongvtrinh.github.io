@@ -72,7 +72,7 @@ Total Supply: 25,000,000
 Circulating Supply: 22,600,000
 ```
 
-### Transaction analysis
+### Short-term transactions
 
 ```
 #TNTBTC 92,966,054.00 (94.84%)
@@ -87,11 +87,9 @@ P: 0.00026182 V: 1,194.92 VWAP: 0.00023616
 5 mins: Buy 1.76 Sell 1.99
 ```
 
-### Volume spread analysis
+### Technical analysis
 
 ![x.png](x.png)
-
-### Auction market theory
 
 ### Market movement statistics
 
@@ -104,14 +102,14 @@ BTC: 120 (+) 31 (-)
 Tue Jul  2 13:48:21 2019
 ```
 
-### Market moneyflow analysis
+### Altcoin market money flows
 
 ![market.png](market.png)
 
-### Bitcoin aggregated charts
+### Exchange on-chain flows
 
 ```
-Daily BTC exchange flows
+*Daily BTC exchange flows*
 #Binance: $35M in | $56M out
 #Bitmex: $8M in | $9M out
 #Bitfinex: $3M in | $3M out
@@ -119,21 +117,17 @@ Daily BTC exchange flows
 #Bittrex: $2M in | $2M out
 #Poloniex: $2M in | $1M out
 
-Weekly BTC exchange flows
+*Weekly BTC exchange flows*
 Inflow: $816.5M (+41.5% from last week)
 Outflow: $759.6M (-9.9% from last week)
 Net flow: $56.8M
 #BTC price: $10566.69 (+10.4% from last week)
 
-Weekly Stablecoin exchange flows
+*Weekly Stablecoin exchange flows*
 Inflow: $469.4M (+26.4% from last week)
 Outflow: $573.2M (+41.0% from last week)
 Net flow: -$103.8M
 ```
-
-![blockchain.png](blockchain.png)
-
-![bidask_sum.png](bidask_sum.png)
 
 ### Newsflow sentiment analysis
 
