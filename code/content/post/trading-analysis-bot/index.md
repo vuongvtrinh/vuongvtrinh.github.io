@@ -1,6 +1,6 @@
 +++
 # Date this page was created.
-date = "2018-01-01"
+date = "2018-01-02"
 
 # Project title.
 title = "A Telegram chatbot for data-driven analytics of crypto-market"
