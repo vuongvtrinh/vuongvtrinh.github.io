@@ -92,6 +92,14 @@
     
     <url>
     
+      <loc>https://vuongvtrinh.github.io/project/sail-yacht/</loc>
+      <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://vuongvtrinh.github.io/project/active-vibration-control/</loc>
       <lastmod>2014-01-01T00:00:00+00:00</lastmod>
     </url>
@@ -270,6 +278,15 @@
     <url>
     
       <loc>https://vuongvtrinh.github.io/tags/robust-control/</loc>
+      <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/tags/sail-yacht/</loc>
       <lastmod>2014-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
