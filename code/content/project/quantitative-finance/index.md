@@ -47,6 +47,12 @@ GitHub repositories:
 - https://github.com/trinhvv/trading-analysis-bot
 - https://github.com/trinhvv/quant-trading-bot
 
+Website:
+
+- https://alphacrypto.netlify.com
+
+![alphacrypto.png](alphacrypto.png)
+
 ## Data-Driven Financial Analytics
 
 ### Fundamental information
