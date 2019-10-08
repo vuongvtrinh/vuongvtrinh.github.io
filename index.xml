@@ -459,6 +459,24 @@ Outflow: $573.2M (+41.0% from last week)
 Net flow: -$103.8M
 &lt;/code&gt;&lt;/pre&gt;
 
+&lt;p&gt;&lt;img src=&#34;b.png&#34; alt=&#34;b.png&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;transaction-activities&#34;&gt;Transaction activities&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;*Transaction activities*
+2019-10-07: 5,994,000 #USDT (6,012,532 USD) transferred from Tether Treasury to unknown wallet
+2019-10-07: 6,393,600 #USDT (6,396,353 USD) transferred from Tether Treasury to unknown wallet
+2019-10-07: 💵 💵  12,387,600 #USDT (12,392,934 USD) minted at Tether Treasury
+2019-10-07: 4,995,000 #USDT (4,983,203 USD) transferred from Tether Treasury to #Huobi
+2019-10-07: 💵 💵  20,000,000 #USDT (19,952,765 USD) minted at Tether Treasury
+2019-10-04: 🚨  12,587,400 #USDT (12,712,386 USD) transferred from Tether Treasury to unknown wallet
+2019-10-04: 💵 💵  12,600,000 #USDT (12,725,111 USD) minted at Tether Treasury
+2019-10-04: 5,000,000 #USDT (5,035,628 USD) transferred from #Bitfinex to Tether Treasury
+2019-10-04: 💵  5,000,000 USDT (5,035,628 USD) minted at Tether Treasury
+2019-10-01: 9,990,000 #USDT (9,972,005 USD) transferred from Tether Treasury to unknown wallet
+2019-10-01: 4,995,000 #USDT (5,015,580 USD) transferred from Tether Treasury to #Huobi
+&lt;/code&gt;&lt;/pre&gt;
+
 &lt;h3 id=&#34;newsflow-sentiment-analysis&#34;&gt;Newsflow sentiment analysis&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;n.png&#34; alt=&#34;n.png&#34; /&gt;&lt;/p&gt;
