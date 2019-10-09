@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.12.1)  8 OCT 2019 13:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.12.1)  9 OCT 2019 13:34
 entering extended mode
 **./curriculum_vitae.tex
 (curriculum_vitae.tex
@@ -332,14 +332,14 @@ G,.JBIG2,.JB2,.eps]
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includemp 
 * h-part:(L,W,R)=(32.52127pt, 549.25246pt, 32.52127pt)
-* v-part:(T,H,B)=(83.11005pt, 679.33867pt, 32.52127pt)
+* v-part:(T,H,B)=(81.30374pt, 681.14497pt, 32.52127pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=464.33499pt
-* \textheight=679.33867pt
+* \textheight=681.14497pt
 * \oddsidemargin=45.16875pt
 * \evensidemargin=45.16875pt
-* \topmargin=-26.15994pt
+* \topmargin=-27.96625pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
@@ -415,11 +415,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 281.
 Here is how much of TeX's memory you used:
  7925 strings out of 493335
  115441 string characters out of 3139236
- 212038 words of memory out of 10000000
+ 212039 words of memory out of 10000000
  11363 multiletter control sequences out of 15000+200000
  23318 words of font info for 29 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,5n,43p,434b,316s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,5n,43p,493b,316s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}{D:/Users/trinhv
 v-admin/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/fontawesome/fontawesometwo.e
 nc}<D:/Users/trinhvv-admin/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/fontaw
@@ -427,9 +427,9 @@ esome/FontAwesome.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/Mi
 KTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on curriculum_vitae.pdf (2 pages, 95814 bytes).
+Output written on curriculum_vitae.pdf (2 pages, 96213 bytes).
 PDF statistics:
- 135 PDF objects out of 1000 (max. 8388607)
+ 137 PDF objects out of 1000 (max. 8388607)
  12 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
