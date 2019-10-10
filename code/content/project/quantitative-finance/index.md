@@ -165,8 +165,4 @@ Net flow: -$103.8M
 
 ## Misc
 
-![user.png](user.png)
-
-![blog.png](blog.png)
-
-![futures.png](futures.png)
+{{< gallery >}}
