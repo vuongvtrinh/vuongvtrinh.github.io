@@ -3,10 +3,10 @@
 date = "2014-01-01"
 
 # Project title.
-title = "Analysis and Simulation, Optimization and Control of Sail Yachts"
+title = "Meta"
 
 # Project summary to display on homepage.
-summary = ""
+summary = "Simulation, optimization and control of sail yachts."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = ""
