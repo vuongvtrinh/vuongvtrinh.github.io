@@ -105,23 +105,37 @@ Tue Jul  2 13:48:21 2019
 
 ```
 *Daily BTC exchange flows*
-#Binance: $35M in | $56M out
-#Bitmex: $8M in | $9M out
-#Bitfinex: $3M in | $3M out
-#Bitstamp: $12M in | $4M out
-#Bittrex: $2M in | $2M out
-#Poloniex: $2M in | $1M out
+#Binance: $75M in | $68M out
+#Bitmex: $18M in | $7M out
+#Bitfinex: $6M in | $8M out
+#Bitstamp: $18M in | $22M out
+#Bittrex: $2M in | $4M out
+#Poloniex: $1M in | $2M out
+
+*Daily ETH exchange flows*
+#Binance: $24M in | $12M out
+#Bitfinex: $2M in | $1M out
+#Bittrex: $240k in | $415k out
+#Kraken: $2M in | $2M out
+#Kucoin: $406k in | $235k out
+#Poloniex: $325k in | $352k out
 
 *Weekly BTC exchange flows*
-Inflow: $816.5M (+41.5% from last week)
-Outflow: $759.6M (-9.9% from last week)
-Net flow: $56.8M
-#BTC price: $10566.69 (+10.4% from last week)
+Inflow: $703.8M (-42.1% from last week)
+Outflow: $763.5M (-27.8% from last week)
+Net flow: -$59.7M
+#BTC price: $8084.63 (-1.3% from last week)
+
+*Weekly ETH exchange flows*
+Inflow: $119.1M (-37.5% from last week)
+Outflow: $111.8M (-48.7% from last week)
+Net flow: $7.3M
+#ETH price: $175.74 (+0.8% from last week)
 
 *Weekly Stablecoin exchange flows*
-Inflow: $469.4M (+26.4% from last week)
-Outflow: $573.2M (+41.0% from last week)
-Net flow: -$103.8M
+Inflow: $264.3M (-51.1% from last week)
+Outflow: $364.0M (-45.7% from last week)
+Net flow: -$99.7M
 ```
 
 ![b.png](b.png)
@@ -130,39 +144,21 @@ Net flow: -$103.8M
 
 ```
 *Transaction activities*
-2019-10-07: 5,994,000 #USDT (6,012,532 USD) transferred from Tether Treasury to unknown wallet
-2019-10-07: 6,393,600 #USDT (6,396,353 USD) transferred from Tether Treasury to unknown wallet
+2019-10-12: :dollar:  2,500,000 #USDT (2,494,282 USD) minted at Tether Treasury
+2019-10-12: :dollar:  5,000,000 #USDT (5,012,230 USD) minted at Tether Treasury
+2019-10-11: :dollar: :dollar:  15,000,000 #USDT (15,077,725 USD) minted at Tether Treasury
+2019-10-10: :dollar: :dollar: :dollar:  20,000,000 #USDT (20,002,176 USD) minted at Tether Treasury
 2019-10-07: :dollar: :dollar:  12,387,600 #USDT (12,392,934 USD) minted at Tether Treasury
-2019-10-07: 4,995,000 #USDT (4,983,203 USD) transferred from Tether Treasury to #Huobi
 2019-10-07: :dollar: :dollar:  20,000,000 #USDT (19,952,765 USD) minted at Tether Treasury
-2019-10-04: :rotating_light:  12,587,400 #USDT (12,712,386 USD) transferred from Tether Treasury to unknown wallet
 2019-10-04: :dollar: :dollar:  12,600,000 #USDT (12,725,111 USD) minted at Tether Treasury
-2019-10-04: 5,000,000 #USDT (5,035,628 USD) transferred from #Bitfinex to Tether Treasury
 2019-10-04: :dollar:  5,000,000 USDT (5,035,628 USD) minted at Tether Treasury
-2019-10-01: 9,990,000 #USDT (9,972,005 USD) transferred from Tether Treasury to unknown wallet
-2019-10-01: 4,995,000 #USDT (5,015,580 USD) transferred from Tether Treasury to #Huobi
+2019-09-30: :dollar: :dollar:  20,000,000 #USDT (19,996,690 USD) minted at Tether Treasury
 ```
 
 ### Newsflow sentiment analysis
 
 ![n.png](n.png)
 
-## Basic Trading Strategies
-
-### Iceberge order
-
-### Volatility stop
-
-### Pure market maker
-
-## Advanced Trading Strategies
-
-### Volatility based position sizing
-
-### Statistical arbitrage via pairs trading
-
-### Portfolio allocation and optimization
-
-## Misc
+## Gallery
 
 {{< gallery >}}
