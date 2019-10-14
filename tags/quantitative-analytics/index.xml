@@ -7,20 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Vuong V. Trinh 2016</copyright>
-    <lastBuildDate>Tue, 02 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vuongvtrinh.github.io/tags/quantitative-analytics/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>A Telegram chatbot for data-driven analytics of crypto-market</title>
-      <link>https://vuongvtrinh.github.io/post/trading-analysis-bot/</link>
-      <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://vuongvtrinh.github.io/post/trading-analysis-bot/</guid>
-      <description>Introduction A Telegram chatbot for data-driven analytics of crypto-market.
-Technology  Chatbot Cloud computing Databases and data wrangling Financial time series visualization Volume spread analysis  Snapshots         License MIT</description>
-    </item>
     
     <item>
       <title>Quantitative Analytics and Trading Strategies</title>
