@@ -44,9 +44,6 @@ caption = ""
 
 A Telegram chatbot for data-driven analytics of crypto-market.
 
-- Telegram chatbot: [https://t.me/trading_analysis_bot](https://t.me/trading_analysis_bot)
-- GitHub repository: [https://github.com/trinhvv/trading-analysis-bot](https://github.com/trinhvv/trading-analysis-bot) (>100 star)
-
 ## Technology
 
 - Chatbot

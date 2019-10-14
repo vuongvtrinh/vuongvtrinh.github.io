@@ -179,11 +179,6 @@ heroku ps:scale bot=1
 
 &lt;p&gt;A Telegram chatbot for data-driven analytics of crypto-market.&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;Telegram chatbot: &lt;a href=&#34;https://t.me/trading_analysis_bot&#34; target=&#34;_blank&#34;&gt;https://t.me/trading_analysis_bot&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;GitHub repository: &lt;a href=&#34;https://github.com/trinhvv/trading-analysis-bot&#34; target=&#34;_blank&#34;&gt;https://github.com/trinhvv/trading-analysis-bot&lt;/a&gt; (&amp;gt;100 star)&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;h2 id=&#34;technology&#34;&gt;Technology&lt;/h2&gt;
 
 &lt;ul&gt;
