@@ -195,11 +195,6 @@ enableGitInfo = false
     link = "https://medium.com/@vanvuong.trinh"
     
   [[params.social]]
-    icon = "keybase"
-    icon_pack = "fab"
-    link = "https://keybase.io/vtrinh"
-    
-  [[params.social]]
     icon = "cv"
     icon_pack = "ai"
     link = "cv/curriculum_vitae.pdf"
