@@ -190,11 +190,6 @@ enableGitInfo = false
     link = "https://www.linkedin.com/in/trinhvv/"
     
   [[params.social]]
-    icon = "medium"
-    icon_pack = "fab"
-    link = "https://medium.com/@vanvuong.trinh"
-    
-  [[params.social]]
     icon = "cv"
     icon_pack = "ai"
     link = "cv/curriculum_vitae.pdf"
