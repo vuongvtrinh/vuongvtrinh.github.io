@@ -3,7 +3,7 @@
 date = "2018-05-14"
 
 # Project title.
-title = "Data analytics dashboard using Python Flask and JavaScript Highcharts"
+title = "Data Analytics Dashboard using Python Flask and JavaScript Highcharts"
 
 # Project summary to display on homepage.
 summary = "A tutorial to develop a web dashboard for data analytics using Python Flask and JavaScript Highcharts."
