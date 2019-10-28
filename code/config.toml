@@ -195,6 +195,16 @@ enableGitInfo = false
     icon = "cv"
     icon_pack = "ai"
     link = "cv/curriculum_vitae.pdf"
+    
+  [[params.social]]
+    icon = "medium"
+    icon_pack = "fab"
+    link = "https://medium.com/@vanvuong.trinh"
+    
+  [[params.social]]
+    icon = "keybase"
+    icon_pack = "fab"
+    link = "https://keybase.io/vtrinh"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
