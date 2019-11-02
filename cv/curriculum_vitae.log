@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.12.1)  2 NOV 2019 11:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.12.1)  3 NOV 2019 02:50
 entering extended mode
 **./curriculum_vitae.tex
 (curriculum_vitae.tex
@@ -332,14 +332,14 @@ G,.JBIG2,.JB2,.eps]
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includemp 
 * h-part:(L,W,R)=(32.52127pt, 549.25246pt, 32.52127pt)
-* v-part:(T,H,B)=(86.72377pt, 675.72495pt, 32.52127pt)
+* v-part:(T,H,B)=(93.95122pt, 668.4975pt, 32.52127pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=464.33499pt
-* \textheight=675.72495pt
+* \textheight=668.4975pt
 * \oddsidemargin=45.16875pt
 * \evensidemargin=45.16875pt
-* \topmargin=-22.54622pt
+* \topmargin=-15.31877pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
@@ -397,6 +397,13 @@ File: omsptm.fd
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 141.
 
+Overfull \hbox (6.96936pt too wide) in paragraph at lines 142--143
+[]\T1/ptm/m/n/10.95 Familiar with Python (\T1/ptm/m/it/10.95 Flask, Pan-das\T1/
+ptm/m/n/10.95 ), JS (\T1/ptm/m/it/10.95 High-charts\T1/ptm/m/n/10.95 ), Heroku 
+(\T1/ptm/m/it/10.95 Post-gres\T1/ptm/m/n/10.95 ); edit-ting tools (\T1/ptm/m/it
+/10.95 TeX, Inkscape\T1/ptm/m/n/10.95 ). 
+ []
+
 [1
 
 {D:/Users/trinhvv-admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
@@ -415,7 +422,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 289.
 Here is how much of TeX's memory you used:
  7925 strings out of 493335
  115441 string characters out of 3139236
- 212037 words of memory out of 10000000
+ 212033 words of memory out of 10000000
  11363 multiletter control sequences out of 15000+200000
  23318 words of font info for 29 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -427,9 +434,9 @@ esome/FontAwesome.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/Mi
 KTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on curriculum_vitae.pdf (2 pages, 98319 bytes).
+Output written on curriculum_vitae.pdf (2 pages, 98001 bytes).
 PDF statistics:
- 141 PDF objects out of 1000 (max. 8388607)
+ 140 PDF objects out of 1000 (max. 8388607)
  12 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
