@@ -10,8 +10,8 @@ weight = 1
 # List your academic interests.
 [interests]
   interests = [
-    "Optimization & Control",
-    "Automation & Manufacturing",
+    "Control & Optimization",
+    "Industrial Automation",
     "Data Analytics"
   ]
 
