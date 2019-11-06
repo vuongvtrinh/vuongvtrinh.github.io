@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.12.1)  6 NOV 2019 05:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.12.1)  6 NOV 2019 10:23
 entering extended mode
 **./curriculum_vitae.tex
 (curriculum_vitae.tex
@@ -332,14 +332,14 @@ G,.JBIG2,.JB2,.eps]
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includemp 
 * h-part:(L,W,R)=(32.52127pt, 549.25246pt, 32.52127pt)
-* v-part:(T,H,B)=(79.49744pt, 682.95128pt, 32.52127pt)
+* v-part:(T,H,B)=(72.26999pt, 690.17873pt, 32.52127pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=464.33499pt
-* \textheight=682.95128pt
+* \textheight=690.17873pt
 * \oddsidemargin=45.16875pt
 * \evensidemargin=45.16875pt
-* \topmargin=-29.77255pt
+* \topmargin=-37.0pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
@@ -403,19 +403,19 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
 
 AED: lastpage setting LastPage
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 289.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 289.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 295.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 295.
  (curriculum_vitae.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 289.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 289.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 295.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 295.
 Package rerunfilecheck Info: File `curriculum_vitae.out' has not changed.
 (rerunfilecheck)             Checksum: 5D0C69988F3A4CAE4C45F1244BD9E153;413.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 289.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 295.
  ) 
 Here is how much of TeX's memory you used:
  7925 strings out of 493335
  115441 string characters out of 3139236
- 212037 words of memory out of 10000000
+ 212023 words of memory out of 10000000
  11363 multiletter control sequences out of 15000+200000
  23318 words of font info for 29 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -427,9 +427,9 @@ esome/FontAwesome.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/Mi
 KTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on curriculum_vitae.pdf (2 pages, 98212 bytes).
+Output written on curriculum_vitae.pdf (2 pages, 98488 bytes).
 PDF statistics:
- 139 PDF objects out of 1000 (max. 8388607)
+ 140 PDF objects out of 1000 (max. 8388607)
  12 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
