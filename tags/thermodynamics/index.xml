@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>thermodynamics on Vuong V. Trinh</title>
@@ -18,16 +18,7 @@
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/project/cryogenic-refrigerator/</guid>
-      <description>The ANR CRYOGREEN project gathers collaborative academic and industrial partners, including GIPSA-lab, CEA and CERN. We target to advanced control of large cryogenic systems via explicit nonlinear and hierarchical distributed model predictive control frameworks.
-   Explicit Constrained Control of Warm Compression Stations 
-
-
-Process configuration and dynamic simulator 
-
-Allocation control and validation results 
-
-Hierarchical Constrained Control of Cryogenic Refrigerators 
-Process diagram and dynamic simulator</description>
+      <description>The ANR CRYOGREEN project gathers collaborative academic and industrial partners, including GIPSA-lab, CEA and CERN. We target to advanced control of large cryogenic systems via explicit nonlinear and hierarchical distributed model predictive control frameworks.</description>
     </item>
     
   </channel>
