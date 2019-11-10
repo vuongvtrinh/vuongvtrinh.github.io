@@ -270,7 +270,9 @@ heroku ps:scale bot=1
 
 &lt;p&gt;This project develops an intelligent data driven application to monitor blockchain projects and to analyze cryptoassets from both utility and speculation perspectives. We target blockchain entrepreneurs, investors and traders all along the life of projects: token generation, listing on secondary market, product delivery, product usage, and token valorization.&lt;/p&gt;
 
-&lt;h2 id=&#34;financial-data-analytics&#34;&gt;Financial Data Analytics&lt;/h2&gt;
+&lt;h1 id=&#34;financial-data-analytics&#34;&gt;Financial Data Analytics&lt;/h1&gt;
+
+&lt;h2 id=&#34;crypto-speculation&#34;&gt;Crypto Speculation&lt;/h2&gt;
 
 &lt;h3 id=&#34;fundamental-information&#34;&gt;Fundamental information&lt;/h3&gt;
 
@@ -382,7 +384,13 @@ Net flow: -$99.7M
 
 &lt;p&gt;&lt;img src=&#34;n.png&#34; alt=&#34;n.png&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;derivatives-market-statistics-funding-rate-and-open-interests&#34;&gt;Derivatives market statistics: funding rate and open interests&lt;/h3&gt;
+&lt;h2 id=&#34;crypto-derivatives&#34;&gt;Crypto Derivatives&lt;/h2&gt;
+
+&lt;h3 id=&#34;basis&#34;&gt;Basis&lt;/h3&gt;
+
+&lt;h3 id=&#34;funding-rate&#34;&gt;Funding rate&lt;/h3&gt;
+
+&lt;h3 id=&#34;open-interests&#34;&gt;Open interests&lt;/h3&gt;
 
 &lt;h2 id=&#34;gallery&#34;&gt;Gallery&lt;/h2&gt;
 
