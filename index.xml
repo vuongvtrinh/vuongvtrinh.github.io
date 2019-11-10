@@ -328,7 +328,7 @@ Tue Jul  2 13:48:21 2019
 
 &lt;p&gt;&lt;img src=&#34;market.png&#34; alt=&#34;market.png&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;exchange-on-chain-flows&#34;&gt;Exchange on-chain flows&lt;/h3&gt;
+&lt;h3 id=&#34;on-chain-exchange-flows&#34;&gt;On-chain exchange flows&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;*Daily BTC exchange flows*
 #Binance: $75M in | $68M out
@@ -380,7 +380,7 @@ Net flow: -$99.7M
 2019-09-30: 💵 💵  20,000,000 #USDT (19,996,690 USD) minted at Tether Treasury
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;newsflow-sentiment-analysis&#34;&gt;Newsflow sentiment analysis&lt;/h3&gt;
+&lt;h3 id=&#34;newsflow&#34;&gt;Newsflow&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;n.png&#34; alt=&#34;n.png&#34; /&gt;&lt;/p&gt;
 
@@ -390,7 +390,13 @@ Net flow: -$99.7M
 
 &lt;h3 id=&#34;funding-rate&#34;&gt;Funding rate&lt;/h3&gt;
 
-&lt;h3 id=&#34;open-interests&#34;&gt;Open interests&lt;/h3&gt;
+&lt;h3 id=&#34;open-interest&#34;&gt;Open interest&lt;/h3&gt;
+
+&lt;h1 id=&#34;trading-strategies&#34;&gt;Trading Strategies&lt;/h1&gt;
+
+&lt;h2 id=&#34;position-sizing-and-leverage&#34;&gt;Position sizing and leverage&lt;/h2&gt;
+
+&lt;h2 id=&#34;pairs-trading&#34;&gt;Pairs trading&lt;/h2&gt;
 
 &lt;h1 id=&#34;web-application&#34;&gt;Web Application&lt;/h1&gt;
 

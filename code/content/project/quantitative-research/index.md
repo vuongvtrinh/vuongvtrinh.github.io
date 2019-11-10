@@ -103,7 +103,7 @@ Tue Jul  2 13:48:21 2019
 
 ![market.png](market.png)
 
-### Exchange on-chain flows
+### On-chain exchange flows
 
 ```
 *Daily BTC exchange flows*
@@ -157,7 +157,7 @@ Net flow: -$99.7M
 2019-09-30: :dollar: :dollar:  20,000,000 #USDT (19,996,690 USD) minted at Tether Treasury
 ```
 
-### Newsflow sentiment analysis
+### Newsflow
 
 ![n.png](n.png)
 
@@ -167,7 +167,13 @@ Net flow: -$99.7M
 
 ### Funding rate
 
-### Open interests
+### Open interest
+
+# Trading Strategies
+
+## Position sizing and leverage
+
+## Pairs trading
 
 # Web Application
 
