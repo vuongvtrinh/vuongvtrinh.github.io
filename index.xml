@@ -270,11 +270,11 @@ heroku ps:scale bot=1
 
 &lt;p&gt;This project develops an intelligent data driven application to monitor blockchain projects and to analyze cryptoassets from both utility and speculation perspectives. We target blockchain entrepreneurs, investors and traders all along the life of projects: token generation, listing on secondary market, product delivery, product usage, and token valorization.&lt;/p&gt;
 
-&lt;h1 id=&#34;financial-data-analytics&#34;&gt;Financial Data Analytics&lt;/h1&gt;
+&lt;h2 id=&#34;financial-data-analytics&#34;&gt;Financial Data Analytics&lt;/h2&gt;
 
-&lt;h2 id=&#34;crypto-markets&#34;&gt;Crypto Markets&lt;/h2&gt;
+&lt;h3 id=&#34;crypto-markets&#34;&gt;Crypto Markets&lt;/h3&gt;
 
-&lt;h3 id=&#34;fundamental-information&#34;&gt;Fundamental information&lt;/h3&gt;
+&lt;h4 id=&#34;fundamental-information&#34;&gt;Fundamental information&lt;/h4&gt;
 
 &lt;pre&gt;&lt;code&gt;#EVX
 Type: TOKEN
@@ -296,7 +296,7 @@ Total Supply: 25,000,000
 Circulating Supply: 22,600,000
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;short-term-transactions&#34;&gt;Short-term transactions&lt;/h3&gt;
+&lt;h4 id=&#34;short-term-transactions&#34;&gt;Short-term transactions&lt;/h4&gt;
 
 &lt;pre&gt;&lt;code&gt;#TNTBTC 92,966,054.00 (94.84%)
 P: 0.00000730 V: 608.23 VWAP: 0.00000654
@@ -310,11 +310,11 @@ P: 0.00026182 V: 1,194.92 VWAP: 0.00023616
 5 mins: Buy 1.76 Sell 1.99
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;technical-analysis&#34;&gt;Technical analysis&lt;/h3&gt;
+&lt;h4 id=&#34;technical-analysis&#34;&gt;Technical analysis&lt;/h4&gt;
 
 &lt;p&gt;&lt;img src=&#34;x.png&#34; alt=&#34;x.png&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;market-movement-statistics&#34;&gt;Market movement statistics&lt;/h3&gt;
+&lt;h4 id=&#34;market-movement-statistics&#34;&gt;Market movement statistics&lt;/h4&gt;
 
 &lt;pre&gt;&lt;code&gt;#MARKET
 USDⓈ: 20 (+) 113 (-)
@@ -324,11 +324,11 @@ BTC: 120 (+) 31 (-)
 Tue Jul  2 13:48:21 2019
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;altcoin-market-money-flows&#34;&gt;Altcoin market money flows&lt;/h3&gt;
+&lt;h4 id=&#34;altcoin-market-money-flows&#34;&gt;Altcoin market money flows&lt;/h4&gt;
 
 &lt;p&gt;&lt;img src=&#34;market.png&#34; alt=&#34;market.png&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;on-chain-exchange-flows&#34;&gt;On-chain exchange flows&lt;/h3&gt;
+&lt;h4 id=&#34;on-chain-exchange-flows&#34;&gt;On-chain exchange flows&lt;/h4&gt;
 
 &lt;pre&gt;&lt;code&gt;*Daily BTC exchange flows*
 #Binance: $75M in | $68M out
@@ -366,7 +366,7 @@ Net flow: -$99.7M
 
 &lt;p&gt;&lt;img src=&#34;b.png&#34; alt=&#34;b.png&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;transaction-activities&#34;&gt;Transaction activities&lt;/h3&gt;
+&lt;h4 id=&#34;transaction-activities&#34;&gt;Transaction activities&lt;/h4&gt;
 
 &lt;pre&gt;&lt;code&gt;*Transaction activities*
 2019-10-12: 💵  2,500,000 #USDT (2,494,282 USD) minted at Tether Treasury
@@ -380,25 +380,25 @@ Net flow: -$99.7M
 2019-09-30: 💵 💵  20,000,000 #USDT (19,996,690 USD) minted at Tether Treasury
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;newsflow&#34;&gt;Newsflow&lt;/h3&gt;
+&lt;h4 id=&#34;newsflow&#34;&gt;Newsflow&lt;/h4&gt;
 
 &lt;p&gt;&lt;img src=&#34;n.png&#34; alt=&#34;n.png&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;crypto-derivatives&#34;&gt;Crypto Derivatives&lt;/h2&gt;
+&lt;h3 id=&#34;crypto-derivatives&#34;&gt;Crypto Derivatives&lt;/h3&gt;
 
-&lt;h3 id=&#34;basis&#34;&gt;Basis&lt;/h3&gt;
+&lt;h4 id=&#34;basis&#34;&gt;Basis&lt;/h4&gt;
 
-&lt;h3 id=&#34;funding-rate&#34;&gt;Funding rate&lt;/h3&gt;
+&lt;h4 id=&#34;funding-rate&#34;&gt;Funding rate&lt;/h4&gt;
 
-&lt;h3 id=&#34;open-interest&#34;&gt;Open interest&lt;/h3&gt;
+&lt;h4 id=&#34;open-interest&#34;&gt;Open interest&lt;/h4&gt;
 
-&lt;h1 id=&#34;trading-strategies&#34;&gt;Trading Strategies&lt;/h1&gt;
+&lt;h2 id=&#34;trading-strategies&#34;&gt;Trading Strategies&lt;/h2&gt;
 
-&lt;h2 id=&#34;position-sizing-and-leverage&#34;&gt;Position sizing and leverage&lt;/h2&gt;
+&lt;h3 id=&#34;position-sizing-and-leverage&#34;&gt;Position sizing and leverage&lt;/h3&gt;
 
-&lt;h2 id=&#34;pairs-trading&#34;&gt;Pairs trading&lt;/h2&gt;
+&lt;h3 id=&#34;pairs-trading&#34;&gt;Pairs trading&lt;/h3&gt;
 
-&lt;h1 id=&#34;web-application&#34;&gt;Web Application&lt;/h1&gt;
+&lt;h2 id=&#34;web-application&#34;&gt;Web Application&lt;/h2&gt;
 
 
 

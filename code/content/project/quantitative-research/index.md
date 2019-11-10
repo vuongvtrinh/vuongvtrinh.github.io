@@ -42,11 +42,11 @@ caption = ""
 
 This project develops an intelligent data driven application to monitor blockchain projects and to analyze cryptoassets from both utility and speculation perspectives. We target blockchain entrepreneurs, investors and traders all along the life of projects: token generation, listing on secondary market, product delivery, product usage, and token valorization.
 
-# Financial Data Analytics
+## Financial Data Analytics
 
-## Crypto Markets
+### Crypto Markets
 
-### Fundamental information
+#### Fundamental information
 
 ```
 #EVX
@@ -69,7 +69,7 @@ Total Supply: 25,000,000
 Circulating Supply: 22,600,000
 ```
 
-### Short-term transactions
+#### Short-term transactions
 
 ```
 #TNTBTC 92,966,054.00 (94.84%)
@@ -84,11 +84,11 @@ P: 0.00026182 V: 1,194.92 VWAP: 0.00023616
 5 mins: Buy 1.76 Sell 1.99
 ```
 
-### Technical analysis
+#### Technical analysis
 
 ![x.png](x.png)
 
-### Market movement statistics
+#### Market movement statistics
 
 ```
 #MARKET
@@ -99,11 +99,11 @@ BTC: 120 (+) 31 (-)
 Tue Jul  2 13:48:21 2019
 ```
 
-### Altcoin market money flows
+#### Altcoin market money flows
 
 ![market.png](market.png)
 
-### On-chain exchange flows
+#### On-chain exchange flows
 
 ```
 *Daily BTC exchange flows*
@@ -142,7 +142,7 @@ Net flow: -$99.7M
 
 ![b.png](b.png)
 
-### Transaction activities
+#### Transaction activities
 
 ```
 *Transaction activities*
@@ -157,24 +157,24 @@ Net flow: -$99.7M
 2019-09-30: :dollar: :dollar:  20,000,000 #USDT (19,996,690 USD) minted at Tether Treasury
 ```
 
-### Newsflow
+#### Newsflow
 
 ![n.png](n.png)
 
-## Crypto Derivatives 
+### Crypto Derivatives 
 
-### Basis
+#### Basis
 
-### Funding rate
+#### Funding rate
 
-### Open interest
+#### Open interest
 
-# Trading Strategies
+## Trading Strategies
 
-## Position sizing and leverage
+### Position sizing and leverage
 
-## Pairs trading
+### Pairs trading
 
-# Web Application
+## Web Application
 
 {{< gallery >}}
