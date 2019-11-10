@@ -44,7 +44,7 @@ This project develops an intelligent data driven application to monitor blockcha
 
 # Financial Data Analytics
 
-## Crypto Speculation
+## Crypto Markets
 
 ### Fundamental information
 
@@ -169,6 +169,6 @@ Net flow: -$99.7M
 
 ### Open interests
 
-## Gallery
+# Web Application
 
 {{< gallery >}}
