@@ -245,14 +245,43 @@ heroku ps:scale bot=1
     </item>
     
     <item>
-      <title>Innovative Solar Micro Plant</title>
+      <title>Innovative Solar Micro Power Plant</title>
       <link>https://vuongvtrinh.github.io/project/solar-energy/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/project/solar-energy/</guid>
       <description>
 
+&lt;h2 id=&#34;microsol&#34;&gt;MICROSOL&lt;/h2&gt;
+
 &lt;p&gt;&lt;a href=&#34;microsol.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;microsol.png&#34; alt=&#34;Miscrosol&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//player.vimeo.com/video/109230641&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;h3 id=&#34;challenges&#34;&gt;Challenges&lt;/h3&gt;
+
+&lt;p&gt;You need to power a healthcare center, or infrastructure with continuous supply in an off-grid area. You want a sustainable and clean solar solution that produces more than electricity. Technological innovation makes access to energy a reality even in the most isolated zones.&lt;/p&gt;
+
+&lt;h3 id=&#34;value-proposition&#34;&gt;Value Proposition&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Production of heat, electricity and optionally purified water based on specific need&lt;/li&gt;
+&lt;li&gt;Energy production at a consistent level 24 hours per day&lt;/li&gt;
+&lt;li&gt;Easy to use hybridization of Microsol with other energy sources: grid generator, photovoltaic, wind, etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;differentiation&#34;&gt;Differentiation&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lifetime: at least 20 years&lt;/li&gt;
+&lt;li&gt;Innovative solar panels: parabolic-trough concentrating solar collector field&lt;/li&gt;
+&lt;li&gt;Fully customizable&lt;/li&gt;
+&lt;li&gt;Pure water production and optional remote monitoring system&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&#34;fast-nonlinear-constrained-control-of-a-stirling-engine&#34;&gt;Fast nonlinear constrained control of a Stirling engine&lt;/h2&gt;
 
@@ -272,10 +301,10 @@ heroku ps:scale bot=1
     
     <item>
       <title>Quantitative Analytics and Trading Strategies</title>
-      <link>https://vuongvtrinh.github.io/project/quantitative-research/</link>
+      <link>https://vuongvtrinh.github.io/project/quantitative-finance/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://vuongvtrinh.github.io/project/quantitative-research/</guid>
+      <guid>https://vuongvtrinh.github.io/project/quantitative-finance/</guid>
       <description>
 
 &lt;p&gt;This project develops an intelligent data driven application to monitor blockchain projects and to analyze cryptoassets from both utility and speculation perspectives. We target blockchain entrepreneurs, investors and traders all along the life of projects: token generation, listing on secondary market, product delivery, product usage, and token valorization.&lt;/p&gt;
@@ -422,24 +451,24 @@ Net flow: -$99.7M
     
     
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/quantitative-research/gallery/blog.png&#34; &gt;
-  &lt;img src=&#34;https://vuongvtrinh.github.io/project/quantitative-research/gallery/blog.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/quantitative-finance/gallery/blog.png&#34; &gt;
+  &lt;img src=&#34;https://vuongvtrinh.github.io/project/quantitative-finance/gallery/blog.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
     
     
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/quantitative-research/gallery/portfolio.png&#34; &gt;
-  &lt;img src=&#34;https://vuongvtrinh.github.io/project/quantitative-research/gallery/portfolio.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/quantitative-finance/gallery/portfolio.png&#34; &gt;
+  &lt;img src=&#34;https://vuongvtrinh.github.io/project/quantitative-finance/gallery/portfolio.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
     
     
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/quantitative-research/gallery/user.png&#34; &gt;
-  &lt;img src=&#34;https://vuongvtrinh.github.io/project/quantitative-research/gallery/user.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/quantitative-finance/gallery/user.png&#34; &gt;
+  &lt;img src=&#34;https://vuongvtrinh.github.io/project/quantitative-finance/gallery/user.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
 
@@ -503,20 +532,20 @@ Net flow: -$99.7M
     </item>
     
     <item>
-      <title>Meta</title>
-      <link>https://vuongvtrinh.github.io/project/sail-yacht/</link>
-      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://vuongvtrinh.github.io/project/sail-yacht/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Robust Active Vibration Control</title>
+      <title>Robust Active Vibration Control for Automotive Applications</title>
       <link>https://vuongvtrinh.github.io/project/active-vibration-control/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/project/active-vibration-control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sail Yachts Simulation and Optimization</title>
+      <link>https://vuongvtrinh.github.io/project/sail-yacht/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/project/sail-yacht/</guid>
       <description></description>
     </item>
     
