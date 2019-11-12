@@ -3,7 +3,7 @@
 date = "2018-01-01"
 
 # Project title.
-title = "Innovative Stand-Alone Solar Micro Power Plant"
+title = "Energy Management of Solar Thermodynamic Micro Power Plant"
 
 # Project summary to display on homepage.
 summary = ""
@@ -39,6 +39,8 @@ caption = ""
   preview_only = true
 
 +++
+
+[![Photo](solar_thermodynamic_micro_power_plant.png)](solar_thermodynamic_micro_power_plant.png)
 
 ## Fast nonlinear constrained control of a Stirling engine
 
