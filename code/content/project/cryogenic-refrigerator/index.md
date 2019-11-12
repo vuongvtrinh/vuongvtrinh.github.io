@@ -6,8 +6,7 @@ date = "2018-01-01"
 title = "Innovative Advanced Control of Large Cryogenic Systems"
 
 # Project summary to display on homepage.
-summary = ""
-<!-- summary = "The ANR CRYOGREEN project gathers collaborative academic and industrial partners, including GIPSA-lab, CEA and CERN. We target to advanced control of large cryogenic systems via explicit nonlinear and hierarchical distributed model predictive control frameworks." -->
+summary = "The ANR CRYOGREEN project gathers collaborative academic and industrial partners, including GIPSA-lab, CEA and CERN. We target to advanced control of large cryogenic systems via explicit nonlinear and hierarchical distributed model predictive control frameworks."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = ""
