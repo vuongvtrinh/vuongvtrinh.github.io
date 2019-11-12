@@ -25,7 +25,7 @@ view = 2
 widget_layout = 0
 
 # For Showcase view, flip alternate rows?
-flip_alt_rows = true
+flip_alt_rows = false
 
 # Filter toolbar.
 
