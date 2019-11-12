@@ -3,10 +3,10 @@
 date = "2018-01-01"
 
 # Project title.
-title = "Innovative Solar Micro Power Plant"
+title = "Innovative Stand-Alone Solar Micro Power Plant"
 
 # Project summary to display on homepage.
-summary = "MICROSOL is a research & collaborative project bringing tocheter labs, industrial companies and innovative start-ups. Solar power plant are designed to produce heat, electricity and optionally pure water for off-grid infrastructures."
+summary = ""
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = ""
@@ -39,29 +39,6 @@ caption = ""
   preview_only = true
 
 +++
-
-## MICROSOL
-
-[![Miscrosol](microsol.png)](microsol.png)
-
-{{< vimeo 109230641 >}}
-
-### Challenges
-
-You need to power a healthcare center, or infrastructure with continuous supply in an off-grid area. You want a sustainable and clean solar solution that produces more than electricity. Technological innovation makes access to energy a reality even in the most isolated zones.
-
-### Value Proposition
-
-- Production of heat, electricity and optionally purified water based on specific need
-- Energy production at a consistent level 24 hours per day 
-- Easy to use hybridization of Microsol with other energy sources: grid generator, photovoltaic, wind, etc.
-
-### Differentiation
-
-- Lifetime: at least 20 years 
-- Innovative solar panels: parabolic-trough concentrating solar collector field 
-- Fully customizable
-- Pure water production and optional remote monitoring system
 
 ## Fast nonlinear constrained control of a Stirling engine
 
