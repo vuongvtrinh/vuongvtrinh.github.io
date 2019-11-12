@@ -18,14 +18,14 @@ folder = "project"
 # View.
 # Customize how projects are displayed.
 # Legend: 0 = list, 1 = cards, 2 = showcase.
-view = 1
+view = 2
 
 # Widget layout
 # Legend: 0 = two columns (default), 1 = single column
 widget_layout = 0
 
 # For Showcase view, flip alternate rows?
-flip_alt_rows = false
+flip_alt_rows = true
 
 # Filter toolbar.
 
@@ -39,18 +39,18 @@ filter_default = 0
 [[filter]]
   name = "All"
   tag = "*"
+  
+[[filter]]
+  name = "Industrial Automation"
+  tag = "industrial-automation"
 
 [[filter]]
   name = "Optimization & Control"
   tag = "optimization-control"
 
 [[filter]]
-  name = "Data Science"
-  tag = "data-science"
-  
-[[filter]]
-  name = "Quantitative Analytics"
-  tag = "quantitative-analytics"
+  name = "Data Analytics"
+  tag = "data-analytics"
 
 +++
 
