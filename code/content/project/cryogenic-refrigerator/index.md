@@ -82,19 +82,3 @@ The ANR CRYOGREEN project gathers collaborative academic and industrial partners
 
 [![Convergence result](aa-convergence.png)](aa-convergence.png)
 
-## Fast nonlinear constrained control of a Stirling engine
-
-[![Miscrosol](microsol.png)](microsol.png)
-
-### Process diagram
-
-[![Process diagram](stirling_diagram.png)](stirling_diagram.png)
-
-### Fast explicit constrained control synthesis
-
-[![Nonlinear analysis](empc_nonlin.png)](empc_nonlin.png)
-
-### Real-time validation
-
-[![Validation and real-time analysis](empc_valid.png)](empc_valid.png)
-
