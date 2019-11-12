@@ -1,6 +1,6 @@
 +++
 # Date this page was created.
-date = "2018-01-01"
+date = "2017-12-30"
 
 # Project title.
 title = "Energy Management of Solar Thermodynamic Micro Power Plant"
@@ -39,6 +39,8 @@ caption = ""
   preview_only = true
 
 +++
+
+[![Photo](microsol.png)](microsol.png)
 
 [![Photo](solar_thermodynamic_micro_power_plant.png)](solar_thermodynamic_micro_power_plant.png)
 
