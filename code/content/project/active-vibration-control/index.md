@@ -3,7 +3,7 @@
 date = "2014-01-01"
 
 # Project title.
-title = "Robust Active Vibration Control"
+title = "Robust Active Vibration Control for Automotive Applications"
 
 # Project summary to display on homepage.
 summary = ""

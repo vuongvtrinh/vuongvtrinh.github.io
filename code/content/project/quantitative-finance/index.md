@@ -6,7 +6,8 @@ date = "2018-01-01"
 title = "Quantitative Analytics and Trading Strategies"
 
 # Project summary to display on homepage.
-summary = "This project develops an intelligent data driven application to monitor blockchain projects and to analyze cryptoassets from both utility and speculation perspectives."
+summary = ""
+<!-- summary = "This project develops an intelligent data driven application to monitor blockchain projects and to analyze cryptoassets from both utility and speculation perspectives." -->
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = ""

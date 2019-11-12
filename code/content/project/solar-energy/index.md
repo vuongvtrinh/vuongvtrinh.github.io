@@ -40,6 +40,8 @@ caption = ""
 
 +++
 
+MICROSOL
+
 [![Miscrosol](microsol.png)](microsol.png)
 
 ## Fast nonlinear constrained control of a Stirling engine
