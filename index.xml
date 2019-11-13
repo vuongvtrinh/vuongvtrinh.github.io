@@ -174,9 +174,17 @@ heroku ps:scale bot=1
       <guid>https://vuongvtrinh.github.io/project/model-predictive-control/</guid>
       <description>
 
-&lt;h2 id=&#34;receding-horizon-control-principle&#34;&gt;Receding Horizon Control Principle&lt;/h2&gt;
+&lt;h2 id=&#34;receding-horizon-control&#34;&gt;Receding Horizon Control&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;featured.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;featured.png&#34; alt=&#34;Receding horizon control principle&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;constraints&#34;&gt;Constraints&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;mpc_cstr.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;mpc_cstr.png&#34; alt=&#34;Constraints&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;parametrization&#34;&gt;Parametrization&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;mpc_param.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;mpc_param.png&#34; alt=&#34;Parametrization&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -235,6 +243,10 @@ heroku ps:scale bot=1
 &lt;p&gt;&lt;a href=&#34;wcs-config.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;wcs-config.png&#34; alt=&#34;Warm compression station configuration&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;wcs-simulator.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;wcs-simulator.png&#34; alt=&#34;Warm compression station&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;internal-model-control&#34;&gt;Internal model control&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;imc.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;imc.png&#34; alt=&#34;Internal model control&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;allocation-control-and-validation-results&#34;&gt;Allocation control and validation results&lt;/h3&gt;
 
