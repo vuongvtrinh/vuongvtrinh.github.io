@@ -40,5 +40,7 @@ caption = ""
 
 +++
 
+## Receding Horizon Control Principle
+
 [![Receding horizon control principle](featured.png)](featured.png)
 
