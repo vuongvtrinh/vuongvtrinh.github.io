@@ -44,6 +44,10 @@ The ANR CRYOGREEN project gathers collaborative academic and industrial partners
 
 {{< gallery >}}
 
+## International Thermonuclear Experimental Reactor
+
+[![ITER](iter.png)](iter.png)
+
 ## Explicit Constrained Control of Warm Compression Stations
 
 [![Warm compression station at CERN](cern_wcs18kw.png)](cern_wcs18kw.png)
