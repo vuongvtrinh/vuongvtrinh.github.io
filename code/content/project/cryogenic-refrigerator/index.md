@@ -62,6 +62,10 @@ The ANR CRYOGREEN project gathers collaborative academic and industrial partners
 
 [![Warm compression station](wcs-simulator.png)](wcs-simulator.png)
 
+### Internal model control
+
+[![Internal model control](imc.png)](imc.png)
+
 ### Allocation control and validation results
 
 [![Allocation control](wcs-allocation.png)](wcs-allocation.png)

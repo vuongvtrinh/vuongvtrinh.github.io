@@ -40,7 +40,15 @@ caption = ""
 
 +++
 
-## Receding Horizon Control Principle
+## Receding Horizon Control
 
 [![Receding horizon control principle](featured.png)](featured.png)
+
+### Constraints
+
+[![Constraints](mpc_cstr.png)](mpc_cstr.png)
+
+### Parametrization
+
+[![Parametrization](mpc_param.png)](mpc_param.png)
 
