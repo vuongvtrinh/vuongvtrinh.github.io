@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Vuong V. Trinh 2016</copyright>
-    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vuongvtrinh.github.io/tags/optimization-control/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Model Predictive Control</title>
+      <link>https://vuongvtrinh.github.io/project/model-predictive-control/</link>
+      <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/project/model-predictive-control/</guid>
+      <description>Receding Horizon Control Principle</description>
+    </item>
     
     <item>
       <title>Innovative Advanced Control of Large Cryogenic Systems</title>
