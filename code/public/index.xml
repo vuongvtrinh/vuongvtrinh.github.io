@@ -245,6 +245,16 @@ heroku ps:scale bot=1
     </item>
     
     <item>
+      <title>Model Predictive Control</title>
+      <link>https://vuongvtrinh.github.io/project/model-predictive-control/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/project/model-predictive-control/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;featured.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;featured.png&#34; alt=&#34;Receding horizon control principle&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Quantitative Analytics and Trading Strategies</title>
       <link>https://vuongvtrinh.github.io/project/quantitative-finance/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
