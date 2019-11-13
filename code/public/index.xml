@@ -230,10 +230,6 @@ heroku ps:scale bot=1
 
 &lt;p&gt;&lt;a href=&#34;wcs-simulator.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;wcs-simulator.png&#34; alt=&#34;Warm compression station&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;internal-model-control&#34;&gt;Internal model control&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;imc.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;imc.png&#34; alt=&#34;Internal model control&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
 &lt;h3 id=&#34;allocation-control-and-validation-results&#34;&gt;Allocation control and validation results&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;wcs-allocation.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;wcs-allocation.png&#34; alt=&#34;Allocation control&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
