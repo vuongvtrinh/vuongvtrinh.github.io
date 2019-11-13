@@ -73,8 +73,8 @@
     
     <url>
     
-      <loc>https://vuongvtrinh.github.io/project/model-predictive-control/</loc>
-      <lastmod>2018-01-02T00:00:00+00:00</lastmod>
+      <loc>https://vuongvtrinh.github.io/project/cryogenic-refrigerator/</loc>
+      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -82,34 +82,8 @@
     <url>
     
       <loc>https://vuongvtrinh.github.io/project/</loc>
-      <lastmod>2018-01-02T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/model-predictive-control/</loc>
-      <lastmod>2018-01-02T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/optimization-control/</loc>
-      <lastmod>2018-01-02T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/project/cryogenic-refrigerator/</loc>
       <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -169,6 +143,24 @@
     <url>
     
       <loc>https://vuongvtrinh.github.io/tags/industrial-automation/</loc>
+      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/tags/model-predictive-control/</loc>
+      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/tags/optimization-control/</loc>
       <lastmod>2018-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>

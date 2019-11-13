@@ -48,6 +48,14 @@ The ANR CRYOGREEN project gathers collaborative academic and industrial partners
 
 [![ITER](iter.png)](iter.png)
 
+## Receding Horizon Control
+
+[![Receding horizon control principle](rhc.png)](rhc.png)
+
+[![Constraints](mpc_cstr.png)](mpc_cstr.png)
+
+[![Parametrization](mpc_param.png)](mpc_param.png)
+
 ## Explicit Constrained Control of Warm Compression Stations
 
 [![Warm compression station at CERN](cern_wcs18kw.png)](cern_wcs18kw.png)

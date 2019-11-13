@@ -167,28 +167,6 @@ heroku ps:scale bot=1
     </item>
     
     <item>
-      <title>Model Predictive Control</title>
-      <link>https://vuongvtrinh.github.io/project/model-predictive-control/</link>
-      <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://vuongvtrinh.github.io/project/model-predictive-control/</guid>
-      <description>
-
-&lt;h2 id=&#34;receding-horizon-control&#34;&gt;Receding Horizon Control&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;featured.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;featured.png&#34; alt=&#34;Receding horizon control principle&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;constraints&#34;&gt;Constraints&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;mpc_cstr.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;mpc_cstr.png&#34; alt=&#34;Constraints&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;parametrization&#34;&gt;Parametrization&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;mpc_param.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;mpc_param.png&#34; alt=&#34;Parametrization&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Innovative Advanced Control of Large Cryogenic Systems</title>
       <link>https://vuongvtrinh.github.io/project/cryogenic-refrigerator/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
@@ -229,6 +207,14 @@ heroku ps:scale bot=1
 &lt;h2 id=&#34;international-thermonuclear-experimental-reactor&#34;&gt;International Thermonuclear Experimental Reactor&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;iter.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;iter.png&#34; alt=&#34;ITER&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;receding-horizon-control&#34;&gt;Receding Horizon Control&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;rhc.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;rhc.png&#34; alt=&#34;Receding horizon control principle&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;mpc_cstr.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;mpc_cstr.png&#34; alt=&#34;Constraints&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;mpc_param.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;mpc_param.png&#34; alt=&#34;Parametrization&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;explicit-constrained-control-of-warm-compression-stations&#34;&gt;Explicit Constrained Control of Warm Compression Stations&lt;/h2&gt;
 
