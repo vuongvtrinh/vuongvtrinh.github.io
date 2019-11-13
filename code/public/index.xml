@@ -1,0 +1,526 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vuong V. Trinh on Vuong V. Trinh</title>
+    <link>https://vuongvtrinh.github.io/</link>
+    <description>Recent content in Vuong V. Trinh on Vuong V. Trinh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Vuong V. Trinh 2016</copyright>
+    <lastBuildDate>Mon, 23 Jul 2018 00:00:00 +0700</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>CC BY SA</title>
+      <link>https://vuongvtrinh.github.io/license/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0700</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/license/</guid>
+      <description>&lt;p&gt;My website&amp;rsquo;s content are released under a &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; target=&#34;_blank&#34;&gt;Creative Commons Attribution-ShareAlike 4.0 International License&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;i class=&#34;fab fa-creative-commons fa-2x&#34;&gt;&lt;/i&gt;&lt;i class=&#34;fab fa-creative-commons-by fa-2x&#34;&gt;&lt;/i&gt;&lt;i class=&#34;fab fa-creative-commons-sa fa-2x&#34;&gt;&lt;/i&gt;
+&lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Data Analytics Dashboard using Python Flask and JavaScript Highcharts</title>
+      <link>https://vuongvtrinh.github.io/post/data-analytics-dashboard/</link>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/post/data-analytics-dashboard/</guid>
+      <description>
+
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;A tutorial to develop a web dashboard for data analytics using Python Flask and JavaScript Highcharts.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;GitHub repository: &lt;a href=&#34;https://github.com/trinhvv/flask-highcharts&#34; target=&#34;_blank&#34;&gt;https://github.com/trinhvv/flask-highcharts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Live demo: &lt;a href=&#34;https://flask-highcharts.herokuapp.com&#34; target=&#34;_blank&#34;&gt;https://flask-highcharts.herokuapp.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;tutorial&#34;&gt;Tutorial&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fetch data from &lt;a href=&#34;https://www.blockchain.com/&#34; target=&#34;_blank&#34;&gt;https://www.blockchain.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Data preprocessing in Flask then parse to Highcharts&lt;/li&gt;
+&lt;li&gt;Deploy to Heroku&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;structure&#34;&gt;Structure&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;app.py
+Procfile
+requirements.txt
+runtime.txt
+static/
+templates/
+    index.html
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;requirements-txt&#34;&gt;requirements.txt&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;Flask
+gunicorn
+pandas
+six
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;app-py&#34;&gt;app.py&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;from flask import Flask, render_template, jsonify
+import pandas as pd
+from six.moves import urllib
+import json
+ 
+app = Flask(__name__)
+ 
+@app.route(&amp;quot;/data.json&amp;quot;)
+def data():
+    timeInterval = 1000
+    data = pd.DataFrame()
+    featureList = [&#39;market-price&#39;, 
+                   &#39;trade-volume&#39;]
+    for feature in featureList:
+        url = &amp;quot;https://api.blockchain.info/charts/&amp;quot;+feature+&amp;quot;?timespan=&amp;quot;+str(timeInterval)+&amp;quot;days&amp;amp;format=json&amp;quot;
+        data[&#39;time&#39;] = pd.DataFrame(json.loads(urllib.request.urlopen(url).read().decode(&#39;utf-8&#39;))[&#39;values&#39;])[&#39;x&#39;]*1000
+        data[feature] = pd.DataFrame(json.loads(urllib.request.urlopen(url).read().decode(&#39;utf-8&#39;))[&#39;values&#39;])[&#39;y&#39;]
+    result = data.to_dict(orient=&#39;records&#39;)
+    seq = [[item[&#39;time&#39;], item[&#39;market-price&#39;], item[&#39;trade-volume&#39;]] for item in result]
+    return jsonify(seq)
+ 
+@app.route(&amp;quot;/&amp;quot;)
+def index():
+    return render_template(&#39;index.html&#39;)
+ 
+if __name__ == &#39;__main__&#39;:
+    app.run(debug=True, threaded=True, host=&#39;0.0.0.0&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;templates-index-html&#34;&gt;templates/index.html&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE html PUBLIC &amp;quot;-//W3C//DTD HTML 4.01//EN&amp;quot; &amp;quot;http://www.w3.org/TR/html4/strict.dtd&amp;quot;&amp;gt;
+&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    &amp;lt;title&amp;gt;
+      Chart
+    &amp;lt;/title&amp;gt;
+    &amp;lt;meta http-equiv=&amp;quot;Content-Type&amp;quot; content=&amp;quot;text/html; charset=utf-8&amp;quot;&amp;gt;
+    &amp;lt;script src=&amp;quot;https://code.jquery.com/jquery-3.1.1.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;script src=&amp;quot;https://code.highcharts.com/stock/highstock.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;script src=&amp;quot;https://code.highcharts.com/stock/modules/exporting.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+        $.getJSON(&#39;/data.json&#39;, function (data) {
+            // create the chart
+            Highcharts.stockChart(&#39;container&#39;, {
+                title: {
+                    text: &#39;Bitcoin&#39;
+                },
+                rangeSelector: {
+                    selected: 1,
+                    inputEnabled: false
+                },
+                series: [{
+                    name: &#39;Bitcoin&#39;,
+                    data: data,
+                    tooltip: {
+                        valueDecimals: 2
+                    }
+                }]
+            });
+        });
+    &amp;lt;/script&amp;gt;
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;div id=&amp;quot;container&amp;quot; style=&amp;quot;height: 400px; min-width: 310px; max-width: 1000px&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;procfile&#34;&gt;Procfile&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;web: gunicorn app:app --log-file=-
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;runtime-txt&#34;&gt;runtime.txt&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;python-3.6.5
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;deploy-to-heroku&#34;&gt;Deploy to Heroku&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;heroku create flask-highcharts --buildpack heroku/python
+heroku login
+git init
+heroku git:remote -a flask-highcharts
+git add .
+git commit -am &amp;quot;make it better&amp;quot;
+git push heroku master
+heroku ps:scale bot=1 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;screenshot&#34;&gt;Screenshot&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;screenshot.png&#34; alt=&#34;screenshot.png&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Innovative Advanced Control of Large Cryogenic Systems</title>
+      <link>https://vuongvtrinh.github.io/project/cryogenic-refrigerator/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/project/cryogenic-refrigerator/</guid>
+      <description>
+
+&lt;p&gt;The ANR CRYOGREEN project gathers collaborative academic and industrial partners, including GIPSA-lab, CEA and CERN. We target to advanced control of large cryogenic systems via explicit nonlinear and hierarchical distributed model predictive control frameworks.&lt;/p&gt;
+
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+  
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/cryogenic-refrigerator/gallery/cea.png&#34; &gt;
+  &lt;img src=&#34;https://vuongvtrinh.github.io/project/cryogenic-refrigerator/gallery/cea.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/cryogenic-refrigerator/gallery/cern.png&#34; &gt;
+  &lt;img src=&#34;https://vuongvtrinh.github.io/project/cryogenic-refrigerator/gallery/cern.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+
+  
+&lt;/div&gt;
+
+&lt;h2 id=&#34;explicit-constrained-control-of-warm-compression-stations&#34;&gt;Explicit Constrained Control of Warm Compression Stations&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;cern_wcs18kw.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;cern_wcs18kw.png&#34; alt=&#34;Warm compression station at CERN&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;nc1.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;nc1.png&#34; alt=&#34;Nitrogen compressor at CEA&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;valve_split_range.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;valve_split_range.png&#34; alt=&#34;Valves with split range configuration at CEA&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;process-configuration-and-dynamic-simulator&#34;&gt;Process configuration and dynamic simulator&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;wcs-config.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;wcs-config.png&#34; alt=&#34;Warm compression station configuration&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;wcs-simulator.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;wcs-simulator.png&#34; alt=&#34;Warm compression station&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;allocation-control-and-validation-results&#34;&gt;Allocation control and validation results&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;wcs-allocation.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;wcs-allocation.png&#34; alt=&#34;Allocation control&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;wcs-valid.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;wcs-valid.png&#34; alt=&#34;Validation result&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;hierarchical-constrained-control-of-cryogenic-refrigerators&#34;&gt;Hierarchical Constrained Control of Cryogenic Refrigerators&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;400W.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;400W.png&#34; alt=&#34;Cryogenic refrigerator at CEA&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;process-diagram-and-dynamic-simulator&#34;&gt;Process diagram and dynamic simulator&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;process-diagram.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;process-diagram.png&#34; alt=&#34;Process diagram&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;br-simulator.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;br-simulator.png&#34; alt=&#34;Brayton cycle&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;jt-simulator.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;jt-simulator.png&#34; alt=&#34;Joule-Thompson cycle&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;hierarchical-control-algorithm-and-numerical-results&#34;&gt;Hierarchical control algorithm and numerical results&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;hdmpc-algo.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;hdmpc-algo.png&#34; alt=&#34;Hierarchical control algorithm&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;aa-convergence.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;aa-convergence.png&#34; alt=&#34;Convergence result&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Quantitative Analytics and Trading Strategies</title>
+      <link>https://vuongvtrinh.github.io/project/quantitative-finance/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/project/quantitative-finance/</guid>
+      <description>
+
+&lt;p&gt;This project develops an intelligent data driven application to monitor blockchain projects and to analyze cryptoassets from both utility and speculation perspectives. We target blockchain entrepreneurs, investors and traders all along the life of projects: token generation, listing on secondary market, product delivery, product usage, and token valorization.&lt;/p&gt;
+
+&lt;h2 id=&#34;financial-data-analytics&#34;&gt;Financial Data Analytics&lt;/h2&gt;
+
+&lt;h3 id=&#34;crypto-markets&#34;&gt;Crypto Markets&lt;/h3&gt;
+
+&lt;h4 id=&#34;fundamental-information&#34;&gt;Fundamental information&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;#EVX
+Type: TOKEN
+Consensus Protocol: POW
+Cryptographic Algorithm: Ethash
+Website: https://www.everex.io/
+Social Media: 
+https://t.me/everexio
+https://www.facebook.com/everex.io
+https://twitter.com/everexio
+Explorers: 
+https://etherscan.io/token/0xf3db5fa2c66b7af3eb0c0b782510816cbe4813b8
+Market Cap: $10,694,046
+Current Price: $0.473188
+Issue Price: $0.880000
+Issue Date: 2017-10-11
+Max Supply: -
+Total Supply: 25,000,000
+Circulating Supply: 22,600,000
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;short-term-transactions&#34;&gt;Short-term transactions&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;#TNTBTC 92,966,054.00 (94.84%)
+P: 0.00000730 V: 608.23 VWAP: 0.00000654
+30 mins: Buy 12.07 Sell 6.42
+15 mins: Buy 8.37 Sell 3.97
+5 mins: Buy 4.19 Sell 2.16
+#TNTETH 5,059,783.00 (5.16%)
+P: 0.00026182 V: 1,194.92 VWAP: 0.00023616
+30 mins: Buy 13.32 Sell 12.58
+15 mins: Buy 8.04 Sell 2.38
+5 mins: Buy 1.76 Sell 1.99
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;technical-analysis&#34;&gt;Technical analysis&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&#34;x.png&#34; alt=&#34;x.png&#34; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;market-movement-statistics&#34;&gt;Market movement statistics&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;#MARKET
+USDⓈ: 20 (+) 113 (-)
+ALTS: 43 (+) 89 (-)
+BNB: 63 (+) 30 (-)
+BTC: 120 (+) 31 (-)
+Tue Jul  2 13:48:21 2019
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;altcoin-market-money-flows&#34;&gt;Altcoin market money flows&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&#34;market.png&#34; alt=&#34;market.png&#34; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;on-chain-exchange-flows&#34;&gt;On-chain exchange flows&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;*Daily BTC exchange flows*
+#Binance: $75M in | $68M out
+#Bitmex: $18M in | $7M out
+#Bitfinex: $6M in | $8M out
+#Bitstamp: $18M in | $22M out
+#Bittrex: $2M in | $4M out
+#Poloniex: $1M in | $2M out
+
+*Daily ETH exchange flows*
+#Binance: $24M in | $12M out
+#Bitfinex: $2M in | $1M out
+#Bittrex: $240k in | $415k out
+#Kraken: $2M in | $2M out
+#Kucoin: $406k in | $235k out
+#Poloniex: $325k in | $352k out
+
+*Weekly BTC exchange flows*
+Inflow: $703.8M (-42.1% from last week)
+Outflow: $763.5M (-27.8% from last week)
+Net flow: -$59.7M
+#BTC price: $8084.63 (-1.3% from last week)
+
+*Weekly ETH exchange flows*
+Inflow: $119.1M (-37.5% from last week)
+Outflow: $111.8M (-48.7% from last week)
+Net flow: $7.3M
+#ETH price: $175.74 (+0.8% from last week)
+
+*Weekly Stablecoin exchange flows*
+Inflow: $264.3M (-51.1% from last week)
+Outflow: $364.0M (-45.7% from last week)
+Net flow: -$99.7M
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;b.png&#34; alt=&#34;b.png&#34; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;transaction-activities&#34;&gt;Transaction activities&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;*Transaction activities*
+2019-10-12: 💵  2,500,000 #USDT (2,494,282 USD) minted at Tether Treasury
+2019-10-12: 💵  5,000,000 #USDT (5,012,230 USD) minted at Tether Treasury
+2019-10-11: 💵 💵  15,000,000 #USDT (15,077,725 USD) minted at Tether Treasury
+2019-10-10: 💵 💵 💵  20,000,000 #USDT (20,002,176 USD) minted at Tether Treasury
+2019-10-07: 💵 💵  12,387,600 #USDT (12,392,934 USD) minted at Tether Treasury
+2019-10-07: 💵 💵  20,000,000 #USDT (19,952,765 USD) minted at Tether Treasury
+2019-10-04: 💵 💵  12,600,000 #USDT (12,725,111 USD) minted at Tether Treasury
+2019-10-04: 💵  5,000,000 USDT (5,035,628 USD) minted at Tether Treasury
+2019-09-30: 💵 💵  20,000,000 #USDT (19,996,690 USD) minted at Tether Treasury
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;newsflow&#34;&gt;Newsflow&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&#34;n.png&#34; alt=&#34;n.png&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;crypto-derivatives&#34;&gt;Crypto Derivatives&lt;/h3&gt;
+
+&lt;h4 id=&#34;basis&#34;&gt;Basis&lt;/h4&gt;
+
+&lt;h4 id=&#34;funding-rate&#34;&gt;Funding rate&lt;/h4&gt;
+
+&lt;h4 id=&#34;open-interest&#34;&gt;Open interest&lt;/h4&gt;
+
+&lt;h2 id=&#34;trading-strategies&#34;&gt;Trading Strategies&lt;/h2&gt;
+
+&lt;h3 id=&#34;position-sizing-and-leverage&#34;&gt;Position sizing and leverage&lt;/h3&gt;
+
+&lt;h3 id=&#34;pairs-trading&#34;&gt;Pairs trading&lt;/h3&gt;
+
+&lt;h2 id=&#34;web-application&#34;&gt;Web Application&lt;/h2&gt;
+
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+  
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/quantitative-finance/gallery/blog.png&#34; &gt;
+  &lt;img src=&#34;https://vuongvtrinh.github.io/project/quantitative-finance/gallery/blog.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/quantitative-finance/gallery/portfolio.png&#34; &gt;
+  &lt;img src=&#34;https://vuongvtrinh.github.io/project/quantitative-finance/gallery/portfolio.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/quantitative-finance/gallery/user.png&#34; &gt;
+  &lt;img src=&#34;https://vuongvtrinh.github.io/project/quantitative-finance/gallery/user.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+
+  
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Real-time Anomaly Detection for Industrial Big Data</title>
+      <link>https://vuongvtrinh.github.io/project/anomaly-detection/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/project/anomaly-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Energy Management of Solar Thermodynamic Micro Power Plant</title>
+      <link>https://vuongvtrinh.github.io/project/solar-energy/</link>
+      <pubDate>Sat, 30 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/project/solar-energy/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;microsol.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;microsol.png&#34; alt=&#34;Photo&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;solar_thermodynamic_micro_power_plant.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;solar_thermodynamic_micro_power_plant.png&#34; alt=&#34;Photo&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;fast-nonlinear-constrained-control-of-a-stirling-engine&#34;&gt;Fast nonlinear constrained control of a Stirling engine&lt;/h2&gt;
+
+&lt;h3 id=&#34;process-diagram&#34;&gt;Process diagram&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;stirling_diagram.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;stirling_diagram.png&#34; alt=&#34;Process diagram&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;fast-explicit-constrained-control-synthesis&#34;&gt;Fast explicit constrained control synthesis&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;empc_nonlin.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;empc_nonlin.png&#34; alt=&#34;Nonlinear analysis&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;real-time-validation&#34;&gt;Real-time validation&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;empc_valid.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;empc_valid.png&#34; alt=&#34;Validation and real-time analysis&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fixed-point based hierarchical MPC control design for a cryogenic refrigerator</title>
+      <link>https://vuongvtrinh.github.io/publication/2017-hdmpc-jpc/</link>
+      <pubDate>Wed, 06 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/publication/2017-hdmpc-jpc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the stabilization of fixed-point iterations arising in hierarchical control design</title>
+      <link>https://vuongvtrinh.github.io/publication/2017-hdmpc-ifacwc/</link>
+      <pubDate>Sun, 13 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/publication/2017-hdmpc-ifacwc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anomaly detection in wireless sensor networks via support vector data description with Mahalanobis kernels and discriminative adjustment</title>
+      <link>https://vuongvtrinh.github.io/publication/2017-wsn-nics/</link>
+      <pubDate>Thu, 10 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/publication/2017-wsn-nics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Explicit model predictive control via nonlinear piecewise approximations</title>
+      <link>https://vuongvtrinh.github.io/publication/2016-enmpc-nolcos/</link>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/publication/2016-enmpc-nolcos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data driven hyperparameter optimization of one-class support vector machines for anomaly detection in wireless sensor networks</title>
+      <link>https://vuongvtrinh.github.io/publication/2017-wsn-atc/</link>
+      <pubDate>Tue, 16 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/publication/2017-wsn-atc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust Active Vibration Control for Automotive Applications</title>
+      <link>https://vuongvtrinh.github.io/project/active-vibration-control/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/project/active-vibration-control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sail Yachts Simulation and Optimization</title>
+      <link>https://vuongvtrinh.github.io/project/sail-yacht/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/project/sail-yacht/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
