@@ -167,6 +167,20 @@ heroku ps:scale bot=1
     </item>
     
     <item>
+      <title>Model Predictive Control</title>
+      <link>https://vuongvtrinh.github.io/project/model-predictive-control/</link>
+      <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/project/model-predictive-control/</guid>
+      <description>
+
+&lt;h2 id=&#34;receding-horizon-control-principle&#34;&gt;Receding Horizon Control Principle&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;featured.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;featured.png&#34; alt=&#34;Receding horizon control principle&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Innovative Advanced Control of Large Cryogenic Systems</title>
       <link>https://vuongvtrinh.github.io/project/cryogenic-refrigerator/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
@@ -241,20 +255,6 @@ heroku ps:scale bot=1
 &lt;p&gt;&lt;a href=&#34;hdmpc-algo.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;hdmpc-algo.png&#34; alt=&#34;Hierarchical control algorithm&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;aa-convergence.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;aa-convergence.png&#34; alt=&#34;Convergence result&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Model Predictive Control</title>
-      <link>https://vuongvtrinh.github.io/project/model-predictive-control/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://vuongvtrinh.github.io/project/model-predictive-control/</guid>
-      <description>
-
-&lt;h2 id=&#34;receding-horizon-control-principle&#34;&gt;Receding Horizon Control Principle&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;featured.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;featured.png&#34; alt=&#34;Receding horizon control principle&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
