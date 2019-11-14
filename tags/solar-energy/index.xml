@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Vuong V. Trinh 2016</copyright>
-    <lastBuildDate>Sat, 30 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vuongvtrinh.github.io/tags/solar-energy/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Residential Solar Systems</title>
+      <link>https://vuongvtrinh.github.io/post/residential-solar-systems/</link>
+      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/post/residential-solar-systems/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Energy Management of Solar Thermodynamic Micro Power Plant</title>
