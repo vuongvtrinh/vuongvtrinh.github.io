@@ -13,6 +13,24 @@
     
     
     <item>
+      <title>industrial-automation</title>
+      <link>https://vuongvtrinh.github.io/tags/industrial-automation/</link>
+      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/tags/industrial-automation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>inverters</title>
+      <link>https://vuongvtrinh.github.io/tags/inverters/</link>
+      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/tags/inverters/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>solar-energy</title>
       <link>https://vuongvtrinh.github.io/tags/solar-energy/</link>
       <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
@@ -22,11 +40,38 @@
     </item>
     
     <item>
-      <title>data-science</title>
-      <link>https://vuongvtrinh.github.io/tags/data-science/</link>
+      <title>solar-panels</title>
+      <link>https://vuongvtrinh.github.io/tags/solar-panels/</link>
+      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/tags/solar-panels/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blockchain</title>
+      <link>https://vuongvtrinh.github.io/tags/blockchain/</link>
       <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://vuongvtrinh.github.io/tags/data-science/</guid>
+      <guid>https://vuongvtrinh.github.io/tags/blockchain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dashboard</title>
+      <link>https://vuongvtrinh.github.io/tags/dashboard/</link>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/tags/dashboard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data-analytics</title>
+      <link>https://vuongvtrinh.github.io/tags/data-analytics/</link>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/tags/data-analytics/</guid>
       <description></description>
     </item>
     
@@ -49,6 +94,15 @@
     </item>
     
     <item>
+      <title>allocation-control</title>
+      <link>https://vuongvtrinh.github.io/tags/allocation-control/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/tags/allocation-control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>anomaly-detection</title>
       <link>https://vuongvtrinh.github.io/tags/anomaly-detection/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
@@ -67,6 +121,33 @@
     </item>
     
     <item>
+      <title>cold-box</title>
+      <link>https://vuongvtrinh.github.io/tags/cold-box/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/tags/cold-box/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>compression-station</title>
+      <link>https://vuongvtrinh.github.io/tags/compression-station/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/tags/compression-station/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>control-valve</title>
+      <link>https://vuongvtrinh.github.io/tags/control-valve/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/tags/control-valve/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>cryogenics</title>
       <link>https://vuongvtrinh.github.io/tags/cryogenics/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
@@ -76,20 +157,29 @@
     </item>
     
     <item>
-      <title>data-analytics</title>
-      <link>https://vuongvtrinh.github.io/tags/data-analytics/</link>
+      <title>derivatives</title>
+      <link>https://vuongvtrinh.github.io/tags/derivatives/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://vuongvtrinh.github.io/tags/data-analytics/</guid>
+      <guid>https://vuongvtrinh.github.io/tags/derivatives/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>industrial-automation</title>
-      <link>https://vuongvtrinh.github.io/tags/industrial-automation/</link>
+      <title>distributed-control-systems</title>
+      <link>https://vuongvtrinh.github.io/tags/distributed-control-systems/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://vuongvtrinh.github.io/tags/industrial-automation/</guid>
+      <guid>https://vuongvtrinh.github.io/tags/distributed-control-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>financial-time-series</title>
+      <link>https://vuongvtrinh.github.io/tags/financial-time-series/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/tags/financial-time-series/</guid>
       <description></description>
     </item>
     
@@ -112,11 +202,29 @@
     </item>
     
     <item>
+      <title>quantitative-finance</title>
+      <link>https://vuongvtrinh.github.io/tags/quantitative-finance/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/tags/quantitative-finance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>thermodynamics</title>
       <link>https://vuongvtrinh.github.io/tags/thermodynamics/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/tags/thermodynamics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>trading-strategies</title>
+      <link>https://vuongvtrinh.github.io/tags/trading-strategies/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/tags/trading-strategies/</guid>
       <description></description>
     </item>
     

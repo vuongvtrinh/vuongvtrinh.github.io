@@ -3,7 +3,7 @@
 date = "2018-05-14"
 
 # Project title.
-title = "Data Analytics Dashboard using Python Flask and JavaScript Highcharts"
+title = "Data Analytics Dashboard using Flask and Highcharts"
 
 # Project summary to display on homepage.
 summary = "A tutorial to develop a web dashboard for data analytics using Python Flask and JavaScript Highcharts."
@@ -12,7 +12,7 @@ summary = "A tutorial to develop a web dashboard for data analytics using Python
 image_preview = ""
 
 # Tags: can be used for filtering projects.
-tags = ["data-science", "flask", "highcharts"]
+tags = ["data-analytics", "flask", "highcharts", "blockchain", "dashboard"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

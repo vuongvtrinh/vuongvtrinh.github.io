@@ -38,7 +38,34 @@
     
     <url>
     
+      <loc>https://vuongvtrinh.github.io/tags/industrial-automation/</loc>
+      <lastmod>2019-11-14T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/tags/inverters/</loc>
+      <lastmod>2019-11-14T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://vuongvtrinh.github.io/tags/solar-energy/</loc>
+      <lastmod>2019-11-14T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/tags/solar-panels/</loc>
       <lastmod>2019-11-14T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -63,7 +90,25 @@
     
     <url>
     
-      <loc>https://vuongvtrinh.github.io/tags/data-science/</loc>
+      <loc>https://vuongvtrinh.github.io/tags/blockchain/</loc>
+      <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/tags/dashboard/</loc>
+      <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/tags/data-analytics/</loc>
       <lastmod>2018-05-14T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -123,6 +168,15 @@
     
     <url>
     
+      <loc>https://vuongvtrinh.github.io/tags/allocation-control/</loc>
+      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://vuongvtrinh.github.io/tags/anomaly-detection/</loc>
       <lastmod>2018-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -141,6 +195,33 @@
     
     <url>
     
+      <loc>https://vuongvtrinh.github.io/tags/cold-box/</loc>
+      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/tags/compression-station/</loc>
+      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/tags/control-valve/</loc>
+      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://vuongvtrinh.github.io/tags/cryogenics/</loc>
       <lastmod>2018-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -150,7 +231,7 @@
     
     <url>
     
-      <loc>https://vuongvtrinh.github.io/tags/data-analytics/</loc>
+      <loc>https://vuongvtrinh.github.io/tags/derivatives/</loc>
       <lastmod>2018-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -159,7 +240,16 @@
     
     <url>
     
-      <loc>https://vuongvtrinh.github.io/tags/industrial-automation/</loc>
+      <loc>https://vuongvtrinh.github.io/tags/distributed-control-systems/</loc>
+      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/tags/financial-time-series/</loc>
       <lastmod>2018-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -186,7 +276,25 @@
     
     <url>
     
+      <loc>https://vuongvtrinh.github.io/tags/quantitative-finance/</loc>
+      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://vuongvtrinh.github.io/tags/thermodynamics/</loc>
+      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/tags/trading-strategies/</loc>
       <lastmod>2018-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>

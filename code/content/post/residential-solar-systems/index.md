@@ -12,7 +12,7 @@ summary = ""
 image_preview = ""
 
 # Tags: can be used for filtering projects.
-tags = ["solar-energy"]
+tags = ["solar-energy", "industrial-automation", "solar-panels", "inverters"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

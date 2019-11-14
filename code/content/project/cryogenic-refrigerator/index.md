@@ -12,7 +12,7 @@ summary = "The ANR CRYOGREEN project gathers collaborative academic and industri
 image_preview = ""
 
 # Tags: can be used for filtering projects.
-tags = ["optimization-control", "model-predictive-control", "cryogenics", "thermodynamics", "industrial-automation"]
+tags = ["optimization-control", "model-predictive-control", "cryogenics", "thermodynamics", "industrial-automation", "control-valve", "cold-box", "compression-station", "allocation-control", "distributed-control-systems"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
