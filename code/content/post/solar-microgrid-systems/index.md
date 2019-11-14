@@ -3,7 +3,7 @@
 date = "2019-11-14"
 
 # Project title.
-title = "Residential Solar Systems"
+title = "Solar Microgrid Systems"
 
 # Project summary to display on homepage.
 summary = ""
