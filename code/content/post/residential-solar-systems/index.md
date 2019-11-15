@@ -40,11 +40,11 @@ caption = ""
 
 +++
 
-![from_a_solar_cell_to_a_PV_system.png](from_a_solar_cell_to_a_PV_system.png)
+![from_a_solar_cell_to_a_PV_system.png](svg/from_a_solar_cell_to_a_PV_system.png)
 
-![how-solar-works.png](how-solar-works.png)
+![how-solar-works.png](svg/how-solar-works.png)
 
-![how-home-energy-storage-works.png](how-home-energy-storage-works.png)
+![how-home-energy-storage-works.png](svg/how-home-energy-storage-works.png)
 
 
 
