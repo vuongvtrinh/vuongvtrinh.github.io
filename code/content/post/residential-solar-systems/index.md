@@ -3,7 +3,7 @@
 date = "2019-11-14"
 
 # Project title.
-title = "Solar Microgrid Systems"
+title = "Residential Solar Systems"
 
 # Project summary to display on homepage.
 summary = ""
@@ -39,4 +39,12 @@ caption = ""
   preview_only = true
 
 +++
+
+![from_a_solar_cell_to_a_PV_system.png](from_a_solar_cell_to_a_PV_system.png)
+
+![how-solar-works.png](how-solar-works.png)
+
+![how-home-energy-storage-works.png](how-home-energy-storage-works.png)
+
+
 

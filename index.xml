@@ -10,12 +10,17 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Solar Microgrid Systems</title>
-      <link>https://vuongvtrinh.github.io/post/solar-microgrid-systems/</link>
+      <title>Residential Solar Systems</title>
+      <link>https://vuongvtrinh.github.io/post/residential-solar-systems/</link>
       <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vuongvtrinh.github.io/post/solar-microgrid-systems/</guid>
-      <description></description>
+      <guid>https://vuongvtrinh.github.io/post/residential-solar-systems/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;from_a_solar_cell_to_a_PV_system.png&#34; alt=&#34;from_a_solar_cell_to_a_PV_system.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;how-solar-works.png&#34; alt=&#34;how-solar-works.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;how-home-energy-storage-works.png&#34; alt=&#34;how-home-energy-storage-works.png&#34; /&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
