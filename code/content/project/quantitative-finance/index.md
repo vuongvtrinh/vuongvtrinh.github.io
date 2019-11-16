@@ -157,6 +157,28 @@ Net flow: -$99.7M
 2019-09-30: :dollar: :dollar:  20,000,000 #USDT (19,996,690 USD) minted at Tether Treasury
 ```
 
+#### Liquidation activities
+
+```
+*Liquidation activities*
+2019-11-16 14:14:04: Liquidated long on XBTUSD: Sell 177,058 @ 8462
+2019-11-16 14:13:34: Liquidated long on XBTUSD: Sell 40,576 @ 8469
+2019-11-16 14:01:44: Liquidated short on XBTUSD: Buy 403,625 @ 8514
+2019-11-16 14:01:32: Liquidated short on XBTUSD: Buy 3,536 @ 8507
+2019-11-16 14:01:27: Liquidated short on XBTUSD: Buy 1 @ 8500.5
+2019-11-16 11:05:44: Liquidated long on XBTUSD: Sell 3,322 @ 8453.5
+2019-11-16 10:50:14: Liquidated long on XBTUSD: Sell 72 @ 8460.5
+2019-11-16 10:48:24: Liquidated long on XBTUSD: Sell 398,077 @ 8468.5
+2019-11-16 10:46:54: Liquidated long on XBTUSD: Sell 13,586 @ 8481.5
+2019-11-16 09:29:14: Liquidated short on XBTUSD: Buy 396,629 @ 8527
+2019-11-16 09:28:55: Liquidated short on XBTUSD: Buy 289,471 @ 8519
+2019-11-16 09:28:50: Liquidated short on XBTUSD: Buy 755,983 @ 8511
+2019-11-16 09:28:44: Liquidated short on XBTUSD: Buy 10 @ 8500.5
+2019-11-16 07:05:04: Liquidated short on XBTUSD: Buy 134,522 + 248,222 @ 8488.5, 8496
+2019-11-16 07:04:44: Liquidated short on XBTUSD: Buy 230 @ 8478
+2019-11-16 02:22:34: Liquidated long on XBTUSD: Sell 132,408 @ 8430.5
+```
+
 #### Newsflow
 
 ![n.png](n.png)
