@@ -17,27 +17,63 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
-  date_end = ""
+  title = "Adjunct Researcher in Data Analytics"
+  company = "Dong A University Research Institute"
+  company_url = "http://donga.edu.vn/"
+  location = "Da Nang, Vietnam"
+  date_start = "2019-03-01"
+  date_end = "2019-09-01"
   description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  title = "R&D Engineer in Simulation and Optimization"
+  company = "Benjamin Muyl Design Sarl"
+  company_url = "https://www.bmuyl.com/"
+  location = "Auray, France"
+  date_start = "2018-09-01"
+  date_end = "2018-12-01"
+  description = """
+  """
+  
+[[experience]]
+  title = "R&D Engineer in Process Control and Optimization"
+  company = "Commissariat à l'Énergie Atomique et aux Énergies Alternatives"
+  company_url = "http://www.cea.fr/"
+  location = "Grenoble, France"
+  date_start = "2014-10-01"
+  date_end = "2017-10-01"
+  description = """
+  """
+
+[[experience]]
+  title = "Research Intern in Active Vibration Control"
+  company = "Grenoble Images Parole Signal Automatique laboratoire"
+  company_url = "http://www.gipsa-lab.fr/"
+  location = "Grenoble, France"
+  date_start = "2014-01-01"
+  date_end = "2014-06-01"
+  description = """
+  """
+  
+[[experience]]
+  title = "Research Intern in Electrical Drives"
+  company = "Institute for Control Engineering and Automation"
+  company_url = "https://icea.hust.edu.vn/"
+  location = "Hanoi, Vietnam"
+  date_start = "2012-01-01"
+  date_end = "2012-06-01"
+  description = """
+  """
+  
+[[experience]]
+  title = "Industrial Intern in Production and Automation"
+  company = "Yazaki Corporation"
+  company_url = "http://www.yhv.com.vn/"
+  location = "Hai Phong, Vietnam"
+  date_start = "2011-04-01"
+  date_end = "2011-08-01"
+  description = """
+  """
 
 +++
