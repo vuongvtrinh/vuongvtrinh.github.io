@@ -146,15 +146,15 @@ Net flow: -$99.7M
 
 ```
 *Transaction activities*
-2019-10-12: :dollar:  2,500,000 #USDT (2,494,282 USD) minted at Tether Treasury
-2019-10-12: :dollar:  5,000,000 #USDT (5,012,230 USD) minted at Tether Treasury
-2019-10-11: :dollar: :dollar:  15,000,000 #USDT (15,077,725 USD) minted at Tether Treasury
-2019-10-10: :dollar: :dollar: :dollar:  20,000,000 #USDT (20,002,176 USD) minted at Tether Treasury
-2019-10-07: :dollar: :dollar:  12,387,600 #USDT (12,392,934 USD) minted at Tether Treasury
-2019-10-07: :dollar: :dollar:  20,000,000 #USDT (19,952,765 USD) minted at Tether Treasury
-2019-10-04: :dollar: :dollar:  12,600,000 #USDT (12,725,111 USD) minted at Tether Treasury
-2019-10-04: :dollar:  5,000,000 USDT (5,035,628 USD) minted at Tether Treasury
-2019-09-30: :dollar: :dollar:  20,000,000 #USDT (19,996,690 USD) minted at Tether Treasury
+2019-10-12: 2,500,000 #USDT (2,494,282 USD) minted at Tether Treasury
+2019-10-12: 5,000,000 #USDT (5,012,230 USD) minted at Tether Treasury
+2019-10-11: 15,000,000 #USDT (15,077,725 USD) minted at Tether Treasury
+2019-10-10: 20,000,000 #USDT (20,002,176 USD) minted at Tether Treasury
+2019-10-07: 12,387,600 #USDT (12,392,934 USD) minted at Tether Treasury
+2019-10-07: 20,000,000 #USDT (19,952,765 USD) minted at Tether Treasury
+2019-10-04: 12,600,000 #USDT (12,725,111 USD) minted at Tether Treasury
+2019-10-04: 5,000,000 USDT (5,035,628 USD) minted at Tether Treasury
+2019-09-30: 20,000,000 #USDT (19,996,690 USD) minted at Tether Treasury
 ```
 
 #### Liquidation activities
