@@ -197,6 +197,8 @@ Net flow: -$99.7M
 
 ### Pairs trading
 
+### Portfolio optimization
+
 ## Web Application
 
 {{< gallery >}}
