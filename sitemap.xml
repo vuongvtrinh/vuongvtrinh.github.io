@@ -3,70 +3,8 @@
     
     <url>
     
-      <loc>https://vuongvtrinh.github.io/post/</loc>
-      <lastmod>2019-11-14T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/post/residential-solar-systems/</loc>
-      <lastmod>2019-11-14T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/</loc>
-      <lastmod>2019-11-14T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>https://vuongvtrinh.github.io/</loc>
-      <lastmod>2019-11-14T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/industrial-automation/</loc>
-      <lastmod>2019-11-14T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/inverters/</loc>
-      <lastmod>2019-11-14T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/solar-energy/</loc>
-      <lastmod>2019-11-14T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/solar-panels/</loc>
-      <lastmod>2019-11-14T00:00:00+00:00</lastmod>
+      <lastmod>2018-07-23T00:00:00+07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -84,6 +22,24 @@
     
       <loc>https://vuongvtrinh.github.io/post/data-analytics-dashboard/</loc>
       <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/post/</loc>
+      <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/tags/</loc>
+      <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -258,6 +214,15 @@
     
     <url>
     
+      <loc>https://vuongvtrinh.github.io/tags/industrial-automation/</loc>
+      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://vuongvtrinh.github.io/tags/model-predictive-control/</loc>
       <lastmod>2018-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -314,6 +279,15 @@
     
       <loc>https://vuongvtrinh.github.io/project/solar-energy/</loc>
       <lastmod>2017-12-30T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/tags/solar-energy/</loc>
+      <lastmod>2017-12-30T00:00:00+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
