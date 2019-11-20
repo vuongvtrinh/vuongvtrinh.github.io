@@ -24,6 +24,7 @@ date_format = "Jan 2006"
   date_start = "2019-03-01"
   date_end = "2019-09-01"
   description = """
+  Anomaly detection algorithms for wireless sensor networks
   """
 
 [[experience]]
@@ -34,6 +35,7 @@ date_format = "Jan 2006"
   date_start = "2018-09-01"
   date_end = "2018-12-01"
   description = """
+  Proprietary software optimize sail yachts' performance
   """
   
 [[experience]]
@@ -44,6 +46,7 @@ date_format = "Jan 2006"
   date_start = "2014-10-01"
   date_end = "2017-10-01"
   description = """
+  Advanced model predictive control strategies for cryogenic systems
   """
 
 [[experience]]
