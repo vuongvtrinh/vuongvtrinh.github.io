@@ -17,7 +17,7 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "Adjunct Researcher in Data Analytics"
+  title = "Adjunct Researcher in Artificial Intelligence"
   company = "Dong A University Research Institute"
   company_url = "http://donga.edu.vn/"
   location = "Da Nang, Vietnam"
