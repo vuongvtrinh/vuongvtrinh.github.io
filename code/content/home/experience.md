@@ -35,7 +35,7 @@ date_format = "Jan 2006"
   date_start = "2018-09-01"
   date_end = "2018-12-01"
   description = """
-  Proprietary software optimize sail yachts' performance
+  Simulation and optimization of sail yachts
   """
   
 [[experience]]
@@ -46,7 +46,7 @@ date_format = "Jan 2006"
   date_start = "2014-10-01"
   date_end = "2017-10-01"
   description = """
-  Advanced model predictive control strategies for cryogenic systems
+  Advanced model predictive control strategies for large cryogenic systems
   """
 
 [[experience]]
@@ -57,6 +57,7 @@ date_format = "Jan 2006"
   date_start = "2014-01-01"
   date_end = "2014-06-01"
   description = """
+  Robust active vibrarion control for automotive applications
   """
   
 [[experience]]
@@ -67,6 +68,7 @@ date_format = "Jan 2006"
   date_start = "2012-01-01"
   date_end = "2012-06-01"
   description = """
+  Modeling and control of DFIG-based wind turbines
   """
   
 [[experience]]
@@ -77,6 +79,7 @@ date_format = "Jan 2006"
   date_start = "2011-04-01"
   date_end = "2011-08-01"
   description = """
+  Automotive wire production conveyors
   """
 
 +++
