@@ -68,7 +68,7 @@ date_format = "Jan 2006"
   date_start = "2012-01-01"
   date_end = "2012-06-01"
   description = """
-  Modeling and control of DFIG-based wind turbines
+  Modeling and control of doubly-fed induction generator in wind turbines
   """
   
 [[experience]]
@@ -79,7 +79,7 @@ date_format = "Jan 2006"
   date_start = "2011-04-01"
   date_end = "2011-08-01"
   description = """
-  Automotive wire production conveyors
+  Design and setup automatic conveyors for automotive wire production
   """
 
 +++
