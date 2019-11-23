@@ -179,13 +179,13 @@ Net flow: -$99.7M
 2019-11-16 02:22:34: Liquidated long on XBTUSD: Sell 132,408 @ 8430.5
 ```
 
+![r.png](r.png)
+
 #### Newsflow
 
 ![n.png](n.png)
 
 ### Crypto Derivatives 
-
-#### Basis
 
 #### Funding rate
 
