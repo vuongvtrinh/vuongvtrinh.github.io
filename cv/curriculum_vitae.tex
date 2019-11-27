@@ -13,7 +13,7 @@
 marginparwidth=1.1in,     
 marginparsep=.075in,      
 margin=0.4in,               
-tmargin=1in,
+tmargin=0.9in,
 includemp]{geometry}
 
 \setlength{\parindent}{0in}
@@ -57,6 +57,7 @@ includemp]{geometry}
 
 \usepackage{color,hyperref}
 \definecolor{darkblue}{rgb}{0.0,0.0,0.3}
+\definecolor{darkgray}{rgb}{0.3, 0.3, 0.3}
 \hypersetup{colorlinks,breaklinks,
 	linkcolor=darkblue,urlcolor=darkblue,
 	anchorcolor=darkblue,citecolor=darkblue}
@@ -121,7 +122,9 @@ includemp]{geometry}
 	\begin{minipage}[t]{\textwidth+\marginparwidth+\marginparsep}%
 		\centering
 		{\LARGE \bfseries {Vuong V. Trinh}}\\
-		\vspace{0.45cm}
+		\vspace{0.2cm}
+		{\color{darkgray} Process Control and Optimization} \\
+		\vspace{0.25cm}
 		\hspace{1.75cm} \faGlobe \hspace{0.05cm} \href{https://vuongvtrinh.github.io}{https://vuongvtrinh.github.io} 
 		\hspace{0.05cm} \faEnvelope \hspace{0.05cm} \href{mailto:vanvuong.trinh@gmail.com}{vanvuong.trinh@gmail.com}
 		\hspace{0.05cm} \faPhone \hspace{0.05cm} {\color{darkblue} +84(0)932375111}
@@ -134,9 +137,10 @@ includemp]{geometry}
 	
 	\section{Experience}
 	
-	\textbf{Associate Researcher},
+	\textbf{Associate Researcher in Artificial Intelligence}
+	\hfill {since 2019} \\
 	\href{http://donga.edu.vn/}{\textbf{Dong A University Research Institute}}
-	\hfill {Mar--Sep 2019} 
+	\hfill {Da Nang, Vietnam}
 	\begin{innerlist}
 		\item Work with \href{https://sites.google.com/view/kim-phuc-tran}{Kim-Phuc Tran}, \href{https://www.researchgate.net/profile/Anh_Tuan_Mai}{Anh-Tuan Mai} and \href{http://set.hust.edu.vn/index.php/vi/donvi/14-htvt/96-truongthuhuongvi}{Thu-Huong Truong} on \href{https://www.researchgate.net/project/Real-time-Anomaly-Detection-for-Industrial-Big-Data}{real-time anomaly detection algorithms for industrial Big Data}, particularly for wireless sensor networks;
 		\item Familiar with Python (\emph{Flask, Pandas, Scikit-Learn}), JS (\emph{Highcharts}), Heroku (\emph{Postgres}), AWS (\emph{RDS, EC2}); editting tools (\emph{TeX, Inkscape}); embedded systems (\emph{Rasp Pi, STM32}).
@@ -144,9 +148,10 @@ includemp]{geometry}
 	
 	\vspace{0.1cm}
 	
-	\textbf{R\&D Engineer},
+	\textbf{R\&D Engineer in Naval Simulation and Optimization}
+	\hfill {Jun--Dec 2018} \\
 	\href{https://www.bmuyl.com/}{\textbf{Benjamin Muyl Design Sarl}} 
-	\hfill {Sep--Dec 2018}
+	\hfill{Auray, France}
 	\begin{innerlist}
 		\item Work with \href{https://www.linkedin.com/in/bmuyl/}{Benjamin Muyl} and \href{https://www.linkedin.com/in/antoine-guillou-40379526/}{Antoine Guillou} on simulation and optimization of sail yachts;
 		\item Contribute to \href{https://pole-mer-bretagne-atlantique.com/en/component/projects/project/2235}{\emph{META}} project by upgrading from Java and Matlab to Python using symbolic framework; 
@@ -155,22 +160,24 @@ includemp]{geometry}
 	
 	\vspace{0.1cm}
 	
-	\textbf{R\&D Engineer},
-	\href{http://www.cea.fr/}{\textbf{Commissariat \`{a} l'\'{E}nergie Atomique et aux \'{E}nergies Alternatives}}
+	\textbf{R\&D Engineer in Process Control and Optimization}
 	\hfill {2014--2017} \\
+	\href{http://www.cea.fr/}{\textbf{Commissariat \`{a} l'\'{E}nergie Atomique et aux \'{E}nergies Alternatives}} 
+	\hfill{Grenoble, France} \\
 	Supervisors: \href{http://www.mazenalamir.fr/home/}{Mazen Alamir} and \href{https://www.researchgate.net/profile/P_Bonnay}{Patrick Bonnay} on \href{https://vuongvtrinh.github.io/project/cryogenic-refrigerator/}{cryogenic process control and energetic optimization}, within project \href{https://anr.fr/Project-ANR-13-SEED-0005}{ANR CRYOGREEN}.
 	\begin{innerlist}
 		\item Develop advanced model predictive control strategies including explicit constrained control and hierarchical distributed coordination, via machine learning, applied optimization and numerical algorithms;
-		\item Dynamic model and simulation of compression stations and cryogenic refrigerators using \href{http://www.d-sbt.fr/en/Pages/News/2016_Francois-Bonne.aspx}{\emph{Simcryogenics}}; involve in experiments with \href{http://inac.cea.fr/en/Phocea/Vie_des_labos/Ast/ast_visu.php?id_ast=771}{station 400W 1.8K} at \href{http://www.d-sbt.fr/en}{SBT} and \href{https://cds.cern.ch/record/708291}{18kW 4.5K LHC facilities} at \href{https://cern.ch}{CERN};
-		\item Intensive use of Matlab and C (\emph{CPLEX, ACADOtoolkit}); familiar with PLC (\emph{Siemens, Schneider}), DCS and SCADA with Modbus.
+		\item Model and simulation of compression stations and cryogenic refrigerators using \href{http://www.d-sbt.fr/en/Pages/News/2016_Francois-Bonne.aspx}{\emph{Simcryogenics, EcosimPro}}; involve in experiments with \href{http://www.d-sbt.fr/en}{SBT}'s \href{http://inac.cea.fr/en/Phocea/Vie_des_labos/Ast/ast_visu.php?id_ast=771}{station 400W 1.8K} and \href{https://cern.ch}{CERN}'s \href{https://cds.cern.ch/record/708291}{18kW 4.5K LHC facilities};
+		\item Intensive use of Matlab and C (\emph{CPLEX, ACADOtoolkit, CVX}); familiar with PLCs (\emph{Siemens S7-300/400, Schneider M340/450}) with Modbus; DCS and SCADA.
 	\end{innerlist}
 	
 	\vspace{0.1cm}
 	
-	\textbf{Research Intern},
-	\href{http://www.gipsa-lab.fr/}{\textbf{Grenoble Images Parole Signal Automatique Laboratoire}}
+	\textbf{Research Intern in Active Vibration Control}
 	\hfill {Jan--May 2014}\\
-	Supervisors: \href{https://www.gipsa-lab.grenoble-inp.fr/~ioandore.landau/}{Ioan Dor\'{e} Landau} and \href{https://www.researchgate.net/profile/Luc_Dugard}{Luc Dugard}, on \href{https://www.gipsa-lab.grenoble-inp.fr/~ioandore.landau/benchmark_adaptive_regulation/}{robust active vibration analysis and control}.
+	\href{http://www.gipsa-lab.fr/}{\textbf{Grenoble Images Parole Signal Automatique Laboratoire}}
+	\hfill{Grenoble, France} \\
+	Supervisors: \href{https://www.gipsa-lab.grenoble-inp.fr/~ioandore.landau/}{Ioan Dor\'{e} Landau} and \href{https://www.researchgate.net/profile/Luc_Dugard}{Luc Dugard}, on \href{https://www.gipsa-lab.grenoble-inp.fr/~ioandore.landau/benchmark_adaptive_regulation/}{active vibration control for automotive applications}.
 	\begin{innerlist}
 		\item Perform system identification, robust control design and experiments using Matlab and xPC Target;
 		\item  Laboratory instructor and teaching assistant within \href{http://www.eeci-igsc.eu/}{European Embedded Control Institute IGSC}.
@@ -178,9 +185,10 @@ includemp]{geometry}
 	
 	\vspace{0.1cm}
 	
-	\textbf{Industrial Intern},
-	\href{http://www.yhv.com.vn}{\textbf{Yazaki Corporation}}
-	\hfill {Apr--Aug 2011}
+	\textbf{Industrial Intern in Production and Automation}
+	\hfill {Apr--Aug 2011} \\
+	\href{http://www.yhv.com.vn}{\textbf{Yazaki Corporation}} 
+	\hfill{Hai Phong, Vietnam}
 	\begin{innerlist}
 		\item Analyse technical specifications and devise suitable solution for automotive wire production conveyors;
 		\item Setup control box, relays and inverters; program PLC and HMI; deploy AutoCAD, Step7 and WinCC.
@@ -202,7 +210,7 @@ includemp]{geometry}
 	\section{Awards}
 	
 	\href{https://vuongvtrinh.github.io/cv/pdf/excellent_master_fellowship.pdf}{\textbf{Excellence Master Fellowship}}, 
-	\href{https://anr.fr/}{Agence Nationale de la Recherche} \& \href{http://persyval-lab.org/}{LabEx PERSYVAL-Lab}
+ 	\href{http://persyval-lab.org/}{LabEx PERSYVAL-Lab}
 	\hfill {2013}
 	
 	\vspace{0.1cm}
@@ -220,22 +228,6 @@ includemp]{geometry}
 	\section{Languages}
 	
 	Vietnamese (\emph{native}) | English (\emph{fluent}: \href{https://vuongvtrinh.github.io/cv/ielts_certificate.pdf}{IELTS 6.5}) | French (\emph{basic})
-	
-	\section{Valorisation}
-
-	\href{https://courses.edx.org/certificates/4e869688c7974b4a9921132fb210af95}{\textbf{CS50's Introduction to Computer Science}}, \href{https://www.edx.org/}{edX} | \href{https://www.harvard.edu/}{Harvard University}
-	
-	\vspace{0.1cm}
-	
-	\href{https://credentials.edx.org/credentials/705bea19346245fd88ee8220869331c7/}{\textbf{Six Sigma and Lean Processional Program}}, \href{https://www.edx.org/}{edX} | \href{https://www.tum.de}{Technische Universit\"{a}t M\"{u}nchen} 
-	
-	\vspace{0.1cm}
-	
-	\href{https://vuongvtrinh.github.io/cv/pdf/TUM_Lean_Six_Sigma_Yellow_Belt_Certificate.pdf}{\textbf{TUM Lean Six Sigma Yellow Belt}}, \href{https://www.tum.de}{Technische Universit\"{a}t M\"{u}nchen} | \href{https://www.wi.tum.de/}{TUM School of Management}
-	
-	\vspace{0.1cm}
-	
-	\href{https://vuongvtrinh.github.io/cv/pdf/semie_certificate.pdf}{\textbf{Semaine d'\'{E}tude Maths-Info Entreprises}}, \href{https://www.agence-maths-entreprises.fr}{Agence Maths Entreprises}
 	
 	\newpage
 	
@@ -257,7 +249,23 @@ includemp]{geometry}
 	
 	\vspace{0.1cm}
 	
-	\textbf{V. V. Trinh, K. P. Tran and T. H. Truong}, \href{https://doi.org/10.1109/ATC.2017.8167642}{\textbf{Data driven hyperparameter optimization of one-class support vector machines for anomaly detection in wireless sensor networks}}, in \emph{Proceedings of the 2017 International Conference on Advanced Technologies for Communications}, Quy Nhon, Vietnam, 2017. 
+	\textbf{V. V. Trinh, K. P. Tran and T. H. Truong}, \href{https://doi.org/10.1109/ATC.2017.8167642}{\textbf{Data driven hyperparameter optimization of one-class support vector machines for anomaly detection in wireless sensor networks}}, in \emph{Proceedings of the 2017 International Conference on Advanced Technologies for Communications}, Quy Nhon, Vietnam, 2017.
+	
+	\section{Valorisation}
+
+	\href{https://courses.edx.org/certificates/4e869688c7974b4a9921132fb210af95}{\textbf{CS50's Introduction to Computer Science}}, \href{https://www.edx.org/}{edX} | \href{https://www.harvard.edu/}{Harvard University}
+	
+	\vspace{0.1cm}
+	
+	\href{https://credentials.edx.org/credentials/705bea19346245fd88ee8220869331c7/}{\textbf{Six Sigma and Lean Processional Program}}, \href{https://www.edx.org/}{edX} | \href{https://www.tum.de}{Technische Universit\"{a}t M\"{u}nchen} 
+	
+	\vspace{0.1cm}
+	
+	\href{https://vuongvtrinh.github.io/cv/pdf/TUM_Lean_Six_Sigma_Yellow_Belt_Certificate.pdf}{\textbf{TUM Lean Six Sigma Yellow Belt}}, \href{https://www.tum.de}{Technische Universit\"{a}t M\"{u}nchen} | \href{https://www.wi.tum.de/}{TUM School of Management}
+	
+	\vspace{0.1cm}
+	
+	\href{https://vuongvtrinh.github.io/cv/pdf/semie_certificate.pdf}{\textbf{Semaine d'\'{E}tude Maths-Info Entreprises}}, \href{https://www.agence-maths-entreprises.fr}{Agence Maths Entreprises}
 	
 	\section{Services}
 
@@ -282,10 +290,6 @@ includemp]{geometry}
 	\section{Misc}
 
 	\textbf{Personal Info:} Gender: Male | Marital status: Single | DOB: 20 Dec 1989 | POB: Thanh Hoa (Vietnam)
-	
-	\vspace{0.1cm}
-	
-	\textbf{Professions:} Industrial Automation | Process Control \& Optimization | Data Analytics
 	
 	\vspace{0.1cm}
 	

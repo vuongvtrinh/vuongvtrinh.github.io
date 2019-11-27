@@ -21,18 +21,18 @@ date_format = "Jan 2006"
   company = "Dong A University Research Institute"
   company_url = "http://donga.edu.vn/"
   location = "Da Nang, Vietnam"
-  date_start = "2019-03-01"
-  date_end = "2019-09-01"
+  date_start = "2019-01-01"
+  date_end = "2019-12-01"
   description = """
   Anomaly detection algorithms for wireless sensor networks
   """
 
 [[experience]]
-  title = "R&D Engineer in Simulation and Optimization"
+  title = "R&D Engineer in Naval Simulation and Optimization"
   company = "Benjamin Muyl Design Sarl"
   company_url = "https://www.bmuyl.com/"
   location = "Auray, France"
-  date_start = "2018-09-01"
+  date_start = "2018-06-01"
   date_end = "2018-12-01"
   description = """
   Simulation and optimization of sail yachts
