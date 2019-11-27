@@ -49,8 +49,8 @@ filter_default = 0
   tag = "optimization-control"
 
 [[filter]]
-  name = "Data Analytics"
-  tag = "data-analytics"
+  name = "Artificial Intelligence"
+  tag = "artificial-intelligence"
 
 +++
 

@@ -12,7 +12,7 @@ summary = "This project develops an intelligent data driven application to monit
 image_preview = ""
 
 # Tags: can be used for filtering projects.
-tags = ["blockchain-cryptoasset", "data-analytics", "financial-time-series", "quantitative-finance", "trading-strategies", "derivatives"]
+tags = ["blockchain-cryptoasset", "artificial-intelligence", "financial-time-series", "quantitative-finance", "trading-strategies", "derivatives"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

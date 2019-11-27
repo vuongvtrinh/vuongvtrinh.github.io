@@ -12,7 +12,7 @@ summary = "We are working on developing some advanced approaches using Machine L
 image_preview = ""
 
 # Tags: can be used for filtering projects.
-tags = ["data-analytics", "anomaly-detection", "wireless-sensor-networks"]
+tags = ["artificial-intelligence", "anomaly-detection", "wireless-sensor-networks"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = "https://www.researchgate.net/project/Real-time-Anomaly-Detection-for-Industrial-Big-Data"

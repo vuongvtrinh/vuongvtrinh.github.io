@@ -12,7 +12,7 @@ weight = 1
   interests = [
     "Process Control & Optimization",
     "Industrial Automation",
-    "Data Analytics"
+    "Artificial Intelligence"
   ]
 
 # List your qualifications (such as academic degrees).
@@ -30,4 +30,4 @@ weight = 1
 
 # About me
 
-I received engineer's degree from [Hanoi University of Science and Technology (HUST)](https://en.hust.edu.vn/) in 2012, followed by master's degree from [Université Joseph Fourier (UJF)](https://www.univ-grenoble-alpes.fr/) and [Institut Polytechnique de Grenoble (Grenoble INP)](http://www.grenoble-inp.fr/) in 2014, both in automation and control engineering. I carried out process control and optimization research at [Grenoble Images Parole Signal Automatique laboratoire (GIPSA-lab)](http://www.gipsa-lab.fr/) and [Commissariat à l'Énergie Atomique et aux Énergies Alternatives (CEA)](http://www.cea.fr/) within [Service des Basses Températures (INAC-SBT)](http://inac.cea.fr/sbt/). I developed software for simulation and optimization of sailing yachts at [Benjamin Muyl Design Sarl (BMD)](https://www.bmuyl.com/) and served as research scientist in artificial intelligence at [Dong A University Research Institute (UDA)](http://donga.edu.vn/).
+I received engineer's degree from [Hanoi University of Science and Technology (HUST)](https://en.hust.edu.vn/) in 2012, followed by master's degree from [Université Joseph Fourier (UJF)](https://www.univ-grenoble-alpes.fr/) and [Institut Polytechnique de Grenoble (Grenoble INP)](http://www.grenoble-inp.fr/) in 2014, both in automation and control engineering. I carried out process control and optimization research at [Grenoble Images Parole Signal Automatique laboratoire (GIPSA-lab)](http://www.gipsa-lab.fr/) and [Commissariat à l'Énergie Atomique et aux Énergies Alternatives (CEA)](http://www.cea.fr/) within [Service des Basses Températures (INAC-SBT)](http://inac.cea.fr/sbt/). I developed software for naval simulation and optimization of sailing yachts at [Benjamin Muyl Design Sarl (BMD)](https://www.bmuyl.com/) and served as associate researcher in artificial intelligence at [Dong A University Research Institute (UDA)](http://donga.edu.vn/).
