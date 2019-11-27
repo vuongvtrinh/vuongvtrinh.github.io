@@ -94,3 +94,15 @@ The ANR CRYOGREEN project gathers collaborative academic and industrial partners
 
 [![Convergence result](aa-convergence.png)](aa-convergence.png)
 
+### References
+
+[Data-driven Explicit Nonlinear Model Predictive Control via Wiener Regression and Reduced-Set Support Vector Machines](10.13140/RG.2.2.26000.46080)
+
+[Fixed-Point Based Hierarchical Model Predictive Control Leveraging Anderson Acceleration and BOBYQA Algorithm](10.13140/RG.2.2.23903.30880)
+
+[Modeling, Simulation and Control of Cryogenics System at CERN](Model_Simulation_and_Control_of_Cryogenics_System_at_CERN.pdf)
+
+[PID Tuning and Auto-Tuning](PID_Tuning_and_Auto-Tuning.pdf)
+
+[PID Auto-Tuning](PID_Auto-Tuning.pdf)
+
