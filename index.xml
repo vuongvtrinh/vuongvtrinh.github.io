@@ -167,13 +167,12 @@ heroku ps:scale bot=1
     </item>
     
     <item>
-      <title>SCADA</title>
-      <link>https://vuongvtrinh.github.io/post/scada/</link>
+      <title>Industrial Automation Resources</title>
+      <link>https://vuongvtrinh.github.io/post/industrial-automation-resources/</link>
       <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://vuongvtrinh.github.io/post/scada/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;scada_std_animation.gif&#34; alt=&#34;SCADA Std Animation&#34; /&gt;&lt;/p&gt;
-</description>
+      <guid>https://vuongvtrinh.github.io/post/industrial-automation-resources/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -198,16 +197,16 @@ heroku ps:scale bot=1
     
     
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/cryogenic-refrigerator/gallery/cea.png&#34; &gt;
-  &lt;img src=&#34;https://vuongvtrinh.github.io/project/cryogenic-refrigerator/gallery/cea.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/cryogenic-refrigerator/gallery/cern.png&#34; &gt;
+  &lt;img src=&#34;https://vuongvtrinh.github.io/project/cryogenic-refrigerator/gallery/cern.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
     
     
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/cryogenic-refrigerator/gallery/cern.png&#34; &gt;
-  &lt;img src=&#34;https://vuongvtrinh.github.io/project/cryogenic-refrigerator/gallery/cern.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/cryogenic-refrigerator/gallery/cea.png&#34; &gt;
+  &lt;img src=&#34;https://vuongvtrinh.github.io/project/cryogenic-refrigerator/gallery/cea.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
 

@@ -3,7 +3,7 @@
 date = "2018-05-14"
 
 # Project title.
-title = "SCADA"
+title = "Industrial Automation Resources"
 
 # Project summary to display on homepage.
 summary = ""
@@ -12,7 +12,7 @@ summary = ""
 image_preview = ""
 
 # Tags: can be used for filtering projects.
-tags = ["manufacturing"]
+tags = ["manufacturing", "industrial-automation"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -39,6 +39,3 @@ caption = ""
   preview_only = true
 
 +++
-
-![SCADA Std Animation](scada_std_animation.gif)
-

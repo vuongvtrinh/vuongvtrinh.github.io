@@ -28,17 +28,17 @@
     
     <url>
     
-      <loc>https://vuongvtrinh.github.io/post/</loc>
+      <loc>https://vuongvtrinh.github.io/post/industrial-automation-resources/</loc>
       <lastmod>2018-05-14T00:00:00+00:00</lastmod>
-      <priority>0</priority>
     </url>
     
   
     
     <url>
     
-      <loc>https://vuongvtrinh.github.io/post/scada/</loc>
+      <loc>https://vuongvtrinh.github.io/post/</loc>
       <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -91,6 +91,15 @@
     <url>
     
       <loc>https://vuongvtrinh.github.io/tags/highcharts/</loc>
+      <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/tags/industrial-automation/</loc>
       <lastmod>2018-05-14T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -232,15 +241,6 @@
     <url>
     
       <loc>https://vuongvtrinh.github.io/tags/financial-time-series/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/industrial-automation/</loc>
       <lastmod>2018-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
