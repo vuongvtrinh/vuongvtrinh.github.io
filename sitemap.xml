@@ -37,6 +37,14 @@
     
     <url>
     
+      <loc>https://vuongvtrinh.github.io/post/scada/</loc>
+      <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://vuongvtrinh.github.io/tags/</loc>
       <lastmod>2018-05-14T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -83,6 +91,15 @@
     <url>
     
       <loc>https://vuongvtrinh.github.io/tags/highcharts/</loc>
+      <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/tags/manufacturing/</loc>
       <lastmod>2018-05-14T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>

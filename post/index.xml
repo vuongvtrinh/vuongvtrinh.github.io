@@ -21,5 +21,14 @@
       <description>A tutorial to develop a web dashboard for data analytics using Python Flask and JavaScript Highcharts.</description>
     </item>
     
+    <item>
+      <title>SCADA</title>
+      <link>https://vuongvtrinh.github.io/post/scada/</link>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/post/scada/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
