@@ -3,7 +3,7 @@
 date = "2018-05-14"
 
 # Project title.
-title = "Industrial Automation Resources"
+title = "Technical Resources for Automation and Control Professionals"
 
 # Project summary to display on homepage.
 summary = ""
@@ -12,7 +12,7 @@ summary = ""
 image_preview = ""
 
 # Tags: can be used for filtering projects.
-tags = ["manufacturing", "industrial-automation"]
+tags = []
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

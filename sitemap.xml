@@ -28,14 +28,6 @@
     
     <url>
     
-      <loc>https://vuongvtrinh.github.io/post/industrial-automation-resources/</loc>
-      <lastmod>2018-05-14T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>https://vuongvtrinh.github.io/post/</loc>
       <lastmod>2018-05-14T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -48,6 +40,14 @@
       <loc>https://vuongvtrinh.github.io/tags/</loc>
       <lastmod>2018-05-14T00:00:00+00:00</lastmod>
       <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/post/technical-resources-for-automation-and-control-professionals/</loc>
+      <lastmod>2018-05-14T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -91,24 +91,6 @@
     <url>
     
       <loc>https://vuongvtrinh.github.io/tags/highcharts/</loc>
-      <lastmod>2018-05-14T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/industrial-automation/</loc>
-      <lastmod>2018-05-14T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/manufacturing/</loc>
       <lastmod>2018-05-14T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -241,6 +223,15 @@
     <url>
     
       <loc>https://vuongvtrinh.github.io/tags/financial-time-series/</loc>
+      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/tags/industrial-automation/</loc>
       <lastmod>2018-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>

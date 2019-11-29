@@ -58,24 +58,6 @@
     </item>
     
     <item>
-      <title>industrial-automation</title>
-      <link>https://vuongvtrinh.github.io/tags/industrial-automation/</link>
-      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://vuongvtrinh.github.io/tags/industrial-automation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>manufacturing</title>
-      <link>https://vuongvtrinh.github.io/tags/manufacturing/</link>
-      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://vuongvtrinh.github.io/tags/manufacturing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>allocation-control</title>
       <link>https://vuongvtrinh.github.io/tags/allocation-control/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
@@ -171,6 +153,15 @@
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/tags/financial-time-series/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>industrial-automation</title>
+      <link>https://vuongvtrinh.github.io/tags/industrial-automation/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/tags/industrial-automation/</guid>
       <description></description>
     </item>
     
