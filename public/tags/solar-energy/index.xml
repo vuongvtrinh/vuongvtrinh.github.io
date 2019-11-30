@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>solar-energy on Vuong V. Trinh</title>
+    <link>https://vuongvtrinh.github.io/tags/solar-energy/</link>
+    <description>Recent content in solar-energy on Vuong V. Trinh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Vuong V. Trinh 2016</copyright>
+    <lastBuildDate>Sat, 30 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://vuongvtrinh.github.io/tags/solar-energy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Energy Management of Solar Thermodynamic Micro Power Plant</title>
+      <link>https://vuongvtrinh.github.io/project/solar-energy/</link>
+      <pubDate>Sat, 30 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/project/solar-energy/</guid>
+      <description>Fast nonlinear constrained control of a Stirling engine Process diagram 
+Fast explicit constrained control synthesis 
+Real-time validation</description>
+    </item>
+    
+  </channel>
+</rss>

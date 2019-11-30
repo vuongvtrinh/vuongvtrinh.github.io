@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>quantitative-finance on Vuong V. Trinh</title>
+    <link>https://vuongvtrinh.github.io/tags/quantitative-finance/</link>
+    <description>Recent content in quantitative-finance on Vuong V. Trinh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Vuong V. Trinh 2016</copyright>
+    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://vuongvtrinh.github.io/tags/quantitative-finance/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Quantitative Analytics and Trading Strategies</title>
+      <link>https://vuongvtrinh.github.io/project/quantitative-finance/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/project/quantitative-finance/</guid>
+      <description>This project develops an intelligent data driven application to monitor blockchain projects and to analyze cryptoassets from both utility and speculation perspectives.</description>
+    </item>
+    
+  </channel>
+</rss>

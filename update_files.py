@@ -2,7 +2,7 @@ import os
 import shutil
 
 root_src_dir = 'code/public'
-root_dst_dir = os.getcwd()
+root_dst_dir = 'public'
 
 for src_dir, dirs, files in os.walk(root_src_dir):
     dst_dir = src_dir.replace(root_src_dir, root_dst_dir, 1)
