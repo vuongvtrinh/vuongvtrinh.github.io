@@ -174,9 +174,7 @@ heroku ps:scale bot=1
       <guid>https://vuongvtrinh.github.io/post/technical-resources-for-automation-and-control-professionals/</guid>
       <description>
 
-&lt;h1 id=&#34;references&#34;&gt;References&lt;/h1&gt;
-
-&lt;h2 id=&#34;automation-control-engineering&#34;&gt;Automation &amp;amp; Control Engineering&lt;/h2&gt;
+&lt;h1 id=&#34;automation-control&#34;&gt;Automation &amp;amp; Control&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;Instrument Engineers&amp;rsquo; Handbook: Process Measurement and Analysis&lt;/em&gt;, Béla G. Lipták&lt;/li&gt;
@@ -188,20 +186,15 @@ heroku ps:scale bot=1
 &lt;li&gt;&lt;em&gt;Basic and Advanced Regulatory Control: System Design and Application&lt;/em&gt;, Harold L. Wade&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;pid&#34;&gt;PID&lt;/h3&gt;
+&lt;h1 id=&#34;cryogenics&#34;&gt;Cryogenics&lt;/h1&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;Model_Simulation_and_Control_of_Cryogenics_System_at_CERN.pdf&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Modeling, Simulation and Control of Cryogenics System at CERN&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;PID_Operator_Tuning_and_Auto-Tuning.pdf&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;PID Operator Tuning and Auto-Tuning&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;PID_Auto-Tuning.pdf&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;PID Auto-Tuning&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;cryogenics&#34;&gt;Cryogenics&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;Model_Simulation_and_Control_of_Cryogenics_System_at_CERN.pdf&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Modeling, Simulation and Control of Cryogenics System at CERN&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;oil-gas&#34;&gt;Oil &amp;amp; Gas&lt;/h2&gt;
+&lt;h1 id=&#34;oil-gas&#34;&gt;Oil &amp;amp; Gas&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;Oil and Gas Production Handbook - An introduction to oil and gas production, transport, refining and petrochemical industry&lt;/em&gt;, Devold Havard&lt;/li&gt;
