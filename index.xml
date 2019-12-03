@@ -189,15 +189,21 @@ heroku ps:scale bot=1
 &lt;h1 id=&#34;cryogenics&#34;&gt;Cryogenics&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Modeling, Simulation and Control of Cryogenics System at CERN&lt;/em&gt; &lt;a href=&#34;Model_Simulation_and_Control_of_Cryogenics_System_at_CERN.pdf&#34; target=&#34;_blank&#34;&gt;pdf&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;PID Operator Tuning and Auto-Tuning&lt;/em&gt; &lt;a href=&#34;PID_Operator_Tuning_and_Auto-Tuning.pdf&#34; target=&#34;_blank&#34;&gt;pdf&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;PID Auto-Tuning&lt;/em&gt; &lt;a href=&#34;PID_Auto-Tuning.pdf&#34; target=&#34;_blank&#34;&gt;pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Modeling, Simulation and Control of Cryogenics System at CERN&lt;/em&gt;, Benjamin Bradu &lt;a href=&#34;Model_Simulation_and_Control_of_Cryogenics_System_at_CERN.pdf&#34; target=&#34;_blank&#34;&gt;pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;PID Operator Tuning and Auto-Tuning&lt;/em&gt;, Benjamin Bradu and Ruben Marti Martinez &lt;a href=&#34;PID_Operator_Tuning_and_Auto-Tuning.pdf&#34; target=&#34;_blank&#34;&gt;pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;PID Auto-Tuning&lt;/em&gt;, Benjamin Bradu &lt;a href=&#34;PID_Auto-Tuning.pdf&#34; target=&#34;_blank&#34;&gt;pdf&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&#34;oil-gas&#34;&gt;Oil &amp;amp; Gas&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;Oil and Gas Production Handbook - An introduction to oil and gas production, transport, refining and petrochemical industry&lt;/em&gt;, Devold Havard&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;solar-energy&#34;&gt;Solar Energy&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Microgrid Solutions: Policy and standards to support success&lt;/em&gt;, Paul Francois CATTIER &lt;a href=&#34;Microgrid_Solutions.pdf&#34; target=&#34;_blank&#34;&gt;pdf&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
