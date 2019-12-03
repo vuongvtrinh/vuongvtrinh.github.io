@@ -3,8 +3,25 @@
     
     <url>
     
+      <loc>https://vuongvtrinh.github.io/post/</loc>
+      <lastmod>2019-01-30T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/post/technical-resources-for-automation-and-control-professionals/</loc>
+      <lastmod>2019-01-30T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://vuongvtrinh.github.io/</loc>
-      <lastmod>2018-07-23T00:00:00+07:00</lastmod>
+      <lastmod>2019-01-30T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -21,78 +38,7 @@
     <url>
     
       <loc>https://vuongvtrinh.github.io/post/data-analytics-dashboard/</loc>
-      <lastmod>2018-05-14T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/post/</loc>
-      <lastmod>2018-05-14T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/</loc>
-      <lastmod>2018-05-14T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/post/technical-resources-for-automation-and-control-professionals/</loc>
-      <lastmod>2018-05-14T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/blockchain/</loc>
-      <lastmod>2018-05-14T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/dashboard/</loc>
-      <lastmod>2018-05-14T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/data-analytics/</loc>
-      <lastmod>2018-05-14T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/flask/</loc>
-      <lastmod>2018-05-14T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/highcharts/</loc>
-      <lastmod>2018-05-14T00:00:00+00:00</lastmod>
-      <priority>0</priority>
+      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -132,6 +78,15 @@
     
     <url>
     
+      <loc>https://vuongvtrinh.github.io/tags/</loc>
+      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://vuongvtrinh.github.io/tags/allocation-control/</loc>
       <lastmod>2018-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -151,6 +106,15 @@
     <url>
     
       <loc>https://vuongvtrinh.github.io/tags/artificial-intelligence/</loc>
+      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/tags/blockchain/</loc>
       <lastmod>2018-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -204,6 +168,24 @@
     
     <url>
     
+      <loc>https://vuongvtrinh.github.io/tags/dashboard/</loc>
+      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/tags/data-analytics/</loc>
+      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://vuongvtrinh.github.io/tags/derivatives/</loc>
       <lastmod>2018-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -223,6 +205,24 @@
     <url>
     
       <loc>https://vuongvtrinh.github.io/tags/financial-time-series/</loc>
+      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/tags/flask/</loc>
+      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/tags/highcharts/</loc>
       <lastmod>2018-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>

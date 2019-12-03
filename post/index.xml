@@ -7,27 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Vuong V. Trinh 2016</copyright>
-    <lastBuildDate>Mon, 14 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vuongvtrinh.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Data Analytics Dashboard using Flask and Highcharts</title>
-      <link>https://vuongvtrinh.github.io/post/data-analytics-dashboard/</link>
-      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://vuongvtrinh.github.io/post/data-analytics-dashboard/</guid>
-      <description>A tutorial to develop a web dashboard for data analytics using Python Flask and JavaScript Highcharts.</description>
-    </item>
-    
-    <item>
       <title>Technical Resources for Automation and Control Professionals</title>
       <link>https://vuongvtrinh.github.io/post/technical-resources-for-automation-and-control-professionals/</link>
-      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 30 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/post/technical-resources-for-automation-and-control-professionals/</guid>
       <description>Automation &amp;amp; Control  Instrument Engineers&amp;rsquo; Handbook: Process Measurement and Analysis, Béla G. Lipták Instrument Engineers&amp;rsquo; Handbook: Process Control and Optimization, Béla G. Lipták Instrument Engineers&amp;rsquo; Handbook: Process Software and Digital Networks, Béla G. Lipták A Guide to the Automation Body of Knowledge, Vernon L. Trevathan The Condensed Handbook of Measurement and Control, N. E. Battikha Industrial Data Communications, Lawrence M. Thompson Basic and Advanced Regulatory Control: System Design and Application, Harold L.</description>
+    </item>
+    
+    <item>
+      <title>Data Analytics Dashboard using Flask and Highcharts</title>
+      <link>https://vuongvtrinh.github.io/post/data-analytics-dashboard/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/post/data-analytics-dashboard/</guid>
+      <description>A tutorial to develop a web dashboard for data analytics using Python Flask and JavaScript Highcharts.</description>
     </item>
     
   </channel>

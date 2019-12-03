@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Vuong V. Trinh 2016</copyright>
-    <lastBuildDate>Mon, 14 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vuongvtrinh.github.io/tags/highcharts/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Data Analytics Dashboard using Flask and Highcharts</title>
       <link>https://vuongvtrinh.github.io/post/data-analytics-dashboard/</link>
-      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/post/data-analytics-dashboard/</guid>
       <description>A tutorial to develop a web dashboard for data analytics using Python Flask and JavaScript Highcharts.</description>
