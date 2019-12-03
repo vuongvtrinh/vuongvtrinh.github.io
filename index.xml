@@ -172,7 +172,41 @@ heroku ps:scale bot=1
       <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/post/technical-resources-for-automation-and-control-professionals/</guid>
-      <description></description>
+      <description>
+
+&lt;h1 id=&#34;references&#34;&gt;References&lt;/h1&gt;
+
+&lt;h2 id=&#34;automation-control-engineering&#34;&gt;Automation &amp;amp; Control Engineering&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Instrument Engineers&amp;rsquo; Handbook: Process Measurement and Analysis&lt;/strong&gt;, Béla G. Lipták&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Instrument Engineers&amp;rsquo; Handbook: Process Control and Optimization&lt;/strong&gt;, Béla G. Lipták&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Instrument Engineers&amp;rsquo; Handbook: Process Software and Digital Networks&lt;/strong&gt;, Béla G. Lipták&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;A Guide to the Automation Body of Knowledge&lt;/strong&gt;, Vernon L. Trevathan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The Condensed Handbook of Measurement and Control&lt;/strong&gt;, N. E. Battikha&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industrial Data Communications&lt;/strong&gt;, Lawrence M. Thompson&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Basic and Advanced Regulatory Control: System Design and Application&lt;/strong&gt;, Harold L. Wade&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;pid&#34;&gt;PID&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;PID_Operator_Tuning_and_Auto-Tuning.pdf&#34; target=&#34;_blank&#34;&gt;PID Operator Tuning and Auto-Tuning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;PID_Auto-Tuning.pdf&#34; target=&#34;_blank&#34;&gt;PID Auto-Tuning&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;cryogenics&#34;&gt;Cryogenics&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;Model_Simulation_and_Control_of_Cryogenics_System_at_CERN.pdf&#34; target=&#34;_blank&#34;&gt;Modeling, Simulation and Control of Cryogenics System at CERN&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;oil-gas&#34;&gt;Oil &amp;amp; Gas&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Oil and Gas Production Handbook - An introduction to oil and gas production, transport, refining and petrochemical industry&lt;/strong&gt;, Devold Havard&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -262,18 +296,6 @@ heroku ps:scale bot=1
 &lt;p&gt;&lt;a href=&#34;hdmpc-algo.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;hdmpc-algo.png&#34; alt=&#34;Hierarchical control algorithm&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;aa-convergence.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;aa-convergence.png&#34; alt=&#34;Convergence result&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;references&#34;&gt;References&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.researchgate.net/publication/333900724_Data-driven_Explicit_Nonlinear_Model_Predictive_Control_via_Wiener_Regression_and_Reduced-Set_Support_Vector_Machines&#34; target=&#34;_blank&#34;&gt;Data-driven Explicit Nonlinear Model Predictive Control via Wiener Regression and Reduced-Set Support Vector Machines&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.researchgate.net/publication/333902636_Fixed-Point_Based_Hierarchical_Model_Predictive_Control_Leveraging_Anderson_Acceleration_and_BOBYQA_Algorithm&#34; target=&#34;_blank&#34;&gt;Fixed-Point Based Hierarchical Model Predictive Control Leveraging Anderson Acceleration and BOBYQA Algorithm&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;Model_Simulation_and_Control_of_Cryogenics_System_at_CERN.pdf&#34; target=&#34;_blank&#34;&gt;Modeling, Simulation and Control of Cryogenics System at CERN&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;PID_Tuning_and_Auto-Tuning.pdf&#34; target=&#34;_blank&#34;&gt;PID Tuning and Auto-Tuning&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;PID_Auto-Tuning.pdf&#34; target=&#34;_blank&#34;&gt;PID Auto-Tuning&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
