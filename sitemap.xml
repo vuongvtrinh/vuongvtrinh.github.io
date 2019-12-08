@@ -395,7 +395,7 @@
     
     <url>
     
-      <loc>https://vuongvtrinh.github.io/tags/biomass/</loc>
+      <loc>https://vuongvtrinh.github.io/tags/biomass-fuel/</loc>
       <lastmod>2014-01-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -413,7 +413,7 @@
     
     <url>
     
-      <loc>https://vuongvtrinh.github.io/tags/granulator/</loc>
+      <loc>https://vuongvtrinh.github.io/tags/granulation/</loc>
       <lastmod>2014-01-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -423,6 +423,15 @@
     <url>
     
       <loc>https://vuongvtrinh.github.io/tags/pellet-mill/</loc>
+      <lastmod>2014-01-15T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://vuongvtrinh.github.io/tags/wood-pellet/</loc>
       <lastmod>2014-01-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
