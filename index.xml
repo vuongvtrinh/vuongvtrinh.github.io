@@ -589,17 +589,39 @@ Net flow: -$99.7M
       <guid>https://vuongvtrinh.github.io/project/wood-pellet-production/</guid>
       <description>
 
-&lt;h2 id=&#34;granulation-process&#34;&gt;Granulation Process&lt;/h2&gt;
+&lt;div class=&#34;gallery&#34;&gt;
 
-&lt;h2 id=&#34;drying-process&#34;&gt;Drying Process&lt;/h2&gt;
+  
+  
+  
+  
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/wood-pellet-production/gallery/drying_block_diagram.png&#34; &gt;
+  &lt;img src=&#34;https://vuongvtrinh.github.io/project/wood-pellet-production/gallery/drying_block_diagram.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/wood-pellet-production/gallery/drying_control_strategy.png&#34; &gt;
+  &lt;img src=&#34;https://vuongvtrinh.github.io/project/wood-pellet-production/gallery/drying_control_strategy.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/wood-pellet-production/gallery/drying_process_diagram.png&#34; &gt;
+  &lt;img src=&#34;https://vuongvtrinh.github.io/project/wood-pellet-production/gallery/drying_process_diagram.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
 
-&lt;p&gt;&lt;img src=&#34;drying_process_diagram.png&#34; alt=&#34;drying_process_diagram.png&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;drying_block_diagram.png&#34; alt=&#34;drying_block_diagram.png&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;drying_control_strategy.png&#34; alt=&#34;drying_control_strategy.png&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;pellet-mill&#34;&gt;Pellet Mill&lt;/h2&gt;
+  
+&lt;/div&gt;
 </description>
     </item>
     
