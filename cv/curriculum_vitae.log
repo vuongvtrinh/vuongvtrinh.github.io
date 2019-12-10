@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.12.1)  11 DEC 2019 04:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.12.1)  11 DEC 2019 05:28
 entering extended mode
 **./curriculum_vitae.tex
 (curriculum_vitae.tex
@@ -332,14 +332,14 @@ G,.JBIG2,.JB2,.eps]
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includemp 
 * h-part:(L,W,R)=(28.90755pt, 556.4799pt, 28.90755pt)
-* v-part:(T,H,B)=(57.81621pt, 708.24623pt, 28.90755pt)
+* v-part:(T,H,B)=(61.42993pt, 704.6325pt, 28.90755pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=471.56244pt
-* \textheight=708.24623pt
+* \textheight=704.6325pt
 * \oddsidemargin=41.55502pt
 * \evensidemargin=41.55502pt
-* \topmargin=-51.45378pt
+* \topmargin=-47.84006pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
@@ -397,6 +397,12 @@ File: omsptm.fd
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 145.
 
+Overfull \hbox (8.70074pt too wide) in paragraph at lines 145--146
+[]\T1/ptm/m/n/10.95 Work with [][]Kim-Phuc Tran[][] ([][]EN-SAIT[][]/[][]GEMTEX
+[][]), [][]Anh-Tuan Mai[][] ([][]MOST[][]) and [][]Thu-Huong Truong[][] ([][]HU
+ST[][])
+ []
+
 [1
 
 {D:/Users/trinhvv-admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
@@ -415,11 +421,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 300.
 Here is how much of TeX's memory you used:
  7926 strings out of 493335
  115456 string characters out of 3139236
- 212069 words of memory out of 10000000
+ 212066 words of memory out of 10000000
  11364 multiletter control sequences out of 15000+200000
  23318 words of font info for 29 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,5n,43p,697b,316s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,5n,43p,690b,316s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}{D:/Users/trinhv
 v-admin/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/fontawesome/fontawesometwo.e
 nc}<D:/Users/trinhvv-admin/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/fontaw
@@ -427,9 +433,9 @@ esome/FontAwesome.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/Mi
 KTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on curriculum_vitae.pdf (2 pages, 100905 bytes).
+Output written on curriculum_vitae.pdf (2 pages, 101482 bytes).
 PDF statistics:
- 148 PDF objects out of 1000 (max. 8388607)
+ 152 PDF objects out of 1000 (max. 8388607)
  12 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
