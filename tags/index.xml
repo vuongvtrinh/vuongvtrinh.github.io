@@ -7,10 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Vuong V. Trinh 2016</copyright>
-    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vuongvtrinh.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>control-engineering</title>
+      <link>https://vuongvtrinh.github.io/tags/control-engineering/</link>
+      <pubDate>Wed, 30 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/tags/control-engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>industrial-automation</title>
+      <link>https://vuongvtrinh.github.io/tags/industrial-automation/</link>
+      <pubDate>Wed, 30 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/tags/industrial-automation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rate-predictive-control</title>
+      <link>https://vuongvtrinh.github.io/tags/rate-predictive-control/</link>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/tags/rate-predictive-control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>model-less-multivariable-control</title>
+      <link>https://vuongvtrinh.github.io/tags/model-less-multivariable-control/</link>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/tags/model-less-multivariable-control/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>allocation-control</title>
@@ -153,15 +189,6 @@
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/tags/highcharts/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>industrial-automation</title>
-      <link>https://vuongvtrinh.github.io/tags/industrial-automation/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://vuongvtrinh.github.io/tags/industrial-automation/</guid>
       <description></description>
     </item>
     

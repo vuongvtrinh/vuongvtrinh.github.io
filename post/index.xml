@@ -22,6 +22,24 @@
     </item>
     
     <item>
+      <title>Rate-Predictive Control</title>
+      <link>https://vuongvtrinh.github.io/post/rpc/</link>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/post/rpc/</guid>
+      <description>A new non-PID control algorithm, rate-predictive control (RPC), is adaptive to changes in process gain, which is helpful given the industry’s difficult history of loop tuning, auto-tuning, and model maintenance. RPC also can serve as a model-less feedback multivariable control algorithm.</description>
+    </item>
+    
+    <item>
+      <title>Model-less Multivariable Control</title>
+      <link>https://vuongvtrinh.github.io/post/xmc/</link>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/post/xmc/</guid>
+      <description> References  http://www.apcperformance.com/xmc-multivariable-control.html https://www.hydrocarbonprocessing.com/magazine/2016/october-2016/special-focus-process-control-and-information-systems/the-history-and-possible-future-of-model-less-multivariable-control  </description>
+    </item>
+    
+    <item>
       <title>Data Analytics Dashboard using Flask and Highcharts</title>
       <link>https://vuongvtrinh.github.io/post/data-analytics-dashboard/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>

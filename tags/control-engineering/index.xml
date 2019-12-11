@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>control-engineering on Vuong V. Trinh</title>
+    <link>https://vuongvtrinh.github.io/tags/control-engineering/</link>
+    <description>Recent content in control-engineering on Vuong V. Trinh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Vuong V. Trinh 2016</copyright>
+    <lastBuildDate>Wed, 30 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://vuongvtrinh.github.io/tags/control-engineering/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Technical Resources for Automation and Control Professionals</title>
+      <link>https://vuongvtrinh.github.io/post/technical-resources-for-automation-and-control-professionals/</link>
+      <pubDate>Wed, 30 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/post/technical-resources-for-automation-and-control-professionals/</guid>
+      <description>Automation &amp;amp; Control  A Guide to the Automation Body of Knowledge, Vernon L. Trevathan Instrument Engineers&amp;rsquo; Handbook: Process Measurement and Analysis, Béla G. Lipták Instrument Engineers&amp;rsquo; Handbook: Process Control and Optimization, Béla G. Lipták Instrument Engineers&amp;rsquo; Handbook: Process Software and Digital Networks, Béla G. Lipták The Condensed Handbook of Measurement and Control, N. E. Battikha Industrial Data Communications, Lawrence M. Thompson Basic and Advanced Regulatory Control: System Design and Application, Harold L.</description>
+    </item>
+    
+  </channel>
+</rss>

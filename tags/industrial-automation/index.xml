@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Vuong V. Trinh 2016</copyright>
-    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vuongvtrinh.github.io/tags/industrial-automation/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Technical Resources for Automation and Control Professionals</title>
+      <link>https://vuongvtrinh.github.io/post/technical-resources-for-automation-and-control-professionals/</link>
+      <pubDate>Wed, 30 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/post/technical-resources-for-automation-and-control-professionals/</guid>
+      <description>Automation &amp;amp; Control  A Guide to the Automation Body of Knowledge, Vernon L. Trevathan Instrument Engineers&amp;rsquo; Handbook: Process Measurement and Analysis, Béla G. Lipták Instrument Engineers&amp;rsquo; Handbook: Process Control and Optimization, Béla G. Lipták Instrument Engineers&amp;rsquo; Handbook: Process Software and Digital Networks, Béla G. Lipták The Condensed Handbook of Measurement and Control, N. E. Battikha Industrial Data Communications, Lawrence M. Thompson Basic and Advanced Regulatory Control: System Design and Application, Harold L.</description>
+    </item>
     
     <item>
       <title>Innovative Advanced Control of Large Cryogenic Systems</title>
