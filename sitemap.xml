@@ -56,7 +56,7 @@
     
     <url>
     
-      <loc>https://vuongvtrinh.github.io/post/rpc/</loc>
+      <loc>https://vuongvtrinh.github.io/post/rpc-xmc/</loc>
       <lastmod>2019-01-29T00:00:00+00:00</lastmod>
     </url>
     
@@ -64,7 +64,7 @@
     
     <url>
     
-      <loc>https://vuongvtrinh.github.io/tags/rate-predictive-control/</loc>
+      <loc>https://vuongvtrinh.github.io/tags/model-less-multivariable-control/</loc>
       <lastmod>2019-01-29T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -73,16 +73,8 @@
     
     <url>
     
-      <loc>https://vuongvtrinh.github.io/post/xmc/</loc>
-      <lastmod>2019-01-28T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/model-less-multivariable-control/</loc>
-      <lastmod>2019-01-28T00:00:00+00:00</lastmod>
+      <loc>https://vuongvtrinh.github.io/tags/rate-predictive-control/</loc>
+      <lastmod>2019-01-29T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
