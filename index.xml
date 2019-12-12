@@ -598,14 +598,20 @@ Net flow: -$99.7M
     </item>
     
     <item>
-      <title>Wood Pellet Production</title>
+      <title>Automated Control System for Wood Pellet Production</title>
       <link>https://vuongvtrinh.github.io/project/wood-pellet-production/</link>
       <pubDate>Wed, 15 Jan 2014 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/project/wood-pellet-production/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;drying_process_diagram.png&#34; alt=&#34;drying_process_diagram.png&#34; /&gt;&lt;/p&gt;
+      <description>
+
+&lt;h1 id=&#34;drying-process&#34;&gt;Drying Process&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;drying_process_diagram.png&#34; alt=&#34;drying_process_diagram.png&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;drying_control_strategy.png&#34; alt=&#34;drying_control_strategy.png&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;granulation-pellet-mill&#34;&gt;Granulation &amp;amp; Pellet Mill&lt;/h1&gt;
 </description>
     </item>
     
