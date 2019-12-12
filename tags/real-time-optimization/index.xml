@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>real-time-optimization on Vuong V. Trinh</title>
+    <link>https://vuongvtrinh.github.io/tags/real-time-optimization/</link>
+    <description>Recent content in real-time-optimization on Vuong V. Trinh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Vuong V. Trinh 2016</copyright>
+    <lastBuildDate>Mon, 28 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://vuongvtrinh.github.io/tags/real-time-optimization/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Real-Time Optimization</title>
+      <link>https://vuongvtrinh.github.io/post/rto/</link>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/post/rto/</guid>
+      <description> References  A Reliable Modifier-Adaptation Strategy for Real-Time Optimization, Weihua Gao, Simon Wenzel, Sebastian Engell  </description>
+    </item>
+    
+  </channel>
+</rss>
