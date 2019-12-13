@@ -107,15 +107,12 @@
 
 &lt;h2 id=&#34;simple-internal-model-control-method-simc&#34;&gt;Simple Internal Model Control Method (SIMC)&lt;/h2&gt;
 
-&lt;h2 id=&#34;iterative-feedback-tuning-method-ift&#34;&gt;Iterative Feedback Tuning Method (IFT)&lt;/h2&gt;
-
-&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;The SIMC Method for Smooth PID Controller Tuning.pdf&#34; target=&#34;_blank&#34;&gt;The SIMC Method for Smooth PID Controller Tuning&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;PID_Operator_Tuning_and_Auto-Tuning.pdf&#34; target=&#34;_blank&#34;&gt;PID Operator Tuning and Auto-Tuning&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;PID_Auto-Tuning.pdf&#34; target=&#34;_blank&#34;&gt;PID Auto-Tuning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;simc2003.pdf&#34; target=&#34;_blank&#34;&gt;Simple Analytic Rules for Model Reduction and PID Controller Tuning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;smic2012.pdf&#34; target=&#34;_blank&#34;&gt;The SIMC Method for Smooth PID Controller Tuning&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h2 id=&#34;iterative-feedback-tuning-method-ift&#34;&gt;Iterative Feedback Tuning Method (IFT)&lt;/h2&gt;
 </description>
     </item>
     
