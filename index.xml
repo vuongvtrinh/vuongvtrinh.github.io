@@ -58,22 +58,48 @@
     
     <item>
       <title>PID Tuning</title>
-      <link>https://vuongvtrinh.github.io/post/pid/</link>
+      <link>https://vuongvtrinh.github.io/post/pid-tuning/</link>
       <pubDate>Sun, 27 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vuongvtrinh.github.io/post/pid/</guid>
+      <guid>https://vuongvtrinh.github.io/post/pid-tuning/</guid>
       <description>
 
-&lt;h2 id=&#34;relay-method&#34;&gt;Relay Method&lt;/h2&gt;
+&lt;h2 id=&#34;first-tuning&#34;&gt;First tuning&lt;/h2&gt;
 
-&lt;h2 id=&#34;simple-internal-model-control-method-simc&#34;&gt;Simple Internal Model Control Method (SIMC)&lt;/h2&gt;
+&lt;h3 id=&#34;relay-method&#34;&gt;Relay Method&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Stable/Unstable processes&lt;/li&gt;
+&lt;li&gt;No trajectory selection&lt;/li&gt;
+&lt;li&gt;Need around 4 cycles: can take time for a slow process&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;simple-internal-model-control-method-simc&#34;&gt;Simple Internal Model Control Method (SIMC)&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Stable process only&lt;/li&gt;
+&lt;li&gt;Desired trajectory to be specified by user&lt;/li&gt;
+&lt;li&gt;One single step: fast&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;fine-tuning&#34;&gt;Fine tuning&lt;/h2&gt;
+
+&lt;h3 id=&#34;iterative-feedback-tuning-method-ift&#34;&gt;Iterative Feedback Tuning Method (IFT)&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Need an existing tuning not too bad&lt;/li&gt;
+&lt;li&gt;Desired trajectory to be specified by user&lt;/li&gt;
+&lt;li&gt;Close loop tuning: better safety&lt;/li&gt;
+&lt;li&gt;Need around 4 cycles: can take time for a slow process&lt;/li&gt;
+&lt;li&gt;Note: cannot be used if the set-point is calculated in PLC&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;simc2003.pdf&#34; target=&#34;_blank&#34;&gt;Simple Analytic Rules for Model Reduction and PID Controller Tuning&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;simc2012.pdf&#34; target=&#34;_blank&#34;&gt;The SIMC Method for Smooth PID Controller Tuning&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h2 id=&#34;iterative-feedback-tuning-method-ift&#34;&gt;Iterative Feedback Tuning Method (IFT)&lt;/h2&gt;
 </description>
     </item>
     
