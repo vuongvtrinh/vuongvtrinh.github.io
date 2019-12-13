@@ -29,7 +29,7 @@
 &lt;li&gt;&lt;em&gt;Basic and Advanced Regulatory Control: System Design and Application&lt;/em&gt;, Harold L. Wade&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;miscellaneous&#34;&gt;Miscellaneous&lt;/h2&gt;
+&lt;h2 id=&#34;applications&#34;&gt;Applications&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;Oil and Gas Production Handbook - An introduction to oil and gas production, transport, refining and petrochemical industry&lt;/em&gt;, Devold Havard&lt;/li&gt;
@@ -41,7 +41,7 @@
 &lt;li&gt;&lt;a href=&#34;https://web.casadi.org/&#34; target=&#34;_blank&#34;&gt;CasADi&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://bitbucket.org/rawlings-group/mpc-tools-casadi&#34; target=&#34;_blank&#34;&gt;MPCTools&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://acado.github.io/&#34; target=&#34;_blank&#34;&gt;ACADOtoolkit&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/meco-group/omg-tools&#34; target=&#34;_blank&#34;&gt;Optimal Motion Generation-tools&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/meco-group/omg-tools&#34; target=&#34;_blank&#34;&gt;OMGtools&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
@@ -52,45 +52,6 @@
 &lt;li&gt;&lt;a href=&#34;https://www.controlglobal.com/&#34; target=&#34;_blank&#34;&gt;https://www.controlglobal.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.automation.com/&#34; target=&#34;_blank&#34;&gt;https://www.automation.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.schneideruniversities.com/&#34; target=&#34;_blank&#34;&gt;https://www.schneideruniversities.com/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Rate-Predictive Control &amp; Model-less Multivariable Control</title>
-      <link>https://vuongvtrinh.github.io/post/rpc-xmc/</link>
-      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://vuongvtrinh.github.io/post/rpc-xmc/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;rpc.png&#34; alt=&#34;rpc.png&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;US20170108836A1.pdf&#34; target=&#34;_blank&#34;&gt;Rate-Based Multivariable Control with Stability Assurance&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;RPC_Performance_and_Stability_Analysis.pdf&#34; target=&#34;_blank&#34;&gt;RPC Performance and Stability Analysis&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;A-brief-history-and-possible-future-of-model-less-multivariable-control-by-Kern-Uncut.pdf&#34; target=&#34;_blank&#34;&gt;The History, and Possible Future, of Model-Less Multivariable Control&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.controleng.com/articles/what-is-rate-predictive-control/&#34; target=&#34;_blank&#34;&gt;https://www.controleng.com/articles/what-is-rate-predictive-control/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Real-Time Optimization</title>
-      <link>https://vuongvtrinh.github.io/post/rto/</link>
-      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://vuongvtrinh.github.io/post/rto/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;rto.png&#34; alt=&#34;rto.png&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0098135416300813&#34; target=&#34;_blank&#34;&gt;A Reliable Modifier-Adaptation Strategy for Real-Time Optimization&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -643,6 +604,33 @@ Net flow: -$99.7M
       <pubDate>Tue, 16 Aug 2016 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/publication/2017-wsn-atc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automated Control System for Wood Pellet Production</title>
+      <link>https://vuongvtrinh.github.io/project/wood-pellet-production/</link>
+      <pubDate>Wed, 15 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/project/wood-pellet-production/</guid>
+      <description>
+
+&lt;h1 id=&#34;drying-process&#34;&gt;Drying Process&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;drying_process_diagram.png&#34; alt=&#34;drying_process_diagram.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;drying_control_strategy.png&#34; alt=&#34;drying_control_strategy.png&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;granulation-pellet-mill&#34;&gt;Granulation &amp;amp; Pellet Mill&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Active Vibration Control</title>
+      <link>https://vuongvtrinh.github.io/project/active-vibration-control/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/project/active-vibration-control/</guid>
       <description></description>
     </item>
     

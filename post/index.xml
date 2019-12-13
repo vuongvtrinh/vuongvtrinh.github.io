@@ -22,24 +22,6 @@
     </item>
     
     <item>
-      <title>Rate-Predictive Control &amp; Model-less Multivariable Control</title>
-      <link>https://vuongvtrinh.github.io/post/rpc-xmc/</link>
-      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://vuongvtrinh.github.io/post/rpc-xmc/</guid>
-      <description> References  Rate-Based Multivariable Control with Stability Assurance RPC Performance and Stability Analysis The History, and Possible Future, of Model-Less Multivariable Control https://www.controleng.com/articles/what-is-rate-predictive-control/  </description>
-    </item>
-    
-    <item>
-      <title>Real-Time Optimization</title>
-      <link>https://vuongvtrinh.github.io/post/rto/</link>
-      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://vuongvtrinh.github.io/post/rto/</guid>
-      <description> References  A Reliable Modifier-Adaptation Strategy for Real-Time Optimization  </description>
-    </item>
-    
-    <item>
       <title>PID Tuning</title>
       <link>https://vuongvtrinh.github.io/post/pid/</link>
       <pubDate>Sun, 27 Jan 2019 00:00:00 +0000</pubDate>
