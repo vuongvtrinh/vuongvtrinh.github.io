@@ -17,7 +17,7 @@
       <guid>https://vuongvtrinh.github.io/post/technical-resources-for-automation-and-control-professionals/</guid>
       <description>
 
-&lt;h1 id=&#34;automation-control&#34;&gt;Automation &amp;amp; Control&lt;/h1&gt;
+&lt;h2 id=&#34;automation-control&#34;&gt;Automation &amp;amp; Control&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;A Guide to the Automation Body of Knowledge&lt;/em&gt;, Vernon L. Trevathan&lt;/li&gt;
@@ -29,13 +29,13 @@
 &lt;li&gt;&lt;em&gt;Basic and Advanced Regulatory Control: System Design and Application&lt;/em&gt;, Harold L. Wade&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;miscellaneous&#34;&gt;Miscellaneous&lt;/h1&gt;
+&lt;h2 id=&#34;miscellaneous&#34;&gt;Miscellaneous&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;Oil and Gas Production Handbook - An introduction to oil and gas production, transport, refining and petrochemical industry&lt;/em&gt;, Devold Havard&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;software&#34;&gt;Software&lt;/h1&gt;
+&lt;h2 id=&#34;software&#34;&gt;Software&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://web.casadi.org/&#34; target=&#34;_blank&#34;&gt;CasADi&lt;/a&gt;&lt;/li&gt;
@@ -44,7 +44,7 @@
 &lt;li&gt;&lt;a href=&#34;https://github.com/meco-group/omg-tools&#34; target=&#34;_blank&#34;&gt;Optimal Motion Generation-tools&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;links&#34;&gt;Links&lt;/h1&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.isa.org/&#34; target=&#34;_blank&#34;&gt;https://www.isa.org/&lt;/a&gt;&lt;/li&gt;
@@ -66,7 +66,7 @@
 
 &lt;p&gt;&lt;img src=&#34;rpc.png&#34; alt=&#34;rpc.png&#34; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;references&#34;&gt;References&lt;/h1&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;US20170108836A1.pdf&#34; target=&#34;_blank&#34;&gt;Rate-Based Multivariable Control with Stability Assurance&lt;/a&gt;&lt;/li&gt;
@@ -87,7 +87,7 @@
 
 &lt;p&gt;&lt;img src=&#34;rto.png&#34; alt=&#34;rto.png&#34; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;references&#34;&gt;References&lt;/h1&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0098135416300813&#34; target=&#34;_blank&#34;&gt;A Reliable Modifier-Adaptation Strategy for Real-Time Optimization&lt;/a&gt;&lt;/li&gt;
@@ -103,13 +103,13 @@
       <guid>https://vuongvtrinh.github.io/post/pid/</guid>
       <description>
 
-&lt;h1 id=&#34;relay-method&#34;&gt;Relay Method&lt;/h1&gt;
+&lt;h2 id=&#34;relay-method&#34;&gt;Relay Method&lt;/h2&gt;
 
-&lt;h1 id=&#34;simple-internal-model-control-method-simc&#34;&gt;Simple Internal Model Control Method (SIMC)&lt;/h1&gt;
+&lt;h2 id=&#34;simple-internal-model-control-method-simc&#34;&gt;Simple Internal Model Control Method (SIMC)&lt;/h2&gt;
 
-&lt;h1 id=&#34;iterative-feedback-tuning-method-ift&#34;&gt;Iterative Feedback Tuning Method (IFT)&lt;/h1&gt;
+&lt;h2 id=&#34;iterative-feedback-tuning-method-ift&#34;&gt;Iterative Feedback Tuning Method (IFT)&lt;/h2&gt;
 
-&lt;h1 id=&#34;references&#34;&gt;References&lt;/h1&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;The SIMC Method for Smooth PID Controller Tuning.pdf&#34; target=&#34;_blank&#34;&gt;The SIMC Method for Smooth PID Controller Tuning&lt;/a&gt;&lt;/li&gt;
