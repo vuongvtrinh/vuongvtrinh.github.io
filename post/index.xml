@@ -40,6 +40,15 @@
     </item>
     
     <item>
+      <title>PID Control &amp; Tuning</title>
+      <link>https://vuongvtrinh.github.io/post/pid/</link>
+      <pubDate>Sun, 27 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/post/pid/</guid>
+      <description> References  The SIMC Method for Smooth PID Controller Tuning  </description>
+    </item>
+    
+    <item>
       <title>Data Analytics Dashboard using Flask and Highcharts</title>
       <link>https://vuongvtrinh.github.io/post/data-analytics-dashboard/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>

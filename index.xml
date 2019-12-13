@@ -96,6 +96,22 @@
     </item>
     
     <item>
+      <title>PID Control &amp; Tuning</title>
+      <link>https://vuongvtrinh.github.io/post/pid/</link>
+      <pubDate>Sun, 27 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/post/pid/</guid>
+      <description>
+
+&lt;h1 id=&#34;references&#34;&gt;References&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;The SIMC Method for Smooth PID Controller Tuning.pdf&#34; target=&#34;_blank&#34;&gt;The SIMC Method for Smooth PID Controller Tuning&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>CC BY SA</title>
       <link>https://vuongvtrinh.github.io/license/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0700</pubDate>
@@ -623,24 +639,6 @@ Net flow: -$99.7M
       
       <guid>https://vuongvtrinh.github.io/publication/2017-wsn-atc/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Automated Control System for Wood Pellet Production</title>
-      <link>https://vuongvtrinh.github.io/project/wood-pellet-production/</link>
-      <pubDate>Wed, 15 Jan 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://vuongvtrinh.github.io/project/wood-pellet-production/</guid>
-      <description>
-
-&lt;h1 id=&#34;drying-process&#34;&gt;Drying Process&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;drying_process_diagram.png&#34; alt=&#34;drying_process_diagram.png&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;drying_control_strategy.png&#34; alt=&#34;drying_control_strategy.png&#34; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;granulation-pellet-mill&#34;&gt;Granulation &amp;amp; Pellet Mill&lt;/h1&gt;
-</description>
     </item>
     
   </channel>
