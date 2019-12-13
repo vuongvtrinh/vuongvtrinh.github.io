@@ -57,11 +57,11 @@
     </item>
     
     <item>
-      <title>PID Tuning</title>
-      <link>https://vuongvtrinh.github.io/post/pid-tuning/</link>
-      <pubDate>Sun, 27 Jan 2019 00:00:00 +0000</pubDate>
+      <title>PID Auto-Tuning</title>
+      <link>https://vuongvtrinh.github.io/post/pid-auto-tuning/</link>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vuongvtrinh.github.io/post/pid-tuning/</guid>
+      <guid>https://vuongvtrinh.github.io/post/pid-auto-tuning/</guid>
       <description>
 
 &lt;h2 id=&#34;first-tuning&#34;&gt;First tuning&lt;/h2&gt;
@@ -97,6 +97,8 @@
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.controleng.com/articles/relay-method-automates-pid-loop-tuning/&#34; target=&#34;_blank&#34;&gt;https://www.controleng.com/articles/relay-method-automates-pid-loop-tuning/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;relay1984.pdf&#34; target=&#34;_blank&#34;&gt;Automatic Tuning of Simple Regulators with Specifications on Phase and Amplitude Margins&lt;/a&gt;, Karl J. Astrom and Tore Hagglund&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;simc2003.pdf&#34; target=&#34;_blank&#34;&gt;Simple Analytic Rules for Model Reduction and PID Controller Tuning&lt;/a&gt;, Sigurd Skogestad&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;simc2012.pdf&#34; target=&#34;_blank&#34;&gt;The SIMC Method for Smooth PID Controller Tuning&lt;/a&gt;, Sigurd Skogestad and Chriss Grimholt&lt;/li&gt;
 &lt;/ul&gt;
