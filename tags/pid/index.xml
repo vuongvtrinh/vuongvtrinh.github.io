@@ -13,12 +13,12 @@
     
     
     <item>
-      <title>PID Control &amp; Tuning</title>
+      <title>PID Tuning</title>
       <link>https://vuongvtrinh.github.io/post/pid/</link>
       <pubDate>Sun, 27 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/post/pid/</guid>
-      <description> References  The SIMC Method for Smooth PID Controller Tuning  </description>
+      <description>Three most popular PID tuning methods in practice: Relay, SIMC and IFT.</description>
     </item>
     
   </channel>

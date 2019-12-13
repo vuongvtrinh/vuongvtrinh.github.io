@@ -96,12 +96,18 @@
     </item>
     
     <item>
-      <title>PID Control &amp; Tuning</title>
+      <title>PID Tuning</title>
       <link>https://vuongvtrinh.github.io/post/pid/</link>
       <pubDate>Sun, 27 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/post/pid/</guid>
       <description>
+
+&lt;h1 id=&#34;relay-method&#34;&gt;Relay Method&lt;/h1&gt;
+
+&lt;h1 id=&#34;simple-internal-model-control-method-simc&#34;&gt;Simple Internal Model Control Method (SIMC)&lt;/h1&gt;
+
+&lt;h1 id=&#34;iterative-feedback-tuning-method-ift&#34;&gt;Iterative Feedback Tuning Method (IFT)&lt;/h1&gt;
 
 &lt;h1 id=&#34;references&#34;&gt;References&lt;/h1&gt;
 
