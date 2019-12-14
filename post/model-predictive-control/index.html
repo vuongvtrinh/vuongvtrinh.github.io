@@ -15,10 +15,10 @@
   
     
   
-  <meta name="description" content="Three most popular PID tuning methods in practice: Relay, SIMC and IFT.">
+  <meta name="description" content=" Linear MPC Adaptive MPC Nonlinear MPC Explicit MPC Economic MPC Distributed MPC Software  CasADi MPCTools ACADOtoolkit OMGtools  References ">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://vuongvtrinh.github.io/post/pid-tuning/">
+  <link rel="alternate" hreflang="en-us" href="https://vuongvtrinh.github.io/post/model-predictive-control/">
 
   
 
@@ -94,7 +94,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://vuongvtrinh.github.io/post/pid-tuning/">
+  <link rel="canonical" href="https://vuongvtrinh.github.io/post/model-predictive-control/">
 
   
   
@@ -105,21 +105,21 @@
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Vuong V. Trinh">
-  <meta property="og:url" content="https://vuongvtrinh.github.io/post/pid-tuning/">
-  <meta property="og:title" content="PID Tuning | Vuong V. Trinh">
-  <meta property="og:description" content="Three most popular PID tuning methods in practice: Relay, SIMC and IFT."><meta property="og:image" content="https://vuongvtrinh.github.io/post/pid-tuning/featured.png">
+  <meta property="og:url" content="https://vuongvtrinh.github.io/post/model-predictive-control/">
+  <meta property="og:title" content="Model Predictive Control | Vuong V. Trinh">
+  <meta property="og:description" content=" Linear MPC Adaptive MPC Nonlinear MPC Explicit MPC Economic MPC Distributed MPC Software  CasADi MPCTools ACADOtoolkit OMGtools  References "><meta property="og:image" content="https://vuongvtrinh.github.io/post/model-predictive-control/featured.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2019-01-29T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2019-01-28T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2019-01-29T00:00:00&#43;00:00">
-  
-
+  <meta property="article:modified_time" content="2019-01-28T00:00:00&#43;00:00">
   
 
   
 
-  <title>PID Tuning | Vuong V. Trinh</title>
+  
+
+  <title>Model Predictive Control | Vuong V. Trinh</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -293,7 +293,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">PID Tuning</h1>
+  <h1 itemprop="name">Model Predictive Control</h1>
 
   
 
@@ -311,9 +311,9 @@
 
   <span class="article-date">
     
-    <meta content="2019-01-29 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-    <time datetime="2019-01-29 00:00:00 &#43;0000 UTC" itemprop="dateModified">
-      Jan 29, 2019
+    <meta content="2019-01-28 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+    <time datetime="2019-01-28 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+      Jan 28, 2019
     </time>
   </span>
   <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
@@ -333,35 +333,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=PID%20Tuning&amp;url=https%3a%2f%2fvuongvtrinh.github.io%2fpost%2fpid-tuning%2f"
+         href="https://twitter.com/intent/tweet?text=Model%20Predictive%20Control&amp;url=https%3a%2f%2fvuongvtrinh.github.io%2fpost%2fmodel-predictive-control%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fvuongvtrinh.github.io%2fpost%2fpid-tuning%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fvuongvtrinh.github.io%2fpost%2fmodel-predictive-control%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-facebook-f"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fvuongvtrinh.github.io%2fpost%2fpid-tuning%2f&amp;title=PID%20Tuning"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fvuongvtrinh.github.io%2fpost%2fmodel-predictive-control%2f&amp;title=Model%20Predictive%20Control"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fvuongvtrinh.github.io%2fpost%2fpid-tuning%2f&amp;title=PID%20Tuning"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fvuongvtrinh.github.io%2fpost%2fmodel-predictive-control%2f&amp;title=Model%20Predictive%20Control"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=PID%20Tuning&amp;body=https%3a%2f%2fvuongvtrinh.github.io%2fpost%2fpid-tuning%2f">
+         href="mailto:?subject=Model%20Predictive%20Control&amp;body=https%3a%2f%2fvuongvtrinh.github.io%2fpost%2fmodel-predictive-control%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -400,44 +400,28 @@
     <div class="article-style" itemprop="articleBody">
       
 
-<h2 id="first-tuning">First tuning</h2>
+<h2 id="linear-mpc">Linear MPC</h2>
 
-<h3 id="relay-method">Relay Method</h3>
+<h2 id="adaptive-mpc">Adaptive MPC</h2>
 
-<ul>
-<li>Stable/Unstable processes</li>
-<li>No trajectory selection</li>
-<li>Need around 4 cycles: can take time for a slow process</li>
-</ul>
+<h2 id="nonlinear-mpc">Nonlinear MPC</h2>
 
-<h3 id="simple-internal-model-control-method-simc">Simple Internal Model Control Method (SIMC)</h3>
+<h2 id="explicit-mpc">Explicit MPC</h2>
 
-<ul>
-<li>Stable process only</li>
-<li>Desired trajectory to be specified by user</li>
-<li>One single step: fast</li>
-</ul>
+<h2 id="economic-mpc">Economic MPC</h2>
 
-<h2 id="fine-tuning">Fine tuning</h2>
+<h2 id="distributed-mpc">Distributed MPC</h2>
 
-<h3 id="iterative-feedback-tuning-method-ift">Iterative Feedback Tuning Method (IFT)</h3>
+<h2 id="software">Software</h2>
 
 <ul>
-<li>Need an existing tuning not too bad</li>
-<li>Desired trajectory to be specified by user</li>
-<li>Close loop tuning: better safety</li>
-<li>Need around 4 cycles: can take time for a slow process</li>
-<li>Note: cannot be used if the set-point is calculated in PLC</li>
+<li><a href="https://web.casadi.org/" target="_blank">CasADi</a></li>
+<li><a href="https://bitbucket.org/rawlings-group/mpc-tools-casadi" target="_blank">MPCTools</a></li>
+<li><a href="https://acado.github.io/" target="_blank">ACADOtoolkit</a></li>
+<li><a href="https://github.com/meco-group/omg-tools" target="_blank">OMGtools</a></li>
 </ul>
 
 <h2 id="references">References</h2>
-
-<ul>
-<li><a href="https://www.controleng.com/articles/relay-method-automates-pid-loop-tuning/" target="_blank">https://www.controleng.com/articles/relay-method-automates-pid-loop-tuning/</a></li>
-<li><a href="relay1984.pdf" target="_blank">Automatic Tuning of Simple Regulators with Specifications on Phase and Amplitude Margins</a>, Karl J. Astrom and Tore Hagglund</li>
-<li><a href="simc2003.pdf" target="_blank">Simple Analytic Rules for Model Reduction and PID Controller Tuning</a>, Sigurd Skogestad</li>
-<li><a href="simc2012.pdf" target="_blank">The SIMC Method for Smooth PID Controller Tuning</a>, Sigurd Skogestad and Chriss Grimholt</li>
-</ul>
 
     </div>
 
@@ -450,9 +434,7 @@
   
   <a class="badge badge-light" href="/tags/control-engineering/">control-engineering</a>
   
-  <a class="badge badge-light" href="/tags/pid/">pid</a>
-  
-  <a class="badge badge-light" href="/tags/auto-tuning/">auto-tuning</a>
+  <a class="badge badge-light" href="/tags/model-predictive-control/">model-predictive-control</a>
   
 </div>
 
@@ -600,8 +582,6 @@
       <div class="hr-light"></div>
       <h3>Related</h3>
       <ul>
-        
-        <li><a href="/post/model-predictive-control/">Model Predictive Control</a></li>
         
         <li><a href="/project/cryogenic-refrigerator/">Innovative Advanced Control of Large Cryogenic Systems</a></li>
         

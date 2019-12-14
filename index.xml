@@ -35,15 +35,6 @@
 &lt;li&gt;&lt;em&gt;Oil and Gas Production Handbook - An introduction to oil and gas production, transport, refining and petrochemical industry&lt;/em&gt;, Devold Havard&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;software&#34;&gt;Software&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://web.casadi.org/&#34; target=&#34;_blank&#34;&gt;CasADi&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://bitbucket.org/rawlings-group/mpc-tools-casadi&#34; target=&#34;_blank&#34;&gt;MPCTools&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://acado.github.io/&#34; target=&#34;_blank&#34;&gt;ACADOtoolkit&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/meco-group/omg-tools&#34; target=&#34;_blank&#34;&gt;OMGtools&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
 
 &lt;ul&gt;
@@ -102,6 +93,39 @@
 &lt;li&gt;&lt;a href=&#34;simc2003.pdf&#34; target=&#34;_blank&#34;&gt;Simple Analytic Rules for Model Reduction and PID Controller Tuning&lt;/a&gt;, Sigurd Skogestad&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;simc2012.pdf&#34; target=&#34;_blank&#34;&gt;The SIMC Method for Smooth PID Controller Tuning&lt;/a&gt;, Sigurd Skogestad and Chriss Grimholt&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Model Predictive Control</title>
+      <link>https://vuongvtrinh.github.io/post/model-predictive-control/</link>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/post/model-predictive-control/</guid>
+      <description>
+
+&lt;h2 id=&#34;linear-mpc&#34;&gt;Linear MPC&lt;/h2&gt;
+
+&lt;h2 id=&#34;adaptive-mpc&#34;&gt;Adaptive MPC&lt;/h2&gt;
+
+&lt;h2 id=&#34;nonlinear-mpc&#34;&gt;Nonlinear MPC&lt;/h2&gt;
+
+&lt;h2 id=&#34;explicit-mpc&#34;&gt;Explicit MPC&lt;/h2&gt;
+
+&lt;h2 id=&#34;economic-mpc&#34;&gt;Economic MPC&lt;/h2&gt;
+
+&lt;h2 id=&#34;distributed-mpc&#34;&gt;Distributed MPC&lt;/h2&gt;
+
+&lt;h2 id=&#34;software&#34;&gt;Software&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://web.casadi.org/&#34; target=&#34;_blank&#34;&gt;CasADi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bitbucket.org/rawlings-group/mpc-tools-casadi&#34; target=&#34;_blank&#34;&gt;MPCTools&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://acado.github.io/&#34; target=&#34;_blank&#34;&gt;ACADOtoolkit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/meco-group/omg-tools&#34; target=&#34;_blank&#34;&gt;OMGtools&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 </description>
     </item>
     
@@ -651,15 +675,6 @@ Net flow: -$99.7M
 
 &lt;h1 id=&#34;granulation-pellet-mill&#34;&gt;Granulation &amp;amp; Pellet Mill&lt;/h1&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Active Vibration Control</title>
-      <link>https://vuongvtrinh.github.io/project/active-vibration-control/</link>
-      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://vuongvtrinh.github.io/project/active-vibration-control/</guid>
-      <description></description>
     </item>
     
   </channel>

@@ -30,5 +30,14 @@
       <description>Three most popular PID tuning methods in practice: Relay, SIMC and IFT.</description>
     </item>
     
+    <item>
+      <title>Model Predictive Control</title>
+      <link>https://vuongvtrinh.github.io/post/model-predictive-control/</link>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/post/model-predictive-control/</guid>
+      <description> Linear MPC Adaptive MPC Nonlinear MPC Explicit MPC Economic MPC Distributed MPC Software  CasADi MPCTools ACADOtoolkit OMGtools  References </description>
+    </item>
+    
   </channel>
 </rss>
