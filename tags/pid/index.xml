@@ -13,12 +13,12 @@
     
     
     <item>
-      <title>PID Auto-Tuning</title>
-      <link>https://vuongvtrinh.github.io/post/pid-auto-tuning/</link>
+      <title>PID Tuning</title>
+      <link>https://vuongvtrinh.github.io/post/pid-tuning/</link>
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vuongvtrinh.github.io/post/pid-auto-tuning/</guid>
-      <description>Three most popular PID auto-tuning methods in practice: Relay, SIMC and IFT.</description>
+      <guid>https://vuongvtrinh.github.io/post/pid-tuning/</guid>
+      <description>Three most popular PID tuning methods in practice: Relay, SIMC and IFT.</description>
     </item>
     
   </channel>

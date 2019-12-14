@@ -57,11 +57,11 @@
     </item>
     
     <item>
-      <title>PID Auto-Tuning</title>
-      <link>https://vuongvtrinh.github.io/post/pid-auto-tuning/</link>
+      <title>PID Tuning</title>
+      <link>https://vuongvtrinh.github.io/post/pid-tuning/</link>
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vuongvtrinh.github.io/post/pid-auto-tuning/</guid>
+      <guid>https://vuongvtrinh.github.io/post/pid-tuning/</guid>
       <description>
 
 &lt;h2 id=&#34;first-tuning&#34;&gt;First tuning&lt;/h2&gt;
