@@ -106,9 +106,11 @@
 
 &lt;h2 id=&#34;linear-mpc&#34;&gt;Linear MPC&lt;/h2&gt;
 
-&lt;h2 id=&#34;adaptive-mpc&#34;&gt;Adaptive MPC&lt;/h2&gt;
-
 &lt;h2 id=&#34;nonlinear-mpc&#34;&gt;Nonlinear MPC&lt;/h2&gt;
+
+&lt;h2 id=&#34;robust-mpc&#34;&gt;Robust MPC&lt;/h2&gt;
+
+&lt;h2 id=&#34;adaptive-mpc&#34;&gt;Adaptive MPC&lt;/h2&gt;
 
 &lt;h2 id=&#34;explicit-mpc&#34;&gt;Explicit MPC&lt;/h2&gt;
 
@@ -124,8 +126,6 @@
 &lt;li&gt;&lt;a href=&#34;https://acado.github.io/&#34; target=&#34;_blank&#34;&gt;ACADOtoolkit&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/meco-group/omg-tools&#34; target=&#34;_blank&#34;&gt;OMGtools&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 </description>
     </item>
     
