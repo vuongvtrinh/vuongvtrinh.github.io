@@ -18,7 +18,7 @@
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/post/pid-auto-tuning/</guid>
-      <description>First tuning Relay Method  Stable/Unstable processes No trajectory selection Need around 4 cycles: can take time for a slow process  Simple Internal Model Control Method (SIMC)  Stable process only Desired trajectory to be specified by user One single step: fast  Fine tuning Iterative Feedback Tuning Method (IFT)  Need an existing tuning not too bad Desired trajectory to be specified by user Close loop tuning: better safety Need around 4 cycles: can take time for a slow process Note: cannot be used if the set-point is calculated in PLC  References  https://www.</description>
+      <description>Three most popular PID auto-tuning methods in practice: Relay, SIMC and IFT.</description>
     </item>
     
   </channel>
