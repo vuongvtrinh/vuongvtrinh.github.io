@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>biofuel on Vuong V. Trinh</title>
+    <link>https://vuongvtrinh.github.io/tags/biofuel/</link>
+    <description>Recent content in biofuel on Vuong V. Trinh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Vuong V. Trinh 2016</copyright>
+    <lastBuildDate>Wed, 15 Jan 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://vuongvtrinh.github.io/tags/biofuel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Automated Control System for Wood Pellet Production</title>
+      <link>https://vuongvtrinh.github.io/project/wood-pellet-production/</link>
+      <pubDate>Wed, 15 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/project/wood-pellet-production/</guid>
+      <description> Drying Process Granulation &amp;amp; Pellet Mill </description>
+    </item>
+    
+  </channel>
+</rss>
