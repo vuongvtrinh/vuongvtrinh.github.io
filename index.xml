@@ -58,6 +58,14 @@
 
 &lt;h2 id=&#34;anti-windup&#34;&gt;Anti-windup&lt;/h2&gt;
 
+&lt;h3 id=&#34;techniques&#34;&gt;Techniques&lt;/h3&gt;
+
+&lt;h4 id=&#34;incremental-algorithm&#34;&gt;Incremental algorithm&lt;/h4&gt;
+
+&lt;h4 id=&#34;back-calculation&#34;&gt;Back-calculation&lt;/h4&gt;
+
+&lt;h4 id=&#34;conditional-integration&#34;&gt;Conditional integration&lt;/h4&gt;
+
 &lt;h2 id=&#34;parameters-tuning&#34;&gt;Parameters tuning&lt;/h2&gt;
 
 &lt;p&gt;Three most popular PID tuning methods in practice: Relay, SIMC and IFT.&lt;/p&gt;
@@ -95,6 +103,7 @@
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;Anti-Windup_Techniques.pdf&#34; target=&#34;_blank&#34;&gt;Anti-Windup Techniques&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.controleng.com/articles/relay-method-automates-pid-loop-tuning/&#34; target=&#34;_blank&#34;&gt;https://www.controleng.com/articles/relay-method-automates-pid-loop-tuning/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;relay1984.pdf&#34; target=&#34;_blank&#34;&gt;Automatic Tuning of Simple Regulators with Specifications on Phase and Amplitude Margins&lt;/a&gt;, Karl J. Astrom and Tore Hagglund&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;simc2003.pdf&#34; target=&#34;_blank&#34;&gt;Simple Analytic Rules for Model Reduction and PID Controller Tuning&lt;/a&gt;, Sigurd Skogestad&lt;/li&gt;
