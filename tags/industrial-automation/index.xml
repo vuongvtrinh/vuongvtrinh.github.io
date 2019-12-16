@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>industrial-automation on Vuong V. Trinh</title>
@@ -22,12 +22,12 @@
     </item>
     
     <item>
-      <title>PID Tuning</title>
-      <link>https://vuongvtrinh.github.io/post/pid-tuning/</link>
+      <title>PID Control</title>
+      <link>https://vuongvtrinh.github.io/post/pid-control/</link>
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vuongvtrinh.github.io/post/pid-tuning/</guid>
-      <description>Three most popular PID tuning methods in practice: Relay, SIMC and IFT.</description>
+      <guid>https://vuongvtrinh.github.io/post/pid-control/</guid>
+      <description>Perspectives of PID control: anti-windup, parameters tuning.</description>
     </item>
     
     <item>
@@ -36,7 +36,7 @@
       <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/post/model-predictive-control/</guid>
-      <description> Linear MPC Nonlinear MPC Robust MPC Adaptive MPC Explicit MPC Economic MPC Distributed MPC Software  CasADi MPCTools ACADOtoolkit OMGtools  </description>
+      <description>Linear MPC Nonlinear MPC Robust MPC Adaptive MPC Explicit MPC Economic MPC Distributed MPC Software  CasADi MPCTools ACADOtoolkit OMGtools  </description>
     </item>
     
     <item>
@@ -65,7 +65,7 @@ Real-time validation</description>
       <pubDate>Wed, 15 Jan 2014 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/project/wood-pellet-production/</guid>
-      <description> Drying Process Granulation &amp;amp; Pellet Mill </description>
+      <description>Drying Process Granulation &amp;amp; Pellet Mill </description>
     </item>
     
   </channel>
