@@ -114,29 +114,11 @@
       <guid>https://vuongvtrinh.github.io/post/model-predictive-control/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;rhc.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;linear-mpc&#34;&gt;Linear MPC&lt;/h2&gt;
-
-&lt;h2 id=&#34;nonlinear-mpc&#34;&gt;Nonlinear MPC&lt;/h2&gt;
-
-&lt;h2 id=&#34;robust-mpc&#34;&gt;Robust MPC&lt;/h2&gt;
-
-&lt;h2 id=&#34;adaptive-mpc&#34;&gt;Adaptive MPC&lt;/h2&gt;
-
-&lt;h2 id=&#34;explicit-mpc&#34;&gt;Explicit MPC&lt;/h2&gt;
-
-&lt;h2 id=&#34;economic-mpc&#34;&gt;Economic MPC&lt;/h2&gt;
-
-&lt;h2 id=&#34;distributed-mpc&#34;&gt;Distributed MPC&lt;/h2&gt;
-
 &lt;h2 id=&#34;software&#34;&gt;Software&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://web.casadi.org/&#34; target=&#34;_blank&#34;&gt;CasADi&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://bitbucket.org/rawlings-group/mpc-tools-casadi&#34; target=&#34;_blank&#34;&gt;MPCTools&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://acado.github.io/&#34; target=&#34;_blank&#34;&gt;ACADOtoolkit&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/meco-group/omg-tools&#34; target=&#34;_blank&#34;&gt;OMGtools&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

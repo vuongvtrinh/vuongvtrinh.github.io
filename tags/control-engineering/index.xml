@@ -27,7 +27,7 @@
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/post/pid-control/</guid>
-      <description>Perspectives of PID control: anti-windup, parameters tuning.</description>
+      <description>Perspectives of PID control.</description>
     </item>
     
     <item>
@@ -36,7 +36,7 @@
       <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/post/model-predictive-control/</guid>
-      <description> Linear MPC Nonlinear MPC Robust MPC Adaptive MPC Explicit MPC Economic MPC Distributed MPC Software  CasADi MPCTools ACADOtoolkit OMGtools  </description>
+      <description>Perspectives of MPC control.</description>
     </item>
     
   </channel>
