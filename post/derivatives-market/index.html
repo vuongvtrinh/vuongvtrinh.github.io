@@ -406,7 +406,9 @@
 
 <p>COMEX Silver Futures: <a href="https://www.quandl.com/api/v3/datasets/CHRIS/CME_SI1.csv" target="_blank">https://www.quandl.com/api/v3/datasets/CHRIS/CME_SI1.csv</a></p>
 
-<pre><code>import pandas as pd
+<pre><code># mxv.py
+
+import pandas as pd
 import numpy as np
 
 import matplotlib.patches as mpatches
@@ -618,7 +620,9 @@ def volume_spread_analysis(quandl, market, NUM_PRICE_STEP, START_DATE):
     plt.savefig(market.replace('/', '_')+'.png', bbox_inches='tight')
 </code></pre>
 
-<pre><code>import quandl
+<pre><code># main.py
+
+import quandl
 import mxv
 quandl.ApiConfig.api_key = &quot;XXXXX&quot;
 

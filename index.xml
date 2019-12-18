@@ -657,7 +657,9 @@ Net flow: -$99.7M
 
 &lt;p&gt;COMEX Silver Futures: &lt;a href=&#34;https://www.quandl.com/api/v3/datasets/CHRIS/CME_SI1.csv&#34; target=&#34;_blank&#34;&gt;https://www.quandl.com/api/v3/datasets/CHRIS/CME_SI1.csv&lt;/a&gt;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;import pandas as pd
+&lt;pre&gt;&lt;code&gt;# mxv.py
+
+import pandas as pd
 import numpy as np
 
 import matplotlib.patches as mpatches
@@ -869,7 +871,9 @@ def volume_spread_analysis(quandl, market, NUM_PRICE_STEP, START_DATE):
     plt.savefig(market.replace(&#39;/&#39;, &#39;_&#39;)+&#39;.png&#39;, bbox_inches=&#39;tight&#39;)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;pre&gt;&lt;code&gt;import quandl
+&lt;pre&gt;&lt;code&gt;# main.py
+
+import quandl
 import mxv
 quandl.ApiConfig.api_key = &amp;quot;XXXXX&amp;quot;
 
