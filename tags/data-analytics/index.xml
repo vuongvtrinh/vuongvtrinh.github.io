@@ -21,5 +21,14 @@
       <description>A tutorial to develop a web dashboard for data analytics using Python Flask and JavaScript Highcharts.</description>
     </item>
     
+    <item>
+      <title>Derivatives Market in Vietnam</title>
+      <link>https://vuongvtrinh.github.io/post/derivatives-market/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/post/derivatives-market/</guid>
+      <description>Derivatives market in Vietnam: commodities and stocks.</description>
+    </item>
+    
   </channel>
 </rss>
