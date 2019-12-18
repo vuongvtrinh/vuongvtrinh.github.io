@@ -651,7 +651,7 @@ Net flow: -$99.7M
       <guid>https://vuongvtrinh.github.io/post/derivatives-market/</guid>
       <description>
 
-&lt;h2 id=&#34;data-analytics-with-quandl-api&#34;&gt;Data Analytics with Quandl API&lt;/h2&gt;
+&lt;h2 id=&#34;data-analytics-with-quandl&#34;&gt;Data Analytics with Quandl&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code&gt;import quandl
 
