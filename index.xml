@@ -653,9 +653,16 @@ Net flow: -$99.7M
 
 &lt;h2 id=&#34;data-analytics&#34;&gt;Data Analytics&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://blog.quandl.com/api-for-commodity-data?utm_source=direct&amp;amp;utm_medium=blog&amp;amp;utm_campaign=&amp;amp;utm_content=api-for-commodity-data&#34; target=&#34;_blank&#34;&gt;Quandl API for commodity data&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;quandl-api&#34;&gt;Quandl API&lt;/h3&gt;
 
-&lt;p&gt;Sample: &lt;a href=&#34;https://www.quandl.com/api/v3/datasets/CHRIS/ICE_KC1.csv&#34; target=&#34;_blank&#34;&gt;https://www.quandl.com/api/v3/datasets/CHRIS/ICE_KC1.csv&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;import quandl
+
+# API configuration
+quandl.ApiConfig.api_key = &amp;quot;XXXXX&amp;quot;
+
+# Fetch https://www.quandl.com/api/v3/datasets/CHRIS/ICE_KC1.csv
+data = quandl.get(&amp;quot;CHRIS/ICE_KC1&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 

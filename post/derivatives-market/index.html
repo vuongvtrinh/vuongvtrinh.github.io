@@ -402,9 +402,16 @@
 
 <h2 id="data-analytics">Data Analytics</h2>
 
-<p><a href="https://blog.quandl.com/api-for-commodity-data?utm_source=direct&amp;utm_medium=blog&amp;utm_campaign=&amp;utm_content=api-for-commodity-data" target="_blank">Quandl API for commodity data</a></p>
+<h3 id="quandl-api">Quandl API</h3>
 
-<p>Sample: <a href="https://www.quandl.com/api/v3/datasets/CHRIS/ICE_KC1.csv" target="_blank">https://www.quandl.com/api/v3/datasets/CHRIS/ICE_KC1.csv</a></p>
+<pre><code>import quandl
+
+# API configuration
+quandl.ApiConfig.api_key = &quot;XXXXX&quot;
+
+# Fetch https://www.quandl.com/api/v3/datasets/CHRIS/ICE_KC1.csv
+data = quandl.get(&quot;CHRIS/ICE_KC1&quot;)
+</code></pre>
 
 <h2 id="references">References</h2>
 
