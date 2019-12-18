@@ -146,6 +146,35 @@
     </item>
     
     <item>
+      <title>Derivatives Market in Vietnam</title>
+      <link>https://vuongvtrinh.github.io/post/derivatives-market/</link>
+      <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/post/derivatives-market/</guid>
+      <description>
+
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+
+&lt;h3 id=&#34;books&#34;&gt;Books&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Options, Futures, and Other Derivatives&lt;/em&gt;, John C. Hull&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Reminiscences of a Stock Operator&lt;/em&gt;, Edwin Lefevre&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Master the Markets&lt;/em&gt;, Tom Williams&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Trading in the Shadow of the Smart Money&lt;/em&gt;, Gavin Holmes&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Heard on The Street: Quantitative Questions from Wall Street Job Interviews&lt;/em&gt;, Timothy Falcon&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;A Practical Guide To Quantitative Finance Interviews&lt;/em&gt;, Xinfeng Zhou&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;links&#34;&gt;Links&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.mxv.com.vn/&#34; target=&#34;_blank&#34;&gt;Mercaltile Exchange of Vietnam&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Data Analytics Dashboard using Flask and Highcharts</title>
       <link>https://vuongvtrinh.github.io/post/data-analytics-dashboard/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
@@ -659,24 +688,6 @@ Net flow: -$99.7M
       
       <guid>https://vuongvtrinh.github.io/publication/2017-wsn-atc/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Wood Pellet Production</title>
-      <link>https://vuongvtrinh.github.io/project/wood-pellet-production/</link>
-      <pubDate>Wed, 15 Jan 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://vuongvtrinh.github.io/project/wood-pellet-production/</guid>
-      <description>
-
-&lt;h2 id=&#34;drying-process&#34;&gt;Drying Process&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;drying_process_diagram.png&#34; alt=&#34;drying_process_diagram.png&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;drying_control_strategy.png&#34; alt=&#34;drying_control_strategy.png&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;granulation-pellet-mill&#34;&gt;Granulation &amp;amp; Pellet Mill&lt;/h2&gt;
-</description>
     </item>
     
   </channel>
