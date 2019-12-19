@@ -18,7 +18,7 @@
       <pubDate>Wed, 30 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/post/technical-resources-for-automation-and-control-professionals/</guid>
-      <description>Bibliography of automation and control engineering.</description>
+      <description>Automation and Control Bibliography</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/post/pid-control/</guid>
-      <description>PID Perspectives: Theory, Design and Tuning.</description>
+      <description>PID: Theory, Design and Tuning</description>
     </item>
     
     <item>
@@ -36,7 +36,7 @@
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/post/data-analytics-dashboard/</guid>
-      <description>Dashboard = Python/Flask + JavaScript/Highcharts.</description>
+      <description>Dashboard = Flask + Highcharts</description>
     </item>
     
   </channel>
