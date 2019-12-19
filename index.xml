@@ -50,7 +50,6 @@
 &lt;li&gt;&lt;a href=&#34;https://www.controlglobal.com/&#34; target=&#34;_blank&#34;&gt;https://www.controlglobal.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.automation.com/&#34; target=&#34;_blank&#34;&gt;https://www.automation.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCUKKQwBQZczpYzETkZNxi-w&#34; target=&#34;_blank&#34;&gt;https://realpars.com/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.schneideruniversities.com/&#34; target=&#34;_blank&#34;&gt;https://www.schneideruniversities.com/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -74,8 +73,6 @@
 &lt;h4 id=&#34;conditional-integration&#34;&gt;Conditional integration&lt;/h4&gt;
 
 &lt;h2 id=&#34;parameters-tuning&#34;&gt;Parameters tuning&lt;/h2&gt;
-
-&lt;p&gt;Three most popular PID tuning methods in practice: Relay, SIMC and IFT.&lt;/p&gt;
 
 &lt;h3 id=&#34;first-tuning&#34;&gt;First tuning&lt;/h3&gt;
 
@@ -111,7 +108,6 @@
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;Anti-Windup_Techniques.pdf&#34; target=&#34;_blank&#34;&gt;Anti-Windup Techniques&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.controleng.com/articles/relay-method-automates-pid-loop-tuning/&#34; target=&#34;_blank&#34;&gt;https://www.controleng.com/articles/relay-method-automates-pid-loop-tuning/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;relay1984.pdf&#34; target=&#34;_blank&#34;&gt;Automatic Tuning of Simple Regulators with Specifications on Phase and Amplitude Margins&lt;/a&gt;, Karl J. Astrom and Tore Hagglund&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;simc2003.pdf&#34; target=&#34;_blank&#34;&gt;Simple Analytic Rules for Model Reduction and PID Controller Tuning&lt;/a&gt;, Sigurd Skogestad&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;simc2012.pdf&#34; target=&#34;_blank&#34;&gt;The SIMC Method for Smooth PID Controller Tuning&lt;/a&gt;, Sigurd Skogestad and Chriss Grimholt&lt;/li&gt;

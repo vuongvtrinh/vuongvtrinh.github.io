@@ -18,7 +18,7 @@
       <pubDate>Wed, 30 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/post/technical-resources-for-automation-and-control-professionals/</guid>
-      <description>Useful resources on industrial automation and control engineering.</description>
+      <description>Automation &amp;amp; Control  A Guide to the Automation Body of Knowledge, Vernon L. Trevathan Instrument Engineers&amp;rsquo; Handbook: Process Measurement and Analysis, Béla G. Lipták Instrument Engineers&amp;rsquo; Handbook: Process Control and Optimization, Béla G. Lipták Instrument Engineers&amp;rsquo; Handbook: Process Software and Digital Networks, Béla G. Lipták The Condensed Handbook of Measurement and Control, N. E. Battikha Industrial Data Communications, Lawrence M. Thompson Basic and Advanced Regulatory Control: System Design and Application, Harold L.</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/post/pid-control/</guid>
-      <description>Perspectives of PID control.</description>
+      <description>Anti-windup Techniques Incremental algorithm Back-calculation Conditional integration Parameters tuning First tuning Relay Method  Stable/Unstable processes No trajectory selection Need around 4 cycles: can take time for a slow process  Simple Internal Model Control Method (SIMC)  Stable process only Desired trajectory to be specified by user One single step: fast  Fine tuning Iterative Feedback Tuning Method (IFT)  Need an existing tuning not too bad Desired trajectory to be specified by user Close loop tuning: better safety Need around 4 cycles: can take time for a slow process Note: cannot be used if the set-point is calculated in PLC  References  Anti-Windup Techniques Automatic Tuning of Simple Regulators with Specifications on Phase and Amplitude Margins, Karl J.</description>
     </item>
     
   </channel>
