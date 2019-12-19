@@ -369,7 +369,7 @@ heroku ps:scale bot=1
     </item>
     
     <item>
-      <title>Quantitative Analytics and Trading Strategies</title>
+      <title>Quantitative Finance</title>
       <link>https://vuongvtrinh.github.io/project/quantitative-finance/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
@@ -378,7 +378,7 @@ heroku ps:scale bot=1
 
 &lt;p&gt;This project develops an intelligent data driven application to monitor blockchain projects and to analyze cryptoassets from both utility and speculation perspectives. We target blockchain entrepreneurs, investors and traders all along the life of projects: token generation, listing on secondary market, product delivery, product usage, and token valorization.&lt;/p&gt;
 
-&lt;h2 id=&#34;financial-data-analytics&#34;&gt;Financial Data Analytics&lt;/h2&gt;
+&lt;h2 id=&#34;financial-analytics&#34;&gt;Financial Analytics&lt;/h2&gt;
 
 &lt;h3 id=&#34;crypto-markets&#34;&gt;Crypto Markets&lt;/h3&gt;
 
@@ -515,13 +515,11 @@ Net flow: -$99.7M
 
 &lt;p&gt;&lt;img src=&#34;n.png&#34; alt=&#34;n.png&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;crypto-derivatives&#34;&gt;Crypto Derivatives&lt;/h3&gt;
-
 &lt;h4 id=&#34;funding-rate&#34;&gt;Funding rate&lt;/h4&gt;
 
 &lt;h4 id=&#34;open-interest&#34;&gt;Open interest&lt;/h4&gt;
 
-&lt;h2 id=&#34;commodity-and-stock-markets&#34;&gt;Commodity and Stock Markets&lt;/h2&gt;
+&lt;h3 id=&#34;commodity-and-stock-markets&#34;&gt;Commodity and Stock Markets&lt;/h3&gt;
 
 &lt;p&gt;COMEX Silver Futures: &lt;a href=&#34;https://www.quandl.com/api/v3/datasets/CHRIS/CME_SI1.csv&#34; target=&#34;_blank&#34;&gt;https://www.quandl.com/api/v3/datasets/CHRIS/CME_SI1.csv&lt;/a&gt;&lt;/p&gt;
 
