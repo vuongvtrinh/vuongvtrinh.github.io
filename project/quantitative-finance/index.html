@@ -545,6 +545,23 @@ Net flow: -$99.7M
 
 <h4 id="open-interest">Open interest</h4>
 
+<h2 id="commodity-and-stock-markets">Commodity and Stock Markets</h2>
+
+<p>COMEX Silver Futures: <a href="https://www.quandl.com/api/v3/datasets/CHRIS/CME_SI1.csv" target="_blank">https://www.quandl.com/api/v3/datasets/CHRIS/CME_SI1.csv</a></p>
+
+<pre><code>import quandl
+import mxv
+quandl.ApiConfig.api_key = &quot;XXXXX&quot;
+
+market = &quot;CHRIS/CME_SI1&quot;
+START_DATE = &quot;2019-01-01&quot;
+NUM_PRICE_STEP = 25
+
+mxv.volume_spread_analysis(quandl, market, NUM_PRICE_STEP, START_DATE)
+</code></pre>
+
+<p><img src="CHRIS_CME_SI1.png" alt="CHRIS_CME_SI1.png" /></p>
+
 <h2 id="trading-strategies">Trading Strategies</h2>
 
 <h3 id="position-sizing-and-leverage">Position sizing and leverage</h3>
@@ -590,6 +607,17 @@ Net flow: -$99.7M
 
   
 </div>
+
+<h2 id="references">References</h2>
+
+<ul>
+<li><em>Options, Futures, and Other Derivatives</em>, John C. Hull</li>
+<li><em>Reminiscences of a Stock Operator</em>, Edwin Lefevre</li>
+<li><em>Master the Markets</em>, Tom Williams</li>
+<li><em>Trading in the Shadow of the Smart Money</em>, Gavin Holmes</li>
+<li><em>Heard on The Street: Quantitative Questions from Wall Street Job Interviews</em>, Timothy Falcon</li>
+<li><em>A Practical Guide To Quantitative Finance Interviews</em>, Xinfeng Zhou</li>
+</ul>
 
     </div>
 

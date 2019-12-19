@@ -35,6 +35,13 @@
 &lt;li&gt;&lt;em&gt;Oil and Gas Production Handbook - An introduction to oil and gas production, transport, refining and petrochemical industry&lt;/em&gt;, Devold Havard&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h2 id=&#34;software&#34;&gt;Software&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://web.casadi.org/&#34; target=&#34;_blank&#34;&gt;CasADi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://acado.github.io/&#34; target=&#34;_blank&#34;&gt;ACADOtoolkit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
 
 &lt;ul&gt;
@@ -110,23 +117,6 @@
 &lt;li&gt;&lt;a href=&#34;simc2012.pdf&#34; target=&#34;_blank&#34;&gt;The SIMC Method for Smooth PID Controller Tuning&lt;/a&gt;, Sigurd Skogestad and Chriss Grimholt&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;PID_Operator_Tuning_and_Auto-Tuning.pdf&#34; target=&#34;_blank&#34;&gt;PID Operator Tuning and Auto-Tuning&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;PID_Auto-Tuning.pdf&#34; target=&#34;_blank&#34;&gt;PID Auto-Tuning&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Model Predictive Control</title>
-      <link>https://vuongvtrinh.github.io/post/model-predictive-control/</link>
-      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://vuongvtrinh.github.io/post/model-predictive-control/</guid>
-      <description>
-
-&lt;h2 id=&#34;software&#34;&gt;Software&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://web.casadi.org/&#34; target=&#34;_blank&#34;&gt;CasADi&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://acado.github.io/&#34; target=&#34;_blank&#34;&gt;ACADOtoolkit&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -531,6 +521,23 @@ Net flow: -$99.7M
 
 &lt;h4 id=&#34;open-interest&#34;&gt;Open interest&lt;/h4&gt;
 
+&lt;h2 id=&#34;commodity-and-stock-markets&#34;&gt;Commodity and Stock Markets&lt;/h2&gt;
+
+&lt;p&gt;COMEX Silver Futures: &lt;a href=&#34;https://www.quandl.com/api/v3/datasets/CHRIS/CME_SI1.csv&#34; target=&#34;_blank&#34;&gt;https://www.quandl.com/api/v3/datasets/CHRIS/CME_SI1.csv&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;import quandl
+import mxv
+quandl.ApiConfig.api_key = &amp;quot;XXXXX&amp;quot;
+
+market = &amp;quot;CHRIS/CME_SI1&amp;quot;
+START_DATE = &amp;quot;2019-01-01&amp;quot;
+NUM_PRICE_STEP = 25
+
+mxv.volume_spread_analysis(quandl, market, NUM_PRICE_STEP, START_DATE)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;CHRIS_CME_SI1.png&#34; alt=&#34;CHRIS_CME_SI1.png&#34; /&gt;&lt;/p&gt;
+
 &lt;h2 id=&#34;trading-strategies&#34;&gt;Trading Strategies&lt;/h2&gt;
 
 &lt;h3 id=&#34;position-sizing-and-leverage&#34;&gt;Position sizing and leverage&lt;/h3&gt;
@@ -576,6 +583,17 @@ Net flow: -$99.7M
 
   
 &lt;/div&gt;
+
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Options, Futures, and Other Derivatives&lt;/em&gt;, John C. Hull&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Reminiscences of a Stock Operator&lt;/em&gt;, Edwin Lefevre&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Master the Markets&lt;/em&gt;, Tom Williams&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Trading in the Shadow of the Smart Money&lt;/em&gt;, Gavin Holmes&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Heard on The Street: Quantitative Questions from Wall Street Job Interviews&lt;/em&gt;, Timothy Falcon&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;A Practical Guide To Quantitative Finance Interviews&lt;/em&gt;, Xinfeng Zhou&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -644,54 +662,6 @@ Net flow: -$99.7M
     </item>
     
     <item>
-      <title>Derivatives Market</title>
-      <link>https://vuongvtrinh.github.io/post/derivatives-market/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://vuongvtrinh.github.io/post/derivatives-market/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;mxv.png&#34; alt=&#34;mxv&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;financial-data-analytics-with-quandl&#34;&gt;Financial Data Analytics with Quandl&lt;/h2&gt;
-
-&lt;p&gt;COMEX Silver Futures: &lt;a href=&#34;https://www.quandl.com/api/v3/datasets/CHRIS/CME_SI1.csv&#34; target=&#34;_blank&#34;&gt;https://www.quandl.com/api/v3/datasets/CHRIS/CME_SI1.csv&lt;/a&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;import quandl
-import mxv
-quandl.ApiConfig.api_key = &amp;quot;XXXXX&amp;quot;
-
-market = &amp;quot;CHRIS/CME_SI1&amp;quot;
-START_DATE = &amp;quot;2019-01-01&amp;quot;
-NUM_PRICE_STEP = 25
-
-mxv.volume_spread_analysis(quandl, market, NUM_PRICE_STEP, START_DATE)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src=&#34;CHRIS_CME_SI1.png&#34; alt=&#34;CHRIS_CME_SI1.png&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-
-&lt;h3 id=&#34;books&#34;&gt;Books&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Options, Futures, and Other Derivatives&lt;/em&gt;, John C. Hull&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Reminiscences of a Stock Operator&lt;/em&gt;, Edwin Lefevre&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Master the Markets&lt;/em&gt;, Tom Williams&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Trading in the Shadow of the Smart Money&lt;/em&gt;, Gavin Holmes&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Heard on The Street: Quantitative Questions from Wall Street Job Interviews&lt;/em&gt;, Timothy Falcon&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;A Practical Guide To Quantitative Finance Interviews&lt;/em&gt;, Xinfeng Zhou&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;links&#34;&gt;Links&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.mxv.com.vn/&#34; target=&#34;_blank&#34;&gt;Mercantile Exchange of Vietnam&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Explicit model predictive control via nonlinear piecewise approximations</title>
       <link>https://vuongvtrinh.github.io/publication/2016-enmpc-nolcos/</link>
       <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
@@ -706,6 +676,33 @@ mxv.volume_spread_analysis(quandl, market, NUM_PRICE_STEP, START_DATE)
       <pubDate>Tue, 16 Aug 2016 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/publication/2017-wsn-atc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wood Pellet Production</title>
+      <link>https://vuongvtrinh.github.io/project/wood-pellet-production/</link>
+      <pubDate>Wed, 15 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/project/wood-pellet-production/</guid>
+      <description>
+
+&lt;h2 id=&#34;drying-process&#34;&gt;Drying Process&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;drying_process_diagram.png&#34; alt=&#34;drying_process_diagram.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;drying_control_strategy.png&#34; alt=&#34;drying_control_strategy.png&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;granulation-pellet-mill&#34;&gt;Granulation &amp;amp; Pellet Mill&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Active Vibration Control</title>
+      <link>https://vuongvtrinh.github.io/project/active-vibration-control/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/project/active-vibration-control/</guid>
       <description></description>
     </item>
     

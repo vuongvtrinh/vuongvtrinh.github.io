@@ -73,23 +73,6 @@
     
     <url>
     
-      <loc>https://vuongvtrinh.github.io/post/model-predictive-control/</loc>
-      <lastmod>2019-01-28T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/model-predictive-control/</loc>
-      <lastmod>2019-01-28T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>https://vuongvtrinh.github.io/license/</loc>
       <lastmod>2018-06-28T00:00:00+07:00</lastmod>
     </url>
@@ -283,6 +266,15 @@
     
     <url>
     
+      <loc>https://vuongvtrinh.github.io/tags/model-predictive-control/</loc>
+      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://vuongvtrinh.github.io/tags/optimization-control/</loc>
       <lastmod>2018-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -399,50 +391,6 @@
     
       <loc>https://vuongvtrinh.github.io/publication/2017-wsn-nics/</loc>
       <lastmod>2017-08-10T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/post/derivatives-market/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/commodities/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/cryptoassets/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/derivatives-market/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/stocks/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
     </url>
     
   

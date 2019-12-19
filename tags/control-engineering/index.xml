@@ -30,14 +30,5 @@
       <description>Perspectives of PID control.</description>
     </item>
     
-    <item>
-      <title>Model Predictive Control</title>
-      <link>https://vuongvtrinh.github.io/post/model-predictive-control/</link>
-      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://vuongvtrinh.github.io/post/model-predictive-control/</guid>
-      <description>Perspectives of MPC control.</description>
-    </item>
-    
   </channel>
 </rss>

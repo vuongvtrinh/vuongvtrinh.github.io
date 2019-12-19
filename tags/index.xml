@@ -40,15 +40,6 @@
     </item>
     
     <item>
-      <title>model-predictive-control</title>
-      <link>https://vuongvtrinh.github.io/tags/model-predictive-control/</link>
-      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://vuongvtrinh.github.io/tags/model-predictive-control/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>allocation-control</title>
       <link>https://vuongvtrinh.github.io/tags/allocation-control/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
@@ -193,6 +184,15 @@
     </item>
     
     <item>
+      <title>model-predictive-control</title>
+      <link>https://vuongvtrinh.github.io/tags/model-predictive-control/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/tags/model-predictive-control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>optimization-control</title>
       <link>https://vuongvtrinh.github.io/tags/optimization-control/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
@@ -243,42 +243,6 @@
       <pubDate>Sat, 30 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://vuongvtrinh.github.io/tags/solar-energy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>commodities</title>
-      <link>https://vuongvtrinh.github.io/tags/commodities/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://vuongvtrinh.github.io/tags/commodities/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cryptoassets</title>
-      <link>https://vuongvtrinh.github.io/tags/cryptoassets/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://vuongvtrinh.github.io/tags/cryptoassets/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>derivatives-market</title>
-      <link>https://vuongvtrinh.github.io/tags/derivatives-market/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://vuongvtrinh.github.io/tags/derivatives-market/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>stocks</title>
-      <link>https://vuongvtrinh.github.io/tags/stocks/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://vuongvtrinh.github.io/tags/stocks/</guid>
       <description></description>
     </item>
     
