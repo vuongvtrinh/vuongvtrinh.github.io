@@ -74,19 +74,15 @@
 
 &lt;h3 id=&#34;relay-method&#34;&gt;Relay Method&lt;/h3&gt;
 
-&lt;h3 id=&#34;simple-internal-model-control-method-simc&#34;&gt;Simple Internal Model Control Method (SIMC)&lt;/h3&gt;
+&lt;h3 id=&#34;super-internal-model-control-method-simc&#34;&gt;Super Internal Model Control Method (SIMC)&lt;/h3&gt;
 
 &lt;h3 id=&#34;iterative-feedback-tuning-method-ift&#34;&gt;Iterative Feedback Tuning Method (IFT)&lt;/h3&gt;
 
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;Anti-Windup_Techniques.pdf&#34; target=&#34;_blank&#34;&gt;Anti-Windup Techniques&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;relay1984.pdf&#34; target=&#34;_blank&#34;&gt;Automatic Tuning of Simple Regulators with Specifications on Phase and Amplitude Margins&lt;/a&gt;, Karl J. Astrom and Tore Hagglund&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;simc2003.pdf&#34; target=&#34;_blank&#34;&gt;Simple Analytic Rules for Model Reduction and PID Controller Tuning&lt;/a&gt;, Sigurd Skogestad&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;simc2012.pdf&#34; target=&#34;_blank&#34;&gt;The SIMC Method for Smooth PID Controller Tuning&lt;/a&gt;, Sigurd Skogestad and Chriss Grimholt&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;PID_Operator_Tuning_and_Auto-Tuning.pdf&#34; target=&#34;_blank&#34;&gt;PID Operator Tuning and Auto-Tuning&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;PID_Auto-Tuning.pdf&#34; target=&#34;_blank&#34;&gt;PID Auto-Tuning&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
