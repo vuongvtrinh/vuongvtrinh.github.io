@@ -64,45 +64,19 @@
 
 &lt;h2 id=&#34;anti-windup&#34;&gt;Anti-windup&lt;/h2&gt;
 
-&lt;h3 id=&#34;techniques&#34;&gt;Techniques&lt;/h3&gt;
+&lt;h3 id=&#34;incremental-algorithm&#34;&gt;Incremental algorithm&lt;/h3&gt;
 
-&lt;h4 id=&#34;incremental-algorithm&#34;&gt;Incremental algorithm&lt;/h4&gt;
+&lt;h3 id=&#34;back-calculation&#34;&gt;Back-calculation&lt;/h3&gt;
 
-&lt;h4 id=&#34;back-calculation&#34;&gt;Back-calculation&lt;/h4&gt;
-
-&lt;h4 id=&#34;conditional-integration&#34;&gt;Conditional integration&lt;/h4&gt;
+&lt;h3 id=&#34;conditional-integration&#34;&gt;Conditional integration&lt;/h3&gt;
 
 &lt;h2 id=&#34;parameters-tuning&#34;&gt;Parameters tuning&lt;/h2&gt;
 
-&lt;h3 id=&#34;first-tuning&#34;&gt;First tuning&lt;/h3&gt;
+&lt;h3 id=&#34;relay-method&#34;&gt;Relay Method&lt;/h3&gt;
 
-&lt;h4 id=&#34;relay-method&#34;&gt;Relay Method&lt;/h4&gt;
+&lt;h3 id=&#34;simple-internal-model-control-method-simc&#34;&gt;Simple Internal Model Control Method (SIMC)&lt;/h3&gt;
 
-&lt;ul&gt;
-&lt;li&gt;Stable/Unstable processes&lt;/li&gt;
-&lt;li&gt;No trajectory selection&lt;/li&gt;
-&lt;li&gt;Need around 4 cycles: can take time for a slow process&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;simple-internal-model-control-method-simc&#34;&gt;Simple Internal Model Control Method (SIMC)&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Stable process only&lt;/li&gt;
-&lt;li&gt;Desired trajectory to be specified by user&lt;/li&gt;
-&lt;li&gt;One single step: fast&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;fine-tuning&#34;&gt;Fine tuning&lt;/h3&gt;
-
-&lt;h4 id=&#34;iterative-feedback-tuning-method-ift&#34;&gt;Iterative Feedback Tuning Method (IFT)&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Need an existing tuning not too bad&lt;/li&gt;
-&lt;li&gt;Desired trajectory to be specified by user&lt;/li&gt;
-&lt;li&gt;Close loop tuning: better safety&lt;/li&gt;
-&lt;li&gt;Need around 4 cycles: can take time for a slow process&lt;/li&gt;
-&lt;li&gt;Note: cannot be used if the set-point is calculated in PLC&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h3 id=&#34;iterative-feedback-tuning-method-ift&#34;&gt;Iterative Feedback Tuning Method (IFT)&lt;/h3&gt;
 
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 
