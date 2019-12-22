@@ -137,7 +137,6 @@
 &lt;li&gt;Client - Server&lt;/li&gt;
 &lt;li&gt;Producer - Consumer&lt;/li&gt;
 &lt;li&gt;Traffic types&lt;/li&gt;
-&lt;li&gt;Profile&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;physical-media&#34;&gt;Physical Media&lt;/h3&gt;
@@ -161,6 +160,14 @@
 &lt;h4 id=&#34;optical-fibre&#34;&gt;Optical fibre&lt;/h4&gt;
 
 &lt;p&gt;Electrical signals are not carried by a copper cable, but an optical fibre transmits light signals. This is suitable for use in harsh industrial environments. Transmission is reliable over long distances.&lt;/p&gt;
+
+&lt;h3 id=&#34;interconnection-products&#34;&gt;Interconnection Products&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Repeater / Hub / Switch&lt;/li&gt;
+&lt;li&gt;Transceiver / Bridge&lt;/li&gt;
+&lt;li&gt;Router / Gateway&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&#34;network-protocols&#34;&gt;Network Protocols&lt;/h3&gt;
 
@@ -189,7 +196,7 @@
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;Schneider Electric Training - Introduction to industrial communication networks.pdf&#34; target=&#34;_blank&#34;&gt;Schneider Electric Training - Introduction to industrial communication networks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;Schneider Electric Training - Introduction to industrial communication networks.pdf&#34; target=&#34;_blank&#34;&gt;Schneider Electric Training - Introduction to Industrial Communication Networks&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;A Guide to the Automation Body of Knowledge&lt;/em&gt;, Vernon L. Trevathan&lt;/li&gt;
 &lt;/ul&gt;
 </description>
