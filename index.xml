@@ -41,14 +41,13 @@
 
 &lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
 
-&lt;h3 id=&#34;information-portals&#34;&gt;Information portals&lt;/h3&gt;
+&lt;h3 id=&#34;information&#34;&gt;Information&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.isa.org/&#34; target=&#34;_blank&#34;&gt;https://www.isa.org/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.controleng.com/&#34; target=&#34;_blank&#34;&gt;https://www.controleng.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.controlglobal.com/&#34; target=&#34;_blank&#34;&gt;https://www.controlglobal.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.automation.com/&#34; target=&#34;_blank&#34;&gt;https://www.automation.com/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://iebmedia.com/&#34; target=&#34;_blank&#34;&gt;https://iebmedia.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCUKKQwBQZczpYzETkZNxi-w&#34; target=&#34;_blank&#34;&gt;https://realpars.com/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -116,7 +115,17 @@
 
 &lt;h2 id=&#34;industrial-network-standards&#34;&gt;Industrial Network Standards&lt;/h2&gt;
 
+&lt;h3 id=&#34;modbus&#34;&gt;Modbus&lt;/h3&gt;
+
+&lt;h3 id=&#34;profibus&#34;&gt;Profibus&lt;/h3&gt;
+
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;A Guide to the Automation Body of Knowledge&lt;/em&gt;, Vernon L. Trevathan&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Industrial Ethernet: How to Plan, Install, and Maintain TCP/IP Ethernet Networks: The Basic Reference Guide for Automation and Process Control Engineers&lt;/em&gt;, Perry S. Marshall and John S. Rinaldi&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;PROFIBUS System Description: Technology and Application&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
