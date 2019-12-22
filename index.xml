@@ -23,23 +23,12 @@
 &lt;li&gt;&lt;em&gt;A Guide to the Automation Body of Knowledge&lt;/em&gt;, Vernon L. Trevathan&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Instrument Engineers&amp;rsquo; Handbook: Process Measurement and Analysis&lt;/em&gt;, Béla G. Lipták&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Instrument Engineers&amp;rsquo; Handbook: Process Control and Optimization&lt;/em&gt;, Béla G. Lipták&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Instrument Engineers&amp;rsquo; Handbook: Process Software and Digital Networks&lt;/em&gt;, Béla G. Lipták&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;The Condensed Handbook of Measurement and Control&lt;/em&gt;, N. E. Battikha&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Industrial Data Communications&lt;/em&gt;, Lawrence M. Thompson&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Basic and Advanced Regulatory Control: System Design and Application&lt;/em&gt;, Harold L. Wade&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;applications&#34;&gt;Applications&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;Oil and Gas Production Handbook - An introduction to oil and gas production, transport, refining and petrochemical industry&lt;/em&gt;, Devold Havard&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;software&#34;&gt;Software&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://web.casadi.org/&#34; target=&#34;_blank&#34;&gt;CasADi&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://acado.github.io/&#34; target=&#34;_blank&#34;&gt;ACADOtoolkit&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;code-standards&#34;&gt;Code &amp;amp; Standards&lt;/h2&gt;
@@ -52,12 +41,21 @@
 
 &lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
 
+&lt;h3 id=&#34;information-portals&#34;&gt;Information portals&lt;/h3&gt;
+
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.isa.org/&#34; target=&#34;_blank&#34;&gt;https://www.isa.org/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.controleng.com/&#34; target=&#34;_blank&#34;&gt;https://www.controleng.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.controlglobal.com/&#34; target=&#34;_blank&#34;&gt;https://www.controlglobal.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.automation.com/&#34; target=&#34;_blank&#34;&gt;https://www.automation.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCUKKQwBQZczpYzETkZNxi-w&#34; target=&#34;_blank&#34;&gt;https://realpars.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;open-source&#34;&gt;Open source&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://web.casadi.org/&#34; target=&#34;_blank&#34;&gt;CasADi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://acado.github.io/&#34; target=&#34;_blank&#34;&gt;ACADOtoolkit&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
