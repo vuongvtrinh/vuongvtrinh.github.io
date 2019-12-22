@@ -99,9 +99,9 @@
       <guid>https://vuongvtrinh.github.io/post/industrial-communication-networks/</guid>
       <description>
 
-&lt;h2 id=&#34;bases&#34;&gt;Bases&lt;/h2&gt;
+&lt;h2 id=&#34;1-bases&#34;&gt;1. Bases&lt;/h2&gt;
 
-&lt;h3 id=&#34;transmission&#34;&gt;Transmission&lt;/h3&gt;
+&lt;h3 id=&#34;1-1-transmission&#34;&gt;1.1. Transmission&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Methods: analog / digital&lt;/li&gt;
@@ -110,7 +110,7 @@
 
 &lt;p&gt;For reasons of cost and durability, most communication networks use half duplex asynchronous serial digital transmission.&lt;/p&gt;
 
-&lt;h3 id=&#34;iso-model&#34;&gt;ISO Model&lt;/h3&gt;
+&lt;h3 id=&#34;1-2-iso-model&#34;&gt;1.2. ISO Model&lt;/h3&gt;
 
 &lt;h4 id=&#34;network-topologies&#34;&gt;Network topologies&lt;/h4&gt;
 
@@ -139,7 +139,7 @@
 &lt;li&gt;Traffic types&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;physical-media&#34;&gt;Physical Media&lt;/h3&gt;
+&lt;h3 id=&#34;1-3-physical-media&#34;&gt;1.3. Physical Media&lt;/h3&gt;
 
 &lt;p&gt;Physical media establish the transmission quality: speed, distance, electromagnetic immunity&lt;/p&gt;
 
@@ -161,7 +161,7 @@
 
 &lt;p&gt;Electrical signals are not carried by a copper cable, but an optical fibre transmits light signals. This is suitable for use in harsh industrial environments. Transmission is reliable over long distances.&lt;/p&gt;
 
-&lt;h3 id=&#34;interconnection-products&#34;&gt;Interconnection Products&lt;/h3&gt;
+&lt;h3 id=&#34;1-4-interconnection-products&#34;&gt;1.4. Interconnection Products&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Repeater / Hub / Switch&lt;/li&gt;
@@ -169,13 +169,13 @@
 &lt;li&gt;Router / Gateway&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;network-protocols&#34;&gt;Network Protocols&lt;/h3&gt;
+&lt;h3 id=&#34;1-5-network-protocols&#34;&gt;1.5. Network Protocols&lt;/h3&gt;
 
-&lt;h2 id=&#34;industrial-network-classifications&#34;&gt;Industrial Network Classifications&lt;/h2&gt;
+&lt;h2 id=&#34;2-industrial-network-classifications&#34;&gt;2. Industrial Network Classifications&lt;/h2&gt;
 
-&lt;h3 id=&#34;field-communication-versus-data-communication&#34;&gt;Field Communication versus Data Communication&lt;/h3&gt;
+&lt;h3 id=&#34;2-1-field-communication-versus-data-communication&#34;&gt;2.1. Field Communication versus Data Communication&lt;/h3&gt;
 
-&lt;h3 id=&#34;automation-levels&#34;&gt;Automation Levels&lt;/h3&gt;
+&lt;h3 id=&#34;2-2-automation-levels&#34;&gt;2.2. Automation Levels&lt;/h3&gt;
 
 &lt;h4 id=&#34;discrete-sensor-data&#34;&gt;Discrete sensor data&lt;/h4&gt;
 
@@ -185,13 +185,13 @@
 
 &lt;h4 id=&#34;information-level-networks&#34;&gt;Information-level networks&lt;/h4&gt;
 
-&lt;h2 id=&#34;industrial-network-standards&#34;&gt;Industrial Network Standards&lt;/h2&gt;
+&lt;h2 id=&#34;3-industrial-network-standards&#34;&gt;3. Industrial Network Standards&lt;/h2&gt;
 
-&lt;h3 id=&#34;asi&#34;&gt;ASi&lt;/h3&gt;
+&lt;h3 id=&#34;3-1-asi&#34;&gt;3.1. ASi&lt;/h3&gt;
 
-&lt;h3 id=&#34;modbus&#34;&gt;Modbus&lt;/h3&gt;
+&lt;h3 id=&#34;3-2-modbus&#34;&gt;3.2. Modbus&lt;/h3&gt;
 
-&lt;h3 id=&#34;profibus&#34;&gt;Profibus&lt;/h3&gt;
+&lt;h3 id=&#34;3-3-profibus&#34;&gt;3.3. Profibus&lt;/h3&gt;
 
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 
