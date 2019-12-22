@@ -48,6 +48,7 @@
 &lt;li&gt;&lt;a href=&#34;https://www.controleng.com/&#34; target=&#34;_blank&#34;&gt;https://www.controleng.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.controlglobal.com/&#34; target=&#34;_blank&#34;&gt;https://www.controlglobal.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.automation.com/&#34; target=&#34;_blank&#34;&gt;https://www.automation.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://iebmedia.com/&#34; target=&#34;_blank&#34;&gt;https://iebmedia.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCUKKQwBQZczpYzETkZNxi-w&#34; target=&#34;_blank&#34;&gt;https://realpars.com/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -79,6 +80,27 @@
 &lt;h3 id=&#34;simple-internal-model-control-method&#34;&gt;Simple Internal Model Control Method&lt;/h3&gt;
 
 &lt;h3 id=&#34;iterative-feedback-tuning-method&#34;&gt;Iterative Feedback Tuning Method&lt;/h3&gt;
+
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://support.industry.siemens.com/cs/document/108210036/simatic-s7-1200-s7-1500-pid-control?dti=0&amp;amp;lc=en-WW&#34; target=&#34;_blank&#34;&gt;Function Manual: SIMATIC S7-1200, S7-1500 PID control&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://support.industry.siemens.com/cs/document/100746401/pid-control-with-pid_compact-for-simatic-s7-1200-s7-1500?dti=0&amp;amp;lc=en-ID&#34; target=&#34;_blank&#34;&gt;Application Example: PID Control with PID_Compact for SIMATIC S7-1200/S7-1500&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;relay1984.pdf&#34; target=&#34;_blank&#34;&gt;Automatic Tuning of Simple Regulators with Specifications on Phase and Amplitude Margins&lt;/a&gt;, Karl J. Astrom and Tore Hagglund&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;simc2012.pdf&#34; target=&#34;_blank&#34;&gt;The SIMC Method for Smooth PID Controller Tuning&lt;/a&gt;, Sigurd Skogestad and Chriss Grimholt&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Industrial Communication Networks</title>
+      <link>https://vuongvtrinh.github.io/post/industrial-communications/</link>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/post/industrial-communications/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;hierarchy.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 
@@ -663,15 +685,6 @@ mxv.volume_spread_analysis(quandl, market, NUM_PRICE_STEP, START_DATE)
 
 &lt;h2 id=&#34;pelletizing&#34;&gt;Pelletizing&lt;/h2&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Active Vibration Control</title>
-      <link>https://vuongvtrinh.github.io/project/active-vibration-control/</link>
-      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://vuongvtrinh.github.io/project/active-vibration-control/</guid>
-      <description></description>
     </item>
     
   </channel>

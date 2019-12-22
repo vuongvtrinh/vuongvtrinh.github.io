@@ -31,6 +31,15 @@
     </item>
     
     <item>
+      <title>Industrial Communication Networks</title>
+      <link>https://vuongvtrinh.github.io/post/industrial-communications/</link>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/post/industrial-communications/</guid>
+      <description> References  Function Manual: SIMATIC S7-1200, S7-1500 PID control Application Example: PID Control with PID_Compact for SIMATIC S7-1200/S7-1500 Automatic Tuning of Simple Regulators with Specifications on Phase and Amplitude Margins, Karl J. Astrom and Tore Hagglund The SIMC Method for Smooth PID Controller Tuning, Sigurd Skogestad and Chriss Grimholt  </description>
+    </item>
+    
+    <item>
       <title>Data Analytics Dashboard using Flask and Highcharts</title>
       <link>https://vuongvtrinh.github.io/post/data-analytics-dashboard/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
