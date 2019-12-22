@@ -16,7 +16,7 @@
     
   
   <meta name="description" content="Bases Transmission  Methods: analog / digital Types: simplex / half duplex / full duplex &#43; serial / parallel &#43; synchronous / asynchronous  For reasons of cost and durability, most communication networks use half duplex asynchronous serial digital transmission.
-Network Protocols Network Topologies Industrial Network Classifications Field Communication versus Data Communication Automation Levels Discrete sensor data Process control fieldbus Control-level networks Information-level networks Industrial Network Standards ASi Modbus Profibus References  Schneider Electric Training - Introduction to industrial communication networks A Guide to the Automation Body of Knowledge, Vernon L.">
+ISO Model Network topologies  Point-to-point Star Bus Tree Grid Ring  Medium access methods  Master - Slave Token ring Random access  Application level concepts  Client - Server Producer - Consumer Traffic types Profile  Physical Media Physical media establish the transmission quality: speed, distance, electromagnetic immunity">
 
   
   <link rel="alternate" hreflang="en-us" href="https://vuongvtrinh.github.io/post/industrial-communication-networks/">
@@ -109,7 +109,7 @@ Network Protocols Network Topologies Industrial Network Classifications Field Co
   <meta property="og:url" content="https://vuongvtrinh.github.io/post/industrial-communication-networks/">
   <meta property="og:title" content="Industrial Communication Networks | Vuong V. Trinh">
   <meta property="og:description" content="Bases Transmission  Methods: analog / digital Types: simplex / half duplex / full duplex &#43; serial / parallel &#43; synchronous / asynchronous  For reasons of cost and durability, most communication networks use half duplex asynchronous serial digital transmission.
-Network Protocols Network Topologies Industrial Network Classifications Field Communication versus Data Communication Automation Levels Discrete sensor data Process control fieldbus Control-level networks Information-level networks Industrial Network Standards ASi Modbus Profibus References  Schneider Electric Training - Introduction to industrial communication networks A Guide to the Automation Body of Knowledge, Vernon L."><meta property="og:image" content="https://vuongvtrinh.github.io/post/industrial-communication-networks/featured.png">
+ISO Model Network topologies  Point-to-point Star Bus Tree Grid Ring  Medium access methods  Master - Slave Token ring Random access  Application level concepts  Client - Server Producer - Consumer Traffic types Profile  Physical Media Physical media establish the transmission quality: speed, distance, electromagnetic immunity"><meta property="og:image" content="https://vuongvtrinh.github.io/post/industrial-communication-networks/featured.png">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2019-01-28T00:00:00&#43;00:00">
@@ -413,9 +413,59 @@ Network Protocols Network Topologies Industrial Network Classifications Field Co
 
 <p>For reasons of cost and durability, most communication networks use half duplex asynchronous serial digital transmission.</p>
 
-<h3 id="network-protocols">Network Protocols</h3>
+<h3 id="iso-model">ISO Model</h3>
 
-<h3 id="network-topologies">Network Topologies</h3>
+<h4 id="network-topologies">Network topologies</h4>
+
+<ul>
+<li>Point-to-point</li>
+<li>Star</li>
+<li>Bus</li>
+<li>Tree</li>
+<li>Grid</li>
+<li>Ring</li>
+</ul>
+
+<h4 id="medium-access-methods">Medium access methods</h4>
+
+<ul>
+<li>Master - Slave</li>
+<li>Token ring</li>
+<li>Random access</li>
+</ul>
+
+<h4 id="application-level-concepts">Application level concepts</h4>
+
+<ul>
+<li>Client - Server</li>
+<li>Producer - Consumer</li>
+<li>Traffic types</li>
+<li>Profile</li>
+</ul>
+
+<h3 id="physical-media">Physical Media</h3>
+
+<p>Physical media establish the transmission quality: speed, distance, electromagnetic immunity</p>
+
+<h4 id="twisted-wires">Twisted wires</h4>
+
+<p>The simplest to install, and the least expensive.</p>
+
+<ul>
+<li>RS232: Point-to-point link via 25-pin SUB-D connector. Distance &lt; 15 meters, speed &lt; 20 Kbps.</li>
+<li>RS422A: Full duplex (simultaneous bidirectional) multi-drop bus on 4 wires. 2 transmission wires, 2 reception wires. Good immunity to interference. Max distance 1200 meters at 100 Kbps.</li>
+<li>RS485: Same characteristics as RS422A but on 2 wires. Half duplex (alternate bidirectional) multi-drop bus on 2 wires.</li>
+</ul>
+
+<h4 id="coaxial-cable">Coaxial cable</h4>
+
+<p>This consists of a copper conductor, surrounded by grounding shielding. There is a plastic insulating layerbetween the conductor and the shielding. The coaxial cable has excellent electricalproperties and issuitable for high speed transmission.</p>
+
+<h4 id="optical-fibre">Optical fibre</h4>
+
+<p>Electrical signals are not carried by a copper cable, but an optical fibre transmits light signals. This is suitable for use in harsh industrial environments. Transmission is reliable over long distances.</p>
+
+<h3 id="network-protocols">Network Protocols</h3>
 
 <h2 id="industrial-network-classifications">Industrial Network Classifications</h2>
 

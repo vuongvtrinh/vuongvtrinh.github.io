@@ -37,7 +37,7 @@
       
       <guid>https://vuongvtrinh.github.io/post/industrial-communication-networks/</guid>
       <description>Bases Transmission  Methods: analog / digital Types: simplex / half duplex / full duplex + serial / parallel + synchronous / asynchronous  For reasons of cost and durability, most communication networks use half duplex asynchronous serial digital transmission.
-Network Protocols Network Topologies Industrial Network Classifications Field Communication versus Data Communication Automation Levels Discrete sensor data Process control fieldbus Control-level networks Information-level networks Industrial Network Standards ASi Modbus Profibus References  Schneider Electric Training - Introduction to industrial communication networks A Guide to the Automation Body of Knowledge, Vernon L.</description>
+ISO Model Network topologies  Point-to-point Star Bus Tree Grid Ring  Medium access methods  Master - Slave Token ring Random access  Application level concepts  Client - Server Producer - Consumer Traffic types Profile  Physical Media Physical media establish the transmission quality: speed, distance, electromagnetic immunity</description>
     </item>
     
     <item>

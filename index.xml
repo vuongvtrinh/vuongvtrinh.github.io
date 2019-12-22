@@ -110,9 +110,59 @@
 
 &lt;p&gt;For reasons of cost and durability, most communication networks use half duplex asynchronous serial digital transmission.&lt;/p&gt;
 
-&lt;h3 id=&#34;network-protocols&#34;&gt;Network Protocols&lt;/h3&gt;
+&lt;h3 id=&#34;iso-model&#34;&gt;ISO Model&lt;/h3&gt;
 
-&lt;h3 id=&#34;network-topologies&#34;&gt;Network Topologies&lt;/h3&gt;
+&lt;h4 id=&#34;network-topologies&#34;&gt;Network topologies&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Point-to-point&lt;/li&gt;
+&lt;li&gt;Star&lt;/li&gt;
+&lt;li&gt;Bus&lt;/li&gt;
+&lt;li&gt;Tree&lt;/li&gt;
+&lt;li&gt;Grid&lt;/li&gt;
+&lt;li&gt;Ring&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;medium-access-methods&#34;&gt;Medium access methods&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Master - Slave&lt;/li&gt;
+&lt;li&gt;Token ring&lt;/li&gt;
+&lt;li&gt;Random access&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;application-level-concepts&#34;&gt;Application level concepts&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Client - Server&lt;/li&gt;
+&lt;li&gt;Producer - Consumer&lt;/li&gt;
+&lt;li&gt;Traffic types&lt;/li&gt;
+&lt;li&gt;Profile&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;physical-media&#34;&gt;Physical Media&lt;/h3&gt;
+
+&lt;p&gt;Physical media establish the transmission quality: speed, distance, electromagnetic immunity&lt;/p&gt;
+
+&lt;h4 id=&#34;twisted-wires&#34;&gt;Twisted wires&lt;/h4&gt;
+
+&lt;p&gt;The simplest to install, and the least expensive.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;RS232: Point-to-point link via 25-pin SUB-D connector. Distance &amp;lt; 15 meters, speed &amp;lt; 20 Kbps.&lt;/li&gt;
+&lt;li&gt;RS422A: Full duplex (simultaneous bidirectional) multi-drop bus on 4 wires. 2 transmission wires, 2 reception wires. Good immunity to interference. Max distance 1200 meters at 100 Kbps.&lt;/li&gt;
+&lt;li&gt;RS485: Same characteristics as RS422A but on 2 wires. Half duplex (alternate bidirectional) multi-drop bus on 2 wires.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;coaxial-cable&#34;&gt;Coaxial cable&lt;/h4&gt;
+
+&lt;p&gt;This consists of a copper conductor, surrounded by grounding shielding. There is a plastic insulating layerbetween the conductor and the shielding. The coaxial cable has excellent electricalproperties and issuitable for high speed transmission.&lt;/p&gt;
+
+&lt;h4 id=&#34;optical-fibre&#34;&gt;Optical fibre&lt;/h4&gt;
+
+&lt;p&gt;Electrical signals are not carried by a copper cable, but an optical fibre transmits light signals. This is suitable for use in harsh industrial environments. Transmission is reliable over long distances.&lt;/p&gt;
+
+&lt;h3 id=&#34;network-protocols&#34;&gt;Network Protocols&lt;/h3&gt;
 
 &lt;h2 id=&#34;industrial-network-classifications&#34;&gt;Industrial Network Classifications&lt;/h2&gt;
 
