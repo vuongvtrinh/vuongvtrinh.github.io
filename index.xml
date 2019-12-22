@@ -17,7 +17,7 @@
       <guid>https://vuongvtrinh.github.io/post/technical-resources-for-automation-and-control-professionals/</guid>
       <description>
 
-&lt;h2 id=&#34;automation-control&#34;&gt;Automation &amp;amp; Control&lt;/h2&gt;
+&lt;h2 id=&#34;handbooks&#34;&gt;Handbooks&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;A Guide to the Automation Body of Knowledge&lt;/em&gt;, Vernon L. Trevathan&lt;/li&gt;
@@ -26,23 +26,28 @@
 &lt;li&gt;&lt;em&gt;Instrument Engineers&amp;rsquo; Handbook: Process Software and Digital Networks&lt;/em&gt;, Béla G. Lipták&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h2 id=&#34;documentation&#34;&gt;Documentation&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;ANSI/ISA5.1-2009 - Instrumentation Symbols and Identification&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;ANSI/ISA5.3-1983 - Graphic Symbols for Distributed Control-Shared Display Instrumentation, Logic &amp;amp; Computer Systems&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;ANSI/ISA5.4-1991 - Instrument Loop Diagrams&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h2 id=&#34;applications&#34;&gt;Applications&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;Oil and Gas Production Handbook - An introduction to oil and gas production, transport, refining and petrochemical industry&lt;/em&gt;, Devold Havard&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;code-standards&#34;&gt;Code &amp;amp; Standards&lt;/h2&gt;
+&lt;h2 id=&#34;software&#34;&gt;Software&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;isa51.pdf&#34; target=&#34;_blank&#34;&gt;ANSI/ISA5.1-2009 - Instrumentation Symbols and Identification&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;isa53.pdf&#34; target=&#34;_blank&#34;&gt;ANSI/ISA5.3-1983 - Graphic Symbols for Distributed Control-Shared Display Instrumentation, Logic &amp;amp; Computer Systems&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;isa54.pdf&#34; target=&#34;_blank&#34;&gt;ANSI/ISA5.4-1991 - Instrument Loop Diagrams&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://web.casadi.org/&#34; target=&#34;_blank&#34;&gt;CasADi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://acado.github.io/&#34; target=&#34;_blank&#34;&gt;ACADOtoolkit&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
-
-&lt;h3 id=&#34;information&#34;&gt;Information&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.isa.org/&#34; target=&#34;_blank&#34;&gt;https://www.isa.org/&lt;/a&gt;&lt;/li&gt;
@@ -50,13 +55,6 @@
 &lt;li&gt;&lt;a href=&#34;https://www.controlglobal.com/&#34; target=&#34;_blank&#34;&gt;https://www.controlglobal.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.automation.com/&#34; target=&#34;_blank&#34;&gt;https://www.automation.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCUKKQwBQZczpYzETkZNxi-w&#34; target=&#34;_blank&#34;&gt;https://realpars.com/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;open-source&#34;&gt;Open source&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://web.casadi.org/&#34; target=&#34;_blank&#34;&gt;CasADi&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://acado.github.io/&#34; target=&#34;_blank&#34;&gt;ACADOtoolkit&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -84,10 +82,10 @@
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://support.industry.siemens.com/cs/document/108210036/simatic-s7-1200-s7-1500-pid-control?dti=0&amp;amp;lc=en-WW&#34; target=&#34;_blank&#34;&gt;Function Manual: SIMATIC S7-1200, S7-1500 PID control&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://support.industry.siemens.com/cs/document/100746401/pid-control-with-pid_compact-for-simatic-s7-1200-s7-1500?dti=0&amp;amp;lc=en-ID&#34; target=&#34;_blank&#34;&gt;Application Example: PID Control with PID_Compact for SIMATIC S7-1200/S7-1500&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;relay1984.pdf&#34; target=&#34;_blank&#34;&gt;Automatic Tuning of Simple Regulators with Specifications on Phase and Amplitude Margins&lt;/a&gt;, Karl J. Astrom and Tore Hagglund&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;simc2012.pdf&#34; target=&#34;_blank&#34;&gt;The SIMC Method for Smooth PID Controller Tuning&lt;/a&gt;, Sigurd Skogestad and Chriss Grimholt&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://support.industry.siemens.com/cs/document/108210036/simatic-s7-1200-s7-1500-pid-control?dti=0&amp;amp;lc=en-WW&#34; target=&#34;_blank&#34;&gt;Function Manual: SIMATIC S7-1200, S7-1500 PID control&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://support.industry.siemens.com/cs/document/100746401/pid-control-with-pid_compact-for-simatic-s7-1200-s7-1500?dti=0&amp;amp;lc=en-ID&#34; target=&#34;_blank&#34;&gt;Application Example: PID Control with PID_Compact for SIMATIC S7-1200/S7-1500&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
