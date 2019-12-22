@@ -99,19 +99,34 @@
       <guid>https://vuongvtrinh.github.io/post/industrial-communication-networks/</guid>
       <description>
 
-&lt;h2 id=&#34;network-protocols&#34;&gt;Network Protocols&lt;/h2&gt;
+&lt;h2 id=&#34;bases&#34;&gt;Bases&lt;/h2&gt;
 
-&lt;h2 id=&#34;network-topologies&#34;&gt;Network Topologies&lt;/h2&gt;
+&lt;h3 id=&#34;transmission&#34;&gt;Transmission&lt;/h3&gt;
 
-&lt;h2 id=&#34;network-classifications&#34;&gt;Network Classifications&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Methods: analog / digital&lt;/li&gt;
+&lt;li&gt;Types: simplex / half duplex / full duplex + serial / parallel + synchronous / asynchronous&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;hierarchy.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;For reasons of cost and durability, most communication networks use half duplex asynchronous serial digital transmission.&lt;/p&gt;
 
-&lt;h3 id=&#34;field-level&#34;&gt;Field level&lt;/h3&gt;
+&lt;h3 id=&#34;network-protocols&#34;&gt;Network Protocols&lt;/h3&gt;
 
-&lt;h3 id=&#34;control-level&#34;&gt;Control level&lt;/h3&gt;
+&lt;h3 id=&#34;network-topologies&#34;&gt;Network Topologies&lt;/h3&gt;
 
-&lt;h3 id=&#34;information-level&#34;&gt;Information level&lt;/h3&gt;
+&lt;h2 id=&#34;industrial-network-classifications&#34;&gt;Industrial Network Classifications&lt;/h2&gt;
+
+&lt;h3 id=&#34;field-communication-versus-data-communication&#34;&gt;Field Communication versus Data Communication&lt;/h3&gt;
+
+&lt;h3 id=&#34;automation-levels&#34;&gt;Automation Levels&lt;/h3&gt;
+
+&lt;h4 id=&#34;discrete-sensor-data&#34;&gt;Discrete sensor data&lt;/h4&gt;
+
+&lt;h4 id=&#34;process-control-fieldbus&#34;&gt;Process control fieldbus&lt;/h4&gt;
+
+&lt;h4 id=&#34;control-level-networks&#34;&gt;Control-level networks&lt;/h4&gt;
+
+&lt;h4 id=&#34;it-networks&#34;&gt;IT networks&lt;/h4&gt;
 
 &lt;h2 id=&#34;industrial-network-standards&#34;&gt;Industrial Network Standards&lt;/h2&gt;
 
