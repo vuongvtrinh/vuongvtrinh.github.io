@@ -99,20 +99,18 @@
       <guid>https://vuongvtrinh.github.io/post/industrial-communication-networks/</guid>
       <description>
 
-&lt;h2 id=&#34;1-bases&#34;&gt;1. Bases&lt;/h2&gt;
+&lt;h2 id=&#34;bases&#34;&gt;Bases&lt;/h2&gt;
 
-&lt;h3 id=&#34;1-1-transmission&#34;&gt;1.1. Transmission&lt;/h3&gt;
+&lt;h3 id=&#34;transmission&#34;&gt;Transmission&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Methods: analog / digital&lt;/li&gt;
-&lt;li&gt;Types: simplex / half duplex / full duplex + serial / parallel + synchronous / asynchronous&lt;/li&gt;
+&lt;li&gt;Analog / Digital&lt;/li&gt;
+&lt;li&gt;Simplex / Half duplex / Full duplex&lt;/li&gt;
+&lt;li&gt;Serial / Parallel&lt;/li&gt;
+&lt;li&gt;Synchronous / Asynchronous&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;For reasons of cost and durability, most communication networks use half duplex asynchronous serial digital transmission.&lt;/p&gt;
-
-&lt;h3 id=&#34;1-2-iso-model&#34;&gt;1.2. ISO Model&lt;/h3&gt;
-
-&lt;h4 id=&#34;network-topologies&#34;&gt;Network topologies&lt;/h4&gt;
+&lt;h3 id=&#34;topologies&#34;&gt;Topologies&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Point-to-point&lt;/li&gt;
@@ -123,7 +121,19 @@
 &lt;li&gt;Ring&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;medium-access-methods&#34;&gt;Medium access methods&lt;/h4&gt;
+&lt;h3 id=&#34;iso-model&#34;&gt;ISO Model&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Layer 7: Application&lt;/li&gt;
+&lt;li&gt;Layer 6: Presentation&lt;/li&gt;
+&lt;li&gt;Layer 5: Session&lt;/li&gt;
+&lt;li&gt;Layer 4: Transport&lt;/li&gt;
+&lt;li&gt;Layer 3: Network&lt;/li&gt;
+&lt;li&gt;Layer 2: Data Link&lt;/li&gt;
+&lt;li&gt;Layer 1: Physical&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;medium-access-methods&#34;&gt;Medium Access Methods&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Master - Slave&lt;/li&gt;
@@ -131,7 +141,7 @@
 &lt;li&gt;Random access&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;application-level-concepts&#34;&gt;Application level concepts&lt;/h4&gt;
+&lt;h3 id=&#34;application-level-concepts&#34;&gt;Application Level Concepts&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Client - Server&lt;/li&gt;
@@ -139,43 +149,33 @@
 &lt;li&gt;Traffic types&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;1-3-physical-media&#34;&gt;1.3. Physical Media&lt;/h3&gt;
+&lt;h3 id=&#34;physical-media&#34;&gt;Physical Media&lt;/h3&gt;
 
 &lt;p&gt;Physical media establish the transmission quality: speed, distance, electromagnetic immunity&lt;/p&gt;
 
-&lt;h4 id=&#34;twisted-wires&#34;&gt;Twisted wires&lt;/h4&gt;
-
-&lt;p&gt;The simplest to install, and the least expensive.&lt;/p&gt;
-
 &lt;ul&gt;
-&lt;li&gt;RS232: Point-to-point link via 25-pin SUB-D connector. Distance &amp;lt; 15 meters, speed &amp;lt; 20 Kbps.&lt;/li&gt;
-&lt;li&gt;RS422A: Full duplex (simultaneous bidirectional) multi-drop bus on 4 wires. 2 transmission wires, 2 reception wires. Good immunity to interference. Max distance 1200 meters at 100 Kbps.&lt;/li&gt;
-&lt;li&gt;RS485: Same characteristics as RS422A but on 2 wires. Half duplex (alternate bidirectional) multi-drop bus on 2 wires.&lt;/li&gt;
+&lt;li&gt;Twisted wires: RS232 / RS422A / RS485&lt;/li&gt;
+&lt;li&gt;Coaxial cable&lt;/li&gt;
+&lt;li&gt;Optical fibre&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;coaxial-cable&#34;&gt;Coaxial cable&lt;/h4&gt;
-
-&lt;p&gt;This consists of a copper conductor, surrounded by grounding shielding. There is a plastic insulating layerbetween the conductor and the shielding. The coaxial cable has excellent electricalproperties and issuitable for high speed transmission.&lt;/p&gt;
-
-&lt;h4 id=&#34;optical-fibre&#34;&gt;Optical fibre&lt;/h4&gt;
-
-&lt;p&gt;Electrical signals are not carried by a copper cable, but an optical fibre transmits light signals. This is suitable for use in harsh industrial environments. Transmission is reliable over long distances.&lt;/p&gt;
-
-&lt;h3 id=&#34;1-4-interconnection-products&#34;&gt;1.4. Interconnection Products&lt;/h3&gt;
+&lt;h3 id=&#34;interconnection-products&#34;&gt;Interconnection Products&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Repeater / Hub / Switch&lt;/li&gt;
-&lt;li&gt;Transceiver / Bridge&lt;/li&gt;
-&lt;li&gt;Router / Gateway&lt;/li&gt;
+&lt;li&gt;Repeater&lt;/li&gt;
+&lt;li&gt;Hub&lt;/li&gt;
+&lt;li&gt;Switch&lt;/li&gt;
+&lt;li&gt;Transceiver&lt;/li&gt;
+&lt;li&gt;Bridge&lt;/li&gt;
+&lt;li&gt;Router&lt;/li&gt;
+&lt;li&gt;Gateway&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;1-5-network-protocols&#34;&gt;1.5. Network Protocols&lt;/h3&gt;
+&lt;h2 id=&#34;industrial-network-classifications&#34;&gt;Industrial Network Classifications&lt;/h2&gt;
 
-&lt;h2 id=&#34;2-industrial-network-classifications&#34;&gt;2. Industrial Network Classifications&lt;/h2&gt;
+&lt;h3 id=&#34;field-communication-versus-data-communication&#34;&gt;Field Communication versus Data Communication&lt;/h3&gt;
 
-&lt;h3 id=&#34;2-1-field-communication-versus-data-communication&#34;&gt;2.1. Field Communication versus Data Communication&lt;/h3&gt;
-
-&lt;h3 id=&#34;2-2-automation-levels&#34;&gt;2.2. Automation Levels&lt;/h3&gt;
+&lt;h3 id=&#34;automation-levels&#34;&gt;Automation Levels&lt;/h3&gt;
 
 &lt;h4 id=&#34;discrete-sensor-data&#34;&gt;Discrete sensor data&lt;/h4&gt;
 
@@ -185,13 +185,13 @@
 
 &lt;h4 id=&#34;information-level-networks&#34;&gt;Information-level networks&lt;/h4&gt;
 
-&lt;h2 id=&#34;3-industrial-network-standards&#34;&gt;3. Industrial Network Standards&lt;/h2&gt;
+&lt;h2 id=&#34;industrial-network-standards&#34;&gt;Industrial Network Standards&lt;/h2&gt;
 
-&lt;h3 id=&#34;3-1-asi&#34;&gt;3.1. ASi&lt;/h3&gt;
+&lt;h3 id=&#34;asi&#34;&gt;ASi&lt;/h3&gt;
 
-&lt;h3 id=&#34;3-2-modbus&#34;&gt;3.2. Modbus&lt;/h3&gt;
+&lt;h3 id=&#34;modbus&#34;&gt;Modbus&lt;/h3&gt;
 
-&lt;h3 id=&#34;3-3-profibus&#34;&gt;3.3. Profibus&lt;/h3&gt;
+&lt;h3 id=&#34;profibus&#34;&gt;Profibus&lt;/h3&gt;
 
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 
