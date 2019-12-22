@@ -175,13 +175,12 @@
 
 &lt;h3 id=&#34;automation-levels&#34;&gt;Automation Levels&lt;/h3&gt;
 
-&lt;h4 id=&#34;discrete-sensor-data&#34;&gt;Discrete sensor data&lt;/h4&gt;
-
-&lt;h4 id=&#34;process-control-fieldbus&#34;&gt;Process control fieldbus&lt;/h4&gt;
-
-&lt;h4 id=&#34;control-level-networks&#34;&gt;Control-level networks&lt;/h4&gt;
-
-&lt;h4 id=&#34;information-level-networks&#34;&gt;Information-level networks&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Discrete sensor data&lt;/li&gt;
+&lt;li&gt;Process control fieldbus&lt;/li&gt;
+&lt;li&gt;Control-level networks&lt;/li&gt;
+&lt;li&gt;Information-level networks&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&#34;industrial-network-standards&#34;&gt;Industrial Network Standards&lt;/h2&gt;
 
