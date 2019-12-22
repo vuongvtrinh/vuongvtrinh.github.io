@@ -100,7 +100,15 @@
       <guid>https://vuongvtrinh.github.io/post/industrial-communication-networks/</guid>
       <description>
 
+&lt;h2 id=&#34;network-classifications&#34;&gt;Network Classifications&lt;/h2&gt;
+
 &lt;p&gt;&lt;img src=&#34;hierarchy.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;field-level&#34;&gt;Field level&lt;/h3&gt;
+
+&lt;h3 id=&#34;control-level&#34;&gt;Control level&lt;/h3&gt;
+
+&lt;h3 id=&#34;information-level&#34;&gt;Information level&lt;/h3&gt;
 
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 </description>
