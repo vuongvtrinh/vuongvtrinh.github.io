@@ -26,25 +26,45 @@
 &lt;li&gt;&lt;em&gt;Instrument Engineers&amp;rsquo; Handbook: Process Software and Digital Networks&lt;/em&gt;, Béla G. Lipták&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;documentation&#34;&gt;Documentation&lt;/h2&gt;
+&lt;h3 id=&#34;industrial-communication-systems&#34;&gt;Industrial Communication Systems&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;em&gt;ANSI/ISA5.1-2009 - Instrumentation Symbols and Identification&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;ANSI/ISA5.3-1983 - Graphic Symbols for Distributed Control-Shared Display Instrumentation, Logic &amp;amp; Computer Systems&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;ANSI/ISA5.4-1991 - Instrument Loop Diagrams&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;Introduction to Industrial Communication Networks.pdf&#34; target=&#34;_blank&#34;&gt;Introduction to Industrial Communication Networks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;PROFIBUS Network Manual.pdf&#34; target=&#34;_blank&#34;&gt;PROFIBUS Network Manual&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;applications&#34;&gt;Applications&lt;/h2&gt;
+&lt;h3 id=&#34;control-system-documentation&#34;&gt;Control System Documentation&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Oil and Gas Production Handbook - An introduction to oil and gas production, transport, refining and petrochemical industry&lt;/em&gt;, Devold Havard&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;isa_51.pdf&#34; target=&#34;_blank&#34;&gt;ANSI/ISA5.1-2009 - Instrumentation Symbols and Identification&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;isa_53.pdf&#34; target=&#34;_blank&#34;&gt;ANSI/ISA5.3-1983 - Graphic Symbols for Distributed Control-Shared Display Instrumentation, Logic &amp;amp; Computer Systems&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;isa_54.pdf&#34; target=&#34;_blank&#34;&gt;ANSI/ISA5.4-1991 - Instrument Loop Diagrams&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;software&#34;&gt;Software&lt;/h2&gt;
+&lt;h2 id=&#34;process-control-optimization&#34;&gt;Process Control &amp;amp; Optimization&lt;/h2&gt;
+
+&lt;h3 id=&#34;pid-control&#34;&gt;PID Control&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;relay1984.pdf&#34; target=&#34;_blank&#34;&gt;Automatic Tuning of Simple Regulators with Specifications on Phase and Amplitude Margins&lt;/a&gt;, Karl J. Astrom and Tore Hagglund&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;simc2012.pdf&#34; target=&#34;_blank&#34;&gt;The SIMC Method for Smooth PID Controller Tuning&lt;/a&gt;, Sigurd Skogestad and Chriss Grimholt&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://support.industry.siemens.com/cs/document/108210036/simatic-s7-1200-s7-1500-pid-control?dti=0&amp;amp;lc=en-WW&#34; target=&#34;_blank&#34;&gt;Function Manual: SIMATIC S7-1200, S7-1500 PID control&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://support.industry.siemens.com/cs/document/100746401/pid-control-with-pid_compact-for-simatic-s7-1200-s7-1500?dti=0&amp;amp;lc=en-ID&#34; target=&#34;_blank&#34;&gt;Application Example: PID Control with PID_Compact for SIMATIC S7-1200/S7-1500&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;model-predictive-control&#34;&gt;Model Predictive Control&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://web.casadi.org/&#34; target=&#34;_blank&#34;&gt;CasADi&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://acado.github.io/&#34; target=&#34;_blank&#34;&gt;ACADOtoolkit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;applications&#34;&gt;Applications&lt;/h2&gt;
+
+&lt;h3 id=&#34;oil-gas&#34;&gt;Oil &amp;amp; Gas&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;Havard - 2013 - Oil and Gas Production Handbook - An introduction to oil and gas production, transport, refining and petrochemical industry.pdf&#34; target=&#34;_blank&#34;&gt;Oil and Gas Production Handbook - An introduction to oil and gas production, transport, refining and petrochemical industry&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
@@ -55,147 +75,6 @@
 &lt;li&gt;&lt;a href=&#34;https://www.controlglobal.com/&#34; target=&#34;_blank&#34;&gt;https://www.controlglobal.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.automation.com/&#34; target=&#34;_blank&#34;&gt;https://www.automation.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCUKKQwBQZczpYzETkZNxi-w&#34; target=&#34;_blank&#34;&gt;https://realpars.com/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Proportional-Integral-Derivative Control</title>
-      <link>https://vuongvtrinh.github.io/post/pid-control/</link>
-      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://vuongvtrinh.github.io/post/pid-control/</guid>
-      <description>
-
-&lt;h2 id=&#34;anti-windup&#34;&gt;Anti-windup&lt;/h2&gt;
-
-&lt;h3 id=&#34;conditional-integration&#34;&gt;Conditional integration&lt;/h3&gt;
-
-&lt;h2 id=&#34;parameters-tuning&#34;&gt;Parameters tuning&lt;/h2&gt;
-
-&lt;h3 id=&#34;relay-method&#34;&gt;Relay Method&lt;/h3&gt;
-
-&lt;h3 id=&#34;simple-internal-model-control-method&#34;&gt;Simple Internal Model Control Method&lt;/h3&gt;
-
-&lt;h3 id=&#34;iterative-feedback-tuning-method&#34;&gt;Iterative Feedback Tuning Method&lt;/h3&gt;
-
-&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;relay1984.pdf&#34; target=&#34;_blank&#34;&gt;Automatic Tuning of Simple Regulators with Specifications on Phase and Amplitude Margins&lt;/a&gt;, Karl J. Astrom and Tore Hagglund&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;simc2012.pdf&#34; target=&#34;_blank&#34;&gt;The SIMC Method for Smooth PID Controller Tuning&lt;/a&gt;, Sigurd Skogestad and Chriss Grimholt&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://support.industry.siemens.com/cs/document/108210036/simatic-s7-1200-s7-1500-pid-control?dti=0&amp;amp;lc=en-WW&#34; target=&#34;_blank&#34;&gt;Function Manual: SIMATIC S7-1200, S7-1500 PID control&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://support.industry.siemens.com/cs/document/100746401/pid-control-with-pid_compact-for-simatic-s7-1200-s7-1500?dti=0&amp;amp;lc=en-ID&#34; target=&#34;_blank&#34;&gt;Application Example: PID Control with PID_Compact for SIMATIC S7-1200/S7-1500&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Industrial Communication Networks</title>
-      <link>https://vuongvtrinh.github.io/post/industrial-communication-networks/</link>
-      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://vuongvtrinh.github.io/post/industrial-communication-networks/</guid>
-      <description>
-
-&lt;h2 id=&#34;bases&#34;&gt;Bases&lt;/h2&gt;
-
-&lt;h3 id=&#34;transmission&#34;&gt;Transmission&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Analog / Digital&lt;/li&gt;
-&lt;li&gt;Simplex / Half duplex / Full duplex&lt;/li&gt;
-&lt;li&gt;Serial / Parallel&lt;/li&gt;
-&lt;li&gt;Synchronous / Asynchronous&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;iso-model&#34;&gt;ISO Model&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Layer 7: Application&lt;/li&gt;
-&lt;li&gt;Layer 6: Presentation&lt;/li&gt;
-&lt;li&gt;Layer 5: Session&lt;/li&gt;
-&lt;li&gt;Layer 4: Transport&lt;/li&gt;
-&lt;li&gt;Layer 3: Network&lt;/li&gt;
-&lt;li&gt;Layer 2: Data Link&lt;/li&gt;
-&lt;li&gt;Layer 1: Physical&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;medium-access-methods&#34;&gt;Medium Access Methods&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Master - Slave&lt;/li&gt;
-&lt;li&gt;Token ring&lt;/li&gt;
-&lt;li&gt;Random access&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;application-level-concepts&#34;&gt;Application Level Concepts&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Client - Server&lt;/li&gt;
-&lt;li&gt;Producer - Consumer&lt;/li&gt;
-&lt;li&gt;Traffic types&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;physical-media&#34;&gt;Physical Media&lt;/h3&gt;
-
-&lt;h4 id=&#34;topologies&#34;&gt;Topologies&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Point-to-point&lt;/li&gt;
-&lt;li&gt;Star&lt;/li&gt;
-&lt;li&gt;Bus&lt;/li&gt;
-&lt;li&gt;Tree&lt;/li&gt;
-&lt;li&gt;Grid&lt;/li&gt;
-&lt;li&gt;Ring&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;cables&#34;&gt;Cables&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Twisted wires: RS232 / RS422A / RS485&lt;/li&gt;
-&lt;li&gt;Coaxial cable&lt;/li&gt;
-&lt;li&gt;Optical fibre&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;interconnection-products&#34;&gt;Interconnection Products&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Repeater&lt;/li&gt;
-&lt;li&gt;Hub&lt;/li&gt;
-&lt;li&gt;Switch&lt;/li&gt;
-&lt;li&gt;Transceiver&lt;/li&gt;
-&lt;li&gt;Bridge&lt;/li&gt;
-&lt;li&gt;Router&lt;/li&gt;
-&lt;li&gt;Gateway&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;industrial-network-classifications&#34;&gt;Industrial Network Classifications&lt;/h2&gt;
-
-&lt;h3 id=&#34;field-communication-versus-data-communication&#34;&gt;Field Communication versus Data Communication&lt;/h3&gt;
-
-&lt;h3 id=&#34;automation-levels&#34;&gt;Automation Levels&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Discrete sensor data&lt;/li&gt;
-&lt;li&gt;Process control fieldbus&lt;/li&gt;
-&lt;li&gt;Control-level networks&lt;/li&gt;
-&lt;li&gt;Information-level networks&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;industrial-network-standards&#34;&gt;Industrial Network Standards&lt;/h2&gt;
-
-&lt;h3 id=&#34;asi&#34;&gt;ASi&lt;/h3&gt;
-
-&lt;h3 id=&#34;modbus&#34;&gt;Modbus&lt;/h3&gt;
-
-&lt;h3 id=&#34;profibus&#34;&gt;Profibus&lt;/h3&gt;
-
-&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;Introduction to Industrial Communication Networks.pdf&#34; target=&#34;_blank&#34;&gt;Introduction to Industrial Communication Networks&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;PROFIBUS Network Manual.pdf&#34; target=&#34;_blank&#34;&gt;PROFIBUS Network Manual&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -772,6 +651,24 @@ mxv.volume_spread_analysis(quandl, market, NUM_PRICE_STEP, START_DATE)
 
 &lt;h2 id=&#34;pelletizing&#34;&gt;Pelletizing&lt;/h2&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Active Vibration Control</title>
+      <link>https://vuongvtrinh.github.io/project/active-vibration-control/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/project/active-vibration-control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sail Yachts Simulation and Optimization</title>
+      <link>https://vuongvtrinh.github.io/project/sail-yacht/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://vuongvtrinh.github.io/project/sail-yacht/</guid>
+      <description></description>
     </item>
     
   </channel>

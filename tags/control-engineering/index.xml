@@ -21,14 +21,5 @@
       <description>Automation and Control Bibliography</description>
     </item>
     
-    <item>
-      <title>Proportional-Integral-Derivative Control</title>
-      <link>https://vuongvtrinh.github.io/post/pid-control/</link>
-      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://vuongvtrinh.github.io/post/pid-control/</guid>
-      <description>PID: Theory, Design and Tuning</description>
-    </item>
-    
   </channel>
 </rss>
