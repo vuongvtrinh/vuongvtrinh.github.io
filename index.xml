@@ -642,26 +642,6 @@ mxv.volume_spread_analysis(quandl, market, NUM_PRICE_STEP, START_DATE)
     </item>
     
     <item>
-      <title>Wood Pellet Production</title>
-      <link>https://vuongvtrinh.github.io/project/wood-pellet-production/</link>
-      <pubDate>Wed, 15 Jan 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://vuongvtrinh.github.io/project/wood-pellet-production/</guid>
-      <description>
-
-&lt;h2 id=&#34;drying&#34;&gt;Drying&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;drying_process_diagram.png&#34; alt=&#34;drying_process_diagram.png&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;drying_control_strategy.png&#34; alt=&#34;drying_control_strategy.png&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;granulation&#34;&gt;Granulation&lt;/h2&gt;
-
-&lt;h2 id=&#34;pelletizing&#34;&gt;Pelletizing&lt;/h2&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Active Vibration Control</title>
       <link>https://vuongvtrinh.github.io/project/active-vibration-control/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
