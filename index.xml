@@ -26,13 +26,6 @@
 &lt;li&gt;&lt;em&gt;Instrument Engineers&amp;rsquo; Handbook: Process Software and Digital Networks&lt;/em&gt;, Béla G. Lipták&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;industrial-communication-systems&#34;&gt;Industrial Communication Systems&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;Introduction to Industrial Communication Networks.pdf&#34; target=&#34;_blank&#34;&gt;Introduction to Industrial Communication Networks&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;PROFIBUS Network Manual.pdf&#34; target=&#34;_blank&#34;&gt;PROFIBUS Network Manual&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;h3 id=&#34;control-system-documentation&#34;&gt;Control System Documentation&lt;/h3&gt;
 
 &lt;ul&gt;
@@ -40,6 +33,17 @@
 &lt;li&gt;&lt;a href=&#34;isa_53.pdf&#34; target=&#34;_blank&#34;&gt;ANSI/ISA5.3-1983 - Graphic Symbols for Distributed Control-Shared Display Instrumentation, Logic &amp;amp; Computer Systems&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;isa_54.pdf&#34; target=&#34;_blank&#34;&gt;ANSI/ISA5.4-1991 - Instrument Loop Diagrams&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h3 id=&#34;industrial-communication-system&#34;&gt;Industrial Communication System&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;Introduction to Industrial Communication Networks.pdf&#34; target=&#34;_blank&#34;&gt;Introduction to Industrial Communication Networks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;PROFIBUS Network Manual.pdf&#34; target=&#34;_blank&#34;&gt;PROFIBUS Network Manual&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;terminal-automation-system&#34;&gt;Terminal Automation System&lt;/h3&gt;
+
+&lt;h3 id=&#34;safety-instrumented-system&#34;&gt;Safety Instrumented System&lt;/h3&gt;
 
 &lt;h2 id=&#34;process-control-optimization&#34;&gt;Process Control &amp;amp; Optimization&lt;/h2&gt;
 
@@ -61,13 +65,15 @@
 
 &lt;h2 id=&#34;applications&#34;&gt;Applications&lt;/h2&gt;
 
-&lt;h3 id=&#34;oil-gas&#34;&gt;Oil &amp;amp; Gas&lt;/h3&gt;
+&lt;h3 id=&#34;oil-movement-and-storage-system&#34;&gt;Oil Movement and Storage System&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;Havard - 2013 - Oil and Gas Production Handbook - An introduction to oil and gas production, transport, refining and petrochemical industry.pdf&#34; target=&#34;_blank&#34;&gt;Oil and Gas Production Handbook - An introduction to oil and gas production, transport, refining and petrochemical industry&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;h3 id=&#34;product-blending-control-system&#34;&gt;Product Blending Control System&lt;/h3&gt;
+
+&lt;h2 id=&#34;useful-links&#34;&gt;Useful Links&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.isa.org/&#34; target=&#34;_blank&#34;&gt;https://www.isa.org/&lt;/a&gt;&lt;/li&gt;
