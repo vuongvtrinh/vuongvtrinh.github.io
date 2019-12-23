@@ -17,7 +17,9 @@
       <guid>https://vuongvtrinh.github.io/post/technical-resources-for-automation-and-control-professionals/</guid>
       <description>
 
-&lt;h2 id=&#34;handbooks&#34;&gt;Handbooks&lt;/h2&gt;
+&lt;h2 id=&#34;distributed-control-systems&#34;&gt;Distributed Control Systems&lt;/h2&gt;
+
+&lt;h3 id=&#34;general-handbooks&#34;&gt;General Handbooks&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;A Guide to the Automation Body of Knowledge (Vernon L. Trevathan)&lt;/li&gt;
@@ -45,7 +47,7 @@
 
 &lt;h3 id=&#34;safety-instrumented-system&#34;&gt;Safety Instrumented System&lt;/h3&gt;
 
-&lt;h2 id=&#34;process-control-optimization&#34;&gt;Process Control &amp;amp; Optimization&lt;/h2&gt;
+&lt;h2 id=&#34;advanced-process-control&#34;&gt;Advanced Process Control&lt;/h2&gt;
 
 &lt;h3 id=&#34;pid-control&#34;&gt;PID Control&lt;/h3&gt;
 
