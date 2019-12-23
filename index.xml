@@ -61,7 +61,6 @@
 &lt;ul&gt;
 &lt;li&gt;Model Predictive Control: Theory, Computation, and Design (David Mayne, James Blake Rawlings, and Moritz Diehl)&lt;/li&gt;
 &lt;li&gt;Numerical Optimal Control (Moritz Diehl and Sébastien Gros)&lt;/li&gt;
-&lt;li&gt;Lecture Notes on Numerical Optimization (Moritz Diehl)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://web.casadi.org/&#34; target=&#34;_blank&#34;&gt;CasADi&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://acado.github.io/&#34; target=&#34;_blank&#34;&gt;ACADOtoolkit&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
