@@ -109,17 +109,6 @@
 &lt;li&gt;Synchronous / Asynchronous&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;topologies&#34;&gt;Topologies&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Point-to-point&lt;/li&gt;
-&lt;li&gt;Star&lt;/li&gt;
-&lt;li&gt;Bus&lt;/li&gt;
-&lt;li&gt;Tree&lt;/li&gt;
-&lt;li&gt;Grid&lt;/li&gt;
-&lt;li&gt;Ring&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;h3 id=&#34;iso-model&#34;&gt;ISO Model&lt;/h3&gt;
 
 &lt;ul&gt;
@@ -132,7 +121,7 @@
 &lt;li&gt;Layer 1: Physical&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;medium-access-methods&#34;&gt;Medium Access Methods&lt;/h3&gt;
+&lt;h4 id=&#34;medium-access-methods&#34;&gt;Medium Access Methods&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Master - Slave&lt;/li&gt;
@@ -140,7 +129,7 @@
 &lt;li&gt;Random access&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;application-level-concepts&#34;&gt;Application Level Concepts&lt;/h3&gt;
+&lt;h4 id=&#34;application-level-concepts&#34;&gt;Application Level Concepts&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Client - Server&lt;/li&gt;
@@ -150,13 +139,26 @@
 
 &lt;h3 id=&#34;physical-media&#34;&gt;Physical Media&lt;/h3&gt;
 
+&lt;h4 id=&#34;topologies&#34;&gt;Topologies&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Point-to-point&lt;/li&gt;
+&lt;li&gt;Star&lt;/li&gt;
+&lt;li&gt;Bus&lt;/li&gt;
+&lt;li&gt;Tree&lt;/li&gt;
+&lt;li&gt;Grid&lt;/li&gt;
+&lt;li&gt;Ring&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;cables&#34;&gt;Cables&lt;/h4&gt;
+
 &lt;ul&gt;
 &lt;li&gt;Twisted wires: RS232 / RS422A / RS485&lt;/li&gt;
 &lt;li&gt;Coaxial cable&lt;/li&gt;
 &lt;li&gt;Optical fibre&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;interconnection-products&#34;&gt;Interconnection Products&lt;/h3&gt;
+&lt;h4 id=&#34;interconnection-products&#34;&gt;Interconnection Products&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Repeater&lt;/li&gt;
