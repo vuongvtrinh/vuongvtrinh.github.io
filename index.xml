@@ -47,7 +47,7 @@
 
 &lt;h2 id=&#34;advanced-process-control&#34;&gt;Advanced Process Control&lt;/h2&gt;
 
-&lt;h3 id=&#34;pid-control&#34;&gt;PID Control&lt;/h3&gt;
+&lt;h3 id=&#34;pid&#34;&gt;PID&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;relay1984.pdf&#34; target=&#34;_blank&#34;&gt;Automatic Tuning of Simple Regulators with Specifications on Phase and Amplitude Margins&lt;/a&gt; (Karl J. Astrom and Tore Hagglund)&lt;/li&gt;
@@ -56,7 +56,7 @@
 &lt;li&gt;&lt;a href=&#34;https://support.industry.siemens.com/cs/document/100746401/pid-control-with-pid_compact-for-simatic-s7-1200-s7-1500?dti=0&amp;amp;lc=en-ID&#34; target=&#34;_blank&#34;&gt;Application Example: PID Control with PID_Compact for SIMATIC S7-1200/S7-1500&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;numerical-optimal-control&#34;&gt;Numerical Optimal Control&lt;/h3&gt;
+&lt;h3 id=&#34;mpc&#34;&gt;MPC&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Model Predictive Control: Theory, Computation, and Design (David Mayne, James Blake Rawlings, and Moritz Diehl)&lt;/li&gt;
@@ -66,6 +66,12 @@
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;industrial-applications&#34;&gt;Industrial Applications&lt;/h2&gt;
+
+&lt;h3 id=&#34;boiler-control-system&#34;&gt;Boiler Control System&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Boiler Control Systems Engineering&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&#34;oil-movement-and-storage-system&#34;&gt;Oil Movement and Storage System&lt;/h3&gt;
 
