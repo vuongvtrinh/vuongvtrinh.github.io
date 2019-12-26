@@ -125,7 +125,7 @@
 &lt;li&gt;Ring&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;iso-model&#34;&gt;ISO Model&lt;/h3&gt;
+&lt;h3 id=&#34;open-systems-interconnection-model&#34;&gt;Open Systems Interconnection Model&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Layer 7: Application&lt;/li&gt;
@@ -173,7 +173,7 @@
 &lt;li&gt;Gateway&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;industrial-networks&#34;&gt;Industrial Networks&lt;/h2&gt;
+&lt;h2 id=&#34;industrial-networks-classification&#34;&gt;Industrial Networks Classification&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Discrete sensor data&lt;/li&gt;
@@ -182,9 +182,9 @@
 &lt;li&gt;Information-level networks&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;modbus&#34;&gt;Modbus&lt;/h3&gt;
+&lt;h2 id=&#34;modbus&#34;&gt;Modbus&lt;/h2&gt;
 
-&lt;h3 id=&#34;profibus&#34;&gt;Profibus&lt;/h3&gt;
+&lt;h2 id=&#34;profibus&#34;&gt;Profibus&lt;/h2&gt;
 
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 
