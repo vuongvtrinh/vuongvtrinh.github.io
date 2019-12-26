@@ -103,8 +103,6 @@
       <guid>https://vuongvtrinh.github.io/post/industrial-communication-networks/</guid>
       <description>
 
-&lt;h2 id=&#34;analog-communication&#34;&gt;Analog Communication&lt;/h2&gt;
-
 &lt;h2 id=&#34;digital-communication&#34;&gt;Digital Communication&lt;/h2&gt;
 
 &lt;h3 id=&#34;transmission&#34;&gt;Transmission&lt;/h3&gt;
@@ -139,7 +137,7 @@
 &lt;li&gt;Layer 1: Physical&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;medium-access-methods&#34;&gt;Medium Access Methods&lt;/h4&gt;
+&lt;h3 id=&#34;medium-access-methods&#34;&gt;Medium Access Methods&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Master - Slave&lt;/li&gt;
@@ -147,7 +145,7 @@
 &lt;li&gt;Random access&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;application-level-concepts&#34;&gt;Application Level Concepts&lt;/h4&gt;
+&lt;h3 id=&#34;application-level-concepts&#34;&gt;Application Level Concepts&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Client - Server&lt;/li&gt;
@@ -155,9 +153,7 @@
 &lt;li&gt;Traffic types&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;physical-medium&#34;&gt;Physical Medium&lt;/h3&gt;
-
-&lt;h4 id=&#34;cables&#34;&gt;Cables&lt;/h4&gt;
+&lt;h3 id=&#34;physical-media&#34;&gt;Physical Media&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Twisted wires: RS232 / RS422A / RS485&lt;/li&gt;
@@ -165,7 +161,7 @@
 &lt;li&gt;Optical fibre&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;connectors&#34;&gt;Connectors&lt;/h4&gt;
+&lt;h3 id=&#34;interconnection-products&#34;&gt;Interconnection Products&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Repeater&lt;/li&gt;
@@ -179,8 +175,6 @@
 
 &lt;h2 id=&#34;industrial-networks&#34;&gt;Industrial Networks&lt;/h2&gt;
 
-&lt;h3 id=&#34;classification&#34;&gt;Classification&lt;/h3&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Discrete sensor data&lt;/li&gt;
 &lt;li&gt;Process control fieldbus&lt;/li&gt;
@@ -188,11 +182,9 @@
 &lt;li&gt;Information-level networks&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;standards&#34;&gt;Standards&lt;/h3&gt;
+&lt;h3 id=&#34;profibus&#34;&gt;Profibus&lt;/h3&gt;
 
-&lt;h4 id=&#34;profibus&#34;&gt;Profibus&lt;/h4&gt;
-
-&lt;h4 id=&#34;modbus&#34;&gt;Modbus&lt;/h4&gt;
+&lt;h3 id=&#34;modbus&#34;&gt;Modbus&lt;/h3&gt;
 
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 
