@@ -103,7 +103,7 @@
       <guid>https://vuongvtrinh.github.io/post/industrial-communication-networks/</guid>
       <description>
 
-&lt;h2 id=&#34;bases&#34;&gt;Bases&lt;/h2&gt;
+&lt;h2 id=&#34;basic-concepts&#34;&gt;Basic Concepts&lt;/h2&gt;
 
 &lt;h3 id=&#34;transmission&#34;&gt;Transmission&lt;/h3&gt;
 
@@ -173,7 +173,7 @@
 &lt;li&gt;Gateway&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;industrial-network&#34;&gt;Industrial Network&lt;/h2&gt;
+&lt;h3 id=&#34;classification&#34;&gt;Classification&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Discrete sensor data&lt;/li&gt;
@@ -182,9 +182,11 @@
 &lt;li&gt;Information-level networks&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;modbus&#34;&gt;Modbus&lt;/h3&gt;
+&lt;h2 id=&#34;industrial-network-standards&#34;&gt;Industrial Network Standards&lt;/h2&gt;
 
 &lt;h3 id=&#34;profibus&#34;&gt;Profibus&lt;/h3&gt;
+
+&lt;h3 id=&#34;modbus&#34;&gt;Modbus&lt;/h3&gt;
 
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 
