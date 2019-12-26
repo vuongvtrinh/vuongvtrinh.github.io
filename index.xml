@@ -17,9 +17,7 @@
       <guid>https://vuongvtrinh.github.io/post/technical-resources-for-automation-and-control-professionals/</guid>
       <description>
 
-&lt;h2 id=&#34;distributed-control-systems&#34;&gt;Distributed Control Systems&lt;/h2&gt;
-
-&lt;h3 id=&#34;general-handbooks&#34;&gt;General Handbooks&lt;/h3&gt;
+&lt;h3 id=&#34;handbooks&#34;&gt;Handbooks&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;A Guide to the Automation Body of Knowledge (Vernon L. Trevathan)&lt;/li&gt;
@@ -46,15 +44,7 @@
 
 &lt;h3 id=&#34;safety-instrumented-system&#34;&gt;Safety Instrumented System&lt;/h3&gt;
 
-&lt;h3 id=&#34;misc&#34;&gt;Misc&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Control Valve Handbook (Emerson)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;advanced-process-control&#34;&gt;Advanced Process Control&lt;/h2&gt;
-
-&lt;h3 id=&#34;pid&#34;&gt;PID&lt;/h3&gt;
+&lt;h3 id=&#34;pid-control&#34;&gt;PID Control&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;relay1984.pdf&#34; target=&#34;_blank&#34;&gt;Automatic Tuning of Simple Regulators with Specifications on Phase and Amplitude Margins&lt;/a&gt; (Karl J. Astrom and Tore Hagglund)&lt;/li&gt;
@@ -64,7 +54,7 @@
 &lt;li&gt;&lt;a href=&#34;https://support.industry.siemens.com/cs/document/100746401/pid-control-with-pid_compact-for-simatic-s7-1200-s7-1500?dti=0&amp;amp;lc=en-ID&#34; target=&#34;_blank&#34;&gt;Application Example: PID Control with PID_Compact for SIMATIC S7-1200/S7-1500&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;mpc&#34;&gt;MPC&lt;/h3&gt;
+&lt;h3 id=&#34;mpc-control&#34;&gt;MPC Control&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Model Predictive Control: Theory, Computation, and Design (David Mayne, James B. Rawlings, and Moritz Diehl)&lt;/li&gt;
@@ -72,8 +62,6 @@
 &lt;li&gt;&lt;a href=&#34;https://web.casadi.org/&#34; target=&#34;_blank&#34;&gt;CasADi&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://acado.github.io/&#34; target=&#34;_blank&#34;&gt;ACADOtoolkit&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h2 id=&#34;industrial-applications&#34;&gt;Industrial Applications&lt;/h2&gt;
 
 &lt;h3 id=&#34;oil-movement-and-storage-system&#34;&gt;Oil Movement and Storage System&lt;/h3&gt;
 
@@ -85,20 +73,20 @@
 
 &lt;h3 id=&#34;terminal-automation-system&#34;&gt;Terminal Automation System&lt;/h3&gt;
 
-&lt;h3 id=&#34;others&#34;&gt;Others&lt;/h3&gt;
+&lt;h3 id=&#34;miscellaneous&#34;&gt;Miscellaneous&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;Control Valve Handbook (Emerson)&lt;/li&gt;
 &lt;li&gt;Boiler Control Systems Engineering (G.F. (Jerry) Gilman)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;useful-links&#34;&gt;Useful Links&lt;/h2&gt;
+&lt;h3 id=&#34;useful-links&#34;&gt;Useful Links&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.isa.org/&#34; target=&#34;_blank&#34;&gt;https://www.isa.org/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.controleng.com/&#34; target=&#34;_blank&#34;&gt;https://www.controleng.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.controlglobal.com/&#34; target=&#34;_blank&#34;&gt;https://www.controlglobal.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.automation.com/&#34; target=&#34;_blank&#34;&gt;https://www.automation.com/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCUKKQwBQZczpYzETkZNxi-w&#34; target=&#34;_blank&#34;&gt;https://realpars.com/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
