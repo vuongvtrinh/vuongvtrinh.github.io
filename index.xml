@@ -54,28 +54,17 @@
 
 &lt;h3 id=&#34;terminal-automation-system&#34;&gt;Terminal Automation System&lt;/h3&gt;
 
-&lt;h3 id=&#34;pid-control&#34;&gt;PID Control&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;relay1984.pdf&#34; target=&#34;_blank&#34;&gt;Automatic Tuning of Simple Regulators with Specifications on Phase and Amplitude Margins&lt;/a&gt; (Karl J. Astrom and Tore Hagglund)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;simc2012.pdf&#34; target=&#34;_blank&#34;&gt;The SIMC Method for Smooth PID Controller Tuning&lt;/a&gt; (Sigurd Skogestad and Chriss Grimholt)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.controleng.com/articles/relay-method-automates-pid-loop-tuning/&#34; target=&#34;_blank&#34;&gt;Relay Method Automates PID Loop Tuning&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://support.industry.siemens.com/cs/attachments/108210036/s71500_pid_control_function_manual_en-US_en-US.pdf?download=true&#34; target=&#34;_blank&#34;&gt;Function Manual: SIMATIC S7-1200, S7-1500 PID control&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;mpc-control&#34;&gt;MPC Control&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Model Predictive Control: Theory, Computation, and Design (David Mayne, James B. Rawlings, and Moritz Diehl)&lt;/li&gt;
-&lt;li&gt;Numerical Optimal Control (Moritz Diehl and Sébastien Gros)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://web.casadi.org/&#34; target=&#34;_blank&#34;&gt;CasADi&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://acado.github.io/&#34; target=&#34;_blank&#34;&gt;ACADOtoolkit&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;h3 id=&#34;miscellaneous&#34;&gt;Miscellaneous&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Control Valve Handbook (Emerson)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;relay1984.pdf&#34; target=&#34;_blank&#34;&gt;Automatic Tuning of Simple Regulators with Specifications on Phase and Amplitude Margins&lt;/a&gt; (Karl J. Astrom and Tore Hagglund)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;simc2012.pdf&#34; target=&#34;_blank&#34;&gt;The SIMC Method for Smooth PID Controller Tuning&lt;/a&gt; (Sigurd Skogestad and Chriss Grimholt)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://support.industry.siemens.com/cs/attachments/108210036/s71500_pid_control_function_manual_en-US_en-US.pdf?download=true&#34; target=&#34;_blank&#34;&gt;Function Manual: SIMATIC S7-1200, S7-1500 PID control&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Model Predictive Control: Theory, Computation, and Design (David Mayne, James B. Rawlings, and Moritz Diehl)&lt;/li&gt;
+&lt;li&gt;Numerical Optimal Control (Moritz Diehl and Sébastien Gros)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://web.casadi.org/&#34; target=&#34;_blank&#34;&gt;CasADi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://acado.github.io/&#34; target=&#34;_blank&#34;&gt;ACADOtoolkit&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;useful-links&#34;&gt;Useful Links&lt;/h3&gt;
