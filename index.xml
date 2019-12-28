@@ -44,6 +44,12 @@
 
 &lt;h4 id=&#34;safety-instrumented-system&#34;&gt;Safety Instrumented System&lt;/h4&gt;
 
+&lt;h4 id=&#34;miscellaneous&#34;&gt;Miscellaneous&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Control Valve Handbook (Emerson)&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h3 id=&#34;applications&#34;&gt;Applications&lt;/h3&gt;
 
 &lt;h4 id=&#34;oil-movement-and-storage-system&#34;&gt;Oil Movement and Storage System&lt;/h4&gt;
@@ -81,12 +87,6 @@
 &lt;li&gt;Numerical Optimal Control (Moritz Diehl and Sébastien Gros)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://web.casadi.org/&#34; target=&#34;_blank&#34;&gt;CasADi&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://acado.github.io/&#34; target=&#34;_blank&#34;&gt;ACADOtoolkit&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;miscellaneous&#34;&gt;Miscellaneous&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Control Valve Handbook (Emerson)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;useful-links&#34;&gt;Useful Links&lt;/h3&gt;
