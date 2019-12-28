@@ -17,7 +17,9 @@
       <guid>https://vuongvtrinh.github.io/post/technical-resources-for-automation-and-control-professionals/</guid>
       <description>
 
-&lt;h2 id=&#34;handbooks&#34;&gt;Handbooks&lt;/h2&gt;
+&lt;h2 id=&#34;automation-and-control&#34;&gt;Automation and Control&lt;/h2&gt;
+
+&lt;h3 id=&#34;handbooks&#34;&gt;Handbooks&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;A Guide to the Automation Body of Knowledge (Vernon L. Trevathan)&lt;/li&gt;
@@ -38,17 +40,6 @@
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;Introduction to industrial communication networks.pdf&#34; target=&#34;_blank&#34;&gt;Introduction to Industrial Communication Networks&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.automation.com/automation-news/article/profibus-and-modbus-a-comparison&#34; target=&#34;_blank&#34;&gt;Profibus and Modbus: a comparison&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://support.industry.siemens.com/cs/attachments/35222591/mn_pbnets_76.pdf&#34; target=&#34;_blank&#34;&gt;PROFIBUS Network Manual&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;Communication with SIMATIC.pdf&#34; target=&#34;_blank&#34;&gt;Communication with SIMATIC&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;PROFINET IO Getting Started.pdf&#34; target=&#34;_blank&#34;&gt;PROFINET IO Getting Started&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;PROFINET with STEP 7 V15.pdf&#34; target=&#34;_blank&#34;&gt;PROFINET with STEP 7 V15&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;instrumentation&#34;&gt;Instrumentation&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Control Valve Handbook (Emerson)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;safety-instrumented-system&#34;&gt;Safety Instrumented System&lt;/h3&gt;
@@ -71,12 +62,11 @@
 &lt;li&gt;Network Optimization: Continuous and Discrete Methods (Dimitri P. Bertsekas)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;pid-control&#34;&gt;PID Control&lt;/h3&gt;
+&lt;h3 id=&#34;classical-control&#34;&gt;Classical Control&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;relay1984.pdf&#34; target=&#34;_blank&#34;&gt;Automatic Tuning of Simple Regulators with Specifications on Phase and Amplitude Margins&lt;/a&gt; (Karl J. Astrom and Tore Hagglund)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;simc2012.pdf&#34; target=&#34;_blank&#34;&gt;The SIMC Method for Smooth PID Controller Tuning&lt;/a&gt; (Sigurd Skogestad and Chriss Grimholt)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://support.industry.siemens.com/cs/attachments/108210036/s71500_pid_control_function_manual_en-US_en-US.pdf?download=true&#34; target=&#34;_blank&#34;&gt;Function Manual: SIMATIC S7-1200, S7-1500 PID control&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;model-predictive-control&#34;&gt;Model Predictive Control&lt;/h3&gt;
@@ -84,17 +74,24 @@
 &lt;ul&gt;
 &lt;li&gt;Model Predictive Control: Theory, Computation, and Design (David Mayne, James B. Rawlings, and Moritz Diehl)&lt;/li&gt;
 &lt;li&gt;Numerical Optimal Control (Moritz Diehl and Sébastien Gros)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://web.casadi.org/&#34; target=&#34;_blank&#34;&gt;CasADi&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://acado.github.io/&#34; target=&#34;_blank&#34;&gt;ACADOtoolkit&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;useful-links&#34;&gt;Useful Links&lt;/h2&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+
+&lt;h3 id=&#34;portal&#34;&gt;Portal&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.isa.org/&#34; target=&#34;_blank&#34;&gt;https://www.isa.org/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.controleng.com/&#34; target=&#34;_blank&#34;&gt;https://www.controleng.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.controlglobal.com/&#34; target=&#34;_blank&#34;&gt;https://www.controlglobal.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.automation.com/&#34; target=&#34;_blank&#34;&gt;https://www.automation.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;software&#34;&gt;Software&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://web.casadi.org/&#34; target=&#34;_blank&#34;&gt;CasADi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://acado.github.io/&#34; target=&#34;_blank&#34;&gt;ACADOtoolkit&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
