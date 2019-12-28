@@ -42,12 +42,6 @@
 
 &lt;h2 id=&#34;distributed-control-systems&#34;&gt;Distributed Control Systems&lt;/h2&gt;
 
-&lt;h3 id=&#34;hps-experion-pks&#34;&gt;HPS Experion PKS&lt;/h3&gt;
-
-&lt;h3 id=&#34;uop-penex&#34;&gt;UOP Penex&lt;/h3&gt;
-
-&lt;h3 id=&#34;uop-ccr&#34;&gt;UOP CCR&lt;/h3&gt;
-
 &lt;h2 id=&#34;optimization-and-control&#34;&gt;Optimization and Control&lt;/h2&gt;
 
 &lt;h3 id=&#34;numerical-optimization&#34;&gt;Numerical Optimization&lt;/h3&gt;
@@ -70,24 +64,51 @@
 &lt;ul&gt;
 &lt;li&gt;Model Predictive Control: Theory, Computation, and Design (David Mayne, James B. Rawlings, and Moritz Diehl)&lt;/li&gt;
 &lt;li&gt;Numerical Optimal Control (Moritz Diehl and Sébastien Gros)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://web.casadi.org/&#34; target=&#34;_blank&#34;&gt;CasADi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://acado.github.io/&#34; target=&#34;_blank&#34;&gt;ACADOtoolkit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;manuals&#34;&gt;Manuals&lt;/h2&gt;
+
+&lt;h3 id=&#34;hps-experion-pks&#34;&gt;HPS Experion PKS&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;Integrated Terminal Automation.pdf&#34; target=&#34;_blank&#34;&gt;Integrated Terminal Automation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;uop-penex&#34;&gt;UOP Penex&lt;/h3&gt;
+
+&lt;h3 id=&#34;uop-ccr&#34;&gt;UOP CCR&lt;/h3&gt;
+
+&lt;h3 id=&#34;siemens&#34;&gt;Siemens&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;S7-1200 S7-1500 PID Control Function Manual.pdf&#34; target=&#34;_blank&#34;&gt;S7-1200 S7-1500 PID Control Function Manual&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;PROFINET with STEP 7 V15.pdf&#34; target=&#34;_blank&#34;&gt;PROFINET with STEP 7 V15&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;PROFINET IO Getting Started.pdf&#34; target=&#34;_blank&#34;&gt;PROFINET IO Getting Started&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;Communication with SIMATIC System Manual.pdf&#34; target=&#34;_blank&#34;&gt;Communication with SIMATIC System Manual&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;PROFIBUS Network Manual.pdf&#34; target=&#34;_blank&#34;&gt;PROFIBUS Network Manual&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;schneider-electric&#34;&gt;Schneider Electric&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;Transparent Ready - Introduction to Industrial Communication Networks.pdf&#34; target=&#34;_blank&#34;&gt;Transparent Ready: Introduction to Industrial Communication Networks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;emerson&#34;&gt;Emerson&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;Control Valve Handbook.pdf&#34; target=&#34;_blank&#34;&gt;Control Valve Handbook&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
-
-&lt;h3 id=&#34;portal&#34;&gt;Portal&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.isa.org/&#34; target=&#34;_blank&#34;&gt;https://www.isa.org/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.controleng.com/&#34; target=&#34;_blank&#34;&gt;https://www.controleng.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.controlglobal.com/&#34; target=&#34;_blank&#34;&gt;https://www.controlglobal.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.automation.com/&#34; target=&#34;_blank&#34;&gt;https://www.automation.com/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;software&#34;&gt;Software&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://web.casadi.org/&#34; target=&#34;_blank&#34;&gt;CasADi&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://acado.github.io/&#34; target=&#34;_blank&#34;&gt;ACADOtoolkit&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
