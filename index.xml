@@ -17,7 +17,7 @@
       <guid>https://vuongvtrinh.github.io/post/technical-resources-for-automation-and-control-professionals/</guid>
       <description>
 
-&lt;h3 id=&#34;process-control-handbooks&#34;&gt;Process Control Handbooks&lt;/h3&gt;
+&lt;h3 id=&#34;handbooks&#34;&gt;Handbooks&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;A Guide to the Automation Body of Knowledge (Vernon L. Trevathan)&lt;/li&gt;
@@ -44,7 +44,7 @@
 
 &lt;h4 id=&#34;safety-instrumented-system&#34;&gt;Safety Instrumented System&lt;/h4&gt;
 
-&lt;h3 id=&#34;industrial-applications&#34;&gt;Industrial Applications&lt;/h3&gt;
+&lt;h3 id=&#34;applications&#34;&gt;Applications&lt;/h3&gt;
 
 &lt;h4 id=&#34;oil-movement-and-storage-system&#34;&gt;Oil Movement and Storage System&lt;/h4&gt;
 
@@ -56,14 +56,6 @@
 &lt;li&gt;&lt;a href=&#34;honeywell-integrated-terminal-automation-safety-security-and-operation.pdf&#34; target=&#34;_blank&#34;&gt;Honeywell: Integrated Terminal Automation: Safety, Security and Operation&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;pid-control&#34;&gt;PID Control&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;relay1984.pdf&#34; target=&#34;_blank&#34;&gt;Automatic Tuning of Simple Regulators with Specifications on Phase and Amplitude Margins&lt;/a&gt; (Karl J. Astrom and Tore Hagglund)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;simc2012.pdf&#34; target=&#34;_blank&#34;&gt;The SIMC Method for Smooth PID Controller Tuning&lt;/a&gt; (Sigurd Skogestad and Chriss Grimholt)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://support.industry.siemens.com/cs/attachments/108210036/s71500_pid_control_function_manual_en-US_en-US.pdf?download=true&#34; target=&#34;_blank&#34;&gt;Function Manual: SIMATIC S7-1200, S7-1500 PID control&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;h3 id=&#34;optimization-and-control&#34;&gt;Optimization and Control&lt;/h3&gt;
 
 &lt;h4 id=&#34;numerical-optimization&#34;&gt;Numerical Optimization&lt;/h4&gt;
@@ -71,7 +63,15 @@
 &lt;ul&gt;
 &lt;li&gt;Constrained Optimization and Lagrange Multiplier Methods (Dimitri P. Bertsekas)&lt;/li&gt;
 &lt;li&gt;Parallel and Distributed Computation Numerical Methods (Dimitri P. Bertsekas)&lt;/li&gt;
-&lt;li&gt;Network Optimization: Continuous and Discrete Methods (Dimitri P. Bertsekas)&lt;/li&gt;
+&lt;li&gt;Network Optimization: Continuous and Discrete Methods (Dimitri P. Bertsekas&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;pid-control&#34;&gt;PID Control&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;relay1984.pdf&#34; target=&#34;_blank&#34;&gt;Automatic Tuning of Simple Regulators with Specifications on Phase and Amplitude Margins&lt;/a&gt; (Karl J. Astrom and Tore Hagglund)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;simc2012.pdf&#34; target=&#34;_blank&#34;&gt;The SIMC Method for Smooth PID Controller Tuning&lt;/a&gt; (Sigurd Skogestad and Chriss Grimholt)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://support.industry.siemens.com/cs/attachments/108210036/s71500_pid_control_function_manual_en-US_en-US.pdf?download=true&#34; target=&#34;_blank&#34;&gt;Function Manual: SIMATIC S7-1200, S7-1500 PID control&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h4 id=&#34;model-predictive-control&#34;&gt;Model Predictive Control&lt;/h4&gt;
