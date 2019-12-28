@@ -17,7 +17,7 @@
       <guid>https://vuongvtrinh.github.io/post/technical-resources-for-automation-and-control-professionals/</guid>
       <description>
 
-&lt;h3 id=&#34;handbooks&#34;&gt;Handbooks&lt;/h3&gt;
+&lt;h2 id=&#34;handbooks&#34;&gt;Handbooks&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;A Guide to the Automation Body of Knowledge (Vernon L. Trevathan)&lt;/li&gt;
@@ -26,7 +26,7 @@
 &lt;li&gt;Instrument Engineers&amp;rsquo; Handbook: Process Software and Digital Networks (Béla G. Lipták)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;control-system-documentation&#34;&gt;Control System Documentation&lt;/h4&gt;
+&lt;h3 id=&#34;control-system-documentation&#34;&gt;Control System Documentation&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;isa_51.pdf&#34; target=&#34;_blank&#34;&gt;ANSI/ISA5.1-2009 - Instrumentation Symbols and Identification&lt;/a&gt;&lt;/li&gt;
@@ -34,7 +34,7 @@
 &lt;li&gt;&lt;a href=&#34;isa_54.pdf&#34; target=&#34;_blank&#34;&gt;ANSI/ISA5.4-1991 - Instrument Loop Diagrams&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;industrial-communication-system&#34;&gt;Industrial Communication System&lt;/h4&gt;
+&lt;h3 id=&#34;industrial-communication-system&#34;&gt;Industrial Communication System&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;Introduction to industrial communication networks.pdf&#34; target=&#34;_blank&#34;&gt;Introduction to Industrial Communication Networks&lt;/a&gt;&lt;/li&gt;
@@ -42,17 +42,19 @@
 &lt;li&gt;&lt;a href=&#34;https://support.industry.siemens.com/cs/attachments/35222591/mn_pbnets_76.pdf&#34; target=&#34;_blank&#34;&gt;PROFIBUS Network Manual&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;safety-instrumented-system&#34;&gt;Safety Instrumented System&lt;/h4&gt;
+&lt;h3 id=&#34;safety-instrumented-system&#34;&gt;Safety Instrumented System&lt;/h3&gt;
 
-&lt;h4 id=&#34;miscellaneous&#34;&gt;Miscellaneous&lt;/h4&gt;
+&lt;h3 id=&#34;miscellaneous&#34;&gt;Miscellaneous&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Control Valve Handbook (Emerson)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;optimization-and-control&#34;&gt;Optimization and Control&lt;/h3&gt;
+&lt;h2 id=&#34;distributed-control-systems&#34;&gt;Distributed Control Systems&lt;/h2&gt;
 
-&lt;h4 id=&#34;numerical-optimization&#34;&gt;Numerical Optimization&lt;/h4&gt;
+&lt;h2 id=&#34;optimization-and-control&#34;&gt;Optimization and Control&lt;/h2&gt;
+
+&lt;h3 id=&#34;numerical-optimization&#34;&gt;Numerical Optimization&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Constrained Optimization and Lagrange Multiplier Methods (Dimitri P. Bertsekas)&lt;/li&gt;
@@ -60,7 +62,7 @@
 &lt;li&gt;Network Optimization: Continuous and Discrete Methods (Dimitri P. Bertsekas)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;pid-control&#34;&gt;PID Control&lt;/h4&gt;
+&lt;h3 id=&#34;pid-control&#34;&gt;PID Control&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;relay1984.pdf&#34; target=&#34;_blank&#34;&gt;Automatic Tuning of Simple Regulators with Specifications on Phase and Amplitude Margins&lt;/a&gt; (Karl J. Astrom and Tore Hagglund)&lt;/li&gt;
@@ -68,7 +70,7 @@
 &lt;li&gt;&lt;a href=&#34;https://support.industry.siemens.com/cs/attachments/108210036/s71500_pid_control_function_manual_en-US_en-US.pdf?download=true&#34; target=&#34;_blank&#34;&gt;Function Manual: SIMATIC S7-1200, S7-1500 PID control&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;model-predictive-control&#34;&gt;Model Predictive Control&lt;/h4&gt;
+&lt;h3 id=&#34;model-predictive-control&#34;&gt;Model Predictive Control&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Model Predictive Control: Theory, Computation, and Design (David Mayne, James B. Rawlings, and Moritz Diehl)&lt;/li&gt;
@@ -77,7 +79,7 @@
 &lt;li&gt;&lt;a href=&#34;https://acado.github.io/&#34; target=&#34;_blank&#34;&gt;ACADOtoolkit&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;useful-links&#34;&gt;Useful Links&lt;/h3&gt;
+&lt;h2 id=&#34;useful-links&#34;&gt;Useful Links&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.isa.org/&#34; target=&#34;_blank&#34;&gt;https://www.isa.org/&lt;/a&gt;&lt;/li&gt;
