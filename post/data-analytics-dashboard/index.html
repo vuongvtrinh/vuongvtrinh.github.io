@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Source Themes Academic 3.2.0">
-  <meta name="generator" content="Hugo 0.62.2" />
+  <meta name="generator" content="Hugo 0.55.6" />
   <meta name="author" content="Vuong V. Trinh">
 
   
@@ -398,19 +398,27 @@
   <div class="article-container">
 
     <div class="article-style" itemprop="articleBody">
-      <h2 id="introduction">Introduction</h2>
+      
+
+<h2 id="introduction">Introduction</h2>
+
 <p>A tutorial to develop a web dashboard for data analytics using Python Flask and JavaScript Highcharts.</p>
+
 <ul>
-<li>GitHub repository: <a href="https://github.com/trinhvv/flask-highcharts">https://github.com/trinhvv/flask-highcharts</a></li>
-<li>Live demo: <a href="https://flask-highcharts.herokuapp.com">https://flask-highcharts.herokuapp.com</a></li>
+<li>GitHub repository: <a href="https://github.com/trinhvv/flask-highcharts" target="_blank">https://github.com/trinhvv/flask-highcharts</a></li>
+<li>Live demo: <a href="https://flask-highcharts.herokuapp.com" target="_blank">https://flask-highcharts.herokuapp.com</a></li>
 </ul>
+
 <h2 id="tutorial">Tutorial</h2>
+
 <ul>
-<li>Fetch data from <a href="https://www.blockchain.com/">https://www.blockchain.com/</a></li>
+<li>Fetch data from <a href="https://www.blockchain.com/" target="_blank">https://www.blockchain.com/</a></li>
 <li>Data preprocessing in Flask then parse to Highcharts</li>
 <li>Deploy to Heroku</li>
 </ul>
+
 <h3 id="structure">Structure</h3>
+
 <pre><code>app.py
 Procfile
 requirements.txt
@@ -418,12 +426,18 @@ runtime.txt
 static/
 templates/
     index.html
-</code></pre><h3 id="requirementstxt">requirements.txt</h3>
+</code></pre>
+
+<h3 id="requirements-txt">requirements.txt</h3>
+
 <pre><code>Flask
 gunicorn
 pandas
 six
-</code></pre><h3 id="apppy">app.py</h3>
+</code></pre>
+
+<h3 id="app-py">app.py</h3>
+
 <pre><code>from flask import Flask, render_template, jsonify
 import pandas as pd
 from six.moves import urllib
@@ -451,7 +465,10 @@ def index():
  
 if __name__ == '__main__':
     app.run(debug=True, threaded=True, host='0.0.0.0')
-</code></pre><h3 id="templatesindexhtml">templates/index.html</h3>
+</code></pre>
+
+<h3 id="templates-index-html">templates/index.html</h3>
+
 <pre><code>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot; &quot;http://www.w3.org/TR/html4/strict.dtd&quot;&gt;
 &lt;html&gt;
   &lt;head&gt;
@@ -488,11 +505,20 @@ if __name__ == '__main__':
     &lt;div id=&quot;container&quot; style=&quot;height: 400px; min-width: 310px; max-width: 1000px&quot;&gt;&lt;/div&gt;
   &lt;/body&gt;
 &lt;/html&gt;
-</code></pre><h3 id="procfile">Procfile</h3>
+</code></pre>
+
+<h3 id="procfile">Procfile</h3>
+
 <pre><code>web: gunicorn app:app --log-file=-
-</code></pre><h3 id="runtimetxt">runtime.txt</h3>
+</code></pre>
+
+<h3 id="runtime-txt">runtime.txt</h3>
+
 <pre><code>python-3.6.5
-</code></pre><h2 id="deploy-to-heroku">Deploy to Heroku</h2>
+</code></pre>
+
+<h2 id="deploy-to-heroku">Deploy to Heroku</h2>
+
 <pre><code>heroku create flask-highcharts --buildpack heroku/python
 heroku login
 git init
@@ -501,8 +527,11 @@ git add .
 git commit -am &quot;make it better&quot;
 git push heroku master
 heroku ps:scale bot=1 
-</code></pre><h2 id="screenshot">Screenshot</h2>
-<p><img src="screenshot.png" alt="screenshot.png"></p>
+</code></pre>
+
+<h2 id="screenshot">Screenshot</h2>
+
+<p><img src="screenshot.png" alt="screenshot.png" /></p>
 
     </div>
 
@@ -681,7 +710,7 @@ heroku ps:scale bot=1
   
 
   <p class="powered-by">
-    © Vuong V. Trinh 2016 &middot; 
+    &copy; Vuong V. Trinh 2016 &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
@@ -821,7 +850,7 @@ heroku ps:scale bot=1
     
     
     
-    <script src="/js/academic.min.5752a62e7c04993e8f13fbc193e7a138.js"></script>
+    <script src="/js/academic.min.d037ee5294b166a79dec317c58aea9cc.js"></script>
 
     
 
