@@ -1,447 +1,288 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/post/</loc>
-      <lastmod>2019-01-30T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/tags/control-engineering/</loc>
+    <lastmod>2019-01-30T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/</loc>
-      <lastmod>2019-01-30T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/tags/industrial-automation/</loc>
+    <lastmod>2019-01-30T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/post/technical-resources-for-automation-and-control-professionals/</loc>
-      <lastmod>2019-01-30T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/post/</loc>
+    <lastmod>2019-01-30T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/</loc>
-      <lastmod>2019-01-30T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/tags/</loc>
+    <lastmod>2019-01-30T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/control-engineering/</loc>
-      <lastmod>2019-01-30T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/post/technical-resources-for-automation-and-control-professionals/</loc>
+    <lastmod>2019-01-30T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/industrial-automation/</loc>
-      <lastmod>2019-01-30T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/</loc>
+    <lastmod>2019-01-30T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/license/</loc>
-      <lastmod>2018-06-28T00:00:00+07:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/tags/allocation-control/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/post/data-analytics-dashboard/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/tags/anomaly-detection/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/project/cryogenic-refrigerator/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/tags/artificial-intelligence/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/project/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/tags/blockchain/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/project/quantitative-finance/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/tags/blockchain-cryptoasset/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/project/anomaly-detection/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/tags/cold-box/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/allocation-control/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/tags/compression-station/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/anomaly-detection/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/tags/control-valve/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/artificial-intelligence/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/tags/cryogenics/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/blockchain/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/tags/dashboard/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/blockchain-cryptoasset/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/post/data-analytics-dashboard/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/cold-box/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/tags/data-analytics/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/compression-station/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/tags/derivatives/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/control-valve/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/tags/distributed-control-systems/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/cryogenics/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/tags/financial-time-series/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/dashboard/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/tags/flask/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/data-analytics/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/tags/highcharts/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/derivatives/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/project/cryogenic-refrigerator/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/distributed-control-systems/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/tags/model-predictive-control/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/financial-time-series/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/tags/optimization-control/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/flask/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/project/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/highcharts/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/project/quantitative-finance/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/model-predictive-control/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/tags/quantitative-finance/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/optimization-control/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/project/anomaly-detection/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/quantitative-finance/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/tags/thermodynamics/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/thermodynamics/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/tags/trading-strategies/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/trading-strategies/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/tags/wireless-sensor-networks/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/wireless-sensor-networks/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/publication_types/2/</loc>
+    <lastmod>2017-09-06T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/project/solar-energy/</loc>
-      <lastmod>2017-12-30T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/authors/</loc>
+    <lastmod>2017-09-06T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/solar-energy/</loc>
-      <lastmod>2017-12-30T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/publication/2017-hdmpc-jpc/</loc>
+    <lastmod>2017-09-06T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/publication_types/2/</loc>
-      <lastmod>2017-09-06T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/authors/francois-bonne/</loc>
+    <lastmod>2017-09-06T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/publication/2017-hdmpc-jpc/</loc>
-      <lastmod>2017-09-06T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/authors/mazen-alamir/</loc>
+    <lastmod>2017-09-06T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/publication_types/</loc>
-      <lastmod>2017-09-06T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/authors/patrick-bonnay/</loc>
+    <lastmod>2017-09-06T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/publication/</loc>
-      <lastmod>2017-09-06T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/publication_types/</loc>
+    <lastmod>2017-09-06T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/publication_types/1/</loc>
-      <lastmod>2017-08-13T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/publication/</loc>
+    <lastmod>2017-09-06T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/publication/2017-hdmpc-ifacwc/</loc>
-      <lastmod>2017-08-13T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/authors/van-vuong-trinh/</loc>
+    <lastmod>2017-09-06T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/publication/2017-wsn-nics/</loc>
-      <lastmod>2017-08-10T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/publication_types/1/</loc>
+    <lastmod>2017-08-13T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/publication/2016-enmpc-nolcos/</loc>
-      <lastmod>2016-10-17T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/publication/2017-hdmpc-ifacwc/</loc>
+    <lastmod>2017-08-13T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/publication/2017-wsn-atc/</loc>
-      <lastmod>2016-08-16T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/authors/anh-tuan-mai/</loc>
+    <lastmod>2017-08-10T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/project/active-vibration-control/</loc>
-      <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/publication/2017-wsn-nics/</loc>
+    <lastmod>2017-08-10T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/project/sail-yacht/</loc>
-      <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/authors/kim-phuc-tran/</loc>
+    <lastmod>2017-08-10T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/electro-mechanics/</loc>
-      <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/publication/2016-enmpc-nolcos/</loc>
+    <lastmod>2016-10-17T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/robust-control/</loc>
-      <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/publication/2017-wsn-atc/</loc>
+    <lastmod>2016-08-16T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/tags/sail-yacht/</loc>
-      <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/authors/thu-huong-truong/</loc>
+    <lastmod>2016-08-16T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://vuongvtrinh.github.io/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://vuongvtrinh.github.io/project/active-vibration-control/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vuongvtrinh.github.io/tags/electro-mechanics/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vuongvtrinh.github.io/tags/robust-control/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vuongvtrinh.github.io/project/sail-yacht/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vuongvtrinh.github.io/tags/sail-yacht/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vuongvtrinh.github.io/authors/admin/</loc>
+  </url>
+  
+  <url>
+    <loc>https://vuongvtrinh.github.io/categories/</loc>
+  </url>
   
 </urlset>

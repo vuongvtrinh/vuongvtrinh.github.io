@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Vuong V. Trinh</title>
+    <title>Tags | Vuong V. Trinh</title>
     <link>https://vuongvtrinh.github.io/tags/</link>
-    <description>Recent content in Tags on Vuong V. Trinh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; Vuong V. Trinh 2016</copyright>
-    <lastBuildDate>Wed, 30 Jan 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://vuongvtrinh.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://vuongvtrinh.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Vuong V. Trinh</copyright><lastBuildDate>Wed, 30 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://vuongvtrinh.github.io/img/logo.png</url>
+      <title>Tags</title>
+      <link>https://vuongvtrinh.github.io/tags/</link>
+    </image>
     
     <item>
       <title>control-engineering</title>
       <link>https://vuongvtrinh.github.io/tags/control-engineering/</link>
       <pubDate>Wed, 30 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://vuongvtrinh.github.io/tags/control-engineering/</guid>
       <description></description>
     </item>
@@ -25,7 +24,6 @@
       <title>industrial-automation</title>
       <link>https://vuongvtrinh.github.io/tags/industrial-automation/</link>
       <pubDate>Wed, 30 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://vuongvtrinh.github.io/tags/industrial-automation/</guid>
       <description></description>
     </item>
@@ -34,7 +32,6 @@
       <title>allocation-control</title>
       <link>https://vuongvtrinh.github.io/tags/allocation-control/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://vuongvtrinh.github.io/tags/allocation-control/</guid>
       <description></description>
     </item>
@@ -43,7 +40,6 @@
       <title>anomaly-detection</title>
       <link>https://vuongvtrinh.github.io/tags/anomaly-detection/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://vuongvtrinh.github.io/tags/anomaly-detection/</guid>
       <description></description>
     </item>
@@ -52,7 +48,6 @@
       <title>artificial-intelligence</title>
       <link>https://vuongvtrinh.github.io/tags/artificial-intelligence/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://vuongvtrinh.github.io/tags/artificial-intelligence/</guid>
       <description></description>
     </item>
@@ -61,7 +56,6 @@
       <title>blockchain</title>
       <link>https://vuongvtrinh.github.io/tags/blockchain/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://vuongvtrinh.github.io/tags/blockchain/</guid>
       <description></description>
     </item>
@@ -70,7 +64,6 @@
       <title>blockchain-cryptoasset</title>
       <link>https://vuongvtrinh.github.io/tags/blockchain-cryptoasset/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://vuongvtrinh.github.io/tags/blockchain-cryptoasset/</guid>
       <description></description>
     </item>
@@ -79,7 +72,6 @@
       <title>cold-box</title>
       <link>https://vuongvtrinh.github.io/tags/cold-box/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://vuongvtrinh.github.io/tags/cold-box/</guid>
       <description></description>
     </item>
@@ -88,7 +80,6 @@
       <title>compression-station</title>
       <link>https://vuongvtrinh.github.io/tags/compression-station/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://vuongvtrinh.github.io/tags/compression-station/</guid>
       <description></description>
     </item>
@@ -97,7 +88,6 @@
       <title>control-valve</title>
       <link>https://vuongvtrinh.github.io/tags/control-valve/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://vuongvtrinh.github.io/tags/control-valve/</guid>
       <description></description>
     </item>
@@ -106,7 +96,6 @@
       <title>cryogenics</title>
       <link>https://vuongvtrinh.github.io/tags/cryogenics/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://vuongvtrinh.github.io/tags/cryogenics/</guid>
       <description></description>
     </item>
@@ -115,7 +104,6 @@
       <title>dashboard</title>
       <link>https://vuongvtrinh.github.io/tags/dashboard/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://vuongvtrinh.github.io/tags/dashboard/</guid>
       <description></description>
     </item>
@@ -124,7 +112,6 @@
       <title>data-analytics</title>
       <link>https://vuongvtrinh.github.io/tags/data-analytics/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://vuongvtrinh.github.io/tags/data-analytics/</guid>
       <description></description>
     </item>
@@ -133,7 +120,6 @@
       <title>derivatives</title>
       <link>https://vuongvtrinh.github.io/tags/derivatives/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://vuongvtrinh.github.io/tags/derivatives/</guid>
       <description></description>
     </item>
@@ -142,7 +128,6 @@
       <title>distributed-control-systems</title>
       <link>https://vuongvtrinh.github.io/tags/distributed-control-systems/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://vuongvtrinh.github.io/tags/distributed-control-systems/</guid>
       <description></description>
     </item>
@@ -151,7 +136,6 @@
       <title>financial-time-series</title>
       <link>https://vuongvtrinh.github.io/tags/financial-time-series/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://vuongvtrinh.github.io/tags/financial-time-series/</guid>
       <description></description>
     </item>
@@ -160,7 +144,6 @@
       <title>flask</title>
       <link>https://vuongvtrinh.github.io/tags/flask/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://vuongvtrinh.github.io/tags/flask/</guid>
       <description></description>
     </item>
@@ -169,7 +152,6 @@
       <title>highcharts</title>
       <link>https://vuongvtrinh.github.io/tags/highcharts/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://vuongvtrinh.github.io/tags/highcharts/</guid>
       <description></description>
     </item>
@@ -178,7 +160,6 @@
       <title>model-predictive-control</title>
       <link>https://vuongvtrinh.github.io/tags/model-predictive-control/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://vuongvtrinh.github.io/tags/model-predictive-control/</guid>
       <description></description>
     </item>
@@ -187,7 +168,6 @@
       <title>optimization-control</title>
       <link>https://vuongvtrinh.github.io/tags/optimization-control/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://vuongvtrinh.github.io/tags/optimization-control/</guid>
       <description></description>
     </item>
@@ -196,7 +176,6 @@
       <title>quantitative-finance</title>
       <link>https://vuongvtrinh.github.io/tags/quantitative-finance/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://vuongvtrinh.github.io/tags/quantitative-finance/</guid>
       <description></description>
     </item>
@@ -205,7 +184,6 @@
       <title>thermodynamics</title>
       <link>https://vuongvtrinh.github.io/tags/thermodynamics/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://vuongvtrinh.github.io/tags/thermodynamics/</guid>
       <description></description>
     </item>
@@ -214,7 +192,6 @@
       <title>trading-strategies</title>
       <link>https://vuongvtrinh.github.io/tags/trading-strategies/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://vuongvtrinh.github.io/tags/trading-strategies/</guid>
       <description></description>
     </item>
@@ -223,17 +200,7 @@
       <title>wireless-sensor-networks</title>
       <link>https://vuongvtrinh.github.io/tags/wireless-sensor-networks/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://vuongvtrinh.github.io/tags/wireless-sensor-networks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>solar-energy</title>
-      <link>https://vuongvtrinh.github.io/tags/solar-energy/</link>
-      <pubDate>Sat, 30 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://vuongvtrinh.github.io/tags/solar-energy/</guid>
       <description></description>
     </item>
     
@@ -241,7 +208,6 @@
       <title>electro-mechanics</title>
       <link>https://vuongvtrinh.github.io/tags/electro-mechanics/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://vuongvtrinh.github.io/tags/electro-mechanics/</guid>
       <description></description>
     </item>
@@ -250,7 +216,6 @@
       <title>robust-control</title>
       <link>https://vuongvtrinh.github.io/tags/robust-control/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://vuongvtrinh.github.io/tags/robust-control/</guid>
       <description></description>
     </item>
@@ -259,7 +224,6 @@
       <title>sail-yacht</title>
       <link>https://vuongvtrinh.github.io/tags/sail-yacht/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://vuongvtrinh.github.io/tags/sail-yacht/</guid>
       <description></description>
     </item>

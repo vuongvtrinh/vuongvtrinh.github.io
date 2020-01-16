@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Vuong V. Trinh</title>
+    <link>https://vuongvtrinh.github.io/authors/</link>
+      <atom:link href="https://vuongvtrinh.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Vuong V. Trinh</copyright><lastBuildDate>Wed, 06 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://vuongvtrinh.github.io/img/logo.png</url>
+      <title>Authors</title>
+      <link>https://vuongvtrinh.github.io/authors/</link>
+    </image>
+    
+    <item>
+      <title>Francois Bonne</title>
+      <link>https://vuongvtrinh.github.io/authors/francois-bonne/</link>
+      <pubDate>Wed, 06 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://vuongvtrinh.github.io/authors/francois-bonne/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mazen Alamir</title>
+      <link>https://vuongvtrinh.github.io/authors/mazen-alamir/</link>
+      <pubDate>Wed, 06 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://vuongvtrinh.github.io/authors/mazen-alamir/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Patrick Bonnay</title>
+      <link>https://vuongvtrinh.github.io/authors/patrick-bonnay/</link>
+      <pubDate>Wed, 06 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://vuongvtrinh.github.io/authors/patrick-bonnay/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Van Vuong Trinh</title>
+      <link>https://vuongvtrinh.github.io/authors/van-vuong-trinh/</link>
+      <pubDate>Wed, 06 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://vuongvtrinh.github.io/authors/van-vuong-trinh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anh Tuan Mai</title>
+      <link>https://vuongvtrinh.github.io/authors/anh-tuan-mai/</link>
+      <pubDate>Thu, 10 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>https://vuongvtrinh.github.io/authors/anh-tuan-mai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kim Phuc Tran</title>
+      <link>https://vuongvtrinh.github.io/authors/kim-phuc-tran/</link>
+      <pubDate>Thu, 10 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>https://vuongvtrinh.github.io/authors/kim-phuc-tran/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thu Huong Truong</title>
+      <link>https://vuongvtrinh.github.io/authors/thu-huong-truong/</link>
+      <pubDate>Tue, 16 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://vuongvtrinh.github.io/authors/thu-huong-truong/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vuongvtrinh.github.io/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://vuongvtrinh.github.io/authors/admin/</guid>
+      <description>&lt;p&gt;I received engineer&#39;s degree from &lt;a href=&#34;https://en.hust.edu.vn/&#34;&gt;Hanoi University of Science and Technology (HUST)&lt;/a&gt; in 2012, followed by master&#39;s degree from &lt;a href=&#34;https://www.univ-grenoble-alpes.fr/&#34;&gt;Université Joseph Fourier (UJF)&lt;/a&gt; and &lt;a href=&#34;http://www.grenoble-inp.fr/&#34;&gt;Institut Polytechnique de Grenoble (Grenoble INP)&lt;/a&gt; in 2014, both in automation and control engineering. I carried out process control and optimization research at &lt;a href=&#34;http://www.gipsa-lab.fr/&#34;&gt;Grenoble Images Parole Signal Automatique laboratoire (GIPSA-lab)&lt;/a&gt; and &lt;a href=&#34;http://www.cea.fr/&#34;&gt;Commissariat à l&#39;Énergie Atomique et aux Énergies Alternatives (CEA)&lt;/a&gt; within &lt;a href=&#34;http://inac.cea.fr/sbt/&#34;&gt;Service des Basses Températures (INAC-SBT)&lt;/a&gt;. I developed software for simulation and optimization of sailing yachts at &lt;a href=&#34;https://www.bmuyl.com/&#34;&gt;Benjamin Muyl Design Sarl (BMD)&lt;/a&gt;, and currently served as associate researcher in industrial automation and artificial intelligence at &lt;a href=&#34;http://donga.edu.vn/&#34;&gt;Dong A University Research Institute (UDA)&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

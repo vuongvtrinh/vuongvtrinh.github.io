@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>wireless-sensor-networks on Vuong V. Trinh</title>
+    <title>wireless-sensor-networks | Vuong V. Trinh</title>
     <link>https://vuongvtrinh.github.io/tags/wireless-sensor-networks/</link>
-    <description>Recent content in wireless-sensor-networks on Vuong V. Trinh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; Vuong V. Trinh 2016</copyright>
-    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://vuongvtrinh.github.io/tags/wireless-sensor-networks/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://vuongvtrinh.github.io/tags/wireless-sensor-networks/index.xml" rel="self" type="application/rss+xml" />
+    <description>wireless-sensor-networks</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Vuong V. Trinh</copyright><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://vuongvtrinh.github.io/img/logo.png</url>
+      <title>wireless-sensor-networks</title>
+      <link>https://vuongvtrinh.github.io/tags/wireless-sensor-networks/</link>
+    </image>
     
     <item>
       <title>Real-time Anomaly Detection for Industrial Big Data</title>
       <link>https://vuongvtrinh.github.io/project/anomaly-detection/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://vuongvtrinh.github.io/project/anomaly-detection/</guid>
       <description></description>
     </item>

@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2 on Vuong V. Trinh</title>
+    <title>2 | Vuong V. Trinh</title>
     <link>https://vuongvtrinh.github.io/publication_types/2/</link>
-    <description>Recent content in 2 on Vuong V. Trinh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; Vuong V. Trinh 2016</copyright>
-    <lastBuildDate>Wed, 06 Sep 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://vuongvtrinh.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://vuongvtrinh.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Vuong V. Trinh</copyright><lastBuildDate>Wed, 06 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://vuongvtrinh.github.io/img/logo.png</url>
+      <title>2</title>
+      <link>https://vuongvtrinh.github.io/publication_types/2/</link>
+    </image>
     
     <item>
       <title>Fixed-point based hierarchical MPC control design for a cryogenic refrigerator</title>
       <link>https://vuongvtrinh.github.io/publication/2017-hdmpc-jpc/</link>
       <pubDate>Wed, 06 Sep 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://vuongvtrinh.github.io/publication/2017-hdmpc-jpc/</guid>
       <description></description>
     </item>
