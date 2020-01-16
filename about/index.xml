@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts | Vuong V. Trinh</title>
+    <link>https://vuongvtrinh.github.io/about/</link>
+      <atom:link href="https://vuongvtrinh.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+    <description>Abouts</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Vuong V. Trinh</copyright>
+    <image>
+      <url>https://vuongvtrinh.github.io/img/logo.png</url>
+      <title>Abouts</title>
+      <link>https://vuongvtrinh.github.io/about/</link>
+    </image>
+    
+    <item>
+      <title>Biography</title>
+      <link>https://vuongvtrinh.github.io/about/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://vuongvtrinh.github.io/about/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://vuongvtrinh.github.io/about/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://vuongvtrinh.github.io/about/contact/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
