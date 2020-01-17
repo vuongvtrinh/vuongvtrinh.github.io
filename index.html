@@ -397,35 +397,6 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#expertise" data-target="#expertise"><span>Expertise</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
           <a class="nav-link " href="/#projects" data-target="#projects"><span>Portfolio</span></a>
         </li>
 
@@ -771,71 +742,6 @@
     </div>
   </div>
 </div>
-
-    </div>
-  </section>
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="expertise" class="home-section wg-hero   "  >
-    <div class="container">
-      
-
-
-
-
-<div class="row">
-  <div class="col-md-6 order-md-1 text-center text-md-left">
-
-
-    <h1 class="hero-title">
-      Expertise
-    </h1>
-
-    
-
-    
-    
-
-    
-    
-
-  
-  
-  </div>
-  <div class="col-6 mx-auto col-md-6 order-md-2 hero-media">
-    <img src="/img/wordcloud.svg" alt="">
-  </div>
-</div>
-
 
     </div>
   </section>
@@ -1245,6 +1151,8 @@
   
   <li data-target="#portfolio" data-slide-to="1" ></li>
   
+  <li data-target="#portfolio" data-slide-to="2" ></li>
+  
 </ol>
 
 
@@ -1265,6 +1173,10 @@
           Wood Pellet Factory
         </h1>
 
+        
+        <p class="hero-lead" style="margin: 0 auto 0 auto;">
+          Industrial Automation &amp; Control Solutions
+        </p>
         
 
         
@@ -1287,7 +1199,45 @@
         </h1>
 
         
+        <p class="hero-lead" style="margin: 0 auto 0 auto;">
+          Distributed Control for Large Interconnected Systems
+        </p>
+        
 
+        
+      </div>
+  </div>
+  
+  <div class="wg-hero dark carousel-item" style="height: calc(100vh - 70px);
+    
+    background-color: #555;
+    
+    
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url('https://vuongvtrinh.github.io/img/blockchain-cryptoasset-analytics/x.png');
+    
+    ;">
+    <div class="container" style="text-align: center;">
+        <h1 class="hero-title">
+          Trading Analysis Bot
+        </h1>
+
+        
+        <p class="hero-lead" style="margin: 0 auto 0 auto;">
+          Data-driven analytics of crypto-market
+        </p>
+        
+
+        
+        
+        
+        
+          
+        
+        <p>
+          <a href="https://t.me/trading_analysis_bot" class="btn btn-light btn-lg"><i class="fab fa-telegram" style="padding-right: 10px;"></i>Chat</a>
+        </p>
         
       </div>
   </div>
@@ -2092,10 +2042,6 @@
     </h3>
 
     
-    <div class="article-style">
-      Automation and Control Bibliography
-    </div>
-    
 
     <div class="stream-meta article-metadata">
 
@@ -2176,10 +2122,6 @@
       <a href="/post/data-analytics-dashboard/" >Data Analytics Dashboard using Flask and Highcharts</a>
     </h3>
 
-    
-    <div class="article-style">
-      Dashboard = Flask + Highcharts
-    </div>
     
 
     <div class="stream-meta article-metadata">
@@ -2312,6 +2254,12 @@
 
       
       
+        
+        <li>
+          <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
+          <span id="person-address">143 Ly Nhan Tong, Thanh Hoa, Thanh Hoa 40000, Vietnam</span>
+        </li>
+      
 
       
 
@@ -2324,6 +2272,16 @@
 
     </ul>
 
+    
+    <div class="d-none">
+      <input id="map-provider" value="1">
+      <input id="map-lat" value="19.821156">
+      <input id="map-lng" value="105.770915">
+      <input id="map-dir" value="143 Ly Nhan Tong, Thanh Hoa, Thanh Hoa 40000, Vietnam">
+      <input id="map-zoom" value="15">
+      <input id="map-api-key" value="">
+    </div>
+    <div id="map"></div>
     
 
   </div>
@@ -2359,6 +2317,11 @@
     
 
     
+    
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key="></script>
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>
+      
     
 
     
