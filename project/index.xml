@@ -82,25 +82,15 @@
 &lt;h3 id=&#34;hierarchical-control-algorithm-and-numerical-results&#34;&gt;Hierarchical control algorithm and numerical results&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;hdmpc-algo.png&#34;&gt;&lt;img src=&#34;hdmpc-algo.png&#34; alt=&#34;Hierarchical control algorithm&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;aa-convergence.png&#34;&gt;&lt;img src=&#34;aa-convergence.png&#34; alt=&#34;Convergence result&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;fast-nonlinear-constrained-control-of-a-stirling&#34;&gt;Fast nonlinear constrained control of a Stirling&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;microsol.png&#34;&gt;&lt;img src=&#34;microsol.png&#34; alt=&#34;Photo&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;solar_thermodynamic_micro_power_plant.png&#34;&gt;&lt;img src=&#34;solar_thermodynamic_micro_power_plant.png&#34; alt=&#34;Photo&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;process-diagram&#34;&gt;Process diagram&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;stirling_diagram.png&#34;&gt;&lt;img src=&#34;stirling_diagram.png&#34; alt=&#34;Process diagram&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;fast-explicit-constrained-control-synthesis&#34;&gt;Fast explicit constrained control synthesis&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;empc_nonlin.png&#34;&gt;&lt;img src=&#34;empc_nonlin.png&#34; alt=&#34;Nonlinear analysis&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;real-time-validation&#34;&gt;Real-time validation&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;empc_valid.png&#34;&gt;&lt;img src=&#34;empc_valid.png&#34; alt=&#34;Validation and real-time analysis&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Quantitative Finance</title>
+      <title>Quantitative Finance from Analytics to Strategies</title>
       <link>https://vuongvtrinh.github.io/project/quantitative-finance/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://vuongvtrinh.github.io/project/quantitative-finance/</guid>
-      <description>&lt;p&gt;We develop an intelligent data driven application to monitor blockchain projects and to analyze cryptoassets from both utility and speculation perspectives. We target blockchain entrepreneurs, investors and traders all along the life of projects: token generation, listing on secondary market, product delivery, product usage, and token valorization.&lt;/p&gt;
-&lt;h2 id=&#34;financial-analytics&#34;&gt;Financial Analytics&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;financial-analytics&#34;&gt;Financial Analytics&lt;/h2&gt;
 &lt;h3 id=&#34;crypto-markets&#34;&gt;Crypto Markets&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://t.me/trading_analysis_bot&#34;&gt;Telegram Chat Bot&lt;/a&gt;&lt;/p&gt;
 &lt;h4 id=&#34;fundamental-information&#34;&gt;Fundamental information&lt;/h4&gt;
@@ -350,6 +340,23 @@ Source: https://messari.io
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://vuongvtrinh.github.io/project/anomaly-detection/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Energy Management of Solar Thermodynamic Micro Power Plant</title>
+      <link>https://vuongvtrinh.github.io/project/solar-energy/</link>
+      <pubDate>Sat, 30 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://vuongvtrinh.github.io/project/solar-energy/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;microsol.png&#34;&gt;&lt;img src=&#34;microsol.png&#34; alt=&#34;Photo&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;solar_thermodynamic_micro_power_plant.png&#34;&gt;&lt;img src=&#34;solar_thermodynamic_micro_power_plant.png&#34; alt=&#34;Photo&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;fast-nonlinear-constrained-control-of-a-stirling-engine&#34;&gt;Fast nonlinear constrained control of a Stirling engine&lt;/h2&gt;
+&lt;h3 id=&#34;process-diagram&#34;&gt;Process diagram&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;stirling_diagram.png&#34;&gt;&lt;img src=&#34;stirling_diagram.png&#34; alt=&#34;Process diagram&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;fast-explicit-constrained-control-synthesis&#34;&gt;Fast explicit constrained control synthesis&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;empc_nonlin.png&#34;&gt;&lt;img src=&#34;empc_nonlin.png&#34; alt=&#34;Nonlinear analysis&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;real-time-validation&#34;&gt;Real-time validation&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;empc_valid.png&#34;&gt;&lt;img src=&#34;empc_valid.png&#34; alt=&#34;Validation and real-time analysis&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
