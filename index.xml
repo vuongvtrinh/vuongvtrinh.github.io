@@ -258,12 +258,7 @@ heroku ps:scale bot=1
       <link>https://vuongvtrinh.github.io/project/quantitative-finance/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://vuongvtrinh.github.io/project/quantitative-finance/</guid>
-      <description>&lt;h2 id=&#34;research&#34;&gt;Research&lt;/h2&gt;
-&lt;h3 id=&#34;financial-analytics&#34;&gt;Financial analytics&lt;/h3&gt;
-&lt;h3 id=&#34;trading-strategies&#34;&gt;Trading strategies&lt;/h3&gt;
-&lt;h3 id=&#34;web-applications&#34;&gt;Web applications&lt;/h3&gt;
-&lt;h3 id=&#34;desktop-aplications&#34;&gt;Desktop aplications&lt;/h3&gt;
-&lt;h2 id=&#34;gallery&#34;&gt;Gallery&lt;/h2&gt;
+      <description>
 
 
 
@@ -272,91 +267,146 @@ heroku ps:scale bot=1
 
 
 
-  
-  
 
 
-&lt;div class=&#34;gallery&#34;&gt;
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;financial-market.png&#34; data-caption=&#34;Financial Market&#34;&gt;
+&lt;img data-src=&#34;financial-market.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
 
   
   
-  
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/quantitative-finance/gallery/CHRIS_CME_SI1.png&#34; &gt;
-  &lt;img data-src=&#34;https://vuongvtrinh.github.io/project/quantitative-finance/gallery/CHRIS_CME_SI1_hue96dff299ff935497a49703d918fef5b_251899_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/quantitative-finance/gallery/b.png&#34; &gt;
-  &lt;img data-src=&#34;https://vuongvtrinh.github.io/project/quantitative-finance/gallery/b_hu6a3ff6361c0ea2766a9c44a31a310612_173734_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/quantitative-finance/gallery/blog.png&#34; &gt;
-  &lt;img data-src=&#34;https://vuongvtrinh.github.io/project/quantitative-finance/gallery/blog_hu42035073ccb8a73360e397929d7e1700_18188_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/quantitative-finance/gallery/featured.png&#34; &gt;
-  &lt;img data-src=&#34;https://vuongvtrinh.github.io/project/quantitative-finance/gallery/featured_hufcec0fc17983a6d8b787b63a0936074a_577052_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/quantitative-finance/gallery/market.png&#34; &gt;
-  &lt;img data-src=&#34;https://vuongvtrinh.github.io/project/quantitative-finance/gallery/market_hu1f4bea789e9c354a48961e150ff6c7bc_136115_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/quantitative-finance/gallery/portfolio.png&#34; &gt;
-  &lt;img data-src=&#34;https://vuongvtrinh.github.io/project/quantitative-finance/gallery/portfolio_hu1790d80ee1438a61c5c96af14256cf1a_55462_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/quantitative-finance/gallery/r.png&#34; &gt;
-  &lt;img data-src=&#34;https://vuongvtrinh.github.io/project/quantitative-finance/gallery/r_huff6b2351f77d4103392a061fc3c66643_82854_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://vuongvtrinh.github.io/project/quantitative-finance/gallery/user.png&#34; &gt;
-  &lt;img data-src=&#34;https://vuongvtrinh.github.io/project/quantitative-finance/gallery/user_hufbe689febe4795c1f57a14bd8b95a0b6_40144_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
+  &lt;figcaption&gt;
+    Financial Market
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;financial-analytics&#34;&gt;Financial Analytics&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;technical-analysis.png&#34; data-caption=&#34;Technical Analysis&#34;&gt;
+&lt;img data-src=&#34;technical-analysis.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
 
   
-&lt;/div&gt;
+  
+  &lt;figcaption&gt;
+    Technical Analysis
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;trading-strategies&#34;&gt;Trading Strategies&lt;/h2&gt;
+&lt;h2 id=&#34;web-application&#34;&gt;Web Application&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;blog.png&#34; data-caption=&#34;Content Management System&#34;&gt;
+&lt;img data-src=&#34;blog.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Content Management System
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;user.png&#34; data-caption=&#34;User Management System&#34;&gt;
+&lt;img data-src=&#34;user.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    User Management System
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;portfolio.png&#34; data-caption=&#34;Portfolio Management via Reinforcement Learning&#34;&gt;
+&lt;img data-src=&#34;portfolio.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Portfolio Management via Reinforcement Learning
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;desktop-aplication&#34;&gt;Desktop Aplication&lt;/h2&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;Jesse L. Livermore: Reminiscences of a Stock Operator&lt;/em&gt;, Edwin Lefevre&lt;/li&gt;
