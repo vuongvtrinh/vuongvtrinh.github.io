@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>information-technologies | Vuong V. Trinh</title>
+    <link>https://vuongvtrinh.github.io/tags/information-technologies/</link>
+      <atom:link href="https://vuongvtrinh.github.io/tags/information-technologies/index.xml" rel="self" type="application/rss+xml" />
+    <description>information-technologies</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Vuong V. Trinh</copyright><lastBuildDate>Tue, 02 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://vuongvtrinh.github.io/img/logo.png</url>
+      <title>information-technologies</title>
+      <link>https://vuongvtrinh.github.io/tags/information-technologies/</link>
+    </image>
+    
+    <item>
+      <title>Information Technologies Library</title>
+      <link>https://vuongvtrinh.github.io/post/information-technologies-library/</link>
+      <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://vuongvtrinh.github.io/post/information-technologies-library/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://windscribe.com/?affid=j7wsmndv&#34;&gt;Windscribe VPN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/learn/modules/n-tier-architecture/3-deploy-n-tier-architecture&#34;&gt;Free VPS Azure&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
