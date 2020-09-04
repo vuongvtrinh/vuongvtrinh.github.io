@@ -23,16 +23,6 @@
 &lt;li&gt;A Guide to the Automation Body of Knowledge (Vernon L. Trevathan)&lt;/li&gt;
 &lt;li&gt;Instrument Engineers&amp;rsquo; Handbook: Process Measurement and Analysis (Béla G. Lipták)&lt;/li&gt;
 &lt;li&gt;Instrument Engineers&amp;rsquo; Handbook: Process Control and Optimization (Béla G. Lipták)&lt;/li&gt;
-&lt;li&gt;Instrument Engineers&amp;rsquo; Handbook: Process Software and Digital Networks (Béla G. Lipták)&lt;/li&gt;
-&lt;li&gt;IEC 61131-3: Programming Industrial Automation Systems: Concepts and Programming Languages, Requirements for Programming Systems, Decision-Making Aids (Karl H. John, Michael Tiegelkamp)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;control-system-documentation&#34;&gt;Control System Documentation&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;isa_51.pdf&#34;&gt;ANSI/ISA5.1-2009 - Instrumentation Symbols and Identification&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;isa_53.pdf&#34;&gt;ANSI/ISA5.3-1983 - Graphic Symbols for Distributed Control-Shared Display Instrumentation, Logic &amp;amp; Computer Systems&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;isa_54.pdf&#34;&gt;ANSI/ISA5.4-1991 - Instrument Loop Diagrams&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;iec_61131-3.pdf&#34;&gt;IEC 61131-3 - Programmable Controllers – Part 3: Programming Languages&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.automation.siemens.com/bilddb/index.aspx&#34;&gt;Industry Image Database: Photos, graphics and CAx data free of charge for your presentation or engineering process&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;optimization-and-control&#34;&gt;Optimization and Control&lt;/h2&gt;
 &lt;h3 id=&#34;numerical-optimization&#34;&gt;Numerical Optimization&lt;/h3&gt;
@@ -41,7 +31,7 @@
 &lt;li&gt;Parallel and Distributed Computation Numerical Methods (Dimitri P. Bertsekas)&lt;/li&gt;
 &lt;li&gt;Network Optimization: Continuous and Discrete Methods (Dimitri P. Bertsekas)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;classical-control&#34;&gt;Classical Control&lt;/h3&gt;
+&lt;h3 id=&#34;pid-control&#34;&gt;PID Control&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;relay1984.pdf&#34;&gt;Automatic Tuning of Simple Regulators with Specifications on Phase and Amplitude Margins&lt;/a&gt; (Karl J. Astrom and Tore Hagglund)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;simc2012.pdf&#34;&gt;The SIMC Method for Smooth PID Controller Tuning&lt;/a&gt; (Sigurd Skogestad and Chriss Grimholt)&lt;/li&gt;
@@ -56,7 +46,6 @@
 &lt;li&gt;&lt;a href=&#34;https://www.isa.org/&#34;&gt;https://www.isa.org/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.controleng.com/&#34;&gt;https://www.controleng.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.controlglobal.com/&#34;&gt;https://www.controlglobal.com/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.automation.com/&#34;&gt;https://www.automation.com/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
