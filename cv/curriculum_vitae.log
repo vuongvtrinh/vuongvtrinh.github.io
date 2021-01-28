@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.4)  27 JAN 2021 13:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.4)  28 JAN 2021 15:33
 entering extended mode
 **./curriculum_vitae.tex
 (curriculum_vitae.tex
@@ -402,6 +402,12 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
 (D:\Users\trinhvv-admin\AppData\Roaming\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
+Overfull \hbox (9.22577pt too wide) in paragraph at lines 159--160
+[]\T1/ptm/m/n/10.95 Intensive use of Python (\T1/ptm/m/it/10.95 Pan-das, Se-le-
+nium, PyAu-to-GUI, Flask\T1/ptm/m/n/10.95 ); fa-mil-iar with JAM-stack (\T1/ptm
+/m/it/10.95 Hugo, Wowchemy,
+ []
+
 [1
 
 {D:/Users/trinhvv-admin/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
@@ -431,7 +437,7 @@ AppData/Roaming/MiKTeX/fonts/enc/dvips/fontawesome/fontawesometwo.enc}<D:/Users
 e.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Fil
 es/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on curriculum_vitae.pdf (2 pages, 93080 bytes).
+Output written on curriculum_vitae.pdf (2 pages, 93090 bytes).
 PDF statistics:
  144 PDF objects out of 1000 (max. 8388607)
  11 named destinations out of 1000 (max. 500000)
