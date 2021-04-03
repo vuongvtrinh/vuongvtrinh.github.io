@@ -5,57 +5,12 @@
     <link>https://vuongvtrinh.github.io/post/</link>
       <atom:link href="https://vuongvtrinh.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Vuong V. Trinh 2021</copyright><lastBuildDate>Wed, 30 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Vuong V. Trinh 2021</copyright><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://vuongvtrinh.github.io/media/portrait.jpg</url>
       <title>Posts</title>
       <link>https://vuongvtrinh.github.io/post/</link>
     </image>
-    
-    <item>
-      <title>Technical Resources for Automation and Control Professionals</title>
-      <link>https://vuongvtrinh.github.io/post/technical-resources-for-automation-and-control-professionals/</link>
-      <pubDate>Wed, 30 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://vuongvtrinh.github.io/post/technical-resources-for-automation-and-control-professionals/</guid>
-      <description>&lt;h2 id=&#34;handbooks&#34;&gt;Handbooks&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;A Guide to the Automation Body of Knowledge (V. L. Trevathan)&lt;/li&gt;
-&lt;li&gt;Instrument Engineers&#39; Handbook: Process Measurement and Analysis (B. G. Lipták)&lt;/li&gt;
-&lt;li&gt;Instrument Engineers&#39; Handbook: Process Control and Optimization (B. G. Lipták)&lt;/li&gt;
-&lt;li&gt;Instrument Engineers&#39; Handbook: Process Software and Digital Networks (B. G. Lipták)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;pid-control&#34;&gt;PID Control&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;relay1984.pdf&#34;&gt;Automatic Tuning of Simple Regulators with Specifications on Phase and Amplitude Margins&lt;/a&gt; (K. J. Astrom and T. Hagglund)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;simc2003.pdf&#34;&gt;Simple Analytic Rules for Model Reduction and PID Controller Tuning&lt;/a&gt; (S. Skogestad)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;simc2012.pdf&#34;&gt;The SIMC Method for Smooth PID Controller Tuning&lt;/a&gt; (S. Skogestad and C. Grimholt)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;advanced-process-control&#34;&gt;Advanced Process Control&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Model Predictive Control: Theory, Computation, and Design (D. Q. Mayne, J. B. Rawlings, and M. Diehl)&lt;/li&gt;
-&lt;li&gt;Numerical Optimal Control (Moritz Diehl and Sébastien Gros)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;mayne2000.pdf&#34;&gt;Constrained Model Predictive Control: Stability and Optimality&lt;/a&gt; (D. Q. Mayne, J. B. Rawlings, C. V. Rao and P. O. M. Scokaert)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;qin2003.pdf&#34;&gt;A Survey of Industrial Model Predictive Control Technology&lt;/a&gt; (S. J. Qin and T. A. Badgwell)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;engell2007.pdf&#34;&gt;Feedback Control for Optimal Process Operation&lt;/a&gt; (S. Engell)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;numerical-optimization&#34;&gt;Numerical Optimization&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Constrained Optimization and Lagrange Multiplier Methods (D. P. Bertsekas)&lt;/li&gt;
-&lt;li&gt;Parallel and Distributed Computation Numerical Methods (D. P. Bertsekas)&lt;/li&gt;
-&lt;li&gt;Network Optimization: Continuous and Discrete Methods (D. P. Bertsekas)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;industrial-internet-of-things&#34;&gt;Industrial Internet of Things&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;sisinni2018.pdf&#34;&gt;Industrial Internet of Things: Challenges, Opportunities, and Directions&lt;/a&gt; (E. Sisinni, A. Saifullah, S. Han, U. Jennehag and M. Gidlund)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.isa.org/&#34;&gt;https://www.isa.org/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.controleng.com/&#34;&gt;https://www.controleng.com/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.controlglobal.com/&#34;&gt;https://www.controlglobal.com/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
     
     <item>
       <title>Data Analytics Dashboard using Flask and Highcharts</title>
