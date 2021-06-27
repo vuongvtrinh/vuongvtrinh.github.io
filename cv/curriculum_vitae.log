@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.4)  18 JUN 2021 18:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.4)  27 JUN 2021 19:56
 entering extended mode
 **./curriculum_vitae.tex
 (curriculum_vitae.tex
@@ -408,18 +408,18 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 
 AED: lastpage setting LastPage
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 318.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 318.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 322.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 322.
  (curriculum_vitae.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 318.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 318.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 322.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 322.
 Package rerunfilecheck Info: File `curriculum_vitae.out' has not changed.
 (rerunfilecheck)             Checksum: D2C921A9A8725DEBDBF070DB38D97EBD;364.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 318.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 322.
  ) 
 Here is how much of TeX's memory you used:
  8128 strings out of 481212
- 122570 string characters out of 2915704
+ 122540 string characters out of 2915704
  398510 words of memory out of 3000000
  23574 multiletter control sequences out of 15000+200000
  554823 words of font info for 44 fonts, out of 3000000 for 9000
@@ -431,9 +431,9 @@ AppData/Roaming/MiKTeX/fonts/enc/dvips/fontawesome/fontawesometwo.enc}<D:/Users
 e.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Fil
 es/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on curriculum_vitae.pdf (2 pages, 98005 bytes).
+Output written on curriculum_vitae.pdf (2 pages, 98688 bytes).
 PDF statistics:
- 160 PDF objects out of 1000 (max. 8388607)
+ 163 PDF objects out of 1000 (max. 8388607)
  11 named destinations out of 1000 (max. 500000)
  65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
